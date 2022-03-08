@@ -8,16 +8,13 @@
 2.multi-tenant-architecture=多租户架构
 5.tenant-and-resource-management=租户与资源管理
 3.database-objects=数据库对象
-1.oracle-mode=Oracle 模式
 1.introduction-to-database-objects=数据库对象介绍
 2.tables=表
-2.oracle-mode-data-types=数据类型
 7.format-models=格式模型
 3.indexes=索引
 4.partitions=分区
 5.views=视图
 6.other-objects=其他对象
-7.oracle-mode-system-views=系统视图
 8.data-integrity=数据完整性
 2.types-of-integrity-constraints=完整性约束类型
 2.mysql-mode=MySQL 模式
@@ -48,7 +45,6 @@
 5.distributed-execution-plans=分布式执行计划
 2.pl=PL
 1.pl-concepts=PL 概念
-1.pl-oracle-mode=Oracle 模式
 2.pl-mysql-mode=MySQL 模式
 7.transaction-management=事务管理
 1.transactions=事务
@@ -64,7 +60,6 @@
 6.storage-architecture-data-integrity=数据完整性
 9.data-reliability-and-high-availability=数据可靠性和高可用
 1.high-availability-architecture=高可用架构
-3.primary-and-standby-databases=主备库
 4.data-protection=数据保护
 5.backup-and-recovery=备份恢复
 10.database-security=数据库安全
@@ -116,7 +111,6 @@
 2.manage-tables=管理表
 3.manage-table-groups=管理表组
 4.manage-indexes=管理索引
-6.manage-triggers=管理触发器
 5.distributed-storage-management=分布式存储管理
 2.manage-partitions=管理分区
 8.create-an-index-on-a-partitioned-table=创建分区表索引
@@ -125,9 +119,7 @@
 5.load-balancing=负载均衡
 3.manually-manage-load-balancing=手动管理负载均衡
 6.data-security-management=数据安全管理
-1.administrator-guide-data-transmission-encryption=数据传输加密
 7.high-data-availability=数据高可用
-1.administrator-guide-flashback=闪回
 2.backup-and-recovery-management=备份恢复管理
 3.cluster-level-data-backup=备份数据（集群级别）
 4.data-recovery=恢复数据
