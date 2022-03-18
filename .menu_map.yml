@@ -88,7 +88,6 @@
 1.minor-compaction-management=转储管理
 2.major-compaction-management=合并管理
 5.view-major-compaction-information=查看合并信息
-3.data-storage-encryption=数据存储加密
 4.data-compression=数据压缩
 6.manage-memory=管理内存
 7.manage-processes=管理进程
