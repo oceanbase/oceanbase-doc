@@ -193,7 +193,8 @@
 4.analytic-functions=分析函数
 5.encryption-functions=加密函数
 6.information-functions=信息函数
-7.other-functions=其他函数
+7.json-functions=JSON 函数
+8.other-functions=其他函数
 4.queries-and-subqueries=查询和子查询
 5.sql-statements=SQL语句
 56.sql-statements-select=SELECT
@@ -223,5 +224,11 @@
 9.sql_diagnoser=SQL Diagnoser
 2.deploy-and-use-delsql_diagnoser=SQL Diagnoser 安装和使用
 3.sql_diagnoser-paramenters=SQL Diagnoser 相关说明
+1.function-to-create-json-text=创建 JSON 文本的函数
+2.function-to-search-json-text=搜索 JSON 文本的函数
+3.functions-that-modify-json-text=修改 JSON 文本的函数
+4.functions-that-return-json-text-properties=返回 JSON 文本属性的函数
+5.json-aggregate-functions=JSON 工具函数
+6.json-utility-functions=JSON 聚合函数
 8.json-data-type=JSON 数据类型
 1.administrator-guide-flashback=闪回
