@@ -205,7 +205,7 @@
 2.Internal-table=内部表
 3.log-information=日志
 4.ocp=OCP
-1.system-tuning=系统调优
+3.system-tuning=系统调优
 2.database-parameter-tuning=数据库参数调优
 3.obproxy-parameter-tuning=OBProxy 参数调优
 4.business-model-tuning=业务模型调优
