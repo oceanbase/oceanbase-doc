@@ -199,6 +199,16 @@
 5.sql-statements=SQL语句
 56.sql-statements-select=SELECT
 6.alter-system=ALTER SYSTEM
+11.performance-tuning-guide=性能调优指南
+2.performance-related-tools=性能相关工具
+1.system-tools=系统工具
+2.Internal-table=内部表
+3.log-information=日志
+4.ocp=OCP
+1.system-tuning=系统调优
+2.database-parameter-tuning=数据库参数调优
+3.obproxy-parameter-tuning=OBProxy 参数调优
+4.business-model-tuning=业务模型调优
 11.sql-tuning-guide=SQL 调优指南
 2.sql-execution-plan=SQL 执行计划
 2.execution-plan-operators=执行计划算子
