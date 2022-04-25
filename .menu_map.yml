@@ -224,6 +224,28 @@
 9.sql_diagnoser=SQL Diagnoser
 2.deploy-and-use-delsql_diagnoser=SQL Diagnoser 安装和使用
 3.sql_diagnoser-paramenters=SQL Diagnoser 相关说明
+9.operation-and-maintenance-management=运维管理
+2.operation-and-maintenance-overview=运维概述
+3.daily-inspection=日常巡检
+2.Introduction-to-operation-and-maintenance-tools=运维工具介绍
+4.performance-diagnostics=性能诊断
+5.troubleshoot=问题排查
+1.identify the problem=问题定位
+6.emergency problem handling=应急处理
+1.handling-of-common-emergency-problems=常见应急问题处理
+1.problems-caused-by the hardware-environment=硬件环境导致的问题
+2.problems-caused-by-capacity-changes=容量变化导致的问题
+3.other-problems-within-the-cluster=集群内部其他问题
+7.common-operation-and-maintenance-operations=常用运维操作
+1.service-related=服务相关
+2. resource-related=资源相关
+3. storage-related=存储相关
+4. data-related=数据相关
+5.performance-issues=性能问题
+
+
+
+
 1.function-to-create-json-text=创建 JSON 文本的函数
 2.function-to-search-json-text=搜索 JSON 文本的函数
 3.functions-that-modify-json-text=修改 JSON 文本的函数
