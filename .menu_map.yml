@@ -199,6 +199,16 @@
 5.sql-statements=SQL语句
 56.sql-statements-select=SELECT
 6.alter-system=ALTER SYSTEM
+11.performance-tuning-guide=性能调优指南
+2.performance-related-tools=性能相关工具
+1.system-tools=系统工具
+2.Internal-table=内部表
+3.log-information=日志
+4.ocp=OCP
+3.system-tuning=系统调优
+2.database-parameter-tuning=数据库参数调优
+3.obproxy-parameter-tuning=OBProxy 参数调优
+4.business-model-tuning=业务模型调优
 11.sql-tuning-guide=SQL 调优指南
 2.sql-execution-plan=SQL 执行计划
 2.execution-plan-operators=执行计划算子
@@ -226,8 +236,8 @@
 3.sql_diagnoser-paramenters=SQL Diagnoser 相关说明
 9.operation-and-maintenance-management=运维管理
 2.operation-and-maintenance-overview=运维概述
-3.daily-inspection=日常巡检
 2.Introduction-to-operation-and-maintenance-tools=运维工具介绍
+3.daily-inspection=日常巡检
 4.performance-diagnostics=性能诊断
 5.troubleshoot=问题排查
 1.identify the problem=问题定位
@@ -242,6 +252,7 @@
 3. storage-related=存储相关
 4. data-related=数据相关
 5.performance-issues=性能问题
+1.sql-diagnosis=sql诊断
 
 
 

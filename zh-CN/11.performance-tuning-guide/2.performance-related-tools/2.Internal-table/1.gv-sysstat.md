@@ -1,0 +1,59 @@
+# gv$sysstat
+## 功能
+`gv$sysstat` 视图用于展示所有 OBServer 的租户级别的统计事件信息。
+## 字段说明
+| 字段名称 | 类型 | NULL | 描述 |
+| --- | --- | --- | --- |
+| CON_ID | bigint(20) | NO | 租户 ID |
+| SVR_IP | varchar(32) | NO | 信息所在 Server 的 IP |
+| SVR_PORT | bigint(20) | NO | 信息所在 Server 的端口号 |
+| STATISTICS# | bigint(20) | NO | 统计事件的下标 |
+| VALUE | bigint(20) | NO | 统计事件对应的结果数值 |
+| STAT_ID | bigint(20) | NO | 统计事件的 ID |
+| NAME | varchar(64) | NO | 统计事件的名称 |
+| CLASS | bigint(20) | NO | 统计事件所属的类型 |
+
+## 使用方法
+该视图统计的是租户级别各个字段的累积和。OCP 系统中展示的信息以该视图为数据源。因此，在性能调优场景下，如果部署了 OCP 系统，建议使用 OCP 来看，更加直观。否则，需要针对单个统计项，手动写脚本处理一段时间间隔（ 比如：5 s ）的增量值，进而分析每秒钟的变化情况。
+与性能相关的几个重要监控项如下：
+```sql
+OceanBase(root@oceanbase)>select /*+read_consistency(weak)*/ name, value from gv$sysstat, __all_tenant where svr_ip = "xxx" and stat_id IN (10000, 10001, 10002, 10003, 10005, 10006, 140002, 140003, 140005                                                                                                                                                                           06, 40007, 40008, 40009, 40010, 40011, 40012, 50000, 50001, 50008, 50009, 60000, 60001, 60002, 60003, 60004, 60005, 60019, 60020, 60021, 60022, 60023, 60024, 80057) and (con_id > 1000
++--------------------------------+--------------+
+| name                           | value        |
++--------------------------------+--------------+
+| rpc packet in                  |       160812 |
+| rpc packet in bytes            |     49059218 |
+| rpc packet out                 |       160812 |
+| rpc packet out bytes           |     36409912 |
+| rpc net delay                  |    320766513 |
+| rpc net frame delay            |       189653 |
+| request dequeue count          |     24344130 |
+| request queue time             |    274719157 |
+| sql select count               |            5 |
+| sql select time                |          508 |
+| sql insert count               |     24182271 |
+| sql insert time                |   3637065124 |
+| sql replace count              |            0 |
+| sql replace time               |            0 |
+| sql update count               |            0 |
+| sql update time                |            0 |
+| sql delete count               |            0 |
+| sql delete time                |            0 |
+| sql local count                |     24182830 |
+| sql remote count               |            0 |
+| sql distributed count          |            0 |
+| row cache hit                  |          136 |
+| row cache miss                 |          180 |
+| block cache hit                |         4204 |
+| block cache miss               |            8 |
+| io read count                  |           10 |
+| io read delay                  |         1654 |
+| io read bytes                  |        61440 |
+| io write count                 |            0 |
+| io write delay                 |            0 |
+| io write bytes                 |            0 |
+| clog write count               |            0 |
+| clog write time                |            0 |
++--------------------------------+--------------+
+```
+通过对 `sql insert time` 和 `sql insert count` 两个监控项的分析，可得到 5 s 内的累积值，5 s 内的平均 rt 的值为 Sum { sql insert time } / Sum { sql insert count }。
