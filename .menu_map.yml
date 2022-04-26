@@ -224,7 +224,7 @@
 9.sql_diagnoser=SQL Diagnoser
 2.deploy-and-use-delsql_diagnoser=SQL Diagnoser 安装和使用
 3.sql_diagnoser-paramenters=SQL Diagnoser 相关说明
-9.operation-and-maintenance-management=运维管理
+10.operation-and-maintenance-management=运维管理
 2.operation-and-maintenance-overview=运维概述
 2.Introduction-to-operation-and-maintenance-tools=运维工具介绍
 3.daily-inspection=日常巡检
@@ -243,10 +243,6 @@
 4. data-related=数据相关
 5.performance-issues=性能问题
 1.sql-diagnosis=sql诊断
-
-
-
-
 1.function-to-create-json-text=创建 JSON 文本的函数
 2.function-to-search-json-text=搜索 JSON 文本的函数
 3.functions-that-modify-json-text=修改 JSON 文本的函数
@@ -255,3 +251,8 @@
 6.json-utility-functions=JSON 聚合函数
 8.json-data-type=JSON 数据类型
 1.administrator-guide-flashback=闪回
+6.manage-obproxy=管理 OBProxy
+1. manage-the-obproxy-cluster=管理 OBProxy 集群
+2.manage-obproxy=管理 OBProxy
+9.data-migration=数据迁移
+1.migration-using-OBLOADER & OBDUMPER=使用 OBLOADER & OBDUMPER 迁移
