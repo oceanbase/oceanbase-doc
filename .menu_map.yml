@@ -242,3 +242,9 @@
 3.observer-threading-model=observer 线程模型
 5.oceanbase-database-overview-memory-management=内存管理
 16.community-contribution=社区贡献
+1.function-to-create-json-text=创建 JSON 文本的函数
+2.function-to-search-json-text=搜索 JSON 文本的函数
+3.functions-that-modify-json-text=修改 JSON 文本的函数
+4.functions-that-return-json-text-properties=返回 JSON 文本属性的函数
+5.json-utility-functions=JSON 工具函数
+6.json-aggregate-functions=JSON 聚合函数
