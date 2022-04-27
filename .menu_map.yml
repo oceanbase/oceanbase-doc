@@ -3,7 +3,6 @@
 6.basic-operations=基本操作
 3.installation-and-deployment=安装部署
 4.data-migration=数据迁移
-1.migration-using-OBLOADER & OBDUMPER=使用 OBLOADER&OBDUMPER 迁移数据
 5.database-connection-and-routing=数据库连接和路由
 2.manage-obproxy=管理 OBProxy
 2.manage-obproxy=管理 OBProxy
@@ -189,10 +188,9 @@
 56.sql-statements-select=SELECT
 6.alter-system=ALTER SYSTEM
 15.oceanbase-database-overview=系统架构
-1.introduction-to-oceanbase-database=OceanBase 数据库简介
-2.multi-tenant-architecture=多租户架构
+5.multi-tenant-architecture=多租户架构
 5.tenant-and-resource-management=租户与资源管理
-3.database-objects=数据库对象
+6.database-objects=数据库对象
 1.mysql-mode-introduction-to-database-objects=数据库对象介绍
 2.mysql-mode-tables=表
 2.mysql-mode-data-types=数据类型
@@ -202,7 +200,7 @@
 6.mysql-mode-system-views=系统视图
 7.mysql-mode-data-integrity=数据完整性
 2.mysql-mode-types-of-integrity-constraints=完整性约束类型
-4.distributed-database-objects=分布式数据库对象
+7.distributed-database-objects=分布式数据库对象
 3.partitions-and-replicas=数据分区和分区副本概述
 2.replica-types=分区副本类型
 4.data-balancing=数据均衡
@@ -210,10 +208,10 @@
 2.leader-balancing=Leader 均衡
 4.dynamic-scale-out-and-scale-in=动态扩容和缩容
 2.scale-out-and-scale-in-of-tenant-resources=租户内资源的扩容和缩容
-5.data-links=数据链路
+8.data-links=数据链路
 2.database-proxy=数据库代理
 3.database-drivers=数据库驱动
-6.user-interfaces-and-query-languages=用户接口和查询语言
+9.user-interfaces-and-query-languages=用户接口和查询语言
 1.sql=SQL
 1.introduction-to-sql=SQL 介绍
 2.oceanbase-database-overview-sql-statements=SQL 语句
@@ -221,7 +219,7 @@
 2.pl=PL
 1.pl-concepts=PL 概念
 2.pl-mysql-mode=MySQL 模式
-7.transaction-management=事务管理
+10.transaction-management=事务管理
 1.transactions=事务
 5.transaction-control=事务控制
 4.transaction-control-statements=事务控制语句
@@ -229,16 +227,16 @@
 2.transaction-concurrency-and-consistency=事务并发和一致性
 3.concurrency-control=并发控制
 4.transaction-isolation-levels=事务隔离级别
-8.storage-architecture=存储架构
+11.storage-architecture=存储架构
 2.data-storage=数据存储
 3.minor-compaction-and-major-compaction=转储和合并
 6.storage-architecture-data-integrity=数据完整性
-9.data-reliability-and-high-availability=数据可靠性和高可用
+12.data-reliability-and-high-availability=数据可靠性和高可用
 1.high-availability-architecture=高可用架构
 4.data-protection=数据保护
 5.backup-and-recovery=备份恢复
-10.database-security=数据库安全
-11.observer-architecture=OBServer 节点架构
+13.database-security=数据库安全
+14.observer-architecture=OBServer 节点架构
 3.observer-threading-model=observer 线程模型
 5.oceanbase-database-overview-memory-management=内存管理
 16.community-contribution=社区贡献
@@ -250,3 +248,4 @@
 6.json-aggregate-functions=JSON 聚合函数
 1.use-ocp-to-monitor-databases=通过 ocp 监控数据库
 1.identify-the-problem=故障定位
+1.migration-using-OBLOADER-&-OBDUMPER=使用 OBLOADER & OBDUMPER 迁移
