@@ -3,7 +3,6 @@
 6.basic-operations=基本操作
 3.installation-and-deployment=安装部署
 4.data-migration=数据迁移
-1.migration-using-OBLOADER & OBDUMPER=使用 OBLOADER&OBDUMPER 迁移数据
 5.database-connection-and-routing=数据库连接和路由
 2.manage-obproxy=管理 OBProxy
 2.manage-obproxy=管理 OBProxy
@@ -242,3 +241,4 @@
 3.observer-threading-model=observer 线程模型
 5.oceanbase-database-overview-memory-management=内存管理
 16.community-contribution=社区贡献
+1.migration-using-OBLOADER-&-OBDUMPER=使用 OBLOADER & OBDUMPER 迁移
