@@ -102,7 +102,7 @@
 1.identify the problem=问题定位
 5.emergency-problem-handling=应急处理
 1.handling-of-common-emergency-problems=常见应急问题处理
-1.problems-caused-by the hardware-environment=硬件环境导致的问题
+1.problems-caused-by-the-hardware-environment=硬件环境导致的问题
 2.problems-caused-by-capacity-changes=容量变化导致的问题
 3.other-problems-within-the-cluster=集群内部其他问题
 6.common-operation-and-maintenance-operations=常用运维操作
@@ -247,5 +247,5 @@
 5.json-utility-functions=JSON 工具函数
 6.json-aggregate-functions=JSON 聚合函数
 1.use-ocp-to-monitor-databases=通过 ocp 监控数据库
-1.identify the problem=故障定位
+1.identify-the-problem=故障定位
 1.migration-using-OBLOADER-&-OBDUMPER=使用 OBLOADER & OBDUMPER 迁移
