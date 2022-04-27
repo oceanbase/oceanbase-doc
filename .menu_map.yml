@@ -89,7 +89,7 @@
 3.cluster-level-data-backup=备份数据（集群级别）
 4.data-recovery=恢复数据
 5.routine-maintenance=备份恢复日常运维
-10.operation-and-maintenance-management=运维管理
+11.operation-and-maintenance-management=运维管理
 1.administrator-guide-monitoring-and-alerts=监控和告警
 2.monitoring=监控
 3.alerts=告警
@@ -101,7 +101,7 @@
 3.daily-inspection=日常巡检
 4.troubleshoot=问题排查
 1.identify the problem=问题定位
-5.emergency problem handling=应急处理
+5.emergency-problem-handling=应急处理
 1.handling-of-common-emergency-problems=常见应急问题处理
 1.problems-caused-by the hardware-environment=硬件环境导致的问题
 2.problems-caused-by-capacity-changes=容量变化导致的问题
