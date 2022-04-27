@@ -3,7 +3,6 @@
 6.basic-operations=基本操作
 3.installation-and-deployment=安装部署
 4.data-migration=数据迁移
-1.migration-using-OBLOADER & OBDUMPER=使用 OBLOADER&OBDUMPER 迁移数据
 5.database-connection-and-routing=数据库连接和路由
 2.manage-obproxy=管理 OBProxy
 2.manage-obproxy=管理 OBProxy
@@ -250,3 +249,4 @@
 6.json-aggregate-functions=JSON 聚合函数
 1.use-ocp-to-monitor-databases=通过 ocp 监控数据库
 1.identify the problem=故障定位
+1.migration-using-OBLOADER-&-OBDUMPER=使用 OBLOADER & OBDUMPER 迁移
