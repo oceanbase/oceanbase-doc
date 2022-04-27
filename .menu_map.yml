@@ -248,3 +248,5 @@
 4.functions-that-return-json-text-properties=返回 JSON 文本属性的函数
 5.json-utility-functions=JSON 工具函数
 6.json-aggregate-functions=JSON 聚合函数
+1.use-ocp-to-monitor-databases=通过 ocp 监控数据库
+1.identify the problem=故障定位
