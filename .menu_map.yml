@@ -3,7 +3,6 @@
 6.basic-operations=基本操作
 3.installation-and-deployment=安装部署
 4.data-migration=数据迁移
-1.migration-using-OBLOADER & OBDUMPER=使用 OBLOADER&OBDUMPER 迁移数据
 5.database-connection-and-routing=数据库连接和路由
 2.manage-obproxy=管理 OBProxy
 2.manage-obproxy=管理 OBProxy
@@ -248,3 +247,4 @@
 4.functions-that-return-json-text-properties=返回 JSON 文本属性的函数
 5.json-utility-functions=JSON 工具函数
 6.json-aggregate-functions=JSON 聚合函数
+1.migration-using-OBLOADER-&-OBDUMPER=使用 OBLOADER & OBDUMPER 迁移
