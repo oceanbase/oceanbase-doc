@@ -108,9 +108,9 @@
 3.other-problems-within-the-cluster=集群内部其他问题
 6.common-operation-and-maintenance-operations=常用运维操作
 1.service-related=服务相关
-2. resource-related=资源相关
-3. storage-related=存储相关
-4. data-related=数据相关
+2.resource-related=资源相关
+3.storage-related=存储相关
+4.data-related=数据相关
 5.performance-issues=性能问题
 1.sql-diagnosis=sql诊断
 12.reference-guide=参考指南
