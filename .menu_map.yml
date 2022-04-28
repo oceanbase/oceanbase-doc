@@ -241,4 +241,4 @@
 5.oceanbase-database-overview-memory-management=内存管理
 16.community-contribution=社区贡献
 1.migration-using-OBLOADER-&-OBDUMPER=使用 OBLOADER & OBDUMPER 迁移
-1.manage-the-obproxy-cluster=管理 OBProxy 集群
+2.manage-the-obproxy-cluster=管理 OBProxy 集群
