@@ -4,8 +4,8 @@
 3.installation-and-deployment=安装部署
 4.data-migration=数据迁移
 5.database-connection-and-routing=数据库连接和路由
-2.manage-obproxy=管理 OBProxy
-2.manage-obproxy=管理 OBProxy
+2.obproxy-management=管理 OBProxy
+3.manage-obproxy=管理 OBProxy
 4.administrator-guide-connect-to-oceanbase-database=连接数据库
 5.logical-connection=逻辑连接
 6.driver-management=驱动管理
@@ -240,7 +240,7 @@
 5.oceanbase-database-overview-memory-management=内存管理
 16.community-contribution=社区贡献
 1.migration-using-OBLOADER-&-OBDUMPER=使用 OBLOADER & OBDUMPER 迁移
-1.manage-the-obproxy-cluster=管理 OBProxy 集群
+2.manage-the-obproxy-cluster=管理 OBProxy 集群
 1.function-to-create-json-text=创建 JSON 文本的函数
 2.function-to-search-json-text=搜索 JSON 文本的函数
 3.functions-that-modify-json-text=修改 JSON 文本的函数
