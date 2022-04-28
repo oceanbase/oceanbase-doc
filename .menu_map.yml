@@ -6,7 +6,6 @@
 5.database-connection-and-routing=数据库连接和路由
 2.manage-obproxy=管理 OBProxy
 2.manage-obproxy=管理 OBProxy
-1. manage-the-obproxy-cluster=管理 OBProxy 集群
 4.administrator-guide-connect-to-oceanbase-database=连接数据库
 5.logical-connection=逻辑连接
 6.driver-management=驱动管理
@@ -240,6 +239,8 @@
 3.observer-threading-model=observer 线程模型
 5.oceanbase-database-overview-memory-management=内存管理
 16.community-contribution=社区贡献
+1.migration-using-OBLOADER-&-OBDUMPER=使用 OBLOADER & OBDUMPER 迁移
+1.manage-the-obproxy-cluster=管理 OBProxy 集群
 1.function-to-create-json-text=创建 JSON 文本的函数
 2.function-to-search-json-text=搜索 JSON 文本的函数
 3.functions-that-modify-json-text=修改 JSON 文本的函数
@@ -248,4 +249,3 @@
 6.json-aggregate-functions=JSON 聚合函数
 1.use-ocp-to-monitor-databases=通过 ocp 监控数据库
 1.identify-the-problem=故障定位
-1.migration-using-OBLOADER-&-OBDUMPER=使用 OBLOADER & OBDUMPER 迁移
