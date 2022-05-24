@@ -102,7 +102,7 @@
 
 想要参加活动的朋友们，墙裂建议加入我们唯一官网钉钉群：41203246，届时我们将在群里互动答疑，为您解决活动中遇到的各种问题🎉
 
-![](https://intranetproxy.alipay.com/skylark/lark/0/2022/png/329309/1650265754201-54076cdf-8d9d-4c45-8c30-9967fb440016.png#crop=0&crop=0&crop=1&crop=1&from=url&height=498&id=AkJIF&margin=%5Bobject%20Object%5D&originHeight=960&originWidth=926&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=&width=480.763916015625)
+![](img/群二维码.png)
 
 **钉钉群号：** 41203246
 
