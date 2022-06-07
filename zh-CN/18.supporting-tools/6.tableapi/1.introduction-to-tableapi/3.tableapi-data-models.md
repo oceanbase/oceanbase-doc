@@ -1,0 +1,49 @@
+# TableAPI 数据模型
+
+## 表模型
+
+表模型下，数据是强 schema 的，就像 SQL 表一样。
+
+用户通过 SQL 的 DDL 语句创建表（支持 OceanBase 数据库所有分区表类型），表需要包含一个主键（primary key）和若干强类型的列，还可以定义二级索引和唯一性约束。
+
+OceanBase TableAPI 提供的表模型 API 可以和 OceanBase SQL 无缝集成，甚至共同使用。除了 Query 接口外，表模型的其他 API 都是通过主键对行数据进行读写。
+
+## 二级索引
+
+表上可以创建索引，所有 TableAPI 的操作都会同步更新索引。
+
+使用 Query 接口，可以使用二级索引进行查询扫描。而普通 KV 模型下只有主键一个维度进行查询，在很多时候对于业务需求来说是不够的。因此，在支持主键查询的简单 KV 模型下，应用不得不在业务层自己维护一个"索引表"。这样做不仅增加了业务数据层的复杂度，索引和主表的一致性往往也难以保证，而且读写索引表需要应用和数据库之间多次交互响应，延时很大。
+
+OceanBase TableAPI 在服务端原生支持二级索引，克服了上述所有问题。
+
+## 安全认证
+
+采用和 SQL 模式相同的认证方式，使用 SQL 语句管理租户、用户和密码。
+
+## 与 SQL 模式比较
+
+OceanBase TableAPI 提供的表模型 API 可以和 OceanBase SQL 无缝集成，甚至共同使用。下面分别介绍 TableAPI 和 SQL 模式相比的优缺点。
+
+### 优点
+
+* TableAPI 基于分布式存储层设计，数据访问路径短，相同功能时性能更优；因为语义简单，更容易优化，性能预期更可控（Predictable）。
+* Batch 操作的语义比 SQL 模式更灵活高效。例如，multi-get 的不同行可以选取不同的列。
+* API 接口使用简单，直接提供 entity 语义，不需要复杂的 ER 映射。
+* 使用简单的 RPC 协议，没有传统 JDBC/ODBC 接口的重新连接，几乎不受连接数的限制（目前受 RPC 框架的限制）。
+
+### 缺点
+
+* TableAPI 的查询（Query）功能无法和 SQL 模式同日而语，提供 get、scan、limit 等有限功能。如果您需要使用聚合、排序功能，应该使用 SQL 模式。
+* TableAPI 也不提供交互式的事务等复杂事务功能。不同于传统关系数据库，OceanBase 数据库本身作为一个 SQL 功能齐全的 NewSQL 关系数据库，高扩展性和高可用性并不是选择使用 TableAPI 的考量因素。
+* TableAPI 不支持全局索引，因而不能操作创建了全局索引相关的表。
+
+## KV 模型
+
+KV 模型本质上是一种简化的关系表模型，建表时只有 K 和 V 两列，并根据 K 或者 K 的前缀进行分区，形如：
+
+```sql
+create table kv (
+K varbinary(1024),
+V varbinary(1024),
+primary key(K)) partition by key(K) partitions 16;
+```

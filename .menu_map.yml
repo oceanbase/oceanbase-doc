@@ -118,10 +118,10 @@
 2.system-variables=系统变量
 3.system-configuration-items=系统配置项
 4.error-codes=错误码
-13.supporting-tools=生态工具
-1.ob-admin=ob-admin
+18.supporting-tools=生态工具
+1.ob-admin=ob_admin
 3.clog=clog
-2.ob-agent=ob-agent
+2.ob-agent=OBAgent
 1.about-obagent=关于 OBAgent
 2.configuration-reference=配置引用
 3.install-and-deploy-obagent=安装部署
@@ -238,7 +238,6 @@
 14.observer-architecture=OBServer 节点架构
 3.observer-threading-model=observer 线程模型
 5.oceanbase-database-overview-memory-management=内存管理
-16.community-contribution=社区贡献
 1.migration-using-OBLOADER-&-OBDUMPER=使用 OBLOADER & OBDUMPER 迁移
 2.manage-the-obproxy-cluster=管理 OBProxy 集群
 2.manage-the-obproxy-cluster=管理 OBProxy 集群
@@ -250,3 +249,4 @@
 6.json-aggregate-functions=JSON 聚合函数
 1.use-ocp-to-monitor-databases=通过 ocp 监控数据库
 1.identify-the-problem=故障定位
+1.users-guide=使用指南
