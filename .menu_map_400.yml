@@ -204,13 +204,13 @@
 5.about-dml-statements-and-transactions=关于 DML 语句和事务
 1.dml-statement=DML 语句
 2.transaction=事务
-2.application-development-based-on-Oracle-mode=基于 Oracle 模式进行应用开发
-1.client-connection-to-oceanbase-database=客户端连接 OceanBase 数据库
+2.Application-development-based-on-Oracle-mode=基于 Oracle 模式进行应用开发
+1.Client-connection-to-oceanbase-database=客户端连接 OceanBase 数据库
 2.application-development=应用程序开发
 1.java-application=Java 应用程序
 2.Python-application=Python 应用程序
 3.C-application=C 应用程序
-3.create-and-manage-database-objects=创建和管理数据库对象
+3.Create-and-manage-database-objects=创建和管理数据库对象
 04.Creating-database-objects-using-ODC=使用 ODC 创建数据库对象
 05.Data-type=数据类型
 06.Create-and-manage-tables=创建和管理表
@@ -222,7 +222,7 @@
 11.Create-and-manage-sequences=管理和创建序列
 12.Create-and-manage-synonyms=管理和创建同义词
 13.Create-and-manage-triggers=创建和管理触发器
-4.query-table-data=查询
+4.Query-table-data=查询
 08.Multi-table-Association-query=多表关联查询
 09.Use-operators-and-functions-in-queries=在查询中使用操作符和函数
 10.Execution-plan=执行计划
@@ -322,7 +322,8 @@
 2.DML=DML
 5.SELECT-1=SELECT
 3.DCL=DCL
-5.pl-reference=PL 参考
+10.ddl-function-1=DDL 功能
+6.pl-reference=PL 参考
 1.what-is-pl-1=什么是 PL
 2.pl-language-basics-1=PL 语言基础
 3.data-type-1=PL 数据类型
