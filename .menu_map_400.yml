@@ -3,7 +3,7 @@
 1.learn-more-about-oceanbase=OceanBase介绍
 5.compatibility-with-oracle-1=与 Oracle 兼容性对比
 2.deploy-the-oceanbase-database=部署数据库
-3.preparations-before-deployment=部署前准备
+3.preparations-before-deployment-1=部署前准备
 5.graphical-interface-deployment=图形化界面部署
 1.configure-a-deployment-environment=部署环境配置
 2.deploy-ocp=部署 OCP
@@ -67,7 +67,7 @@
 1.manage-tables-1=管理表
 2.manage-a-table-group-1=管理表组
 3.manage-indexes-1=管理索引
-7.manage-triggers=管理触发器
+7.manage-triggers-1=管理触发器
 2.mysql-4=MySQL 模式
 1.manage-databases-1=管理数据库
 2.manage-tables-2=管理表
@@ -81,7 +81,7 @@
 2.mysql-1=MySQL 模式
 9.create-partition-table-index-3=创建分区表索引
 3.manage-partition-table-table-groups=管理分区表表组
-1.oralce-8=Oracle 模式
+1.oracle-8=Oracle 模式
 2.mysql-8=MySQL 模式
 4.manage-replicas=管理副本
 5.locality-management-1=管理 Locality
@@ -107,7 +107,7 @@
 4.optimizer-statistics=优化器统计信息
 2.statistics-collection-methods=统计信息收集方式
 3.statistics-management=统计信息管理
-5.query-rewrite-2=查询改写
+5.query-rewrite=查询改写
 6.query-optimization=查询优化
 1.access-path=访问路径
 2.join-algorithm=联接算法
@@ -171,6 +171,8 @@
 3.performance-view-5=性能视图
 2.system-variable-5=系统变量
 3.system-configuration-items-1=系统配置项
+3.cluster-level-configuration-items-1=集群级别配置项
+4.tenant-level-configuration-items-1=租户级别配置项
 4.error-code-1=错误码
 2.reference-oracle-mode=参考指南（Oracle 模式）
 1.system-view-5=系统视图
@@ -178,6 +180,7 @@
 3.performance-view-6=性能视图
 2.system-variable-6=系统变量
 3.system-configuration-items-2=系统配置项
+3.tenant-level-configuration-items-2=租户级别配置项
 4.error-code=错误码
 14.faq=常见问题
 4.development-guide-refactoring-1=开发指南
@@ -335,6 +338,8 @@
 4.autonomous-transactions=自治事务
 7.dynamic-sql=PL 动态 SQL
 8.stored-procedure-and-functions=PL 存储过程与函数
+6.pipeline-function=管道函数
+7.user-defined-aggregation-functions=用户自定义函数
 9.trigger=PL 触发器
 10.package=PL 程序包
 11.exception-handling-1=PL 异常处理
@@ -402,7 +407,7 @@
 7.format-model=格式模型
 3.index=索引
 4.partition=分区
-5.view-1 =视图 
+5.view-1=视图 
 6.other-objects=其他对象
 7.system-view-1=系统视图
 8.data-integrity=数据完整性
