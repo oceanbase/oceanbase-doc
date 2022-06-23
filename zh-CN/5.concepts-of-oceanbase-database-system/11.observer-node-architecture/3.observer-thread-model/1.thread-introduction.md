@@ -1,0 +1,25 @@
+# 线程简介
+
+OBServer 是单进程的。OBServer 中会起很多种线程，大的方面，可以把线程分成工作线程和后台线程。
+
+## 工作线程
+
+sql/transaction worker 处理 SQL 和事务请求的线程。是分租户的，也即每个租户都有自己的一套 sql/transaction worker，也称租户工作线程。
+
+## 后台线程
+
+OBServer 包含如下后台线程：
+
+* net io: 处理网络 io 的线程。
+
+* disk io: 处理磁盘 io 的线程。
+
+* dag 线程: 用于 partition 的转储，合并，迁移等任务的执行。
+
+* clog writer: 写 clog 的线程。
+
+* election worker: 选举线程。
+
+* misc timer：包括多个后台定时器线程，主要负责清理资源。
+
+除此之外还有一批 RootServer 专有的线程, 这里不再做细分。最后还有一些特定用途的后台线程，在进一步深入了解 OBServer 之前，可以先忽略。
