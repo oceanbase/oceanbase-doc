@@ -265,6 +265,8 @@
 1.object-naming-norms=对象命名规范
 2.object-structure-design-specification=对象结构规范
 6.best-practices-for-database-design=数据库设计最佳实践
+1.configuration-example-of-the-database-connection-pool=数据库连接池配置示例
+2.development-framework-database-connection-example=开发框架连接数据库示例
 6.sql-practices-and-recommendations=SQL 实践和建议
 2.sql-writing-specifications=SQL 编写规范
 3.sql-statement-example=SQL 语句示例
