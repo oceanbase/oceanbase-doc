@@ -83,7 +83,7 @@
   1.introduction-to-tableapi=TableAPI 介绍
   2.use-of-the-tableapi-client=客户端使用
 10.sql-reference=SQL 参考
-1.sql-reference-elements=基本元素
+  1.sql-reference-elements=基本元素
 1.sql-reference-data-types=数据类型
 2.numeric-data-types=数值类型
 3.date-and-time-data-types=日期时间类型
