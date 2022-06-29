@@ -189,10 +189,10 @@
     3.monitor-the-sql-execution-performance=SQL 执行性能监控
       4.examples-of-sql-performance-analysis=SQL 性能分析示例
     4.query-rewrite=查询改写
-  5.query-optimization=查询优化
-    1.access-path=访问路径
-    2.join-algorithm=联接算法
-  6.manage-execution-plans=管理执行计划
+    5.query-optimization=查询优化
+      1.access-path=访问路径
+      2.join-algorithm=联接算法
+    6.manage-execution-plans=管理执行计划
 12.reference-guide=参考指南 
   1.system-views=系统视图
     1.dictionary-views=字典视图
