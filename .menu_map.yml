@@ -140,6 +140,8 @@
 9.sql_diagnoser=SQL Diagnoser
 2.deploy-and-use-delsql_diagnoser=SQL Diagnoser 安装和使用
 3.sql_diagnoser-paramenters=SQL Diagnoser 相关说明
+10.mysqltest=mysqltest
+2.use-of-case=case 使用
 14.developer-guide=开发者指南
 1.foreword=前言
 3.about-oceanbase-database=关于 OceanBase 数据库
