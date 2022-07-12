@@ -208,10 +208,10 @@
 2.transaction=事务
 2.Application-development-based-on-Oracle-mode=基于 Oracle 模式进行应用开发
 1.Client-connection-to-oceanbase-database=客户端连接 OceanBase 数据库
-2.application-development=应用程序开发
-1.java-application=Java 应用程序
-2.Python-application=Python 应用程序
-3.C-application=C 应用程序
+2.application-development-1=应用程序开发
+1.java-application-1=Java 应用程序
+2.python-application-1=Python 应用程序
+3.c-application-1=C 应用程序
 3.Create-and-manage-database-objects=创建和管理数据库对象
 04.Creating-database-objects-using-ODC=使用 ODC 创建数据库对象
 05.Data-type=数据类型
@@ -239,7 +239,7 @@
 4.database-design-specifications-and-practices=设计规范和约束
 01.object-naming-conventions=对象命名规范
 02.object-structure-design-specification=对象结构设计规范
-06.database-design-best-practices=数据库设计最佳实践
+06.database-design-best-practices=数据库设计实践
 01.database-connection-pool-configuration-example=数据库连接池配置示例
 02.development-framework-connection-database-example=开发框架连接数据库示例
 5.sql-syntax=SQL 语法
