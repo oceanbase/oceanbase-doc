@@ -1,7 +1,6 @@
 1.users-guide=使用指南
   1.oceanbase-database=OceanBase 数据库简介
   2.quick-start=快速入门
-    6.basic-operations=基本操作
   3.installation-and-deployment=安装部署
   4.data-migration=数据迁移
     1.migration-using-OBLOADER-&-OBDUMPER=使用 OBLOADER & OBDUMPER 迁移
