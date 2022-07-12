@@ -8,8 +8,8 @@
   2.multi-tenant-architecture=多租户架构
     5.tenant-and-resource-management=租户与资源管理
   3.database-objects=数据库对象
-    2.tables=表
-      1.introduction-to-database-objects=数据库对象介绍
+    2.mysql-mode=MySQL 模式
+      1.mysql-mode-introduction-to-database-objects=数据库对象介绍
       2.mysql-mode-tables=表
         2.mysql-mode-data-types=数据类型
       3.mysql-mode-indexes=索引
@@ -137,7 +137,7 @@
 8.best-practices=最佳实践
 9.supporting-tools=生态工具
   1.ob-admin=ob-admin
-  2.ob-agent=ob-agent
+  2.ob-agent=OBAgent
     1.about-obagent=关于 OBAgent
     2.configuration-reference=配置引用
     3.install-and-deploy-obagent=安装部署
