@@ -119,6 +119,14 @@
 10.high-data-availability=高可用和容灾
 1.flashback=闪回
 2.backup-and-restoration-management-1=备份恢复管理
+  3.log-archive=日志归档
+    1.log-archive-by-using-the-command-line=通过命令行
+  4.data-backup=数据备份
+    1.data-backup-by-using-the-command-line=通过命令行
+  5.cleaning-up-backed-up-data=清理备份
+    1.cleaing-up-by-using-the-command-line=通过命令行
+  6.restore-data=恢复数据
+    2.restore-by-using-the-command-line=通过命令行
 11.troubleshooting-common-issues-1=常见问题排查
 11.o-m-management=运维管理
 1.o-m-overview=运维概述
