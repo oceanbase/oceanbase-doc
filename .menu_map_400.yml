@@ -82,17 +82,7 @@
 5.locality-management-1=管理 Locality
 6.load-balancing-1=负载均衡
 3.manual-load-balancing-management=手动管理负载均衡
-9.performance-tuning=性能调优
-2.performance-related-tools=性能相关工具
-1.system-tools=系统工具
-2.internal-table=内部表
-3.log-3=日志
-4.OCP=OCP
-3.system-tuning=系统调优
-2.database-parameter-tuning=数据库参数调优
-3.obproxy-parameter-optimization=OBProxy 参数调优
-4.business-model-tuning=业务模型调优
-5.sql-optimization=SQL 调优
+9.sql-optimization=SQL 调优
 2.sql-execution-plan=SQL 执行计划
 2.execution-plan-operator=执行计划算子
 3.distributed-execution-plan=分布式执行计划
@@ -107,8 +97,6 @@
 1.access-path=访问路径
 2.join-algorithm=联接算法
 7.manage-execution-plans=管理执行计划
-7.performance-test-mysql-mode=最佳实践（MySQL 模式）
-8.performance-testing-oracle-mode=最佳实践（Oracle 模式）
 11.data-security-management=数据库安全
 1.data-storage-encryption=数据存储加密
 2.mysql-2=MySQL 模式
