@@ -125,7 +125,6 @@
 3.scale-in-and-scale-out-of-tenant-resources=租户内资源的扩容和缩容
 3.upgrade-guide=升级指南
 4.monitoring-and-alerting=监控和告警
-1.use-ocp-to-monitor-the-database=通过 OCP 监控数据库
 2.monitoring-1=监控
 3.alert-1=告警
 5.daily-inspection=日常巡检
