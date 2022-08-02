@@ -80,8 +80,6 @@
 2.mysql-8=MySQL 模式
 4.manage-replicas=管理副本
 5.locality-management-1=管理 Locality
-6.load-balancing-1=负载均衡
-3.manual-load-balancing-management=手动管理负载均衡
 9.sql-optimization=SQL 调优
 2.sql-execution-plan=SQL 执行计划
 2.execution-plan-operator=执行计划算子
@@ -161,7 +159,7 @@
 4.development-guide-refactoring-1=开发指南
 2.application-development-based-on-mysql-mode=基于 Mysql 模式进行应用开发
 1.client-connects-to-oceanbase-database=客户端连接 OceanBase 数据库
-2.application-development=应用程序开发
+2.application-development-2=应用程序开发
 1.java-application=Java 应用程序
 3.c-application=C 应用程序
 3.create-and-manage-database-objects=创建和管理数据库对象
@@ -215,7 +213,7 @@
 5.database-design-specifications-and-practices=设计规范和约束
 01.object-naming-conventions=对象命名规范
 02.object-structure-design-specification=对象结构设计规范
-06.database-design-best-practices=数据库设计实践
+05.database-design-best-practices=数据库设计实践
 01.database-connection-pool-configuration-example=数据库连接池配置示例
 02.development-framework-connection-database-example=开发框架连接数据库示例
 6.sql-syntax=SQL 语法
