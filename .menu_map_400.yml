@@ -142,8 +142,8 @@
 5.performance=性能问题
 3.sql-diagnostics=SQL 诊断
 14.system-reference=系统参考
-1.system-configuration-items-1=系统配置项
-3.cluster-level-configuration-items=集群级别配置项
+1.system-configuration-items=系统配置项
+3.cluster-level-configuration-items-1=集群级别配置项
 4.tenant-level-configuration-items-1=租户级别配置项
 2.system-variable-for-mysql=系统变量（MySQL 模式）
 3.system-variable-for-oracle=系统变量（Oracle 模式）
