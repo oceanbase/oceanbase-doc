@@ -181,6 +181,7 @@
     5.sql-statements=SQL语句
       6.alter-system=ALTER SYSTEM
       56.sql-statements-select=SELECT
+14.tutorials-online=在线教程
 15.oceanbase-database-overview=系统架构
   5.multi-tenant-architecture=多租户架构
     5.tenant-and-resource-management=租户与资源管理
