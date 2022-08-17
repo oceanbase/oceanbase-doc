@@ -396,8 +396,8 @@
 2.integrity-constraint-type-1=完整性约束类型
 5.distributed-database-objects=分布式数据库对象
 3.data-partitions-and-replicas=数据分区和分区副本
-2.partition-replica-type=分区副本类型
-4.data-balancing-1=数据均衡
+3.partition-replica-type=分区副本类型
+5.data-balancing-1=数据均衡
 1.partition-copy-balancing=分区副本均衡
 2.leader-equalization=Leader 均衡
 4.dynamic-scaling=动态扩容和缩容
