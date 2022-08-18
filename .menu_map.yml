@@ -275,4 +275,3 @@
 6.constraint-related-functions=约束相关
 7.sql-related-commands=SQL 相关
 0.connect-to-oceanbase-database=连接 OceanBase 数据库
-2.use-prometheus-to-monitor-databases=使用 Prometheus 监控 OceanBase 数据库
