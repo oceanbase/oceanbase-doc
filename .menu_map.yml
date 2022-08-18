@@ -90,7 +90,7 @@
       3.administrator-guide-scale-out-and-scale-in-of-tenant-resources=租户内资源的扩容和缩容
     3.daily-inspection=日常巡检
     4.troubleshoot=问题排查
-      1.identify-the-problem=问题定位
+      1.identify the problem=问题定位
     5.emergency-problem-handling=应急处理
       1.handling-of-common-emergency-problems=常见应急问题处理
         1.problems-caused-by-the-hardware-environment=硬件环境导致的问题
@@ -165,7 +165,7 @@
         2.string-functions=字符串函数
         3.conversion-functions=转换函数
         4.mathematical-functions=数学函数
-        5.comparison-functions=比较函数
+        5.compariso n-functions=比较函数
         6.process-control-functions=流程控制函数
       3.aggregate-functions=聚合函数
       4.analytic-functions=分析函数
