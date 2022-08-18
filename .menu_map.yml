@@ -127,9 +127,9 @@
 3.install-and-deploy-obagent=安装部署
 4.obagent-metrics=OBAgent 指标
 4.cdc=CDC
-2.liboblog=liboblog
-1.deploy-and-use-liboblog=liboblog 部署和使用
-2.liboblog-parameters=liboblog 参数说明
+2.liboblog=obcdc
+1.deploy-and-use-liboblog=obcdc 部署和使用
+2.liboblog-parameters=obcdc 参数说明
 3.oblogproxy=oblogproxy
 1.install-and-deploy-oblogproxy=安装部署
 4.oblogmsg=oblogmsg
