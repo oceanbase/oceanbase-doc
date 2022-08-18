@@ -119,9 +119,9 @@
 3.system-configuration-items=系统配置项
 4.error-codes=错误码
 18.supporting-tools=生态工具
-1.ob-admin=ob-admin
+1.ob-admin=ob_admin
 3.clog=clog
-2.ob-agent=ob-agent
+2.ob-agent=OBAgent
 1.about-obagent=关于 OBAgent
 2.configuration-reference=配置引用
 3.install-and-deploy-obagent=安装部署
