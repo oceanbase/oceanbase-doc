@@ -1,10 +1,6 @@
 1.users-guide=使用指南
   1.oceanbase-database=OceanBase 数据库简介
   2.quick-start=快速入门
-    1.Getting-started-with-OceanBase-SQL=上手 OceanBase SQL
-    2.Create-a-sample-application=创建示例应用程序
-    3.Experience-the-advanced-features-of-OceanBase=体验 OceanBase 高级特性
-      1.Experience-Scalable-OLTP=体验 Scalable OLTP
   3.installation-and-deployment=安装部署
   4.data-migration=数据迁移
     1.migration-using-OBLOADER-&-OBDUMPER=使用 OBLOADER & OBDUMPER 迁移
