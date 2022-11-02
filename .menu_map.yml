@@ -78,7 +78,7 @@
   9.performance-tuning-guide=性能调优
     2.performance-related-tools=性能相关工具
       1.system-tools=系统工具
-      2.Internal-table=内部表
+      2.internal-table=内部表
       3.log-information=日志
     3.system-tuning=系统调优
       2.database-parameter-tuning=数据库参数调优
