@@ -1,5 +1,5 @@
-1.oceanbase-database-overview=OceanBase 数据库简介
-2.quick-start=快速入门
+1.oceanbase-database-overview=OceanBase 简介
+2.quick-start=快速上手
   1.Getting-started-with-OceanBase-SQL=上手 OceanBase SQL
   2.Create-a-sample-application=创建示例应用程序
   3.Experience-the-advanced-features-of-OceanBase=体验 OceanBase 高级特性
@@ -28,10 +28,10 @@
     5.table-related-functions=表相关
     6.constraint-related-functions=约束相关
     7.sql-related-commands=SQL 相关
-4.installation-and-deployment=安装部署
+4.installation-and-deployment=部署数据库
   2.local-deployment=本地部署
   4.highly-available-deployment=高可用部署
-5.administrator-guide=管理员指南
+5.administrator-guide=管理数据库
   5.database-connection-and-routing=数据库连接和路由
     2.obproxy-management=管理 OBProxy
       2.manage-obproxy-clusters=管理 OBProxy 集群
@@ -238,5 +238,5 @@
     10.mysqltest=mysqltest
       2.use-of-case=case 使用
 9.releasenotes=版本发布记录
-  V3.1=V3.1 系列版本
-  V4.0=V4.0 系列版本
+  V3.1=V3.1
+  V4.0=V4.0
