@@ -80,8 +80,9 @@
       1.system-tools=系统工具
       2.Internal-table=内部表
       3.log-information=日志
-      4.ocp=OCP
     3.system-tuning=系统调优
+      2.database-parameter-tuning=数据库参数调优
+      3.obproxy-parameter-optimization=OBProxy 参数调优
     4.business-model-tuning=业务模型调优
     5.sql-optimization=SQL 调优指南
       2.sql-execution-plan=SQL 执行计划
@@ -98,10 +99,9 @@
           1.access-path=访问路径
           2.join-algorithm=联接算法
         7.manage-execution-plans=管理执行计划
-    6.performance-diagnostics=性能诊断
-    8.performance-whitepaper=性能测试
+    6.performance-whitepaper=性能测试
   10.high-data-availability=高可用和容灾
-    1.1.administrator-guide-flashback=闪回
+    1.administrator-guide-flashback=闪回
     2.backup-and-restoration-management=备份恢复管理
       3.log-archive=日志归档
       4.data-backup=数据备份

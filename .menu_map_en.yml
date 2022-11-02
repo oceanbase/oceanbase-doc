@@ -1,7 +1,7 @@
 1.oceanbase-database-overview=Overview 
 2.quick-start=Get Started 
   3.Hands-on-for-OceanBase-SQL=Hands on for OceanBase SQL
-  4.Build-Applications-and-Connect-to-OceanBase=Build applications and connect to OceanBase
+  4.Create-a-sample-application=Create-a-sample-application
   5.Experience-OceanBase-Advanced-Features=Experience OceanBase advanced features
     1.Experience-Scalable-OLTP=Experience scalable OLTP
 3.developer-guide=Develop
@@ -32,5 +32,6 @@
   2.local-deployment=On-premises deployment
   4.highly-available-deployment=High availability deployment
 6.data-migration=Migrate
-  2. migrate-data-from-MySQL-database-to-OceanBase-database=Migrate data from MySQL Database to OceanBase
-  4. migrate-data-from-CSV-file-to-OceanBase-database=Migrate data from CSV-file to OceanBase
+  2.migrate-data-from-MySQL-database-to-OceanBase-database=Migrate data from MySQL Database to OceanBase
+  4.migrate-data-from-CSV-file-to-OceanBase-database=Migrate data from CSV-file to OceanBase
+  7.migrate-data-from-OceanBase-database-to-MySQL=Migrate data from OceanBase Database to MySQL
