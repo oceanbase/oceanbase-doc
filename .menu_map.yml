@@ -1,5 +1,5 @@
-1.oceanbase-database-overview=OceanBase 数据库简介
-2.quick-start=快速入门
+1.oceanbase-database-overview=OceanBase 简介
+2.quick-start=快速上手
   1.Getting-started-with-OceanBase-SQL=上手 OceanBase SQL
   2.Create-a-sample-application=创建示例应用程序
   3.Experience-the-advanced-features-of-OceanBase=体验 OceanBase 高级特性
@@ -28,10 +28,10 @@
     5.table-related-functions=表相关
     6.constraint-related-functions=约束相关
     7.sql-related-commands=SQL 相关
-4.installation-and-deployment=安装部署
+4.installation-and-deployment=部署数据库
   2.local-deployment=本地部署
   4.highly-available-deployment=高可用部署
-5.administrator-guide=管理员指南
+5.administrator-guide=管理数据库
   5.database-connection-and-routing=数据库连接和路由
     2.obproxy-management=管理 OBProxy
       2.manage-obproxy-clusters=管理 OBProxy 集群
@@ -78,7 +78,7 @@
   9.performance-tuning-guide=性能调优
     2.performance-related-tools=性能相关工具
       1.system-tools=系统工具
-      2.Internal-table=内部表
+      2.internal-table=内部表
       3.log-information=日志
     3.system-tuning=系统调优
       2.database-parameter-tuning=数据库参数调优
@@ -129,7 +129,7 @@
   2.migrate-data-from-MySQL-database-to-OceanBase-database=从 MySQL 迁移到 OceanBase 数据库
   4.migrate-data-from-CSV-file-to-OceanBase-database=从 CSV 文件迁移数据到 OceanBase 数据库
   7.migrate-data-from-OceanBase-database-to-MySQL=从 OceanBase 迁移到 MySQL 数据库
-7.reference
+7.reference=参考指南
   1.oceanbase-database-concepts=系统架构
     3.multi-tenant-architecture-1=多租户架构
       5.tenants-and-resource-management-1=租户与资源管理
@@ -175,7 +175,7 @@
     12.observer-node-architecture=OBServer 节点架构
       3.observer-thread-model=observer 线程模型
       5.memory-management=内存管理
-  2.sql-syntax
+  2.sql-syntax=SQL 语句
     1.system-tenants=系统租户
       2.alter-system=ALTER SYSTEM
     2.common-tenant-mysql-mode=普通租户
@@ -222,7 +222,7 @@
     3.cluster-level-configuration-items-1=集群级别配置项
     4.tenant-level-configuration-items-1=租户级别配置项
   6.error-codes=错误码
-  8.supporting-tools
+  8.supporting-tools=生态工具
     1.ob-admin=ob_admin
       3.clog=clog
     2.ob-agent=OBAgent
@@ -238,5 +238,5 @@
     10.mysqltest=mysqltest
       2.use-of-case=case 使用
 9.releasenotes=版本发布记录
-  V3.1=V3.1 系列版本
-  V4.0=V4.0 系列版本
+  V3.1=V3.1
+  V4.0=V4.0
