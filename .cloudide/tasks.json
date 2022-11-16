@@ -1,0 +1,15 @@
+{
+  "tasks": [
+    {
+      "type": "shell",
+      "label": "ide-pre-compile",
+      "command": "mvn clean install -DskipTests=true",
+      "presentation": {
+        "focus": true,
+        "showReuseMessage": true,
+        "clear": true
+      },
+      "group": "build"
+    }
+  ]
+}
