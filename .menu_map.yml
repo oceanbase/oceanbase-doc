@@ -113,7 +113,6 @@
         1.scale-out=扩容
         2.shrink-1=缩容
       3.scale-in-and-scale-out-of-tenant-resources=租户内资源的扩容和缩容
-    3.upgrade-guide=升级指南
     4.monitoring-and-alerting=监控和告警
       2.monitoring-1=监控
       3.alert-1=告警
