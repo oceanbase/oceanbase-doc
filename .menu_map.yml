@@ -113,6 +113,7 @@
         1.scale-out=扩容
         2.shrink-1=缩容
       3.scale-in-and-scale-out-of-tenant-resources=租户内资源的扩容和缩容
+    3.upgrade-guide=升级指南
     4.monitoring-and-alerting=监控和告警
       2.monitoring-1=监控
       3.alert-1=告警
@@ -211,7 +212,7 @@
         8.other-functions=其它函数
       5.queries-and-subqueries=查询和子查询
       6.sql-statement=SQL语句
-        51.SELECT-1-2=SELECT
+        51.select-1-2=SELECT
       7.ddl-function=DDL 功能
   3.system-views=系统视图
     2.dictionary-view-5=字典视图
@@ -233,8 +234,6 @@
       2.obcdc=obcdc
         1.deploy-and-use-obcdc=obcdc 部署和使用
         2.obcdc-parameters=obcdc 参数说明
-      3.oblogproxy=oblogproxy
-        1.install-and-deploy-oblogproxy=oblogproxy 安装部署
       4.oblogmsg=oblogmsg
     10.mysqltest=mysqltest
       2.use-of-case=case 使用
