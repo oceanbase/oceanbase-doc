@@ -15,6 +15,7 @@
 		8.create-and-manage-indexes=创建和管理索引
     10.create-and-manage-views=创建和管理视图
 		11.managing-and-creating-sequences=创建和管理序列
+    12.create-and-manage-triggers=创建和管理触发器
   3.query=查询
     8.multi-table-join-queries=多表关联查询
     9.use-operators-and-functions-in-queries=在查询中使用操作符和函数
