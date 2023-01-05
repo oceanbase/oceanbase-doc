@@ -170,7 +170,7 @@
       1.high-availability-architecture=高可用架构
       4.data-protection=数据保护
       5.backup-and-restoration=备份恢复
-    12.data-security-management=数据库安全
+    11.database-security=数据库安全
     12.observer-node-architecture=OBServer 节点架构
       3.observer-thread-model=observer 线程模型
       5.memory-management=内存管理
