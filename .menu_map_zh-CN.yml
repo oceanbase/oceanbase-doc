@@ -417,7 +417,7 @@
 2.scale-in-and-scale-out-of-tenant-resources-1=租户内资源的扩容和缩容
 6.data-link-1=数据链路
 2.database-proxy-1=数据库代理
-3.database-driver-1=数据库驱动
+3.database-driver=数据库驱动
 7.user-interface-and-query-language=用户接口和查询语言
 1.SQL=SQL
 1.sql-introduction=SQL 介绍
