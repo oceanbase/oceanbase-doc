@@ -346,7 +346,7 @@
         10.exception-handling-oracle=PL 异常处理
         11.ddl-operations-on-stored-pl-units-oracle=对已存储 PL 单元的 DDL 操作
         13.pl-label-security-package=PL 系统包
-      4.pl-system-package=DBMS_AUDIT_MGMT
+      4.pl-system-package=PL 系统包
         2.DBMS_AUDIT_MGMT=DBMS_AUDIT_MGMT
         3.DBMS_APPLICATION_INFO=DBMS_APPLICATION_INFO
         4.DBMS_CRYPTO=DBMS_CRYPTO
