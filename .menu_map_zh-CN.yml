@@ -34,28 +34,28 @@
     3.transaction-savepoints-of-oracle-mode=保存点
   6.common-errors-and-solutions-of-oracle-mode=常见报错与处理
 4.deploy-oceanbase=部署数据库
-  4.deploy
-    3.preparations-before-deployment-1
-    6.command-line-deployment
-    1.configure-a-deployment-environment-2
-    2.deploy-ocp-4
-    3.deploy-the-oceanbase-cluster-2
-    4.deploy-obproxy-4
-    5.create-an-oceanbase-tenant-2
-    6.deploy-the-oms-4
-    7.deploy-odc-4
+  4.deploy=
+    3.preparations-before-deployment-1=
+    6.command-line-deployment=
+    1.configure-a-deployment-environment-2=
+    2.deploy-ocp-4=
+    3.deploy-the-oceanbase-cluster-2=
+    4.deploy-obproxy-4=
+    5.create-an-oceanbase-tenant-2=
+    6.deploy-the-oms-4=
+    7.deploy-odc-4=
       5.deploy-oceanbase-database-community-edition=
-        2.local-deployment
-        4.highly-available-deployment
+        2.local-deployment=
+        4.highly-available-deployment=
 5.data-migration=数据迁移
-  2.migrate-data-from-mysql-database-to-oceanbase-database
-  3.migrate-data-from-oceanbase-database-to-mysql-database
-  4.migrate-data-from-oracle-database-to-oceanbase-database
-  5.migrate-data-from-oceanbase-database-to-oracle-database
-  6.migrate-data-from-db2-luw-database-to-oceanbase-database
-  7.migrate-data-from-csv-file-to-oceanbase-database
-  9.data-migration-between-oceanbase-databases
-  10.use-sql-statements-migrate-data
+  2.migrate-data-from-mysql-database-to-oceanbase-database=
+  3.migrate-data-from-oceanbase-database-to-mysql-database=
+  4.migrate-data-from-oracle-database-to-oceanbase-database=
+  5.migrate-data-from-oceanbase-database-to-oracle-database=
+  6.migrate-data-from-db2-luw-database-to-oceanbase-database=
+  7.migrate-data-from-csv-file-to-oceanbase-database=
+  9.data-migration-between-oceanbase-databases=
+  10.use-sql-statements-migrate-data=
 6.manage=管理数据库
 7.reference=参考指南
   1.oceanbase-database-concepts=系统概念
@@ -188,7 +188,7 @@
       2.transmission-encryption=数据传输加密
       4.audit-database=审计数据库
     7.management==运维管理
-      1.scale-out-and-scale-in
+      1.scale-out-and-scale-in=
         2.cluster-level-scale-out-and-scale-in=扩容和缩容
           1.scale-out=扩容
           2.shrink=缩容
@@ -282,8 +282,8 @@
           4.format-of-oracle-mode=格式模型
           5.null-of-oracle-mode=空值
           6.annotation-of-oracle-mode=注释
-            4.hint-of-oracle-modeHint
-              2.hint-list-of-oracle-modeHint 清单
+            4.hint-of-oracle-modeHint=
+              2.hint-list-of-oracle-modeHint= 清单
           7.database-objects-of-oracle-mode=数据库对象
           8.database-naming-convention-of-oracle-mode=数据库命名规范
           9.database-object-reference-method-of-oracle-mode=数据库对象引用方式
