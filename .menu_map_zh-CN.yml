@@ -8,7 +8,7 @@
   5.experience-advanced-features-of-oceanbase.md=体验 OceanBase 高级特性
     1.experience-scalable-oltp=体验 Scalable OLTP
     5.experience-ddl=体验 DDL
-3.develop
+3.develop=应用开发
   1.application-development-of-mysql-mode=基于 MySQL 模式进行应用开发
     1.database-connection-with-client-of-mysql-mode=连接 OceanBase 数据库
       14.use-the-database-connection-pool-of-mysql-mode=使用数据库连接池
