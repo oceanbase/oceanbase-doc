@@ -1,5 +1,5 @@
 1.learn-more-about-oceanbase=OceanBase 介绍
-  3.compatibility-with-oracle=与 Oracle 兼容性对比
+  4.compatibility-with-oracle=与 Oracle 兼容性对比
 2.quickstart=快速上手
   1.quickly-experience-oceanbase=快速体验 OceanBase
   2.get-started-with-oceanbase-sql=上手 OceanBase SQL
@@ -282,7 +282,7 @@
           4.literal-of-mysql-mode=字面量
         2.operator-of-mysql-mode=运算符
         4.functions-of-mysql-mode=函数
-          2.functions-of-mysql-mode=单行函数
+          2.single-row-functions-of-mysql-mode=单行函数=单行函数
             1.date-and-time-functions-of-mysql-mode=日期时间函数
             2.string-functions-of-mysql-mode=字符串函数
             3.conversion-functions-of-mysql-mode=转换函数
