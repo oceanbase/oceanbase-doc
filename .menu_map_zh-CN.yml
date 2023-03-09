@@ -68,7 +68,7 @@
     3.common-cluster-operations=集群常见操作
     4.common-cluster-failure=集群常见故障处理
   2.tenant-management=租户管理
-    5.common-tenant-operations=租户常见操作
+    6.common-tenant-operations=租户常见操作
       8.tenant-scale-in-and-out=租户扩缩容
   3.replica-management=副本管理
     2.replica-distribution=副本分布
