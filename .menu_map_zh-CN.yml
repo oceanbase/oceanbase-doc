@@ -52,6 +52,8 @@
       6.deploy-odc-command-line=部署 ODC 
   5.deploy-oceanbase-database-community-edition=部署 OceanBase 社区版
     2.local-deployment=本地部署
+      3.deploy-by-command=通过命令行部署
+      4.deploy-by-ui=通过图形化界面部署
     4.highly-available-deployment=高可用部署
 5.data-migration=数据迁移
   2.migrate-data-from-mysql-database-to-oceanbase-database=从 MySQL 数据库迁移数据到 OceanBase 数据库
