@@ -271,7 +271,7 @@
           4.literal-of-mysql-mode=字面量
         2.operator-of-mysql-mode=运算符
         4.functions-of-mysql-mode=函数
-          2.single-row-functions-of-mysql-mode=单行函数=单行函数
+          2.single-row-functions-of-mysql-mode=单行函数
             1.date-and-time-functions-of-mysql-mode=日期时间函数
             2.string-functions-of-mysql-mode=字符串函数
             3.conversion-functions-of-mysql-mode=转换函数
@@ -289,7 +289,9 @@
             4.function-that-returns-the-json-text-property-of-mysql-mode=返回 JSON 文本属性的函数
             5.json-functions-of-mysql-mode=JSON 工具函数
             6.json-aggregate-functions-of-mysql-mode=JSON 聚合函数
-          8.other-functions-of-mysql-mode=其它函数
+          8.spatial-functions-of-mysql-mode=空间函数
+          9.performance-schema-of-mysql-mode=Performance Schema 函数
+          10.other-functions-of-mysql-mode=其它函数
         5.queries-and-subqueries-of-mysql-mode=查询和子查询
         6.sql-statement-of-mysql-mode=SQL 语句
           51.select-of-mysql-mode=SELECT 
