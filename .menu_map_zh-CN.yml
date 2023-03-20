@@ -341,6 +341,10 @@
             10.hierarchical-functions-of-oracle-mode=层次函数
             11.xml-functions-of-oracle-mode=XML 函数
             12.json-functions-oracle-mode=JSON 函数
+               2.create-json-text-function-oracle=创建 JSON 文本函数
+               3.query-json-text-function-oracle=查询 JSON 文本的函数
+               4.validate-json-text-function-oracle=校验 JSON 文本的函数
+               5.modify-json-text-function-oracle=修改 JSON 文本的函数
           3.aggregate-functions-of-oracle-mode=聚合函数
           4.analysis-functions-of-oracle-mode=分析函数
         6.expression-of-oracle-mode=表达式
