@@ -180,13 +180,12 @@
         3.management-resource-unit=管理资源单元
         5.manage-resource-pools=管理资源池
       4.manage-tenants=管理租户
-        4.manage-tenants=管理租户
-        5.manage-users-and-permissions=管理用户和权限
+        9.manage-users-and-permissions=管理用户和权限
           1.users-and-permissions=用户及权限介绍
           2.oracle-mode=Oracle 模式
             9.manage-roles-of-oracle-mode=管理角色
           3.mysql-mode=MySQL 模式
-        14.manage-tenant-parameters=管理租户参数
+        18.manage-tenant-parameters=管理租户参数
       5.manage-data-storage=管理数据存储
         1.dump-management=转储管理
         2.merge-management=合并管理
