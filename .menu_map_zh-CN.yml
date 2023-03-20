@@ -174,7 +174,7 @@
       1.manage-clusters=管理集群
         3.manage-cluster-parameters=管理集群参数
         4.manage-zones-in-a-cluster=管理集群中的 Zone
-        5.manage-observer=管理 OBServer
+        5.manage-observer=管理节点
       2.configuration-management=配置管理
       3.manage-resources=管理资源
         3.management-resource-unit=管理资源单元
