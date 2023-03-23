@@ -3,8 +3,8 @@
 2.quickstart=快速上手
   1.quickly-experience-oceanbase=快速体验 OceanBase
   2.get-started-with-oceanbase-sql=上手 OceanBase SQL
-  3.create-sample-application-of-mysql-mode=基于 MySQL 模式的创建示例应用程序
-  3.create-sample-application-of-oracle-mode=基于 Oracle 模式的创建示例应用程序
+  3.create-sample-application-of-mysql-mode=基于 MySQL 模式创建示例应用程序
+  3.create-sample-application-of-oracle-mode=基于 Oracle 模式创建示例应用程序
   5.experience-advanced-features-of-oceanbase=体验 OceanBase 高级特性
     1.experience-scalable-oltp=体验 Scalable OLTP
     5.experience-ddl=体验 DDL
