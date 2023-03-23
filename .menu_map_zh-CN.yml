@@ -219,6 +219,8 @@
       4.manage-replicas=副本管理
       5.locality-management=Locality 管理
     7.management=运维管理
+      0.upgrade-guide=数据库升级
+        2.use-the-command-line-to-upgrade-the-database=使用命令行升级数据库
       1.1.resource-isolation=资源隔离
         2.resource-isolation-of-oracle-mode=资源隔离管理（Oracle 模式）
         3.resource-isolation-of-mysql-mode=资源隔离管理（MySQL 模式）
