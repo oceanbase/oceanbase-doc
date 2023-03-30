@@ -1,0 +1,27 @@
+# SET ENCRYPTION
+
+## 描述
+
+该语句用于设置备份密码。
+
+该语句仅支持在 sys 租户执行。
+
+## 语法
+
+```sql
+SET ENCRYPTION ON IDENTIFIED BY 'password' ONLY;
+```
+
+## 参数解释
+
+|    参数    |    描述    |
+|----------|----------|
+| password | 备份的加密密码。 |
+
+## 示例
+
+设置备份密码 。
+
+```sql
+obclient> SET ENCRYPTION ON IDENTIFIED BY  '***1***' ONLY;
+```

@@ -1,0 +1,25 @@
+# NULLIF
+
+## 声明
+
+```sql
+NULLIF(expr1, expr2)
+```
+
+## 说明
+
+如果 `expr1` = `expr2` 成立，那么返回值为 `NULL`，否则返回值为 `expr1`。这和 `CASE WHEN`
+
+*`expr1 = expr2 THEN NULL ELSE expr1 END` 相同。注意，如果参数不相等，则两次求得的值为 `expr1`。*
+
+## 示例
+
+```sql
+obclient> SELECT NULLIF('ABC', 123), NULLIF('123',123), NULLIF(NULL, 'abc');
++--------------------+-------------------+---------------------+
+| NULLIF('ABC', 123) | NULLIF('123',123) | NULLIF(NULL, 'abc') |
++--------------------+-------------------+---------------------+
+| ABC                | NULL              | NULL                |
++--------------------+-------------------+---------------------+
+1 row in set, 1 warning
+```

@@ -1,0 +1,83 @@
+# replace 和 insert_or_update 的区别
+
+replace 和 insert_or_update 是两个容易混淆的操作。在很多情况下，他们对外的表现相同，但他们的语义本质上又有区别。本文将详细介绍两者的区别。
+
+replace 表示插入，当有冲突的时候，删除所有引起冲突的行，然后再插入。
+
+insert_or_update 表示插入，有冲突的时候，执行更新操作。
+
+让我们通过例子来看下两者的区别。
+
+## insert_or_update
+
+TableAPI 提供的 insert_or_update 等价于某种特殊的 SQL 语法，下面用这种 SQL 语句做例子说明。
+
+```sql
+OceanBase (root@test)> desc test_replace;
++-------+---------+------+-----+---------+-------+
+| Field | Type    | Null | Key | Default | Extra |
++-------+---------+------+-----+---------+-------+
+| c1    | int(11) | NO   | PRI | NULL    |       |
+| c2    | int(11) | YES  |     | NULL    |       |
+| c3    | int(11) | YES  | UNI | NULL    |       |
++-------+---------+------+-----+---------+-------+
+3 rows in set (0.03 sec)
+
+OceanBase (root@test)> select * from test_replace;
++----+------+------+
+| c1 | c2   | c3   |
++----+------+------+
+|  1 |    2 |    3 |
+|  4 |    5 |    6 |
++----+------+------+
+2 rows in set (0.03 sec)
+
+OceanBase (root@test)> insert into test_replace (c1, c2, c3) values (4, 7, 8), (5, 8, 9) on duplicate key update c1=values(c1), c2=values(c2), c3=values(c3);
+Query OK, 3 rows affected (0.03 sec)
+Records: 2  Duplicates: 1  Warnings: 0
+
+OceanBase (root@test)> select * from test_replace;
++----+------+------+
+| c1 | c2   | c3   |
++----+------+------+
+|  1 |    2 |    3 |
+|  4 |    7 |    8 |
+|  5 |    8 |    9 |
++----+------+------+
+3 rows in set (0.03 sec)
+```
+
+## replace
+
+```sql
+OceanBase (root@test)> select * from test_replace;
++----+------+------+
+| c1 | c2   | c3   |
++----+------+------+
+|  1 |    2 |    3 |
+|  4 |    7 |    8 |
+|  5 |    8 |    9 |
++----+------+------+
+3 rows in set (0.03 sec)
+
+OceanBase (root@test)> replace into test_replace (c1, c3) values (4, 9);
+Query OK, 3 rows affected (0.04 sec)
+
+OceanBase (root@test)> select * from test_replace;
++----+------+------+
+| c1 | c2   | c3   |
++----+------+------+
+|  1 |    2 |    3 |
+|  4 | NULL |    9 |
++----+------+------+
+2 rows in set (0.02 sec)
+```
+
+通过对比上面两个例子，可以看出，replace 有"删除"的动作，所以可能会让行数变少，而且，c1=4 这行的 c2 的值，因为是重新插入的，变成了 default 值 NULL。这两个特殊的表现，对于 insert_or_update 不会存在。多数情况下，用户"需要"的是 insert_or_update，也就是 NoSQL 的"put"含义。
+
+在以下两种情况下，两个操作的对外表现是相同的：
+
+* 表只有主键，没有 unique 索引。
+* 操作给定了一行所有列的值，不需要系统补缺省值。
+
+这两种情况下，虽然对外表现相同，在 TableAPI 内部，insert_or_update 会使用特殊的优化实现，性能比 replace 更好。

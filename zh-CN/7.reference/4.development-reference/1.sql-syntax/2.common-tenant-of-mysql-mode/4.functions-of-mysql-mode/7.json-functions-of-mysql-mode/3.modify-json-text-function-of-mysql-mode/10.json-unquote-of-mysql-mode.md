@@ -1,0 +1,43 @@
+# JSON_UNQUOTE
+
+## 描述
+
+该函数用于取消引用 JSON 值并将结果作为 utf8mb4 字符串返回。
+
+## 语法
+
+```sql
+JSON_UNQUOTE(json_val)
+```
+
+## 说明
+
+参数 `json_val` 为引用的 JSON 值。如果参数为 `NULL`，则返回 `NULL`。
+
+如果值以双引号开头和结尾，但不是有效的 JSON 字符串字面量，则会发生错误。
+
+## 示例
+
+```sql
+obclient> SET @jn = '"abcd"';
+Query OK, 0 rows affected
+
+obclient> SELECT @jn, JSON_UNQUOTE(@jn);
++--------+-------------------+
+| @jn    | JSON_UNQUOTE(@jn) |
++--------+-------------------+
+| "abcd" | abcd              |
++--------+-------------------+
+1 row in set
+
+obclient> SET @jn = '[1, 2, 3, 4]';
+Query OK, 0 rows affected
+
+obclient> SELECT @jn, JSON_UNQUOTE(@jn);
++--------------+-------------------+
+| @jn          | JSON_UNQUOTE(@jn) |
++--------------+-------------------+
+| [1, 2, 3, 4] | [1, 2, 3, 4]      |
++--------------+-------------------+
+1 row in set
+```

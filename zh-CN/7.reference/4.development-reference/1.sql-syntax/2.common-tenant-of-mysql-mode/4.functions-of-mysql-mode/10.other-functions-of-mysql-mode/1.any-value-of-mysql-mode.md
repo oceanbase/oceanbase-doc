@@ -1,0 +1,59 @@
+# ANY_VALUE
+
+## 声明
+
+```sql
+ANY_VALUE(arg)
+```
+
+## 说明
+
+当 `sql_mode` 启用 `ONLY_FULL_GROUP_BY` SQL 模式时，此函数用于运行非 `FULL GROUP BY` 的操作，抑制 `ONLY_FULL_GROUP_BY` 值被拒绝。
+
+`ANY_VALUE()` 会选择被分到同一分组的数据里第一条数据的指定列值作为返回数据。函数的返回值和类型与其参数的返回值和类型相同。
+
+如下示例中，如果 `name` 是非索引列，当启用 `ONLY_FULL_GROUP_BY SQL` 模式时，则 `GROUP BY` 查询将失败，这是因为 `city` 是一个非聚合列，因此每个 `name` 组中的 `city` 值是不确定的。
+
+```sql
+obclient> CREATE TABLE tbl1(name VARCHAR(20),age VARCHAR(10),city VARCHAR(50));
+obclient> INSERT INTO tbl1 VALUES ('Alex',20,'BeiJing'),('Jim',25,'HangZhou'),('Blair',35,'NanJing');
+obclient>  SET sql_mode='ONLY_FULL_GROUP_BY';
+Query OK, 0 rows affected
+
+obclient>  SELECT name, city, MAX(age) FROM tbl1 GROUP BY name;
+ERROR 1055 (42000): 'test.tbl1.city' is not in GROUP BY
+```
+
+一种解决办法是可以更改表以使 `name` 成为主键或唯一的 `NOT NULL` 列，这使得 `city` 由 `name` 来唯一确定（如果必须允许 `NULL` 作为有效 `name` 值，则此方法不适用）。
+
+另一种解决方法是使用 `ANY_VALUE()` 来引用 `city`，这样会忽略每个 `name` 组内 `city` 值的不确定性并接受查询。`ANY_VALUE()` 不是聚合函数，它只是起到抑制非确定性测试的作用。
+
+```sql
+obclient> SELECT name, ANY_VALUE(city), MAX(age) FROM tbl1 GROUP BY name;
++-------+-----------------+----------+
+| name  | ANY_VALUE(city) | MAX(age) |
++-------+-----------------+----------+
+| Alex  | BeiJing         | 20       |
+| Jim   | HangZhou        | 25       |
+| Blair | NanJing         | 35       |
++-------+-----------------+----------+
+3 rows in set
+```
+
+还有一种方法是禁用 `ONLY_FULL_GROUP_BY`。这相当于在启用 `ONLY_FULL_GROUP_BY` 的情况下使用 `ANY_VALUE()`，如上所述。
+
+## 示例
+
+在没有 `GROUP BY` 子句时，则在只有一个分组的情况下为该分组选择哪个 `name` 值是不确定的，所以查询失败。而 `ANY_VALUE()` 可以规避此问题并使数据库接受引用聚合函数的查询。
+
+```sql
+obclient> SELECT name, MAX(age) FROM tbl1;
+ERROR 1140 (42000): Mixing of GROUP columns (MIN(),MAX(),COUNT(),...) with no GROUP columns is illegal if there is no GROUP BY clause
+obclient> SELECT ANY_VALUE(name), MAX(age) FROM tbl1;
++-----------------+----------+
+| ANY_VALUE(name) | MAX(age) |
++-----------------+----------+
+| Alex            | 35       |
++-----------------+----------+
+1 row in set
+```

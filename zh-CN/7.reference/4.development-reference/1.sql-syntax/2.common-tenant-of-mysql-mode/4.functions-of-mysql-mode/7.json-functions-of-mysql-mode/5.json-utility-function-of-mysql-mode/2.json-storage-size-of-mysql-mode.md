@@ -1,0 +1,59 @@
+# JSON_STORAGE_SIZE
+
+## 描述
+
+此函数返回用于存储 JSON 文档的二进制字节数。当参数是一个 JSON 列时，会用于存储 JSON 文档。JSON 的部分更新不会改变该函数的返回值。
+
+## 语法
+
+```sql
+JSON_STORAGE_SIZE(json_val)
+```
+
+## 说明
+
+`json_val` 参数必须是有效的 JSON 文档或可以解析为一个字符串。在 `json_val` 是字符串的情况下，该函数将字符串解析为 JSON 并将其转换为二进制后返回存储空间的二进制字节数。
+
+当 `json_val` 不为 `NULL` 并且不是或无法成功解析为 JSON 文档时，会报错。
+
+如果参数为 `NULL`，则返回 `NULL`。
+
+## 示例
+
+```sql
+obclient> CREATE TABLE jtbl (jcol JSON);
+Query OK, 0 rows affected
+
+obclient> INSERT INTO jtbl VALUES  ('{"a": 1000, "b": "wxyz", "c": "[1, 3, 5, 7]"}');
+Query OK, 1 row affected
+
+obclient> SELECT jcol,JSON_STORAGE_SIZE(jcol) AS Size FROM jtbl;
++-----------------------------------------------+------+
+| jcol                                          | Size |
++-----------------------------------------------+------+
+| {"a": 1000, "b": "wxyz", "c": "[1, 3, 5, 7]"} |   41 |
++-----------------------------------------------+------+
+1 row in set
+
+obclient> SET @jn = '[100, "sakila", [1, 3, 5], 425.05]';
+Query OK, 0 rows affected
+
+obclient> SELECT @jn, JSON_STORAGE_SIZE(@jn) AS Size;
++------------------------------------+------+
+| @jn                                | Size |
++------------------------------------+------+
+| [100, "sakila", [1, 3, 5], 425.05] |   38 |
++------------------------------------+------+
+1 row in set
+
+obclient> SET @jn = JSON_SET(@jn, '$[1]', "json");
+Query OK, 0 rows affected
+
+obclient> SELECT @jn, JSON_STORAGE_SIZE(@jn) AS Size;
++----------------------------------+------+
+| @jn                              | Size |
++----------------------------------+------+
+| [100, "json", [1, 3, 5], 425.05] |   36 |
++----------------------------------+------+
+1 row in set
+```

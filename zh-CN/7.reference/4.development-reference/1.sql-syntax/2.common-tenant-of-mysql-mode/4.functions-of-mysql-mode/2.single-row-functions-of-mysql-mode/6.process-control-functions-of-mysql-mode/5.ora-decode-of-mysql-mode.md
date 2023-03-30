@@ -1,0 +1,42 @@
+# ORA_DECODE
+
+## 声明
+
+```sql
+ORA_DECODE(condition, value1, return_val1, value2, return_val2, ... valuen, return_val, omit_val)
+```
+
+## 说明
+
+`ORA_DECODE()` 函数功能等同于 Oracle 数据库的 `DECODE()` 函数功能。
+
+该函数的含义如下：
+
+```sql
+IF 条件=值1
+THEN RETURN(返回值1)
+ELSIF 条件=值2
+THEN RETURN(返回值2)
+......
+ELSIF 条件=值n
+THEN RETURN(返回值n)
+ELSE RETURN(缺省值)
+END IF
+```
+
+## 示例
+
+```sql
+obclient> SELECT * FROM films ORDER BY ORA_DECODE(id,1,'lala',2,'mua');
+
++------+--------------+-------------+--------+
+| id   | release_year | category_id | rating |
++------+--------------+-------------+--------+
+|    3 |         2015 |           3 |   9.00 |
+|    4 |         2016 |           2 |   8.20 |
+|    5 |         2016 |           1 |   8.40 |
+|    6 |         2017 |           2 |   7.00 |
+|    1 |         2015 |           1 |   8.00 |
+|    2 |         2015 |           2 |   8.50 |
++------+--------------+-------------+--------+
+```
