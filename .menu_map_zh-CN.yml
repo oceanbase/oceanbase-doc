@@ -69,9 +69,14 @@
   1.cluster-management=集群管理
     1.cluster-management-overview=集群介绍
     3.common-cluster-operations=集群常见操作
+      15.upgrade-guide=集群升级
+        2.use-the-command-line-to-upgrade-the-database=使用命令行升级集群
     4.common-cluster-failure=集群常见故障处理
   2.tenant-management=租户管理
     6.common-tenant-operations=租户常见操作
+       3.resource-isolation=资源隔离
+        2.resource-isolation-of-oracle-mode=资源隔离管理（Oracle 模式）
+        3.resource-isolation-of-mysql-mode=资源隔离管理（MySQL 模式）
       8.tenant-scale-in-and-out=租户扩缩容
   3.replica-management=副本管理
     2.replica-distribution=副本分布
@@ -219,11 +224,6 @@
       4.manage-replicas=副本管理
       5.locality-management=Locality 管理
     7.management=运维管理
-      0.upgrade-guide=数据库升级
-        2.use-the-command-line-to-upgrade-the-database=使用命令行升级数据库
-      1.1.resource-isolation=资源隔离
-        2.resource-isolation-of-oracle-mode=资源隔离管理（Oracle 模式）
-        3.resource-isolation-of-mysql-mode=资源隔离管理（MySQL 模式）
       1.scale-out-and-scale-in=扩容和缩容
         2.cluster-level-scale-out-and-scale-in=扩容和缩容概述
           1.scale-out=扩容
