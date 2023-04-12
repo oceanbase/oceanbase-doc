@@ -43,6 +43,7 @@
       4.deploy-obproxy=部署 OBProxy
       5.create-oceanbase-tenant=创建 OceanBase 租户
       6.deploy-odc=部署 ODC 
+      7.deploy-the-oms=部署 OMS
     4.command-line-deployment=通过命令行部署
       1.configure-a-deployment-environment-command-line=部署环境配置
       2.deploy-ocp-command-line=部署 OCP
@@ -50,6 +51,7 @@
       4.deploy-obproxy-command-line=部署 OBProxy
       5.create-oceanbase-tenant-command-line=创建 OceanBase 租户
       6.deploy-odc-command-line=部署 ODC 
+      7.deploy-the-oms-command-line=部署 OMS
   5.deploy-oceanbase-database-community-edition=部署 OceanBase 社区版
     2.local-deployment=本地部署
     4.highly-available-deployment=高可用部署
