@@ -6,6 +6,7 @@
     3.Experience-the-advanced-features-of-OceanBase=体验 OceanBase 高级特性
       1.Experience-Scalable-OLTP=体验 Scalable OLTP
   3.installation-and-deployment=安装部署
+    4.environment-and-configuration-checks=部署前配置
   4.data-migration=数据迁移
     1.migration-using-OBLOADER-&-OBDUMPER=使用 OBLOADER & OBDUMPER 迁移
   5.database-connection-and-routing=数据库连接和路由
