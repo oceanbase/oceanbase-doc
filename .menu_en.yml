@@ -76,6 +76,7 @@
   5.system-refrence=System References
     2.system-variable-for-mysql=System Variables (MySQL Mode)
     3.system-variable-for-oracle=System Variables (Oracle Mode)
+  6.oceanbase-tools=OceanBase Tools
   7.command-line-tools=Command Line Tools
     7.ob-admin=ob_admin
       3.clog=clog
