@@ -264,6 +264,7 @@
           1.access-path=访问路径
           2.join-algorithm=联接算法
         7.manage-execution-plans=管理执行计划
+    6.performance-whitepaper=性能测试
   4.development-reference=应用开发参考
     1.sql-syntax=SQL 语法
       1.system-tenants=系统租户
