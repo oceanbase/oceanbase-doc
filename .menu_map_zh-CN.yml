@@ -385,7 +385,7 @@
            6.sa-user-admin-user-tag-management-pack-oracle=SA_USER_ADMIN 用户标签管理包
            7.sa-session-session-management-pack-oracle=SA_SESSION 会话管理包
       4.pl-system-package=PL 系统包
-        2.DBMS_AUDIT_MGMT=DBMS_AUDIT_MGMT
+        2.dbms-audit-mgmt-oracle=DBMS_AUDIT_MGMT
         3.DBMS_APPLICATION_INFO=DBMS_APPLICATION_INFO
         4.DBMS_CRYPTO=DBMS_CRYPTO
         5.DBMS_DEBUG=DBMS_DEBUG
