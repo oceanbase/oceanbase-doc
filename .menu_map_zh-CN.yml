@@ -104,6 +104,8 @@
     4.data-backup=数据备份
     5.clear-backup-data=清理备份数据
     6.restore-data=恢复数据
+  8.logging=日志
+    6.view-logs=查看日志
 7.reference=参考指南
   1.oceanbase-database-concepts=系统概念
     3.multi-tenant-architecture=多租户架构
