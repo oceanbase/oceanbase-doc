@@ -104,6 +104,10 @@
     4.data-backup=数据备份
     5.clear-backup-data=清理备份数据
     6.restore-data=恢复数据
+  7.monitor=监控指标
+    2.monitor-items-introduction=监控指标
+      1.system-monitor=系统监控
+      3.sql-monitor=SQL 监控
   8.logging=日志
     6.view-logs=查看日志
 7.reference=参考指南
