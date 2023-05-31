@@ -53,7 +53,6 @@
     2.local-deployment=本地部署
       2.environment-and-configuration-checks=部署前配置
       4.deploy-by-ui=通过图形化界面部署
-    4.highly-available-deployment=高可用部署
 5.data-migration=数据迁移
   2.migrate-data-from-mysql-database-to-oceanbase-database=从 MySQL 数据库迁移数据到 OceanBase 数据库
   3.migrate-data-from-oceanbase-database-to-mysql-database=从 OceanBase 数据库迁移数据到 MySQL 数据库
