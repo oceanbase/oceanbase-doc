@@ -4,7 +4,7 @@
   2.get-started-with-oceanbase-sql=Learn OceanBase SQL
   3.create-sample-application-of-mysql-mode=Build a sample application (MySQL mode)
   3.create-sample-application-of-oracle-mode=Build a sample application (Oracle mode)
-  5.experience-advanced-features-of-oceanbase=Experience advanced features of OceanBase Database
+  5.experience-advanced-features-of-oceanbase=Try out advanced features of OceanBase Database
     1.experience-scalable-oltp=Scalable OLTP
     5.experience-ddl=DDL
 3.develop=Develop
