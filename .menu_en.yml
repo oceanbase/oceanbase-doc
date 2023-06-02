@@ -27,7 +27,7 @@
     3.write-data-of-oracle-mode=Write data
     4.read-data-of-oracle-mode=Read data
       7.multi-table-join-query-of-oracle-mode=Join tables
-      8.use-operators-and-functions-in-query-of-oracle-mode=Use operators and functions in queries
+      8.8.use-operators-and-functions-in-query-for-oracle-mode=Use operators and functions in queries
       9.execution-plan-of-oracle-mode=Execution plans
     5.transaction-management-of-oracle-mode=Transactions
       3.transaction-savepoints-of-oracle-mode=Savepoints
@@ -451,10 +451,10 @@
         4.tenant-level-configuration-items=Tenant level
       2.system-variable-of-mysql-mode=System variables (MySQL mode)
       3.system-variable-of-oracle-mode=System variables (Oracle mode)
-      4.system-view-of-mysql-mode=System views (MySQL mode)
+      4.system-overview-of-mysql-mode=System views (MySQL mode)
         2.dictionary-view-of-mysql-mode=Dictionary views
         3.performance-view-of-mysql-mode=Performance views
-      5.system-view-of-oracle-mode=System views (Oracle mode)
+      5.system-overview-of-oracle-mode=System views (Oracle mode)
         2.dictionary-view-of-oracle-mode=Dictionary views
         3.performance-view-of-oracle-mode=Performance views
       6.error-code-of-mysql-mode=Error codes (MySQL mode)
