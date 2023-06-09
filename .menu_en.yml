@@ -27,7 +27,7 @@
     3.write-data-of-oracle-mode=Write data
     4.read-data-of-oracle-mode=Read data
       7.multi-table-join-query-of-oracle-mode=Join tables
-      8.8.use-operators-and-functions-in-query-for-oracle-mode=Use operators and functions in queries
+      8.use-operators-and-functions-in-query-for-oracle-mode=Use operators and functions in queries
       9.execution-plan-of-oracle-mode=Execution plans
     5.transaction-management-of-oracle-mode=Transactions
       3.transaction-savepoints-of-oracle-mode=Savepoints

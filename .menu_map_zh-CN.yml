@@ -455,8 +455,9 @@
       1.system-configuration-items=系统配置项
         3.cluster-level-configuration-items=集群级别配置项
         4.tenant-level-configuration-items=租户级别配置项
-      2.system-variable-of-mysql-mode=系统变量（MySQL 模式）
-      3.system-variable-of-oracle-mode=系统变量（Oracle 模式）
+      2.system-variable=系统变量
+        3.global-system-variable=Global 系统变量
+        4.session-system-variable=Session 系统变量
       4.system-view-of-mysql-mode=系统视图（MySQL 模式）
         2.dictionary-view-of-mysql-mode=字典视图
         3.performance-view-of-mysql-mode=性能视图
