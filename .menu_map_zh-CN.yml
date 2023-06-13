@@ -467,6 +467,7 @@
       6.error-code-of-mysql-mode=错误码（MySQL 模式）
       7.error-code-of-oracle-mode=错误码（Oracle 模式）
     6.oceanbase-tools=OceanBase 工具
+      4.1.ocp-express=OceanBase 云平台 Express（OCP Express）
     7.command-line-tools=命令行工具
       8.ob-admin=ob_admin
         3.clog=clog
