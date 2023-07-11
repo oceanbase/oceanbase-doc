@@ -267,6 +267,7 @@
           4.date-time-and-interval-data-types-of-oracle-mode=日期时间和间隔数据类型
           6.large-object-data-type-of-oracle-mode=大对象数据类型
         10.json-formatted-data-type-oracle-mode=JSON 数据类型
+        11.xml-date-type-of-oracle-mode=XML 数据类型
         2.data-type-comparison-rules-of-oracle-mode=数据类型比较规则
         3.literal-of-oracle-mode=字面量
           4.date-and-time-literal-of-oracle-mode=日期时间字面量
@@ -292,12 +293,15 @@
           8.null-value-related-function-of-oracle-mode=空值相关函数
           9.environment-and-identifier-functions-of-oracle-mode=环境和标识符函数
           10.hierarchical-functions-of-oracle-mode=层次函数
-          11.xml-functions-of-oracle-mode=XML 函数
           12.json-functions-oracle-mode=JSON 函数
             2.create-json-text-function-oracle=创建 JSON 文本函数
             3.query-json-text-function-oracle=查询 JSON 文本的函数
             4.validate-json-text-function-oracle=校验 JSON 文本的函数
             5.modify-json-text-function-oracle=修改 JSON 文本的函数
+          13.xml-functions-of-oracle-mode=XML 函数
+            2.construct-xmltype-data-functions-of-oracle-mode=构造 XMLType 数据的函数
+            3.querying-xmltype-data-functions-of-oracle-mode=查询 XMLType 数据的函数
+            4.modify-xmltype-data-functions-of-oracle-mode=修改 XMLType 数据的函数
         3.aggregate-functions-of-oracle-mode=聚合函数
         4.analysis-functions-of-oracle-mode=分析函数
       6.expression-of-oracle-mode=表达式
