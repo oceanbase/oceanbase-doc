@@ -420,6 +420,8 @@
       2.database-parameter-tuning=数据库参数调优
       3.obproxy-parameter-optimization=OBProxy 参数调优
     4.business-model-tuning=业务模型调优
+      4.performance-diagnosis=性能诊断
+        5.ash-report-diagnosis=ASH 报告
     5.sql-optimization=SQL 调优指南
       2.sql-execution-plan=SQL 执行计划
         2.execution-plan-operator=执行计划算子
