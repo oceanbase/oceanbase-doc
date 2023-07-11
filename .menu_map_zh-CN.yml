@@ -7,7 +7,6 @@
   5.experience-advanced-features-of-oceanbase=体验 OceanBase 高级特性
     1.experience-scalable-oltp=体验 Scalable OLTP
     5.experience-ddl=体验 DDL
-
 3.develop=应用开发
   1.connect-to-oceanbase-database=连接 OceanBase 数据库
     1.connect-to-oceanbase-database-of-mysql-mode=MySQL 模式
@@ -113,7 +112,12 @@
   8.logging=日志
     6.view-logs=查看日志
   9.daily-inspection=日常巡检
-     9.full-link-detection=全链路追踪
+    9.full-link-detection=全链路追踪
+  11.emergency-response=应急处理
+    3.common-emergency-response=常见应急问题处理
+      1.issues-in-the-hardware-environment=硬件环境导致的问题
+      2.problems-caused-by-capacity-changes=容量变化导致的问题
+      3.other-problems-within-the-cluster=集群内部其他问题
 7.reference=参考指南
   1.oceanbase-database-concepts=系统原理
     3.multi-tenant-architecture=多租户架构
