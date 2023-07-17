@@ -212,7 +212,7 @@
       4.manage-indexes-of-oracle-mode=创建和管理索引
       8.manage-triggers-of-oracle-mode=创建和管理触发器
       10.manage-dblink-of-oracle-mode=创建和管理 DBLink
-  4.database-design-specifications-and-practices=数据库设计规范
+  4.database-design-specifications-and-practices=数据库设计规范和约束
     1.object-naming-conventions=对象命名规范
     2.object-structure-design-specification=对象结构设计规范
   5.sql-reference=SQL 参考
@@ -450,7 +450,7 @@
     7.route-management=路由管理
       4.odp-routing-policy=ODP 路由策略
   13.drivers=驱动
-  14.oceanbase-tools=OceanBase 工具
+  14.oceanbase-tools=平台工具
     4.1.ocp-express=OceanBase 云平台 Express（OCP Express）
   15.command-line-tools=命令行工具
     8.ob-admin=ob_admin
