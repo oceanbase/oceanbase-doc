@@ -62,8 +62,6 @@
   1.cluster-management=集群管理
     1.cluster-management-overview=集群介绍
     3.common-cluster-operations=集群常见操作
-      15.upgrade-guide=集群升级
-        2.use-the-command-line-to-upgrade-the-database=使用命令行升级集群
     4.common-cluster-failure=集群常见故障处理
   2.tenant-management=租户管理
     6.common-tenant-operations=租户常见操作
