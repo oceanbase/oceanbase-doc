@@ -451,7 +451,7 @@
       1.introduction-to-tableapi=TableAPI 实现介绍
       2.use-of-the-tableapi-client=TableAPI 客户端的使用
     6.hbaseapi=HBaseAPI
-    7.ob-partition-calculator=ob-partition-calculator
+    7.ob-partition-calculator=分区计算组件
   5.system-reference=系统参考
       1.system-configuration-items=系统配置项
         3.cluster-level-configuration-items=集群级别配置项
