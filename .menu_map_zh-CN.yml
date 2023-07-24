@@ -11,6 +11,8 @@
   1.application-development-of-mysql-mode=基于 MySQL 模式进行应用开发
     1.connect-to-oceanbase-database-of-mysql-mode=连接 OceanBase 数据库
       14.use-the-database-connection-pool-of-mysql-mode=使用数据库连接池
+    2.sample-program-of-mysql-mode=示例程序
+      2.python=Python
     3.database-object-planning-of-mysql-mode=规划数据库对象
     4.write-data-of-mysql-mode=数据写入
     5.read-data-of-mysql-mode=数据读取
