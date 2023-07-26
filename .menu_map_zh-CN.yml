@@ -399,7 +399,7 @@
       2.dictionary-view-of-oracle-mode=字典视图
       3.performance-view-of-oracle-mode=性能视图
   8.configuration-items-and-system-variables=配置项和系统变量
-    1.system-configuration-items=系统配置项
+    1.system-configuration-items=配置项
       3.cluster-level-configuration-items=集群级别配置项
       4.tenant-level-configuration-items=租户级别配置项
     2.system-variable=系统变量
