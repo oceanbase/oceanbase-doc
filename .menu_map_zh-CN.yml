@@ -462,6 +462,14 @@
       4.oblogmsg=oblogmsg
     13.mysqltest=mysqltest
       2.use-of-case=case 使用
+    14.ob-operator=ob-operator
+      5.ob-operator-user-guide=使用指南
+        1.cluster-management-of-ob-operator=集群管理
+          2.cluster-scale-out-of-ob-operator=集群扩容
+          3.cluster-scale-in-of-ob-operator=集群缩容
+        2.tenant-management-of-ob-operator=租户管理
+          2.modify-tenant-of-ob-operator=修改租户
+        3.backup-recovery-of-ob-operator=备份恢复
 8.FAQ=常见问题
 9.release-notes=版本发布记录
   101.enterprise-edition-history-release=企业版
