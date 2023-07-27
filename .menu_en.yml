@@ -103,6 +103,12 @@
     4.data-backup=Data backup
     5.clear-backup-data=Clear backup data
     6.restore-data=Restore data
+  7.monitor=Monitoring
+    2.monitor-items-introduction=Metrics
+      1.system-monitor=System monitoring
+      3.sql-monitor=SQL monitoring
+  8.logging=Logs
+    6.view-logs=View logs
 7.reference=Reference
   # 1.oceanbase-database-concepts=Concepts
   #   3.multi-tenant-architecture=Multi-tenant architecture
