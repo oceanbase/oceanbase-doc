@@ -104,7 +104,7 @@
     6.view-logs=查看日志
   9.performance-tuning=性能调优
     3.identify-bottlenecks-within-components=识别组件内的瓶颈
-      3.performance-bottlenecks-of-observer=OBServer 端性能瓶颈
+      4.performance-bottlenecks-of-observer=OBServer 端性能瓶颈
         2.not-the-best-plan=非最优计划
     4.sql-tuning=SQL 调优
       2.execution-plan-optimization=执行计划优化
