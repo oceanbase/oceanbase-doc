@@ -4,7 +4,7 @@
 
 <main id="notice" type='explain'>
   <h4>说明</h4>
-  <p>该配置项仅在 <code>workarea_size_policy = MANUAL</code> 时生效，配置项 <code>workarea_size_policy</code> 用于设置手动或者自动调整 SQL 工作区大小的策略，更多详细信息，参考 <a href="../../1.system-configuration-items-1/4.tenant-level-configuration-items-1/30.workarea_size_policy-1.md">workarea_size_policy</a>。</p>
+  <p>该配置项仅在 <code>workarea_size_policy = MANUAL</code> 时生效，配置项 <code>workarea_size_policy</code> 用于设置手动或者自动调整 SQL 工作区大小的策略，更多详细信息，参考 <a href="../../300.system-configuration-items/21400.workarea_size_policy.md">workarea_size_policy</a>。</p>
 </main>
 
 | **属性** | **描述** |
