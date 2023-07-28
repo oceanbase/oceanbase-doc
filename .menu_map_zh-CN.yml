@@ -11,6 +11,8 @@
   100.application-development-of-mysql-mode=基于 MySQL 模式进行应用开发
     100.connect-to-oceanbase-database-of-mysql-mode=连接 OceanBase 数据库
       1400.use-the-database-connection-pool-of-mysql-mode=使用数据库连接池
+    200.sample-program-of-mysql-mode=示例程序
+      200.python-of-mysql-mode=Python
     300.database-object-planning-of-mysql-mode=规划数据库对象
     400.write-data-of-mysql-mode=数据写入
     500.read-data-of-mysql-mode=数据读取
@@ -24,6 +26,8 @@
   200.application-development-of-oracle-mode=基于 Oracle 模式进行应用开发
     100.connect-to-oceanbase-database-of-oracle-mode=连接 OceanBase 数据库
       1300.use-the-database-connection-pool-of-oracle-mode=使用数据库连接池
+    200.sample-program-of-oracle-mode=示例程序
+      100.java-of-oracle-mode=Java
     300.database-object-planning-of-oracle-mode=规划数据库对象
     400.write-data-of-oracle-mode=数据写入
     500.read-data-of-oracle-mode=数据读取
