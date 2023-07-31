@@ -6,7 +6,6 @@
   300.create-sample-application-of-oracle-mode=基于 Oracle 模式创建示例应用程序
   500.experience-advanced-features-of-oceanbase=体验 OceanBase 高级特性
     100.experience-scalable-oltp=体验 Scalable OLTP
-    500.experience-ddl=体验 DDL
 300.develop=应用开发
   100.application-development-of-mysql-mode=基于 MySQL 模式进行应用开发
     100.connect-to-oceanbase-database-of-mysql-mode=连接 OceanBase 数据库
