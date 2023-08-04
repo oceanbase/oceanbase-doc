@@ -6,7 +6,6 @@
   300.create-sample-application-of-oracle-mode=Build a sample application (Oracle mode)
   500.experience-advanced-features-of-oceanbase=Try out advanced features of OceanBase Database
     100.experience-scalable-oltp=Scalable OLTP
-    500.experience-ddl=DDL
 300.develop=Develop
   100.application-development-of-mysql-mode=Develop applications in MySQL mode
     100.database-connection-with-client-of-mysql-mode=Connect to OceanBase Database
