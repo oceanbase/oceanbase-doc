@@ -458,8 +458,6 @@
       200.system-variable=System variables
         300.global-system-variable=Global variables
         400.session-system-variable=Session-level variables
-      200.system-variable-of-mysql-mode=System variables (MySQL mode)
-      300.system-variable-of-oracle-mode=System variables (Oracle mode)
       400.system-overview-of-mysql-mode=System views (MySQL mode)
         200.dictionary-view-of-mysql-mode=Dictionary views
         300.performance-view-of-mysql-mode=Performance views
