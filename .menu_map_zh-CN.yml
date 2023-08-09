@@ -12,6 +12,7 @@
       1400.use-the-database-connection-pool-of-mysql-mode=使用数据库连接池
     200.sample-program-of-mysql-mode=示例程序
       200.python-of-mysql-mode=Python
+      400.go-of-mysql-mode=Go
     300.database-object-planning-of-mysql-mode=规划数据库对象
     400.write-data-of-mysql-mode=数据写入
     500.read-data-of-mysql-mode=数据读取
