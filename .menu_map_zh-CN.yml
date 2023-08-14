@@ -415,10 +415,13 @@
       200.use-of-the-tableapi-client=TableAPI 客户端的使用
     600.hbaseapi=HBaseAPI
   700.system-views=系统视图
-    400.system-view-of-mysql-mode=系统视图（MySQL 模式）
+    300.system-view-of-sys-tenant=SYS 租户系统视图
+      200.dictionary-view-of-sys-tenant=字典视图
+      300.performance-view-of-sys-tenant=性能视图
+    400.system-view-of-mysql-mode=MySQL 租户系统视图
       200.dictionary-view-of-mysql-mode=字典视图
       300.performance-view-of-mysql-mode=性能视图
-    500.system-view-of-oracle-mode=系统视图（Oracle 模式）
+    500.system-view-of-oracle-mode=Oracle 租户系统视图
       200.dictionary-view-of-oracle-mode=字典视图
       300.performance-view-of-oracle-mode=性能视图
   800.configuration-items-and-system-variables=配置项和系统变量
