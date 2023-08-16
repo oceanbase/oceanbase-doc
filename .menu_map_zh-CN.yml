@@ -129,10 +129,11 @@
           200.join-algorithm=连接算法
         500.order-by-and-limit=排序和 limit 优化
       400.business-logic-optimization=业务逻辑优化
-  1000.troubleshooting=错误处理
+  1000.troubleshooting=问题排查
     400.storage=存储
     500.election=选举
     600.transaction=事务
+    800.physical-standby-database=物理备库
   900.daily-inspection=日常巡检
     900.full-link-detection=全链路追踪
   1100.emergency-response=应急处理
@@ -415,10 +416,13 @@
       200.use-of-the-tableapi-client=TableAPI 客户端的使用
     600.hbaseapi=HBaseAPI
   700.system-views=系统视图
-    400.system-view-of-mysql-mode=系统视图（MySQL 模式）
+    300.system-view-of-sys-tenant=SYS 租户系统视图
+      200.dictionary-view-of-sys-tenant=字典视图
+      300.performance-view-of-sys-tenant=性能视图
+    400.system-view-of-mysql-mode=MySQL 租户系统视图
       200.dictionary-view-of-mysql-mode=字典视图
       300.performance-view-of-mysql-mode=性能视图
-    500.system-view-of-oracle-mode=系统视图（Oracle 模式）
+    500.system-view-of-oracle-mode=Oracle 租户系统视图
       200.dictionary-view-of-oracle-mode=字典视图
       300.performance-view-of-oracle-mode=性能视图
   800.configuration-items-and-system-variables=配置项和系统变量
@@ -496,6 +500,7 @@
         200.tenant-management-of-ob-operator=租户管理
           200.modify-tenant-of-ob-operator=修改租户
         300.backup-recovery-of-ob-operator=备份恢复
+    1500.ob-partition-calculator=分区计算组件
 800.FAQ=常见问题
 900.release-notes=版本发布记录
   10100.enterprise-edition-history-release=企业版
