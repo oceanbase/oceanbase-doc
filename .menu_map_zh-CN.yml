@@ -129,10 +129,11 @@
           200.join-algorithm=连接算法
         500.order-by-and-limit=排序和 limit 优化
       400.business-logic-optimization=业务逻辑优化
-  1000.troubleshooting=错误处理
+  1000.troubleshooting=问题排查
     400.storage=存储
     500.election=选举
     600.transaction=事务
+    800.physical-standby-database=物理备库
   900.daily-inspection=日常巡检
     900.full-link-detection=全链路追踪
   1100.emergency-response=应急处理
