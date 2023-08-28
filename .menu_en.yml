@@ -452,7 +452,7 @@
       200.use-of-the-tableapi-client=Using TableAPI client
     600.hbaseapi=HBaseAPI
   500.system-reference=System reference
-      100.system-configuration-items=System configuration items
+      100.system-configuration-items=System parameters
         300.cluster-level-configuration-items=Cluster level
         400.tenant-level-configuration-items=Tenant level
       200.system-variable=System variables
