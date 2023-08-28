@@ -2,7 +2,7 @@
 #docslug#/oceanbase-database/oceanbase-database/V3.2.3/__all_virtual_trans_stat
 ## 功能
 
-`GV$OB_TRANSACTION_PARTICIPANTS` 视图用于展示正在进行的事务参与者状态信息。
+`GV$OB_TRANSACTION_PARTICIPANTS` 视图用于展示所有 OBServer 节点上活跃事务的参与者信息。
 
 ## 字段说明
 
@@ -14,7 +14,7 @@
 | SESSION_ID             | bigint(20)    | NO         | 会话 ID           |
 | SCHEDULER_ADDR    | varchar(64)   | NO   |  事务 Session 所在机器 IP   |
 | TX_TYPE              | varchar(11)    | NO         | 事务类型            |
-| TX_ID                | bigint(20))  | NO         | 事务 ID           |
+| TX_ID                | bigint(20)  | NO         | 事务 ID           |
 | LS_ID             | bigint(20)    | NO   |  事务记录涉及的分区信息   | 
 | PARTICIPANTS      | varchar(1024) | NO   | 事务涉及的所有分区    | 
 | CTX_CREATE_TIME   | timestamp(6)  | YES  | ctx 创建时间     | 
