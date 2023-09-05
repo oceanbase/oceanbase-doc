@@ -1,174 +1,124 @@
-# 文档提升计划第二期｜OceanBase 邀您一起进行文档共建
 
-**项目地址：**[https://gitee.com/organizations/oceanbase/projects](https://gitee.com/organizations/oceanbase/projects)
+# OceanBase 数据库文档
 
-你想快速学习更多知识吗？
+欢迎访问 OceanBase 数据库文档。您可以在本仓库中查看 OceanBase 数据库的中英文文档。
 
-你享受分享的快乐吗？
+* `zh-CN` 文件夹下存放的是 OceanBase 数据库的中文文档
 
-如果你的回答是 Yes
+* `en-US` 文件夹下存放的是 OceanBase 数据库的英文文档
 
-那么一起参与第二期文档提升计划吧！
+OceanBase 欢迎大家随时参与到文档的共同建设中，OceanBase 文档的贡献者可以：
 
-6月1日，我们再度起航，欢迎热爱挑战、乐于分享的你一起开启文档共建旅程！
+* 提交文档问题或者建议
 
-## 活动流程：
+* 优化已有的内容
 
-活动时间：6月1日-6月30日
+* 编写新的内容
 
-文档评审时间：7月1日-7月8日
+## 贡献文档
 
-结果公布+社区荣誉&激励：7月11日-7月15日
+### 开始之前
 
-## 活动适用人群：
+感谢您对 OceanBase 数据库文档的贡献兴趣。为厘清就个人或实体贡献内容而授予的知识产权许可，我们必须对每位贡献者签署的贡献者许可协议（Contributor Licence Agreement，简称 CLA）（“CLA”）进行归档，以证明就 CLA 达成的一致。点击 [OceaBase CLA](https://cla-assistant.io/oceanbase/oceanbase?pullRequest=108)，点击 **Sign in with GitHub to agree** 按钮签署协议。
 
-提升学习效率，快速学习分布式数据库知识的学生
+### 贡献指南
 
-掌握 OceanBase 使用技能，想快速实现从入门到精通的 DBA
+您可以按照以下步骤提交 Pull Request（简称 PR）：
 
-了解 OceanBase 功能模块及原理，从事数据库功能开发的人员
+**步骤 1：Fork 项目仓库**
 
-提升技术实力，考取 OBCP 认证的数据库从业者
+1. 访问 OceanBase 数据库文档的 [GitHub 地址](https://github.com/oceanbase/oceanbase-doc)。
 
-## 活动收获：
+2. 点击 Fork 按钮创建远程分支。
 
-积累知识力量，形成个人成长体系
+**步骤 2：克隆分支到本地**
 
-参与开源项目共建，结实志同道合的朋友
+1. 定义工作目录。
 
-帮助社区新手用户更快上手 OceanBase
+   ```bash
+   # 定义工作目录
+   working_dir=$HOME/Workspace
+   ```
 
-你提的建议一旦被采纳，你将成为社区贡献者，登上社区荣誉榜
+2. 配置 GitHub 用户名。
 
-同时，我们也准备了OBCP 考试券、露营帐篷、 颈椎枕头以及一些 OceanBase 周边及专属纪念品表示感谢。
+   ```bash
+   user={GitHub账户名}
+   ```
 
-## 参与方式：
+3. 克隆代码。
 
-### 01 包含哪些任务类型？
+   ```bash
+   # 克隆代码
+   mkdir -p $working_dir
+   cd $working_dir
+   git clone git@github.com:$user/oceanbase-doc.git
+   # 或: git clone https://github.com/$user/oceanbase-doc.git
+   
+   # 添加上游分支
+   cd $working_dir/oceanbase-doc
+   git remote add upstream git@github.com:oceanbase/oceanbase-doc.git
+   # 或: git remote add upstream https://github.com/oceanbase/oceanbase-doc.git
+   
+   # 为上游分支设置 no_push
+   git remote set-url --push upstream no_push
+   
+   # 确认远程分支有效
+   git remote -v
+   ```
 
-主要包括以下四个类型，我们推荐你可以按照以下方式进行：
+**步骤 3：创建新分支**
 
-**类型1：不规范和低错类**
+1. 更新本地分支。
 
-例如：
+   ```bash
+   cd $working_dir/oceanbase-doc
+   git fetch upstream
+   git checkout $branch
+   git rebase upstream/$branch
+   ```
 
-• 错别字
+2. 基于本地 $branch 分支创建新分支。
 
-• 标点使用错误
+   ```bash
+   git checkout -b new-branch-name
+   ```
 
-• 文档格式错乱
+**步骤 4：修改/添加/删除文档**
 
-**类型2：内容结构不合理、语言表达不清晰**
+在 `new-branch-name` 上修改文档并保存更改。
 
-例如：
+**步骤 5：提交更改**
 
-• 有依赖关系的内容，前后顺序错乱
+```bash
+# 检查本地文件状态
+git status
 
-• 语句歧义、不明确，如存在“大概、可能、也许、十分、稍微”等词语
+# 添加您希望提交的文件
+# 如果您希望提交所有更改，直接使用 `git add .`
+git add <file> ... 
+git commit -m "commit-message: update the xx"
+```
 
-**类型3：内容错误**
+**步骤 6：保持开发分支与上游分支同步**
 
-例如：
+```bash
+# 在开发分支执行以下操作
+git fetch upstream
+git rebase upstream/branch
+```
 
-• 概念、定义、参数介绍等信息错误
+**步骤 7：推送更改至远程分支**
 
-• 操作步骤错误，无法按文档完成任务
+```bash
+# 在开发分支执行以下操作
+git push -u origin new-branch-name
+```
 
-**类型4 ：内容缺失**
+**步骤 8：创建 PR**
 
-例如：
+1. 访问您 Fork 的仓库。
 
-• 操作步骤缺失，无法按文档完成任务
+2. 单击 `new-branch-name` 分支旁的 `Compare & pull request` 按钮。
 
-• 产品支持的功能在文档中没有体现
-
-
-
-您可以在文档中心选择希望参与贡献的方向，查找相应的问题类型并提交 PR，[参与文档提升计划](https://open.oceanbase.com/docs/productDocs)
-
-如果您是第一次接触社区版的用户，[建议先从产品文档入手](https://open.oceanbase.com/docs/observer-cn/V3.1.3/0000000000139358)
-
-
-
-### 02 如何开始贡献？
-
-6月1日-6月30日，通过 OceanBase 开源官网反馈文档问题，即为参与社区文档提升计划。赶紧加入吧！提升技能，为社区做贡献，还有更多惊喜等你来拿！
-
-
-
-### 03 如何参与贡献？
-
-#### 1、加入钉钉群
-
-想要参加活动的朋友们，墙裂建议加入我们唯一官网钉钉群：41203246，届时我们将在群里互动答疑，为您解决活动中遇到的各种问题🎉
-
-![](https://obbusiness-private.oss-cn-shanghai.aliyuncs.com/doc/img/observer/V3.1.3/activity/readme-01.png)
-
-**钉钉群号：** 41203246
-
-#### 2、活动前准备
-
-你需要拥有一个 gitee 账号。
-
-#### 3、活动中操作步骤
-
-步骤：
-
-1. 登录到 Gitee 的 OceanBase 项目，[https://gitee.com/oceanbase](https://gitee.com/oceanbase)。
-
-2. 找到想要提交问题的文档。
-
-   Gitee 中 OceanBase 各个产品对应的文档仓库和地址如下。
-
-   | **产品名**               | **文档仓库名**                 | **仓库地址**                                 |
-   | --------------------- | ------------------------- | ---------------------------------------- |
-   | OceanBase 数据库         | oceanbase-doc             | [https://gitee.com/oceanbase/oceanbase-doc](https://gitee.com/oceanbase/oceanbase-doc) |
-   | OceanBase 云平台（OCP）    | ocp-doc                   | [https://gitee.com/oceanbase/ocp-doc](https://gitee.com/oceanbase/ocp-doc) |
-   | OceanBase 迁移服务（OMS）   | oms-doc                   | [https://gitee.com/oceanbase/oms-doc](https://gitee.com/oceanbase/oms-doc) |
-   | OceanBase 开发者中心（ODC）  | odc-doc                   | [https://gitee.com/oceanbase/odc-doc](https://gitee.com/oceanbase/odc-doc) |
-   | OBLOADER & OBDUMPER   | obdumper-loader-doc       | [https://gitee.com/oceanbase/obdumper-loader-doc](https://gitee.com/oceanbase/obdumper-loader-doc) |
-   | OceanBase Deployer    | obd-doc                   | [https://gitee.com/oceanbase/obd-doc](https://gitee.com/oceanbase/obd-doc) |
-   | OceanBase 数据库代理（ODP）  | oceanbase-proxy-doc       | [https://gitee.com/oceanbase/oceanbase-proxy-doc](https://gitee.com/oceanbase/oceanbase-proxy-doc) |
-   | OceanBase Connector/C | oceanbase-connector-c-doc | [https://gitee.com/oceanbase/oceanbase-connector-c-doc](https://gitee.com/oceanbase/oceanbase-connector-c-doc) |
-
-3. 克隆本地分支。
-
-4. 修改内容并保存。
-
-5. 提交并生成 PR。
-
-至此，您就成功的捉到了一个🐛（提交了一个PR）～
-
-后续问题修改，我们可在钉钉群中持续沟通～
-
-
-
-#### _特别说明_
-
-- 一次仅提交一个问题。不要将多个问题放在一次提交。
-
-- 同样的问题在不同文档出现，如果多次提交，只算一个问题。
-
-- 同一问题多人反馈，默认采纳提交时间最早的 pr。
-
-
-
-以下问题视为无效：
-
-- 问题无法定位
-
-- 问题无法复现
-
-- 问题非首次反馈
-
-- 问题不符合验收标准
-
-- 业务或产品建议类
-
-- 非PC端问题反馈
-
-- 其他经内部审核判定无效的情况
-
-
-
-社区的成长离不开开放和共享，更离不开每一位社区用户的建议和贡献，欢迎每一位社区用户的加入，一起创造更好的阅读体验，建设更好的文档吧！
+以上就是参与 OceanBase 数据库文档共建的步骤，如果在此过程中遇到任何问题，可以加入我们唯一官网钉钉群：41203246，与社区热心的技术大神、热情的贡献者、经验丰富的技术专家一起交流、探讨问题。
