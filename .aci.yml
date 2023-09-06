@@ -24,7 +24,7 @@ build:
       tnpm i @alipay/ob-yuque2book-front@2 -g
       ob-md2book -p ./ -n "${ACI_VAR_docName}" -o ./ -r
       tar -zcvf output.tar.gz output
-      echo '<html><body><a target="__blank" href="http://11.124.9.83:19898/obdoc/${ACI_PROJECT_NAME}/${ACI_COMMIT_REF_NAME}/index.html">open doc</a></body></html>' > ./index.html
+      echo '<html><body><a target="__blank" href="http://11.xx.xx.xx:19898/obdoc/${ACI_PROJECT_NAME}/${ACI_COMMIT_REF_NAME}/index.html">open doc</a></body></html>' > ./index.html
   publisher:
     archiveArtifacts:
       artifacts: 'output.tar.gz, index.html'
