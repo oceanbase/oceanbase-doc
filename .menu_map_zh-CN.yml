@@ -123,6 +123,7 @@
     400.storage=存储
     500.election=选举
     600.transaction=事务
+    900.backup-and-recovery=备份恢复
 700.reference=参考指南
   100.oceanbase-database-concepts=系统概念
     300.multi-tenant-architecture=多租户架构
