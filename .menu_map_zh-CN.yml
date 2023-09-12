@@ -72,7 +72,6 @@
     300.common-cluster-operations=集群常见操作
       1500.oceanbase-version-upgrade=集群升级
         200.upgrade-oceanbase-enterprise-edition=OceanBase 企业版升级
-          100.oceanbase-cluster-version-upgrade=OceanBase 集群版本升级
         300.upgrade-oceanbase-community-edition=OceanBase 社区版升级
     400.common-cluster-failure=集群常见故障处理
   200.tenant-management=租户管理
