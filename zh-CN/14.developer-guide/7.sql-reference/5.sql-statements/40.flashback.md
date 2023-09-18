@@ -1,0 +1,124 @@
+# FLASHBACK
+
+## 描述
+
+该语句用于从回收站中恢复被删除的数据库对象，包括租户、数据库、表等。
+
+默认情况下，回收站处于开启状态，该行为由系统变量 `recyclebin` 控制。您可以通过 `SHOW VARIABLES LIKE 'recyclebin'` 查看回收站是否开启。有关系统变量 `recyclebin` 的详细信息，请参见 [系统变量概述](../../../1.users-guide/12.reference-guide/2.system-variables/1.overview-of-system-variables.md)。
+
+```sql
+obclient> SHOW VARIABLES LIKE 'recyclebin';
++---------------+-------+
+| Variable_name | Value |
++---------------+-------+
+| recyclebin    | ON    |
++---------------+-------+
+1 row in set
+```
+
+如果回收站处于关闭状态，可以通过 `SET recyclebin = on` 语句开启回收站。回收站中的数据库对象没有被实际删除，仍然会占用资源，如果需要彻底删除，可以执行 `PUREGE recyclebin` 语句清理回收站。
+
+在删除表后，会同时也会删除从属该表的索引，在通过 `FLASHBACK` 语句恢复表时，表上的索引也会恢复。特别地，从表中直接删除的索引不会进入回收站，OceanBase 数据库也不支持从回收站中直接回收索引。
+
+## 语法
+
+```sql
+ FLASHBACK {TENANT | DATABASE | TABLE} object_name TO BEFORE DROP [RENAME TO flashback_object_name];
+
+flashback_object_name:
+    tenant_name
+  | database_name
+  | database_name.table_name
+```
+
+## 参数解释
+
+|          **参数**          |                                                                     **解释**                                                                     |
+|--------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
+| object_name              | 指定要恢复的数据库对象在回收站中的名称，不支持直接指定名称。 恢复数据库对象时，也会将从属于数据库的表、索引等数据库对象一并恢复。 您可以通过 `SHOW RECYCLEBIN` 语句查看要恢复的数据库在回收站中的名称。 |
+| RENAME to                | 恢复时将数据库对象重命名。                                                                                                                                  |
+| tenant_name              | 租户恢复后的名称。                                                                                                                                      |
+| database_name            | 数据库恢复后的名称                                                                                                                                      |
+| database_name.table_name | 表恢复后的名称，其中 `database_name` 用于指定表恢复后的从属的数据库。                                                                                                    |
+
+## 示例
+
+* 从回收站中恢复被删除的租户 `tenant1`。
+
+  ```sql
+  obclient> FLASHBACK TENANT tenant1 TO BEFORE DROP;
+  Query OK, 0 rows affected
+  ```
+
+* 从回收站中恢复删除的数据库。
+
+  ```sql
+  obclient> CREATE DATABASE da;
+  Query OK, 1 row affected
+
+  obclient> DROP DATABASE da;
+  Query OK, 0 rows affected
+
+  obclient> SHOW RECYCLEBIN;
+  +--------------------------------------------------+---------------+----------+----------------------------+
+  | OBJECT_NAME                                      | ORIGINAL_NAME | TYPE     | CREATETIME                 |
+  +--------------------------------------------------+---------------+----------+----------------------------+
+  | __recycle_$_1_1099511628829_18446744073709551615 | da            | DATABASE | 2017-10-20 17:36:15.838771 |
+  +--------------------------------------------------+---------------+----------+----------------------------+
+  1 row in set
+
+  obclient> FLASHBACK DATABASE __recycle_$_1_1099511628829_18446744073709551615 TO BEFORE DROP;
+  Query OK, 0 rows affected
+  ```
+
+* 从回收站中恢复被删除的表 `t1`，重命名为 `t2`，并查看索引的恢复情况。
+
+  ```sql
+  obclient> CREATE TABLE t1(c1 INT PRIMARY KEY,c2 INT,c3 INT);
+  Query OK, 0 rows affected
+
+  obclient> ALTER TABLE t1 ADD INDEX ind2 (c2) USING BTREE;
+  Query OK, 0 rows affected
+
+  obclient> ALTER TABLE t1 ADD INDEX ind3 (c3) USING BTREE;
+  Query OK, 0 rows affected
+
+  obclient> SHOW INDEX FROM t1;
+  +-------+------------+----------+--------------+-------------+-----------+-------------+----------+--------+------+------------+-----------+---------------+---------+
+  | Table | Non_unique | Key_name | Seq_in_index | Column_name | Collation | Cardinality | Sub_part | Packed | Null | Index_type | Comment   | Index_comment | Visible |
+  +-------+------------+----------+--------------+-------------+-----------+-------------+----------+--------+------+------------+-----------+---------------+---------+
+  | t1    |          0 | PRIMARY  |            1 | c1          | A         |        NULL | NULL     | NULL   |      | BTREE      | available |               | YES     |
+  | t1    |          1 | ind2     |            1 | c2          | A         |        NULL | NULL     | NULL   | YES  | BTREE      | available |               | YES     |
+  | t1    |          1 | ind3     |            1 | c3          | A         |        NULL | NULL     | NULL   | YES  | BTREE      | available |               | YES     |
+  +-------+------------+----------+--------------+-------------+-----------+-------------+----------+--------+------+------------+-----------+---------------+---------+
+  3 rows in set
+
+  obclient> ALTER TABLE t1 DROP INDEX ind2;
+  Query OK, 0 rows affected
+
+  obclient> SHOW RECYCLEBIN;
+  Empty set
+
+  obclient> DROP TABLE t1;
+  Query OK, 0 rows affected
+
+  obclient> SHOW RECYCLEBIN;
+  +---------------------------------+--------------------------+-------+----------------------------+
+  | OBJECT_NAME                     | ORIGINAL_NAME            | TYPE  | CREATETIME                 |
+  +---------------------------------+--------------------------+-------+----------------------------+
+  | __recycle_$_10_1628157070059520 | __idx_1099511677777_ind3 | INDEX | 2021-08-05 17:51:10.060761 |
+  | __recycle_$_10_1628157070067712 | t1                       | TABLE | 2021-08-05 17:51:10.068062 |
+  +---------------------------------+--------------------------+-------+----------------------------+
+  2 rows in set
+
+  obclient> FLASHBACK TABLE __recycle_$_10_1628157070067712 TO BEFORE DROP RENAME TO t2;
+
+  obclient> SHOW INDEX FROM t2;
+  +-------+------------+----------+--------------+-------------+-----------+-------------+----------+--------+------+------------+-----------+---------------+---------+
+  | Table | Non_unique | Key_name | Seq_in_index | Column_name | Collation | Cardinality | Sub_part | Packed | Null | Index_type | Comment   | Index_comment | Visible |
+  +-------+------------+----------+--------------+-------------+-----------+-------------+----------+--------+------+------------+-----------+---------------+---------+
+  | t2    |          0 | PRIMARY  |            1 | c1          | A         |        NULL | NULL     | NULL   |      | BTREE      | available |               | YES     |
+  | t2    |          1 | ind3     |            1 | c3          | A         |        NULL | NULL     | NULL   | YES  | BTREE      | available |               | YES     |
+  +-------+------------+----------+--------------+-------------+-----------+-------------+----------+--------+------+------------+-----------+---------------+---------+
+  2 rows in set
+  ```

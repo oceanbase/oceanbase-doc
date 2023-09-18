@@ -84,9 +84,9 @@
 
 
 
-您可以在文档中心选择希望参与贡献的方向，查找相应的问题类型并提交 PR，[参与文档提升计划](https://open.oceanbase.com/community/contribution)
+您可以在文档中心选择希望参与贡献的方向，查找相应的问题类型并提交 PR，[参与文档提升计划](https://open.oceanbase.com/docs/productDocs)
 
-如果您是第一次接触社区版的用户，[建议先从产品文档入手](https://www.oceanbase.com/docs/community-observer-cn-10000000000449889)
+如果您是第一次接触社区版的用户，[建议先从产品文档入手](https://open.oceanbase.com/docs/observer-cn/V3.1.3/0000000000139358)
 
 
 

@@ -1,0 +1,21 @@
+# 租户内资源扩容和缩容概述
+
+在 OceanBase 数据库中，租户内资源管理的方式主要有水平管理、垂直管理和跨 Zone 资源管理。
+
+## 租户资源的水平管理
+
+租户资源的水平管理是指，通过调整租户资源池的 `UNIT_NUM` 数量，增加或减少集群中为该租户提供服务的 OBServer 的数量，从而改变租户整体的服务能力，资源池的 `UNIT_NUM` 可根据要求动态调大或调小。资源水平管理的详细描述请参见 [租户资源水平扩缩容](../2.scale-out-and-scale-in-of-tenant-resources/2.horizontal-scale-out-and-scale-in-of-tenant-resources.md)。
+
+## 租户资源的垂直管理
+
+租户资源的垂直管理是指，通过调整租户内每个资源单元的资源大小，改变租户在各 OBServer 上的服务能力，进而改变租户整体的服务能力。改变租户资源单元的资源大小有以下两种手段：
+
+* 给资源单元（Unit）切换新的资源规格（unit_config）
+
+* 调整资源单元（Unit）当前资源规格（unit_config）的资源大小
+
+资源垂直管理的详细描述请参见 [租户资源垂直扩缩容](../2.scale-out-and-scale-in-of-tenant-resources/3.vertical-scale-out-and-scale-in-of-tenant-resources.md)。
+
+## 跨 Zone 资源管理
+
+租户的跨 Zone 资源管理是指，通过改变租户资源单元的 `ZONE_LIST`，来改变租户资源的分布范围，可以因此调整租户每一份数据的副本数量，进而改变租户的容灾能力。租户跨 Zone 资源管理的详细描述请参见 [租户跨 Zone 资源管理](../2.scale-out-and-scale-in-of-tenant-resources/4.manage-tenant-resources-across-zones.md)。

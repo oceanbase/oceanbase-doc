@@ -1,0 +1,203 @@
+# 单表查询
+
+SQL 单表查询是指仅涉及一个表的查询。
+
+## 单表查询的语法
+
+单表查询的语法如下：
+
+```sql
+SELECT [ALL | DISTINCT] select_list FROM table_name
+              [ WHERE query_condition ]
+              [ GROUP BY group_by_expression ]
+              [ HAVING group_condition ]
+              [ ORDER BY column_list ][ASC | DESC]
+              [ LIMIT limit_clause ]
+
+column_list：
+ column_name[,column_name...]
+```
+
+当 `WHERE`、`GROUP BY`、`HAVING`、`ORDER BY`、`LIMIT` 这些关键字一起使用时，先后顺序有明确的限制。关键字执行顺序如下：
+
+1. 执行 `FROM` 找到表。
+
+2. 执行 `WHERE` 指定约束条件。
+
+3. 执行 `GROUP BY` 将取出的每条记录进行分组。如果没有 `GROUP BY`，则整体作为一组。
+
+4. 执行 `HAVING` 将分组的结果进行过滤。
+
+5. 执行 `SELECT`。
+
+6. 执行 `DISTINCT` 去重。
+
+7. 执行 `ORDER BY` 将结果按条件升序或降序排序。
+
+8. 执行 `LIMIT` 限制结果的显示条数。
+
+`WHERE` 和 `HAVING` 的区别是，`WHERE` 是在分组（聚合）前对数据进行筛选，而 `HAVING` 是在分组后的结果里进行筛选，最后返回整个 SQL 的查询结果。
+
+## SELECT 查询基础
+
+创建示例表 `emp` 和 `dept`，并插入适当数据。
+
+```sql
+CREATE TABLE dept(
+    deptno           NUMBER(2,0),
+    dname            VARCHAR(14),
+    location         VARCHAR(13),
+    CONSTRAINT pk_dept PRIMARY KEY(deptno)
+);
+
+CREATE TABLE emp(
+    empno         NUMBER(4,0),
+    empname       VARCHAR(10),
+    job           VARCHAR(9),
+    mgr           NUMBER(4,0),
+    hiredate      DATE,
+    sal           NUMBER(7,2),
+    comm          NUMBER(7,2),
+    deptno        NUMBER(2,0),
+    CONSTRAINT PK_emp PRIMARY KEY (empno),
+    CONSTRAINT FK_deptno  FOREIGN KEY (deptno)  REFERENCES dept (deptno)
+);
+```
+
+### 查询全部列
+
+`*` 表示返回表中所有字段。示例如下：
+
+```sql
+obclient> SELECT * FROM emp;
++-------+---------+----------+------+------------+---------+--------+--------+
+| empno | empname | job      | mgr  | hiredate   | sal     | comm   | deptno |
++-------+---------+----------+------+------------+---------+--------+--------+
+|  1369 | SMITH   | CLERK    | 1902 | 1980-12-17 |  800.00 |   NULL |     20 |
+|  1499 | ALLEN   | SALESMAN | 1698 | 1981-02-20 | 1600.00 | 300.00 |     30 |
+|  1566 | JONES   | MANAGER  | 1839 | 1981-04-02 | 2975.00 |   NULL |     40 |
+|  1698 | BLAKE   | MANAGER  | 1839 | 1981-05-01 | 2850.00 |   NULL |     30 |
+|  1788 | SCOTT   | ANALYST  | 1566 | 1987-07-15 | 3000.00 |   NULL |     20 |
+|  1902 | FORD    | ANALYST  | 1566 | 1981-12-05 | 3000.00 |   NULL |     40 |
++-------+---------+----------+------+------------+---------+--------+--------+
+6 rows in set
+```
+
+等价于：
+
+```sql
+obclient> SELECT empname,empno,job,mgr,hiredate,sal,comm,deptno FROM emp;
+```
+
+### 查询指定列
+
+```sql
+obclient> SELECT empname, deptno FROM emp;
++---------+--------+
+| empname | deptno |
++---------+--------+
+| SMITH   |     20 |
+| ALLEN   |     30 |
+| JONES   |     40 |
+| BLAKE   |     30 |
+| SCOTT   |     20 |
+| FORD    |     40 |
++---------+--------+
+6 rows in set
+```
+
+* 在查询的同时可以为列设置别名。示例如下：
+
+  ```sql
+  obclient> SELECT empname AS 员工名称, deptno AS 部门编号 FROM emp;
+  +--------------+--------------+
+  | 员工名称     | 部门编号     |
+  +--------------+--------------+
+  | SMITH        |           20 |
+  | ALLEN        |           30 |
+  | JONES        |           40 |
+  | BLAKE        |           30 |
+  | SCOTT        |           20 |
+  | FORD         |           40 |
+  +--------------+--------------+
+  6 rows in set
+  ```
+
+* 在查询时可以消除取值重复的行。示例如下：
+
+  ```sql
+  obclient> SELECT deptno FROM emp;
+  +---------+
+  | deptno |
+  +---------+
+  |     20 |
+  |     30 |
+  |     40 |
+  |     30 |
+  |     20 |
+  |     40 |
+  +--------+
+  6 rows in set
+
+  obclient> SELECT DISTINCT deptno FROM emp;
+  +---------+
+  | deptno |
+  +---------+
+  |     20 |
+  |     30 |
+  |     40 |
+  +---------+
+  3 rows in set
+  ```
+
+* 在查询时可以使用 `LIMIT` 用来限制返回的行数，常用于分页等操作。示例如下：
+
+  ```sql
+  obclient> SELECT empname, deptno FROM emp LIMIT 3;
+  +---------+--------+
+  | empname | deptno |
+  +---------+--------+
+  | SMITH   |     20 |
+  | ALLEN   |     30 |
+  | JONES   |     40 |
+  +---------+--------+
+  3 rows in set
+  ```
+
+### 查询经过计算的值
+
+```sql
+obclient> SELECT empname, sal-100,job FROM emp;
++---------+---------+--------+
+| empname | sal-100 | deptno |
++---------+---------+--------+
+| SMITH   |  700.00 |     20 |
+| ALLEN   | 1500.00 |     30 |
+| JONES   | 2875.00 |     40 |
+| BLAKE   | 2750.00 |     30 |
+| SCOTT   | 2900.00 |     20 |
+| FORD    | 2900.00 |     40 |
++---------+---------+--------+
+6 rows in set
+```
+
+在查询中可以为指定列使用函数，如下示例中要求用小写字母表示 `job`。详细信息请参见 [查询中使用操作符和函数](9.use-operators-and-functions-in-queries/1.use-arithmetic-operators-in-queries.md)。
+
+```sql
+obclient> SELECT empname, sal-100, LOWER(job) FROM emp;
++---------+---------+---------------+
+| empname | sal-100 | LOWER(deptno) |
++---------+---------+---------------+
+| SMITH   |  700.00 | 20            |
+| ALLEN   | 1500.00 | 30            |
+| JONES   | 2875.00 | 40            |
+| BLAKE   | 2750.00 | 30            |
+| SCOTT   | 2900.00 | 20            |
+| FORD    | 2900.00 | 40            |
++---------+---------+---------------+
+6 rows in set
+```
+
+此外，指定列的查询还支持如下查询：
+
+* `WHERE` 条件查询，请参见 [条件查询](4.conditional-query.md)。

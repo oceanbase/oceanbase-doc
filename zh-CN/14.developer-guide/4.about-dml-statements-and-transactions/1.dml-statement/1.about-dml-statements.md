@@ -1,0 +1,57 @@
+# 关于 DML 语句
+
+DML（Data Manipulation Language，数据操作语言）语句用于操作现有 Schema 对象中的数据，如增加、修改、删除等。
+
+## DML 语句简介
+
+DML 语句可以改变数据内容，是最常用的 SQL 语句。
+
+通过 DML 语句，您可以完成如下常见操作：
+
+* [INSERT 语句](2.insert-statement.md)：通过值插入，或者查询插入的方式，将新的数据行添加到表或视图中 。
+
+* [UPDATE 语句](3.about-update-statements.md)：更改表或视图现有行中的列值。
+
+* [DELETE 语句](4.about-the-delete-statement.md)：从表或视图中移除行。
+
+* [REPLACE INTO 语句](5.replace-into-statements.md)：根据表中数据判断后，执行插入数据。
+
+## DML 语句示例
+
+先通过以下语句创建一张表：
+
+```sql
+CREATE TABLE customer (cust_id int primary key,cust_name varchar(8),note varchar(512));
+```
+
+然后通过 DML 语句执行几个简单的示例：
+
+* 使用 `INSERT INTO` 将行数据插入到表 customer。
+
+  ```sql
+  INSERT INTO customer VALUES(11,'Tom','Jacy');
+  ```
+
+* 使用 `UPDATE` 更新表 customer 的行数据。
+
+  ```sql
+  UPDATE customer SET cust_name = 'Tomy' WHERE cust_id = 11;
+  ```
+
+* 使用 `DELETE` 删除数据符合要求的数据。
+
+  ```sql
+  DELETE FROM customer WHERE cust_id = 11;
+  ```
+
+* 使用 `REPLACE INTO` 新增数据。
+
+  ```sql
+  REPLACE INTO customer VALUES(11,'Tom','Lucy');
+  ```
+
+## DML 和事务的关系
+
+​构成逻辑工作单元的一组 DML 语句的集合称为事务。例如，转账交易可能涉及三种离散操作，包括减少储蓄账户余额，增加支票账户余额，并将转账记录在账户历史表中， 这种转账交易就可以称为事务。
+
+DML 语句对数据的修改效果只有在提交事务时才永久生效。一个事务是被 OceanBase 数据库当作整体的多个 SQL 语句，要么全部执行成功，要么全部不成功。单个 DML 语句也可以是一个事务。

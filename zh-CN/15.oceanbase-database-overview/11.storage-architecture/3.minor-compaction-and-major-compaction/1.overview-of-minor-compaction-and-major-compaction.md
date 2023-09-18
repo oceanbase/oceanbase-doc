@@ -1,0 +1,7 @@
+# 转储和合并概述
+
+OceanBase 数据库的存储引擎基于 LSM-Tree 架构，数据大体上被分为 MemTable 和 SSTable 两部分，当 MemTable 的大小超过一定阈值时，就需要将 MemTable 中的数据转存到 SSTable 中以释放内存，这一过程称之为 **转储** 。转储会生成新的 SSTable，当转储的次数超过一定阈值时，或者在每天的业务低峰期，系统会将基线 SSTable 与之后转储的增量 SSTable 给合并为一个 SSTable，这一过程称之为 **合并。**
+
+* 有关转储的详细介绍，参见 [转储](../3.minor-compaction-and-major-compaction/2.minor-compaction.md)。
+
+* 有关合并的详细介绍，参见 [合并](../3.minor-compaction-and-major-compaction/3.major-compaction.md)。
