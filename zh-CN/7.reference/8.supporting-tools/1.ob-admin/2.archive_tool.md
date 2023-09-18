@@ -1,0 +1,53 @@
+# archive_tool
+
+archive_tool 可以用来解析日志归档文件，本文将介绍如何使用 archive_tool。
+
+## 如何使用
+
+您可执行 `./ob_admin archive_tool` 命令获取使用帮助，下面依次介绍 archive_tool 中的二级命令。
+
+### dump_log
+
+您可使用该命令将归档 log 文件中的内容全部打印出来，具体使用方法如下。
+
+```unknow
+# 命令格式：
+ob_admin archive_tool dump_log data_files
+# 举例如下：
+./ob_admin archive_tool dump_log 1 2 3
+```
+
+### dump_index
+
+您可使用该命令将归档索引文件中的内容全部打印出来，具体使用方法如下。
+
+```unknow
+# 命令格式：
+ob_admin archive_tool dump_index index_files
+# 举例如下：
+./ob_admin archive_tool dump_index 1 2 3
+```
+
+### dump_key
+
+您可使用该命令将归档 archive_key 文件中的内容全部打印出来，具体使用方法如下。
+
+```unknow
+# 命令格式：
+ob_admin archive_tool dump_key archive_key_files
+# 举例如下：
+./ob_admin archive_tool dump_key 1100611139403779_0
+```
+
+此外，如果包含加密数据文件，并且需要查看这些加密内容，您可以指定能够获取主密钥的地址，例如：
+
+```unknow
+ob_admin archive_tool dump_log data_files -h 127.0.0.1 -p 12345 -t tenant_id
+# 该命令会试图从 127.0.0.1:12345 处获取主密钥解析加密日志
+```
+
+您也可以在配置文件里以指定格式配置好各租户的 kms 信息，获取主密钥，例如：
+
+```unknow
+ob_admin archive_tool dump_log data_files -f config_file -t tenant_id
+```
