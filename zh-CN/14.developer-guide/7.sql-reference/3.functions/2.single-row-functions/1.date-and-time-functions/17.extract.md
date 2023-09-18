@@ -1,0 +1,28 @@
+# EXTRACT
+
+## 声明
+
+```sql
+EXTRACT(unit FROM date)
+```
+
+## 说明
+
+以整数类型返回 `date` 的指定部分值。如果指定多个部分，则将所有值按顺序拼接。
+
+有关参数 `unit` 的详细信息，请参见 [DATE_ADD](../1.date-and-time-functions/9.date_add.md)。当 `unit` 为 `WEEK` 时，以周日为每周第一天。
+
+## 示例
+
+```sql
+obclient> SELECT EXTRACT(WEEK FROM '2013-01-01'),
+     EXTRACT(WEEK FROM '2013-01-06'),
+     EXTRACT(YEAR_MONTH FROM '2012-03-09'),
+     EXTRACT(DAY FROM NOW())\G;
+*************************** 1. row ***************************
+      EXTRACT(WEEK FROM '2013-01-01'): 0
+      EXTRACT(WEEK FROM '2013-01-06'): 1
+EXTRACT(YEAR_MONTH FROM '2012-03-09'): 201203
+              EXTRACT(DAY FROM NOW()): 16
+1 row in set
+```

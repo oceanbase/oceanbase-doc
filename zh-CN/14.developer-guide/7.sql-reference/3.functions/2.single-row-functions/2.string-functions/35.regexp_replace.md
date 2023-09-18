@@ -1,0 +1,45 @@
+# REGEXP_REPLACE
+
+## 声明
+
+```sql
+REGEXP_REPLACE(expr, pat, repl[, pos[, occurrence[, match_type]]])
+```
+
+## 说明
+
+将字符串 `expr` 中匹配 `pat` 的子字符串替换为 `repl` 指定的字符串，并返回替换后的字符串。如果 `expr`、`pat` 或 `repl` 为 `NULL`，则该函数返回 `NULL`。
+
+* `pos` 表示从表达式 `expr` 的第几个字符开始搜索，缺省为 `1`。
+
+* `occurrence` 表示将第几次匹配替换为 `repl`，默认为 `0`，表示替换所有匹配的子字符串。
+
+* `match_type` 表示匹配规则。有关匹配规则的详细信息，请参见 [REGEXP_LIKE](../2.string-functions/34.regexp_like.md)。
+
+## 示例
+
+```sql
+obclient> SELECT REGEXP_REPLACE('OceanBase', 'a', '2');
++---------------------------------------+
+| REGEXP_REPLACE('OceanBase', 'a', '2') |
++---------------------------------------+
+| Oce2nB2se                             |
++---------------------------------------+
+1 row in set
+
+obclient> SELECT REGEXP_REPLACE('OceanBase', 'a', '2',7);
++-----------------------------------------+
+| REGEXP_REPLACE('OceanBase', 'a', '2',7) |
++-----------------------------------------+
+| OceanB2se                               |
++-----------------------------------------+
+1 row in set
+
+obclient> SELECT REGEXP_REPLACE('OceanBase', 'a', '2',1,2);
++-------------------------------------------+
+| REGEXP_REPLACE('OceanBase', 'a', '2',1,2) |
++-------------------------------------------+
+| OceanB2se                                 |
++-------------------------------------------+
+1 row in set
+```

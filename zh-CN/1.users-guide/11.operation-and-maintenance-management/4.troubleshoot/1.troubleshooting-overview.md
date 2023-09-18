@@ -1,0 +1,37 @@
+# 问题排查概述
+
+本章主要介绍在日常数据库使用时，遇到常见数据库问题应该如何进行排查。
+
+## 概述
+
+在使用数据库时，经常会遇到各种问题，很多问题经过排查可以自行解决掉。这里针对不同的数据库问题进行详细的问题排查思路介绍，以帮助您解决常见的数据库问题。
+
+OceanBase 数据库在日常生产中遇到的问题有如下几种：
+
+* [OBServer 重启失败](2.troubleshooting-observer-restart-failures.md)
+
+* [observer 进程异常退出](3.the-observer-process-exits-abnormally.md)
+
+* [BOOTSTRAP 失败](4.troubleshooting-bootstarp-failures.md)
+
+* [数据库连接问题](5.troubleshoot-database-connection-issues.md)
+
+* [时钟同步](6.troubleshooting-clock-synchronization.md)
+
+* [无主](7.unowned-troubleshooting.md)
+
+* [副本迁移](8.troubleshoot-replica-migration.md)
+
+* [租户 MEMStore 内存满](9.tenant-MEMStore-memory-full-troubleshooting.md)
+
+* [租户内存超限](10.tenant-memory-overrun.md)
+
+* [合并相关](14.merge-troubleshooting.md)
+
+* [OBServer 系统高负载](11.observer-system-high-load-processing.md)
+
+* [行锁](12.troubleshooting-row-lock-issues.md)
+
+* [事务](13.transaction-troubleshooting.md)
+
+本章对上述问题的排查思路、可行的处理方法以及对应的报错信息进行了详细介绍，以帮助您进行问题定位。
