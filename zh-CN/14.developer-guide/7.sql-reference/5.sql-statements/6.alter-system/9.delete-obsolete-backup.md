@@ -1,0 +1,24 @@
+# DELETE OBSOLETE BACKUP
+
+## 描述
+
+该语句用来清理过期的备份数据。
+
+使用该语句清理过期的备份数据之前，需要先配置过期时间 `backup_recovery_window`。`backup_recovery_window` 表示从现在开始向前计算，数据库可以提供恢复的时间窗口。备份恢复通过这个配置项来判断备份集是否过期，默认值为 `0`，表示系统不会判断备份集是否过期；建议设置为 `'7d'`，表示备份数据保留一周后过期，即表示能够支持数据库恢复到 `7` 天前的备份集之外的备份集都可以被删除。对于自动清理场景，备份数据过期后系统会自动清理备份的数据。
+
+有关系统配置项 `backup_recovery_window` 的详细信息，请参见 [系统配置项概述](../../../../1.users-guide/12.reference-guide/3.system-configuration-items/1.overview-of-system-configuration-items.md)。
+
+## 语法
+
+```sql
+ALTER SYSTEM DELETE OBSOLETE BACKUP;
+```
+
+## 示例
+
+设置备份数据的过期时间为一周，一周后备份数据被清理。
+
+```sql
+obclient> ALTER SYSTEM SET backup_recovery_window = '7d';
+obclient> ALTER SYSTEM DELETE OBSOLETE BACKUP;
+```

@@ -1,0 +1,25 @@
+# CONVERT_TZ
+
+## 声明
+
+```sql
+CONVERT_TZ(dt,from_tz,to_tz)
+```
+
+## 说明
+
+将日期时间值 `dt` 从 `from_tz` 给定的时区转换为 `to_tz` 给定的时区，并返回结果值。如果参数无效，则返回 `NULL`。
+
+如果该值在从 `from_tz` 转换为 UTC 时超出 `TIMESTAMP` 类型的支持范围，则不会发生转换。有关 `TIMESTAMP` 类型范围详细信息，请参见 [DATE、DATETIME 和 TIMESTAMP 类型](../../../1.elements/1.data-types/3.date-and-time-data-types/2.date-datetime-and-timestamp-data-types.md)。
+
+## 示例
+
+```sql
+obclient> SELECT CONVERT_TZ('2014-01-01 12:00:00','+00:00','+8:00');
++----------------------------------------------------+
+| CONVERT_TZ('2014-01-01 12:00:00','+00:00','+8:00') |
++----------------------------------------------------+
+| 2014-01-01 20:00:00                                |
++----------------------------------------------------+
+1 row in set
+```
