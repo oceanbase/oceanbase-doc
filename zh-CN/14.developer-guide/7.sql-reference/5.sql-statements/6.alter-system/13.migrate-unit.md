@@ -1,0 +1,43 @@
+# MIGRATE UNIT
+
+## 描述
+
+该语句负责 Unit 迁移。
+
+该语句仅支持在 sys 租户执行。
+
+集群单个 Zone 中多台 OBServer 之间调整资源分布不均衡时，可以调整租户使用的资源分布，以便集群资源使用均衡。在进行 Unit 迁移前，您需要关闭 Unit 均衡，并开启自动切主。
+
+```sql
+obclient> ALTER SYSTEM SET resource_soft_limit = 100;
+obclient> ALTER SYSTEM SET enable_auto_leader_switch = 'on';
+```
+
+有关以上配置项的详细信息，请参见 [系统配置项概述](../../../../1.users-guide/12.reference-guide/3.system-configuration-items/1.overview-of-system-configuration-items.md)。
+
+## 语法
+
+```sql
+alter_system_unit_stmt:
+    ALTER SYSTEM MIGRATE
+    UNIT [=] unit_id DESTINATION [=] ip_port
+
+unit_id:
+    INT_VALUE
+```
+
+## 参数解释
+
+| **参数**  |          **描述**          |
+|---------|--------------------------|
+| unit_id | Unit 编号。                 |
+| ip_port | 将 Unit 迁移到的目标 Server 地址。 |
+
+## 示例
+
+将 `unit_id` 为 `1001` 的资源单元迁移到 IP 地址为 `xxx.xxx.xx.xx1` 的 OBServer。
+
+```sql
+obclient> ALTER SYSTEM MIGRATE UNIT = 1001 DESTINATION = 'xxx.xxx.xx.xx1:xxxx';
+Query OK, 0 rows affected
+```
