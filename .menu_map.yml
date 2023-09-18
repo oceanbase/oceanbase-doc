@@ -113,6 +113,9 @@
       200.performance-views=性能视图
     200.system-variables=系统变量
     300.system-configuration-items=系统配置项
+    350.system-common-hidden-configuration-items=常见隐藏配置项
+      100.cluster-level-hidden-configuration-items=集群级隐藏配置项
+      200.tenant-level-hidden-configuration-items=租户及隐藏配置项
     400.error-codes=错误码
 1400.developer-guide=开发者指南
   000.connect-to-oceanbase-database=连接 OceanBase 数据库
