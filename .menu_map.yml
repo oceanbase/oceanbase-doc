@@ -111,6 +111,7 @@
     100.system-views=系统视图
       100.dictionary-views=字典视图
       200.performance-views=性能视图
+    150.common-internal-tables=常用内部表
     200.system-variables=系统变量
     300.system-configuration-items=系统配置项
     350.system-common-hidden-configuration-items=常见隐藏配置项
