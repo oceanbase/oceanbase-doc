@@ -414,6 +414,7 @@
     500.tableapi=TableAPI
       100.introduction-to-tableapi=TableAPI 实现介绍
       200.use-of-the-tableapi-client=TableAPI 客户端的使用
+      260.tableapi-go=TableAPI GO 客户端的使用
     600.hbaseapi=HBaseAPI
   700.system-views=系统视图
     300.system-view-of-sys-tenant=SYS 租户系统视图
