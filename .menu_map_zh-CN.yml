@@ -28,6 +28,7 @@
       1300.use-the-database-connection-pool-of-oracle-mode=使用数据库连接池
     200.sample-program-of-oracle-mode=示例程序
       100.java-of-oracle-mode=Java
+      300.c-of-oracle-mode=C/C++
     300.database-object-planning-of-oracle-mode=规划数据库对象
     400.write-data-of-oracle-mode=数据写入
     500.read-data-of-oracle-mode=数据读取
@@ -58,6 +59,9 @@
   400.migrate-data-from-oracle-database-to-oceanbase-database=从 Oracle 数据库迁移数据到 OceanBase 数据库
   500.migrate-data-from-oceanbase-database-to-oracle-database=从 OceanBase 数据库迁移数据到 Oracle 数据库
   600.migrate-data-from-db2-luw-database-to-oceanbase-database=从 DB2 数据库迁移数据到 OceanBase 数据库
+  610.migrate-data-from-oceanbase-database-to-db2-luw-database=从 OceanBase 数据库迁移数据到 DB2 数据库
+  620.migrate-data-from-tidb-database-to-oceanbase-database=从 TiDB 数据库迁移数据到 OceanBase 数据库
+  640.migrate-data-from-postgresql-database-to-oceanbase-database=从 PostgreSQL 数据库迁移数据到 OceanBase 数据库
   700.migrate-data-from-csv-file-to-oceanbase-database=从 CSV 文件迁移数据到 OceanBase 数据库
   900.data-migration-between-oceanbase-databases=OceanBase 数据库之间迁移数据
   1000.use-sql-statements-migrate-data=使用 SQL 语句迁移数据
@@ -66,6 +70,9 @@
   100.cluster-management=集群管理
     100.cluster-management-overview=集群介绍
     300.common-cluster-operations=集群常见操作
+      1500.oceanbase-version-upgrade=集群升级
+        200.upgrade-oceanbase-enterprise-edition=OceanBase 企业版升级
+        300.upgrade-oceanbase-community-edition=OceanBase 社区版升级
     400.common-cluster-failure=集群常见故障处理
   200.tenant-management=租户管理
     600.common-tenant-operations=租户常见操作
