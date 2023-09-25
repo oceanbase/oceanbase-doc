@@ -363,6 +363,7 @@
         13300.dbms-resource-manager-mysql=DBMS_RESOURCE_MANAGER
         15900.dbms-stats-mysql=DBMS_STATS
         17800.dbms-udr-mysql=DBMS_UDR
+        17900.dbms-workload-repository-mysql=DBMS_WORKLOAD_REPOSITORY
         20700.dbms-xplan-mysql=DBMS_XPLAN
     300.pl-oracle=PL 参考（Oracle 模式）
       100.pl-language-basics-oracle=PL 语言基础
