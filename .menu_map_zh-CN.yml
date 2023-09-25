@@ -113,6 +113,7 @@
     400.data-backup=数据备份
     500.clear-backup-data=清理备份数据
     600.restore-data=恢复数据
+    700.recover-table=按表恢复
   700.monitor=监控指标
     200.monitor-items-introduction=监控指标
       100.system-monitor=系统监控
@@ -141,6 +142,7 @@
     500.election=选举
     600.transaction=事务
     800.physical-standby-database=物理备库
+    900.backup-and-recovery=备份恢复
   900.daily-inspection=日常巡检
     900.full-link-detection=全链路追踪
   1100.emergency-response=应急处理
