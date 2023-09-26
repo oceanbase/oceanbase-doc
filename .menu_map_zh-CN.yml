@@ -497,6 +497,9 @@
       300.oblogproxy=oblogproxy
         100.install-and-deploy-oblogproxy=oblogproxy 安装部署
       400.oblogmsg=oblogmsg
+    1250.sql_diagnoser=SQL Diagnoser
+      200.deploy-and-use-delsql_diagnoser=SQL Diagnoser 安装和使用
+      300.sql_diagnoser-paramenters=SQL Diagnoser 相关说明
     1300.mysqltest=mysqltest
       200.use-of-case=case 使用
     1400.ob-operator=ob-operator
