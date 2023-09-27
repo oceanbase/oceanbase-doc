@@ -456,6 +456,7 @@
       300.obproxy-parameter-optimization=OBProxy 参数调优
     400.business-model-tuning=业务模型调优
       400.performance-diagnosis=性能诊断
+        450.wr-management=WR 管理
         500.ash-report-diagnosis=ASH 报告
     500.sql-optimization=SQL 调优指南
       200.sql-execution-plan=SQL 执行计划
