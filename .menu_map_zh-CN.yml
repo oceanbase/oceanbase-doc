@@ -113,6 +113,7 @@
     400.data-backup=数据备份
     500.clear-backup-data=清理备份数据
     600.restore-data=恢复数据
+    700.recover-table=按表恢复
   700.monitor=监控指标
     200.monitor-items-introduction=监控指标
       100.system-monitor=系统监控
@@ -141,6 +142,7 @@
     500.election=选举
     600.transaction=事务
     800.physical-standby-database=物理备库
+    900.backup-and-recovery=备份恢复
   900.daily-inspection=日常巡检
     900.full-link-detection=全链路追踪
   1100.emergency-response=应急处理
@@ -361,6 +363,7 @@
         13300.dbms-resource-manager-mysql=DBMS_RESOURCE_MANAGER
         15900.dbms-stats-mysql=DBMS_STATS
         17800.dbms-udr-mysql=DBMS_UDR
+        17900.dbms-workload-repository-mysql=DBMS_WORKLOAD_REPOSITORY
         20700.dbms-xplan-mysql=DBMS_XPLAN
     300.pl-oracle=PL 参考（Oracle 模式）
       100.pl-language-basics-oracle=PL 语言基础
@@ -421,6 +424,7 @@
     500.tableapi=TableAPI
       100.introduction-to-tableapi=TableAPI 实现介绍
       200.use-of-the-tableapi-client=TableAPI 客户端的使用
+      260.tableapi-go=TableAPI GO 客户端的使用
     600.hbaseapi=HBaseAPI
   700.system-views=系统视图
     300.system-view-of-sys-tenant=SYS 租户系统视图
@@ -452,6 +456,7 @@
       300.obproxy-parameter-optimization=OBProxy 参数调优
     400.business-model-tuning=业务模型调优
       400.performance-diagnosis=性能诊断
+        450.wr-management=WR 管理
         500.ash-report-diagnosis=ASH 报告
     500.sql-optimization=SQL 调优指南
       200.sql-execution-plan=SQL 执行计划
@@ -494,6 +499,9 @@
       300.oblogproxy=oblogproxy
         100.install-and-deploy-oblogproxy=oblogproxy 安装部署
       400.oblogmsg=oblogmsg
+    1250.sql_diagnoser=SQL Diagnoser
+      200.deploy-and-use-delsql_diagnoser=SQL Diagnoser 安装和使用
+      300.sql_diagnoser-paramenters=SQL Diagnoser 相关说明
     1300.mysqltest=mysqltest
       200.use-of-case=case 使用
     1400.ob-operator=ob-operator
