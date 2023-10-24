@@ -97,7 +97,7 @@
     500.data-storage-encryption=Transparent data encryption
       200.data-storage-encryption-of-mysql-mode=MySQL mode
       300.data-storage-encryption-of-oracle-mode=Oracle mode
-    600.security-audit=Security auditing
+    600.security-audit=Security audit
   600.backup-and-recovery=Backup and restore
     300.log-archive=Log archive
     400.data-backup=Data backup
