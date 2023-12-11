@@ -11,6 +11,7 @@
     100.connect-to-oceanbase-database-of-mysql-mode=连接 OceanBase 数据库
       1400.use-the-database-connection-pool-of-mysql-mode=使用数据库连接池
     200.sample-program-of-mysql-mode=示例程序
+      100.java-of-mysql-mode=Java
       200.python-of-mysql-mode=Python
       400.go-of-mysql-mode=Go
     300.database-object-planning-of-mysql-mode=规划数据库对象
@@ -85,6 +86,7 @@
   300.replica-management=副本管理
     200.replica-distribution=副本分布
       200.locality-common-operations=Locality 常见操作
+    500.load-balancing-manage=负载均衡
   400.high-availability=高可用
     200.multi-replica-disaster-recovery=多副本容灾
     300.physical-standby-database-disaster-recovery=物理备库容灾
