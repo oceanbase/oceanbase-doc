@@ -20,7 +20,7 @@ OceanBase 欢迎大家随时参与到文档的共同建设中，OceanBase 文档
 
 ### 开始之前
 
-感谢您对 OceanBase 数据库文档的贡献兴趣。为厘清就个人或实体贡献内容而授予的知识产权许可，我们必须对每位贡献者签署的贡献者许可协议（Contributor Licence Agreement，简称 CLA）（“CLA”）进行归档，以证明就 CLA 达成的一致。点击 [OceaBase CLA](https://cla-assistant.io/oceanbase/oceanbase?pullRequest=108)，点击 **Sign in with GitHub to agree** 按钮签署协议。
+感谢您对 OceanBase 数据库文档的贡献兴趣。为厘清就个人或实体贡献内容而授予的知识产权许可，我们必须对每位贡献者签署的贡献者许可协议（Contributor Licence Agreement，简称 CLA）（“CLA”）进行归档，以证明就 CLA 达成的一致。点击 [Oceanbase CLA](https://cla-assistant.io/oceanbase/oceanbase?pullRequest=108)，点击 **Sign in with GitHub to agree** 按钮签署协议。
 
 ### 贡献指南
 
