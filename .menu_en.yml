@@ -495,8 +495,6 @@
       200.obcdc=obcdc
         100.deploy-and-use-obcdc=Deploy and use obcdc
         200.obcdc-parameters=obcdc parameters
-      300.oblogproxy=oblogproxy
-        100.install-and-deploy-oblogproxy=Deploy oblogproxy
       400.oblogmsg=oblogmsg
     1250.sql_diagnoser=SQL diagnoser
       200.deploy-and-use-delsql_diagnoser=Deploy and use SQL diagnoser
