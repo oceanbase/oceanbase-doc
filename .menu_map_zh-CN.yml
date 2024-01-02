@@ -86,6 +86,7 @@
   300.replica-management=副本管理
     200.replica-distribution=副本分布
       200.locality-common-operations=Locality 常见操作
+    500.load-balancing-manage=负载均衡
   400.high-availability=高可用
     200.multi-replica-disaster-recovery=多副本容灾
     300.physical-standby-database-disaster-recovery=物理备库容灾
@@ -102,7 +103,7 @@
     300.access-control=访问控制
       200.user-and-permission=用户和权限
         200.permission-of-mysql-mode=MySQL 模式下的权限管理
-        300.permission-of-oracle-mode=Oracle 模式下的权限管理      
+        300.permission-of-oracle-mode=Oracle 模式下的权限管理
            400.manage-roles-of-oracle-mode=角色管理
     400.data-transfer-encryption=数据传输加密
     500.data-storage-encryption=数据透明加密
@@ -163,7 +164,7 @@
             700.format-model-of-oracle-mode=格式模型
         300.index-of-oracle-mode=索引
         400.partition-of-oracle-mode=分区
-        500.view-of-oracle-mode=视图 
+        500.view-of-oracle-mode=视图
         600.other-objects-of-oracle-mode=其他对象
         700.system-view-of-oracle-mode=系统视图
         800.data-integrity-of-oracle-mode=数据完整性
@@ -238,7 +239,7 @@
       900.manage-dblink-of-mysql-mode=创建和管理 DBLink
     200.manage-object-of-oracle-mode=Oracle 模式
       100.manage-tables-of-oracle-mode=创建和管理表
-        1000.manage-external-tables-of-oracle-mode=创建和管理外表     
+        1000.manage-external-tables-of-oracle-mode=创建和管理外表
       200.manage-partitions-of-oracle-mode=创建和管理分区
         900.create-partition-table-index-of-oracle-mode=在分区表上建立索引
       300.manage-table-groups-of-oracle-mode=创建和管理表组
@@ -289,7 +290,7 @@
         1000.other-functions-of-mysql-mode=其它函数
       500.queries-and-subqueries-of-mysql-mode=查询和子查询
       600.sql-statement-of-mysql-mode=SQL 语句
-        8100.select-of-mysql-mode=SELECT 
+        8100.select-of-mysql-mode=SELECT
       700.ddl-function-of-mysql-mode=DDL 功能
     300.common-tenant-of-oracle-mode=普通租户（Oracle 模式）
       200.pseudo-column-of-oracle-mode=伪列
@@ -463,6 +464,16 @@
       200.sql-execution-plan=SQL 执行计划
         200.execution-plan-operator=执行计划算子
       300.distributed-execution-plan=分布式执行计划
+      350.parallel-execution=并行执行计划
+        100.parallel-execution-concept.md=并行执行简介
+        150.classification-of-parallel-execution.md=并行执行分类与优化
+        300.deploy-parallel-execution=设置并发执行
+          200.concurrency-control-and-queuing.md=并发控制与排队
+          300.set-degree-of-parallelism.md=设置并行执行并行度
+          400.parallel-parameter-tuning.md=设置并行执行参数
+        500.diagnostics-parallel-execution.md=并行执行问题诊断
+        600.parallel-execution-tuning-tips.md=并行执行调优技巧
+        700.quickstart-of-parallel-execution.md=并行执行入门实践
       400.sql-optimization=SQL 优化
         300.monitor-sql-execution-performance=SQL 执行性能监控
           400.sql-performance-analysis-example=SQL 性能分析示例
