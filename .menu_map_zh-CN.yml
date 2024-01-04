@@ -465,6 +465,8 @@
       200.sql-execution-plan=SQL 执行计划
         200.execution-plan-operator=执行计划算子
       300.distributed-execution-plan=分布式执行计划
+      350.parallel-execution=并行执行计划
+        300.deploy-parallel-execution=设置并发执行
       400.sql-optimization=SQL 优化
         300.monitor-sql-execution-performance=SQL 执行性能监控
           400.sql-performance-analysis-example=SQL 性能分析示例
