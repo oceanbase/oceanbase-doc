@@ -401,6 +401,7 @@
         9300.dbms-lob-oracle=DBMS_LOB
         9400.dbms-lock-oracle=DBMS_LOCK
         9900.dbms-metadata-oracle=DBMS_METADATA
+        10000.dbms-monitor-oracle=DBMS_MONITOR
         11100.dbms-output-oracle=DBMS_OUTPUT
         12500.dbms-plan-cache-oracle=DBMS_PLAN_CACHE
         12700.dbms-random-oracle=DBMS_RANDOM
@@ -465,15 +466,7 @@
         200.execution-plan-operator=执行计划算子
       300.distributed-execution-plan=分布式执行计划
       350.parallel-execution=并行执行计划
-        100.parallel-execution-concept.md=并行执行简介
-        150.classification-of-parallel-execution.md=并行执行分类与优化
         300.deploy-parallel-execution=设置并发执行
-          200.concurrency-control-and-queuing.md=并发控制与排队
-          300.set-degree-of-parallelism.md=设置并行执行并行度
-          400.parallel-parameter-tuning.md=设置并行执行参数
-        500.diagnostics-parallel-execution.md=并行执行问题诊断
-        600.parallel-execution-tuning-tips.md=并行执行调优技巧
-        700.quickstart-of-parallel-execution.md=并行执行入门实践
       400.sql-optimization=SQL 优化
         300.monitor-sql-execution-performance=SQL 执行性能监控
           400.sql-performance-analysis-example=SQL 性能分析示例
