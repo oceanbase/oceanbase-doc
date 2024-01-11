@@ -402,6 +402,7 @@
         9300.dbms-lob-oracle=DBMS_LOB
         9400.dbms-lock-oracle=DBMS_LOCK
         9900.dbms-metadata-oracle=DBMS_METADATA
+        10000.dbms-monitor-oracle=DBMS_MONITOR
         11100.dbms-output-oracle=DBMS_OUTPUT
         12500.dbms-plan-cache-oracle=DBMS_PLAN_CACHE
         12700.dbms-random-oracle=DBMS_RANDOM
