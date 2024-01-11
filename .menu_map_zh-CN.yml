@@ -285,6 +285,7 @@
           400.return-json-text-property-function-of-mysql-mode=返回 JSON 文本属性的函数
           500.json-utility-function-of-mysql-mode=JSON 工具函数
           600.json-aggregate-function-of-mysql-mode=JSON 聚合函数
+          700.json-schema-function-of-mysql-mode=JSON Schema 验证函数
         800.spatial-functions-of-mysql-mode=空间函数
         900.performance-schema-of-mysql-mode=Performance Schema 函数
         1000.other-functions-of-mysql-mode=其它函数
@@ -401,6 +402,7 @@
         9300.dbms-lob-oracle=DBMS_LOB
         9400.dbms-lock-oracle=DBMS_LOCK
         9900.dbms-metadata-oracle=DBMS_METADATA
+        10000.dbms-monitor-oracle=DBMS_MONITOR
         11100.dbms-output-oracle=DBMS_OUTPUT
         12500.dbms-plan-cache-oracle=DBMS_PLAN_CACHE
         12700.dbms-random-oracle=DBMS_RANDOM
