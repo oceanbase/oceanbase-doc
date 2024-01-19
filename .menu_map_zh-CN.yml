@@ -523,14 +523,6 @@
       300.sql_diagnoser-paramenters=SQL Diagnoser 相关说明
     1300.mysqltest=mysqltest
       200.use-of-case=case 使用
-    1400.ob-operator=ob-operator
-      500.ob-operator-user-guide=使用指南
-        100.cluster-management-of-ob-operator=集群管理
-          200.cluster-scale-out-of-ob-operator=集群扩容
-          300.cluster-scale-in-of-ob-operator=集群缩容
-        200.tenant-management-of-ob-operator=租户管理
-          200.modify-tenant-of-ob-operator=修改租户
-        300.backup-recovery-of-ob-operator=备份恢复
     1500.ob-partition-calculator=分区计算组件
     1800.obshell=OBShell
       300.obshell-clients=客户端
