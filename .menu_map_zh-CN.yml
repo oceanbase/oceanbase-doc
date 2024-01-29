@@ -369,6 +369,8 @@
       800.information-schema-dictionary-view-mysql=PL 相关字典视图
       900.pl-exception-handling-statement-mysql=PL 异常处理
       1000.pl-system-package-mysql=PL 系统包
+        9950.dbms-mview-mysql=DBMS_MVIEW
+        10050.dbms-mview-stat-mysql=DBMS_MVIEW_STAT
         13300.dbms-resource-manager-mysql=DBMS_RESOURCE_MANAGER
         15900.dbms-stats-mysql=DBMS_STATS
         17800.dbms-udr-mysql=DBMS_UDR
@@ -408,7 +410,9 @@
         9300.dbms-lob-oracle=DBMS_LOB
         9400.dbms-lock-oracle=DBMS_LOCK
         9900.dbms-metadata-oracle=DBMS_METADATA
+        9950.dbms-mview-oracle=DBMS_MVIEW
         10000.dbms-monitor-oracle=DBMS_MONITOR
+        10050.dbms-mview-stat-oracle=DBMS_MVIEW_STAT
         11100.dbms-output-oracle=DBMS_OUTPUT
         12500.dbms-plan-cache-oracle=DBMS_PLAN_CACHE
         12700.dbms-random-oracle=DBMS_RANDOM
