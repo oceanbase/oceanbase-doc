@@ -165,9 +165,8 @@
         300.index-of-oracle-mode=索引
         400.partition-of-oracle-mode=分区
         500.view-of-oracle-mode=视图
-          100.view-overview-of-oracle-mode.md=数据库中的视图
           150.standard-view-of-oracle-mode=普通视图
-          200.materialized-view-of-oracle-mode.md=物化视图
+          200.materialized-view-of-oracle-mode=物化视图
         600.other-objects-of-oracle-mode=其他对象
         700.system-view-of-oracle-mode=系统视图
         800.data-integrity-of-oracle-mode=数据完整性
@@ -178,10 +177,9 @@
           200.data-type-of-mysql-mode=数据类型
         300.index-of-oracle-mode=索引
         400.partition-of-mysql-mode=分区
-        500.view-of-oracle-mode=视图
-          100.view-overview-of-oracle-mode.md=数据库中的视图
-          150.standard-view-of-oracle-mode=普通视图
-          200.materialized-view-of-oracle-mode.md=物化视图
+        500.view-of-mysql-mode=视图
+          150.standard-view-of-mysql-mode=普通视图
+          200.materialized-view-of-mysql-mode=物化视图
         600.system-view-of-mysql-mode=系统视图
         700.data-integrity-of-mysql-mode=数据完整性
           200.integrity-constraint-type-of-mysql-mode=完整性约束类型
@@ -240,6 +238,10 @@
         900.create-partition-table-index-of-mysql-mode=在分区表上建立索引
       400.manage-table-groups-of-mysql-mode=创建和管理表组
       500.manage-indexes-of-mysql-mode=创建和管理索引
+      600.manage-views-of-mysql-mode=管理视图
+        200.manage-materialized-views-of-mysql-mode=管理物化视图
+          100.materialized-views-of-mysql-mode=物化视图
+          200.materialized-views-log-of-mysql-mode=物化视图日志
       700.manage-sequence-of-mysql-mode=创建和管理序列
       800.manage-triggers-of-mysql-mode=创建和管理触发器
       900.manage-dblink-of-mysql-mode=创建和管理 DBLink
@@ -250,6 +252,10 @@
         900.create-partition-table-index-of-oracle-mode=在分区表上建立索引
       300.manage-table-groups-of-oracle-mode=创建和管理表组
       400.manage-indexes-of-oracle-mode=创建和管理索引
+      500.manage-views-of-oracle-mode=管理视图
+        200.manage-materialized-views-of-oracle-mode=管理物化视图
+          100.materialized-views-of-oracle-mode=物化视图
+          200.materialized-views-log-of-oracle-mode=物化视图日志
       800.manage-triggers-of-oracle-mode=创建和管理触发器
       1000.manage-dblink-of-oracle-mode=创建和管理 DBLink
   400.database-design-specifications-and-practices=数据库设计规范和约束
