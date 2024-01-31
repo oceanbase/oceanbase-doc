@@ -495,7 +495,6 @@
           100.access-path=访问路径
           200.join-algorithm=联接算法
         700.manage-execution-plans=管理执行计划
-  1100.performance-test=性能测试
   1200.database-proxy=数据库代理
     200.obproxy-management=OBProxy
       200.manage-obproxy-clusters=管理 OBProxy 集群
@@ -536,15 +535,4 @@
         300.backup-recovery-of-ob-operator=备份恢复
     1500.ob-partition-calculator=分区计算组件
 800.FAQ=常见问题
-900.release-notes=版本发布记录
-  10100.enterprise-edition-history-release=企业版
-    9790.V4.2=V4.2
-    9800.V4.1=V4.1
-    10100.V3.2=V3.2
-    10200.V3.1=V3.1
-    10300.V2.2=V2.2
-  10200.community-edition-history-release=社区版
-    9890.V4.2=V4.2
-    9900.V4.1=V4.1
-    10000.V4.0=V4.0
-    10100.V3.1=V3.1
+
