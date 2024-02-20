@@ -86,7 +86,7 @@
   300.replica-management=副本管理
     200.replica-distribution=副本分布
       200.locality-common-operations=Locality 常见操作
-    500.load-balancing-manage=负载均衡
+    500.load-balancing-manage=数据负载均衡
   400.high-availability=高可用
     200.multi-replica-disaster-recovery=多副本容灾
     300.physical-standby-database-disaster-recovery=物理备库容灾
@@ -525,7 +525,8 @@
       200.use-of-case=case 使用
     1500.ob-partition-calculator=分区计算组件
     1800.obshell=OBShell
-      300.obshell-clients=客户端
+      210.use-case=使用场景
+      300.obshell-clients=命令行
       400.obshell-api-reference=API 参考
 800.FAQ=常见问题
 900.release-notes=版本发布记录
