@@ -184,8 +184,9 @@
         700.data-integrity-of-mysql-mode=数据完整性
           200.integrity-constraint-type-of-mysql-mode=完整性约束类型
     500.distributed-database-objects=分布式数据库对象
-      300.data-partitions-and-replicas=数据分区和分区副本
-        300.partition-replica-type=分区副本类型
+      300.data-partitions-and-replicas=日志流和副本
+        300.partition-replica-type=副本类型
+        500.data-balancing=数据均衡
       400.dynamic-scaling=动态扩容和缩容
         200.scale-in-and-scale-out-of-tenant-resources=租户内资源的扩容和缩容
     600.data-link=数据链路
