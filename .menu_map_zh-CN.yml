@@ -165,6 +165,8 @@
         300.index-of-oracle-mode=索引
         400.partition-of-oracle-mode=分区
         500.view-of-oracle-mode=视图
+          150.standard-view-of-oracle-mode=普通视图
+          200.materialized-view-of-oracle-mode=物化视图
         600.other-objects-of-oracle-mode=其他对象
         700.system-view-of-oracle-mode=系统视图
         800.data-integrity-of-oracle-mode=数据完整性
@@ -176,6 +178,8 @@
         300.index-of-oracle-mode=索引
         400.partition-of-mysql-mode=分区
         500.view-of-mysql-mode=视图
+          150.standard-view-of-mysql-mode=普通视图
+          200.materialized-view-of-mysql-mode=物化视图
         600.system-view-of-mysql-mode=系统视图
         700.data-integrity-of-mysql-mode=数据完整性
           200.integrity-constraint-type-of-mysql-mode=完整性约束类型
