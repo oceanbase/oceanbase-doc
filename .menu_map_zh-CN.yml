@@ -245,6 +245,10 @@
         900.create-partition-table-index-of-oracle-mode=在分区表上建立索引
       300.manage-table-groups-of-oracle-mode=创建和管理表组
       400.manage-indexes-of-oracle-mode=创建和管理索引
+      500.manage-views-of-oracle-mode=管理视图
+        200.manage-materialized-views-of-oracle-mode=管理物化视图
+          100.materialized-views-of-oracle-mode=物化视图
+          200.materialized-views-log-of-oracle-mode=物化视图日志
       800.manage-triggers-of-oracle-mode=创建和管理触发器
       1000.manage-dblink-of-oracle-mode=创建和管理 DBLink
   400.database-design-specifications-and-practices=数据库设计规范和约束
