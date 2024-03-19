@@ -239,6 +239,10 @@
         900.create-partition-table-index-of-mysql-mode=在分区表上建立索引
       400.manage-table-groups-of-mysql-mode=创建和管理表组
       500.manage-indexes-of-mysql-mode=创建和管理索引
+      600.manage-views-of-mysql-mode=管理视图
+        200.manage-materialized-views-of-mysql-mode=管理物化视图
+          100.materialized-views-of-mysql-mode=物化视图
+          200.materialized-views-log-of-mysql-mode=物化视图日志
       700.manage-sequence-of-mysql-mode=创建和管理序列
       800.manage-triggers-of-mysql-mode=创建和管理触发器
       900.manage-dblink-of-mysql-mode=创建和管理 DBLink
