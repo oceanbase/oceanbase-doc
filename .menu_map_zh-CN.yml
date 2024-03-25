@@ -13,6 +13,7 @@
     200.sample-program-of-mysql-mode=示例程序
       100.java-of-mysql-mode=Java
       200.python-of-mysql-mode=Python
+      300.c-of-mysql-mode=C
       400.go-of-mysql-mode=Go
     300.database-object-planning-of-mysql-mode=规划数据库对象
     400.write-data-of-mysql-mode=数据写入
