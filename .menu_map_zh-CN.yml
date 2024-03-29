@@ -86,7 +86,7 @@
   300.replica-management=副本管理
     200.replica-distribution=副本分布
       200.locality-common-operations=Locality 常见操作
-    500.load-balancing-manage=负载均衡
+    500.load-balancing-manage=数据负载均衡
   400.high-availability=高可用
     200.multi-replica-disaster-recovery=多副本容灾
     300.physical-standby-database-disaster-recovery=物理备库容灾
@@ -377,9 +377,10 @@
       900.pl-exception-handling-statement-mysql=PL 异常处理
       1000.pl-system-package-mysql=PL 系统包
         9950.dbms-mview-mysql=DBMS_MVIEW
-        10050.dbms-mview-stat-mysql=DBMS_MVIEW_STAT
+        10050.dbms-mview-stat-mysql=DBMS_MVIEW_STATS
         13300.dbms-resource-manager-mysql=DBMS_RESOURCE_MANAGER
         15900.dbms-stats-mysql=DBMS_STATS
+        16000.dbms-trusted-certificate-manager-mysql=DBMS_TRUSTED_CERTIFICATE_MANAGER
         17800.dbms-udr-mysql=DBMS_UDR
         17900.dbms-workload-repository-mysql=DBMS_WORKLOAD_REPOSITORY
         20700.dbms-xplan-mysql=DBMS_XPLAN
@@ -419,7 +420,7 @@
         9900.dbms-metadata-oracle=DBMS_METADATA
         9950.dbms-mview-oracle=DBMS_MVIEW
         10000.dbms-monitor-oracle=DBMS_MONITOR
-        10050.dbms-mview-stat-oracle=DBMS_MVIEW_STAT
+        10050.dbms-mview-stat-oracle=DBMS_MVIEW_STATS
         11100.dbms-output-oracle=DBMS_OUTPUT
         12500.dbms-plan-cache-oracle=DBMS_PLAN_CACHE
         12700.dbms-random-oracle=DBMS_RANDOM
@@ -496,6 +497,7 @@
           100.access-path=访问路径
           200.join-algorithm=联接算法
         700.manage-execution-plans=管理执行计划
+  1100.performance-test=性能测试
   1200.database-proxy=数据库代理
     200.obproxy-management=OBProxy
       200.manage-obproxy-clusters=管理 OBProxy 集群
@@ -537,3 +539,14 @@
     1500.ob-partition-calculator=分区计算组件
 800.FAQ=常见问题
 900.release-notes=版本发布记录
+  10100.enterprise-edition-history-release=企业版
+    9790.V4.2=V4.2
+    9800.V4.1=V4.1
+    10100.V3.2=V3.2
+    10200.V3.1=V3.1
+    10300.V2.2=V2.2
+  10200.community-edition-history-release=社区版
+    9890.V4.2=V4.2
+    9900.V4.1=V4.1
+    10000.V4.0=V4.0
+    10100.V3.1=V3.1
