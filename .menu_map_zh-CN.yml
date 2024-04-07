@@ -15,6 +15,7 @@
       200.python-of-mysql-mode=Python
       300.c-of-mysql-mode=C
       400.go-of-mysql-mode=Go
+      500.data-analytics-of-mysql-mode=数据分析
     300.database-object-planning-of-mysql-mode=规划数据库对象
     400.write-data-of-mysql-mode=数据写入
     500.read-data-of-mysql-mode=数据读取
