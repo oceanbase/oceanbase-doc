@@ -531,7 +531,8 @@
     1500.ob-partition-calculator=分区计算组件
     1800.obshell=OBShell
       210.use-case=使用场景
-      300.obshell-clients=命令行
+      300.obshell-clients=OBShell 命令
+      400.obshell-api-reference=API 参考
 800.FAQ=常见问题
 900.release-notes=版本发布记录
   10100.enterprise-edition-history-release=企业版
