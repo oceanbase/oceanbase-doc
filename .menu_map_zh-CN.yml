@@ -15,7 +15,6 @@
       200.python-of-mysql-mode=Python
       300.c-of-mysql-mode=C
       400.go-of-mysql-mode=Go
-      500.data-analytics-of-mysql-mode=数据分析
     300.database-object-planning-of-mysql-mode=规划数据库对象
     400.write-data-of-mysql-mode=数据写入
     500.read-data-of-mysql-mode=数据读取
@@ -542,6 +541,7 @@
     1800.obshell=OBShell
       210.use-case=使用场景
       300.obshell-clients=命令行
+  1600.ecological-integration=生态集成
 800.FAQ=常见问题
 900.release-notes=版本发布记录
   10100.enterprise-edition-history-release=企业版
