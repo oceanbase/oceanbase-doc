@@ -71,9 +71,6 @@
   100.cluster-management=Manage clusters
     100.cluster-management-overview=Overview
     300.common-cluster-operations=Common cluster operations
-      1500.oceanbase-version-upgrade=Upgrade clusters
-        200.upgrade-oceanbase-enterprise-edition=Upgrade OceanBase Database Enterprise Edition
-        300.upgrade-oceanbase-community-edition=Upgrade OceanBase Database Community Edition
     400.common-cluster-failure=Troubleshoot common problems
   200.tenant-management=Manage tenants
     600.common-tenant-operations=Common tenant operations
@@ -86,7 +83,6 @@
   300.replica-management=Manage replicas
     200.replica-distribution=Replica distribution
       200.locality-common-operations=Common locality operations
-    500.load-balancing-manage=Data load balancing
   400.high-availability=High availability
     200.multi-replica-disaster-recovery=Multi-replica disaster recovery
     300.physical-standby-database-disaster-recovery=Physical standby database disaster recovery
@@ -165,6 +161,8 @@
         300.index-of-oracle-mode=Indexes
         400.partition-of-oracle-mode=Partitions
         500.view-of-oracle-mode=Views
+          150.standard-view-of-oracle-mode=Standard views
+          200.materialized-view-of-oracle-mode=Materialized views
         600.other-objects-of-oracle-mode=Other objects
         700.system-view-of-oracle-mode=System views
         800.data-integrity-of-oracle-mode=Data integrity
@@ -176,6 +174,8 @@
         300.index-of-oracle-mode=Indexes
         400.partition-of-mysql-mode=Partitions
         500.view-of-mysql-mode=Views
+          150.standard-view-of-mysql-mode=Standard views
+          200.materialized-view-of-mysql-mode=Materialized views
         600.system-view-of-mysql-mode=System views
         700.data-integrity-of-mysql-mode=Data integrity
           200.integrity-constraint-type-of-mysql-mode=Integrity constraint type
@@ -234,6 +234,10 @@
         900.create-partition-table-index-of-mysql-mode=Create indexes on partitioned tables
       400.manage-table-groups-of-mysql-mode=Create and manage table groups
       500.manage-indexes-of-mysql-mode=Create and manage indexes
+      600.manage-views-of-mysql-mode=Manage views
+        200.manage-materialized-views-of-mysql-mode=Manage materialized views
+          100.materialized-views-of-mysql-mode=Materialized views
+          200.materialized-views-log-of-mysql-mode=Materialized view logs
       700.manage-sequence-of-mysql-mode=Create and manage sequences
       800.manage-triggers-of-mysql-mode=Create and manage triggers
       900.manage-dblink-of-mysql-mode=Create and manage DBLinks
@@ -244,6 +248,10 @@
         900.create-partition-table-index-of-oracle-mode=Create indexes on partitioned tables
       300.manage-table-groups-of-oracle-mode=Create and manage table groups
       400.manage-indexes-of-oracle-mode=Create and manage indexes
+      500.manage-views-of-oracle-mode=Manage views
+        200.manage-materialized-views-of-oracle-mode=Manage materialized views
+          100.materialized-views-of-oracle-mode=Materialized views
+          200.materialized-views-log-of-oracle-mode=Materialized view logs
       800.manage-triggers-of-oracle-mode=Create and manage triggers
       1000.manage-dblink-of-oracle-mode=Create and manage DBLinks
   400.database-design-specifications-and-practices=Database design specifications and practices
@@ -285,10 +293,6 @@
           400.return-json-text-property-function-of-mysql-mode=Return JSON text property functions
           500.json-utility-function-of-mysql-mode=JSON utility functions
           600.json-aggregate-function-of-mysql-mode=JSON aggregate functions
-          700.json-schema-function-of-mysql-mode=JSON schema validation functions
-        750.xml-functions-of-mysql-mode=XML functions
-          300.querying-xmltype-data-functions-of-mysql-mode=Functions for querying XML data
-          400.modify-xmltype-data-functions-of-mysql-mode=Functions for modifying XML data
         800.spatial-functions-of-mysql-mode=Spatial functions
         900.performance-schema-of-mysql-mode=Performance schema functions
         1000.other-functions-of-mysql-mode=Other functions
@@ -306,7 +310,6 @@
           600.large-object-data-type-of-oracle-mode=Large object data types
         1000.json-formatted-data-type-oracle-mode=JSON data types
         1100.xml-date-type-of-oracle-mode=XML data types
-        1200.spatial-data-type-of-oracle-mode=Spatial data types
         200.data-type-comparison-rules-of-oracle-mode=Data type comparison rules
         300.literal-of-oracle-mode=Literals
           400.date-and-time-literal-of-oracle-mode=Datetime literals
@@ -341,7 +344,6 @@
             200.construct-xmltype-data-functions-of-oracle-mode=Construct XMLType data functions
             300.querying-xmltype-data-functions-of-oracle-mode=Query XMLType data functions
             400.modify-xmltype-data-functions-of-oracle-mode=Modify XMLType data functions
-          1400.spatial-functions-of-oracle-mode=Spatial-functions
         300.aggregate-functions-of-oracle-mode=Aggregate functions
         400.analysis-functions-of-oracle-mode=Analysis functions
       600.expression-of-oracle-mode=Expressions
@@ -368,6 +370,8 @@
       800.information-schema-dictionary-view-mysql=PL related dictionary views
       900.pl-exception-handling-statement-mysql=PL exception handling
       1000.pl-system-package-mysql=PL system packages
+        9950.dbms-mview-mysql=DBMS_MVIEW
+        10050.dbms-mview-stat-mysql=DBMS_MVIEW_STAT
         13300.dbms-resource-manager-mysql=DBMS_RESOURCE_MANAGER
         15900.dbms-stats-mysql=DBMS_STATS
         17800.dbms-udr-mysql=DBMS_UDR
@@ -407,7 +411,9 @@
         9300.dbms-lob-oracle=DBMS_LOB
         9400.dbms-lock-oracle=DBMS_LOCK
         9900.dbms-metadata-oracle=DBMS_METADATA
+        9950.dbms-mview-oracle=DBMS_MVIEW
         10000.dbms-monitor-oracle=DBMS_MONITOR
+        10050.dbms-mview-stat-oracle=DBMS_MVIEW_STAT
         11100.dbms-output-oracle=DBMS_OUTPUT
         12500.dbms-plan-cache-oracle=DBMS_PLAN_CACHE
         12700.dbms-random-oracle=DBMS_RANDOM
@@ -471,6 +477,8 @@
       200.sql-execution-plan=SQL execution plans
         200.execution-plan-operator=Execution plan operators
       300.distributed-execution-plan=Distributed execution plans
+      350.parallel-execution=Parallel execution plans
+        300.deploy-parallel-execution=Set concurrent execution
       400.sql-optimization=SQL tunning
         300.monitor-sql-execution-performance=SQL execution performance monitoring
           400.sql-performance-analysis-example=SQL performance analysis example
@@ -482,7 +490,6 @@
           100.access-path=Access path
           200.join-algorithm=Join algorithm
         700.manage-execution-plans=Manage execution plans
-  1100.performance-test=Performance test
   1200.database-proxy=Database proxy
     200.obproxy-management=ODP
       200.manage-obproxy-clusters=Manage ODP clusters
