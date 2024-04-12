@@ -534,12 +534,14 @@
 800.FAQ=FAQ
 900.release-notes=Release Notes
   10100.enterprise-edition-history-release=OceanBase Database Enterprise Edition
+    9600.V4.3=V4.3
     9790.V4.2=V4.2
     9800.V4.1=V4.1
     10100.V3.2=V3.2
     10200.V3.1=V3.1
     10300.V2.2=V2.2
   10200.community-edition-history-release=OceanBase Database Community Edition
+    9700.V4.3=V4.3
     9890.V4.2=V4.2
     9900.V4.1=V4.1
     10000.V4.0=V4.0
