@@ -529,5 +529,6 @@
       210.use-case=使用场景
       300.obshell-clients=命令行
       400.obshell-api-reference=API 参考
+    1900.oblogminer=ObLogMiner
 800.FAQ=常见问题
 900.release-notes=版本发布记录
