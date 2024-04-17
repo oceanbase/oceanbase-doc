@@ -516,8 +516,6 @@
       200.obcdc=obcdc
         100.deploy-and-use-obcdc=obcdc 部署和使用
         200.obcdc-parameters=obcdc 参数说明
-      300.oblogproxy=oblogproxy
-        100.install-and-deploy-oblogproxy=oblogproxy 安装部署
       400.oblogmsg=oblogmsg
     1250.sql_diagnoser=SQL Diagnoser
       200.deploy-and-use-delsql_diagnoser=SQL Diagnoser 安装和使用
