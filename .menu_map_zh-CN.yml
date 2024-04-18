@@ -510,7 +510,7 @@
   1300.drivers=驱动
   1400.platform-products=平台产品
     400.1.ocp-express=OceanBase 云平台 Express（OCP Express）
-  1500.Components-and-Tools=组件&工具
+  1500.components-and-tools=组件&工具
     100.manage=运维管理
       100.obshell=OBShell
         210.use-case=使用场景
