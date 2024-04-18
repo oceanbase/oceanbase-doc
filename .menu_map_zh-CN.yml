@@ -518,11 +518,6 @@
         400.obshell-api-reference=API 参考
       200.ob-admin=ob_admin
         300.clog=clog
-      600.ob-agent=OBAgent
-        100.about-obagent=关于 OBAgent
-        200.configuration-reference=配置引用
-        300.install-and-deploy-obagent=安装部署
-        400.obagent-metrics=OBAgent 指标
     200.monitor-and-diagnos=监控诊断
       200.sql_diagnoser=SQL Diagnoser
         200.deploy-and-use-delsql_diagnoser=SQL Diagnoser 安装和使用
