@@ -534,7 +534,7 @@
           100.deploy-and-use-obcdc=obcdc 部署和使用
           200.obcdc-parameters=obcdc 参数说明
         400.oblogmsg=oblogmsg
-    400.stress -test-tools=压测工具
+    400.stress-test-tools=压测工具
       100.mysqltest=mysqltest
         200.use-of-case=case 使用  
   1600.ecological-integration=生态集成
