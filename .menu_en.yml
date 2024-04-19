@@ -182,6 +182,7 @@
     500.distributed-database-objects=Distributed database objects
       300.data-partitions-and-replicas=Data partitions and replicas
         300.partition-replica-type=Partition replica type
+        500.data-balancing=Data balancing
       400.dynamic-scaling=Dynamic scaling
         200.scale-in-and-scale-out-of-tenant-resources=Tenant resource scaling
     600.data-link=Data link
