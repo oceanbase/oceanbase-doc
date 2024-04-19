@@ -484,9 +484,9 @@
       700.error-code-of-oracle-mode=错误码（Oracle 模式）
     600.platform-products=平台产品
       400.1.ocp-express=OceanBase 云平台 Express（OCP Express）
-    700.ccomponents-and-tools=组件 & 工具
+    700.components-and-tools=组件 & 工具
       100.manage=运维管理
-        800.ob-admin=ob_admin
+        200.ob-admin=ob_admin
           300.clog=clog
       200.monitor-and-diagnos=监控诊断
       300.data-integrate=数据集成
