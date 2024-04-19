@@ -467,7 +467,7 @@
       600.error-code-of-mysql-mode=Error codes (MySQL mode)
       700.error-code-of-oracle-mode=Error codes (Oracle mode)
     600.platform-products=Platforms
-    700.ccomponents-and-tools=Components & tools
+    700.components-and-tools=Components & tools
       100.manage=O&M
         800.ob-admin=ob_admin
           300.clog=clog
