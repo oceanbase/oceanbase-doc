@@ -103,8 +103,9 @@
     300.access-control=访问控制
       200.user-and-permission=用户和权限
         200.permission-of-mysql-mode=MySQL 模式下的权限管理
+          340.role-management-of-mysql-mode.md=角色管理
         300.permission-of-oracle-mode=Oracle 模式下的权限管理
-           400.manage-roles-of-oracle-mode=角色管理
+          400.manage-roles-of-oracle-mode=角色管理
     400.data-transfer-encryption=数据传输加密
     500.data-storage-encryption=数据透明加密
       200.data-storage-encryption-of-mysql-mode=MySQL 模式下的数据透明加密
