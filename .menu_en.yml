@@ -77,8 +77,8 @@
     200.system-variable-for-mysql=System Variables (MySQL Mode)
     300.system-variable-for-oracle=System Variables (Oracle Mode)
   700.ccomponents-and-tools=Components & tools
-      100.manage=O&M
-        800.ob-admin=ob_admin
+      100.manage=O&M management
+        200.ob-admin=ob_admin
           300.clog=clog
       200.monitor-and-diagnos=Monitoring and diagnostics
       300.data-integrate=Data integration
@@ -92,3 +92,11 @@
       400.stress-test-tools=Stress testing tools
         100.mysqltest=mysqltest
           200.use-of-case=Test Cases
+900.release-notes=Release
+  10100.enterprise-edition-history-release=Enterprise edition
+    100.V3.2=V3.2
+    200.V3.1=V3.1
+    300.V2.2=V2.2
+  10200.community-edition-history-release=Community edition
+    10000.V4.0=V4.0
+    10100.V3.1=V3.1
