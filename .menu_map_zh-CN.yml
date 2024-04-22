@@ -423,11 +423,13 @@
         18400.dbms-workload-repository-oracle=DBMS_WORKLOAD_REPOSITORY
         18500.dbms-xa-oracle=DBMS_XA
         19700.dbms-xmlgen-oracle=DBMS_XMLGEN
+        19800.dbms-profiler-oracle=DBMS_PROFILER
         20700.dbms-xplan-oracle=DBMS_XPLAN
         22800.odciconst-oracle=ODCIConst
         26000.utl-encode-oracle=UTL_ENCODE
         26100.utl-file-oracle=UTL_FILE
         26300.utl-i18n-oracle=UTL_I18N
+        26400.utl-recomp-package-oracle=UTL_RECOMP
         27000.utl-raw-oracle=UTL_RAW
         27800.anydata-type-oracle=ANYDATA TYPE
         29600.xmltype-oracle=XMLType
