@@ -354,6 +354,7 @@
             400.modify-xmltype-data-functions-of-oracle-mode=修改 XMLType 数据的函数
         300.aggregate-functions-of-oracle-mode=聚合函数
         400.analysis-functions-of-oracle-mode=分析函数
+        500.information-functions-of-oracle-mode=信息函数
       600.expression-of-oracle-mode=表达式
       700.condition-of-oracle-mode=条件
       800.queries-and-subqueries-of-oracle-mode=查询和子查询
