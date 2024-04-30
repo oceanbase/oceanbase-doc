@@ -315,8 +315,9 @@
           300.numeric-data-type-of-oracle-mode=数值数据类型
           400.date-time-and-interval-data-types-of-oracle-mode=日期时间和间隔数据类型
           600.large-object-data-type-of-oracle-mode=大对象数据类型
-        1000.json-formatted-data-type-oracle-mode=JSON 数据类型
-        1100.xml-date-type-of-oracle-mode=XML 数据类型
+          1000.json-formatted-data-type-oracle-mode=JSON 数据类型
+          1100.xml-date-type-of-oracle-mode=XML 数据类型
+          1200.spatial-data-type-of-oracle-mode=空间数据类型
         200.data-type-comparison-rules-of-oracle-mode=数据类型比较规则
         300.literal-of-oracle-mode=字面量
           400.date-and-time-literal-of-oracle-mode=日期时间字面量
@@ -352,6 +353,7 @@
             200.construct-xmltype-data-functions-of-oracle-mode=构造 XMLType 数据的函数
             300.querying-xmltype-data-functions-of-oracle-mode=查询 XMLType 数据的函数
             400.modify-xmltype-data-functions-of-oracle-mode=修改 XMLType 数据的函数
+          1400.spatial-functions-of-oracle-mode=空间函数  
         300.aggregate-functions-of-oracle-mode=聚合函数
         400.analysis-functions-of-oracle-mode=分析函数
         500.information-functions-of-oracle-mode=信息函数
