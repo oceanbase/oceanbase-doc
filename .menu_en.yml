@@ -13,6 +13,7 @@
     200.sample-program-of-mysql-mode=Sample applications
       100.java-of-mysql-mode=Java
       200.python-of-mysql-mode=Python
+      300.c-of-mysql-mode=C
       400.go-of-mysql-mode=Go
     300.database-object-planning-of-mysql-mode=Plan database objects   
     400.write-data-of-mysql-mode=Write data
@@ -523,7 +524,8 @@
         400.oblogmsg=oblogmsg
     400.stress-test-tools=Stress testing tools
       100.mysqltest=mysqltest
-        200.use-of-case=Use of cases  
+        200.use-of-case=Use of cases
+  1600.ecological-integration=Integrations
 800.FAQ=FAQ
 900.release-notes=Release Notes
   10100.enterprise-edition-history-release=OceanBase Database Enterprise Edition
