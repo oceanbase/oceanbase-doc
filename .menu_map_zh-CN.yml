@@ -300,6 +300,10 @@
           400.return-json-text-property-function-of-mysql-mode=返回 JSON 文本属性的函数
           500.json-utility-function-of-mysql-mode=JSON 工具函数
           600.json-aggregate-function-of-mysql-mode=JSON 聚合函数
+          700.json-schema-function-of-mysql-mode=JSON Schema 验证函数
+        750.xml-functions-of-mysql-mode=XML 函数
+          300.querying-xmltype-data-functions-of-mysql-mode=查询 XML 数据的函数
+          400.modify-xmltype-data-functions-of-mysql-mode=修改 XML 数据的函数
         800.spatial-functions-of-mysql-mode=空间函数
         900.performance-schema-of-mysql-mode=Performance Schema 函数
         1000.other-functions-of-mysql-mode=其它函数
