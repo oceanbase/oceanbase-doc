@@ -15,6 +15,7 @@
       200.python-of-mysql-mode=Python
       300.c-of-mysql-mode=C
       400.go-of-mysql-mode=Go
+      500.php-of-mysql-mode=PHP
     300.database-object-planning-of-mysql-mode=Plan database objects   
     400.write-data-of-mysql-mode=Write data
     500.read-data-of-mysql-mode=Read data
@@ -348,6 +349,7 @@
             400.modify-xmltype-data-functions-of-oracle-mode=Modify XMLType data functions
         300.aggregate-functions-of-oracle-mode=Aggregate functions
         400.analysis-functions-of-oracle-mode=Analysis functions
+        500.information-functions-of-oracle-mode=Information functions
       600.expression-of-oracle-mode=Expressions
       700.condition-of-oracle-mode=Conditions
       800.queries-and-subqueries-of-oracle-mode=Queries and subqueries
