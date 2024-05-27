@@ -105,6 +105,7 @@
     300.access-control=访问控制
       200.user-and-permission=用户和权限
         200.permission-of-mysql-mode=MySQL 模式下的权限管理
+           340.role-management-of-mysql-mode=角色管理
         300.permission-of-oracle-mode=Oracle 模式下的权限管理
            400.manage-roles-of-oracle-mode=角色管理
     400.data-transfer-encryption=数据传输加密
@@ -394,6 +395,7 @@
         17800.dbms-udr-mysql=DBMS_UDR
         17900.dbms-workload-repository-mysql=DBMS_WORKLOAD_REPOSITORY
         20700.dbms-xplan-mysql=DBMS_XPLAN
+        20900.dbms-limit-calculator-mysql=20900.DBMS_LIMIT_CALCULATOR
     300.pl-oracle=PL 参考（Oracle 模式）
       100.pl-language-basics-oracle=PL 语言基础
       200.data-type-oracle=PL 数据类型
