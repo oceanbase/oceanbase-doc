@@ -454,6 +454,7 @@
       300.cluster-level-configuration-items=集群级别配置项
       400.tenant-level-configuration-items=租户级别配置项
     200.system-variable=系统变量
+      200.mack-variable=Mock 变量（暂存）
       300.global-system-variable=Global 系统变量
       400.session-system-variable=Session 系统变量
   900.error-code=错误码
