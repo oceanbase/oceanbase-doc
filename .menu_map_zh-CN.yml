@@ -459,7 +459,7 @@
       100.introduction-to-tableapi=OBKV-Table 实现介绍
       200.use-of-the-tableapi-client=OBKV-Table 客户端的使用
       260.tableapi-go=OBKV-Table GO 客户端的使用
-    600.hbaseapi= OBKV-HBase
+    600.hbaseapi=OBKV-HBase
   700.system-views=系统视图
     300.system-view-of-sys-tenant=SYS 租户系统视图
       200.dictionary-view-of-sys-tenant=字典视图
