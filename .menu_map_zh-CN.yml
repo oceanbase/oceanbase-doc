@@ -155,6 +155,13 @@
       100.issues-in-the-hardware-environment=硬件环境导致的问题
       200.problems-caused-by-capacity-changes=容量变化导致的问题
       300.other-problems-within-the-cluster=集群内部其他问题
+620.obap=OceanBase AP
+  110.obap-deploy=部署简介
+  200.obap-data-design=数据表设计
+  300.obap-import-data=导入数据
+  600.obap-query=查询加速
+  700.performance-tuning=性能诊断和调优
+  750.obap-performance-test=性能测试
 650.obkv=OBKV
   100.obkv-table=OBKV-Table
     100.introduction-to-tableapi=OBKV-Table 简介
