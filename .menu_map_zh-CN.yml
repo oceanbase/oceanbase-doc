@@ -516,6 +516,9 @@
         210.use-case=使用场景
         300.obshell-clients=OBShell 命令
         400.obshell-api-reference=API 参考
+        500.obshell-sdk-reference=SDK 参考
+          100.python=Python
+          200.go=GO
       200.ob-admin=ob_admin
         300.clog=clog
       700.oblogminer=oblogminer
