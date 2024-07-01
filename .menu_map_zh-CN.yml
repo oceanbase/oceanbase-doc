@@ -153,6 +153,15 @@
       100.issues-in-the-hardware-environment=硬件环境导致的问题
       200.problems-caused-by-capacity-changes=容量变化导致的问题
       300.other-problems-within-the-cluster=集群内部其他问题
+650.obkv=OBKV
+  100.obkv-table=OBKV-Table
+    100.introduction-to-tableapi=OBKV-Table 简介
+    200.use-of-the-tableapi-client=使用 OBKV-Table Java 客户端进行应用开发
+    260.tableapi-go=使用 OBKV-Table GO 客户端进行应用开发
+  200.obkv-hbase=OBKV-HBase
+    200.obkv-hbase-develop=基于 OBKV-HBase 进行应用开发
+    300.obkv-hbase-manage=OBKV-HBase 管理
+    800.obkv-hbase-integrations=OBKV-HBase 生态集成
 700.reference=参考指南
   100.oceanbase-database-concepts=系统原理
     300.multi-tenant-architecture=多租户架构
