@@ -386,6 +386,8 @@
         17800.dbms-udr-mysql=DBMS_UDR
         17900.dbms-workload-repository-mysql=DBMS_WORKLOAD_REPOSITORY
         20700.dbms-xplan-mysql=DBMS_XPLAN
+        20800.dbms-balance-mysql=DBMS_BALANCE
+        20900.dbms-limit-calculator-mysql=DBMS_LIMIT_CALCULATOR
     300.pl-oracle=PL 参考（Oracle 模式）
       100.pl-language-basics-oracle=PL 语言基础
       200.data-type-oracle=PL 数据类型
@@ -413,6 +415,7 @@
       1400.pl-system-package-oracle=PL 系统包（Oracle 模式）
         1900.dbms-application-info-oracle=DBMS_APPLICATION_INFO
         2600.dbms-audit-mgmt-oracle=DBMS_AUDIT_MGMT
+        2700.dbms-balance-oracle=DBMS_BALANCE
         3800.dbms-crypto-oracle=DBMS_CRYPTO
         5300.dbms-debug-oracle=DBMS_DEBUG
         5600.dbms-describe-oracle=DBMS_DESCRIBE
