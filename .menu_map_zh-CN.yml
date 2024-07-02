@@ -275,6 +275,7 @@
           500.large-object-of-mysql-mode=大对象和文本类型
           800.json-formatted-data-type-of-mysql-mode=JSON 数据类型
           900.spatial-data-type-of-mysql-mode=空间数据类型
+          950.gtid-functions-of-mysql-mode=GTID 函数
         200.expression-of-mysql-mode=表达式
         300.character-set-and-collation-of-mysql-mode=字符集与字符序
         400.literal-of-mysql-mode=字面量
