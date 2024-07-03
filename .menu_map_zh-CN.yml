@@ -446,6 +446,7 @@
         18400.dbms-workload-repository-oracle=DBMS_WORKLOAD_REPOSITORY
         18500.dbms-xa-oracle=DBMS_XA
         19700.dbms-xmlgen-oracle=DBMS_XMLGEN
+        19800.dbms-profiler-oracle=DBMS_PROFILER
         20700.dbms-xplan-oracle=DBMS_XPLAN
         22800.odciconst-oracle=ODCIConst
         26000.utl-encode-oracle=UTL_ENCODE
@@ -526,6 +527,9 @@
         210.use-case=使用场景
         300.obshell-clients=OBShell 命令
         400.obshell-api-reference=API 参考
+        500.obshell-sdk-reference=SDK 参考
+          100.python=Python
+          200.go=GO
       200.ob-admin=ob_admin
         300.clog=clog
     200.monitor-and-diagnos=监控诊断
