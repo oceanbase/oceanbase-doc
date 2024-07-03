@@ -83,10 +83,12 @@
        800.tenant-scale-in-and-out=租户扩缩容
        1500.resource-pool-management=管理资源池
        1600.resource-specification-management=管理资源规格
+       1700.manage-service=管理服务
   300.replica-management=副本管理
     200.replica-distribution=副本分布
       200.locality-common-operations=Locality 常见操作
     500.load-balancing-manage=数据负载均衡
+      500.partition-balance-management=分区均衡
   400.high-availability=高可用
     200.multi-replica-disaster-recovery=多副本容灾
     300.physical-standby-database-disaster-recovery=物理备库容灾
@@ -273,6 +275,7 @@
           500.large-object-of-mysql-mode=大对象和文本类型
           800.json-formatted-data-type-of-mysql-mode=JSON 数据类型
           900.spatial-data-type-of-mysql-mode=空间数据类型
+          950.gtid-functions-of-mysql-mode=GTID 函数
         200.expression-of-mysql-mode=表达式
         300.character-set-and-collation-of-mysql-mode=字符集与字符序
         400.literal-of-mysql-mode=字面量
@@ -384,6 +387,8 @@
         17800.dbms-udr-mysql=DBMS_UDR
         17900.dbms-workload-repository-mysql=DBMS_WORKLOAD_REPOSITORY
         20700.dbms-xplan-mysql=DBMS_XPLAN
+        20800.dbms-balance-mysql=DBMS_BALANCE
+        20900.dbms-limit-calculator-mysql=DBMS_LIMIT_CALCULATOR
     300.pl-oracle=PL 参考（Oracle 模式）
       100.pl-language-basics-oracle=PL 语言基础
       200.data-type-oracle=PL 数据类型
@@ -411,6 +416,7 @@
       1400.pl-system-package-oracle=PL 系统包（Oracle 模式）
         1900.dbms-application-info-oracle=DBMS_APPLICATION_INFO
         2600.dbms-audit-mgmt-oracle=DBMS_AUDIT_MGMT
+        2700.dbms-balance-oracle=DBMS_BALANCE
         3800.dbms-crypto-oracle=DBMS_CRYPTO
         5300.dbms-debug-oracle=DBMS_DEBUG
         5600.dbms-describe-oracle=DBMS_DESCRIBE
