@@ -405,6 +405,7 @@
         17900.dbms-workload-repository-mysql=DBMS_WORKLOAD_REPOSITORY
         20700.dbms-xplan-mysql=DBMS_XPLAN
         20900.dbms-limit-calculator-mysql=DBMS_LIMIT_CALCULATOR
+        21000.dbms-external-table-mysql=DBMS_EXTERNAL_TABLE
     300.pl-oracle=PL 参考（Oracle 模式）
       100.pl-language-basics-oracle=PL 语言基础
       200.data-type-oracle=PL 数据类型
@@ -456,6 +457,7 @@
         18500.dbms-xa-oracle=DBMS_XA
         19700.dbms-xmlgen-oracle=DBMS_XMLGEN
         19800.dbms-profiler-oracle=DBMS_PROFILER
+        21000.dbms-external-table-oracle=DBMS_EXTERNAL_TABLE
         20700.dbms-xplan-oracle=DBMS_XPLAN
         22800.odciconst-oracle=ODCIConst
         26000.utl-encode-oracle=UTL_ENCODE
