@@ -463,6 +463,7 @@
         26000.utl-encode-oracle=UTL_ENCODE
         26100.utl-file-oracle=UTL_FILE
         26300.utl-i18n-oracle=UTL_I18N
+        26400.utl-recomp-package-oracle=UTL_RECOMP
         27000.utl-raw-oracle=UTL_RAW
         27800.anydata-type-oracle=ANYDATA TYPE
         29600.xmltype-oracle=XMLType
