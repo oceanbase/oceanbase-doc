@@ -319,6 +319,13 @@
         900.performance-schema-of-mysql-mode=Performance Schema 函数
         920.lock-functions-of-mysql-mode=锁函数
         940.roaring-bitmap-functions-of-mysql-mode=位图函数
+          100.roaring-bitmap-functions-overview-of-mysql-mode=位图函数概述
+          200.roaring-bitmap-constructor-functions-of-mysql-mode=位图构造函数
+          300.roaring-bitmap-cardinality-calculation-functions-of-mysql-mode=位图基数计算函数
+          400.roaring-bitmap-operation-functions-of-mysql-mode=位图运算函数
+          500.roaring-bitmap-decision-functions-of-mysql-mode=位图判断函数
+          600.roaring-bitmap-output-functions-of-mysql-mode=位图输出函数
+          700.roaring-bitmap-aggregate-functions-of-mysql-mode=位图聚合函数
         1000.other-functions-of-mysql-mode=其它函数
       500.queries-and-subqueries-of-mysql-mode=查询和子查询
       600.sql-statement-of-mysql-mode=SQL 语句
