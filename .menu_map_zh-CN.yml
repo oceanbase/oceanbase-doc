@@ -553,6 +553,7 @@
           200.go=GO
       200.ob-admin=ob_admin
         300.clog=clog
+        400.backup-and-recovery=备份恢复
     200.monitor-and-diagnos=监控诊断
       200.sql_diagnoser=sql_diagnoser
         200.deploy-and-use-delsql_diagnoser=sql_diagnoser 安装和使用
