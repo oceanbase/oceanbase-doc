@@ -534,6 +534,7 @@
           200.go=GO
       200.ob-admin=ob_admin
         300.clog=clog
+        400.backup-and-recovery=备份恢复
       700.oblogminer=oblogminer
     200.monitor-and-diagnos=监控诊断
       200.sql_diagnoser=SQL Diagnoser
