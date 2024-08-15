@@ -113,6 +113,8 @@
       200.data-storage-encryption-of-mysql-mode=MySQL 模式下的数据透明加密
       300.data-storage-encryption-of-oracle-mode=Oracle 模式下的数据透明加密
     600.security-audit=安全审计
+      200.security-audit-of-mysql-mode=MySQL 租户审计
+      300.security-audit-of-oracle-mode=Oracle 租户审计
   600.backup-and-recovery=备份恢复
     300.log-archive=日志归档
     400.data-backup=数据备份
