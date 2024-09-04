@@ -307,6 +307,7 @@
           400.modify-xmltype-data-functions-of-mysql-mode=修改 XML 数据的函数
         800.spatial-functions-of-mysql-mode=空间函数
         900.performance-schema-of-mysql-mode=Performance Schema 函数
+        920.lock-functions-of-mysql-mode=锁函数
         1000.other-functions-of-mysql-mode=其它函数
         1100.audit-functions-of-mysql=审计函数
       500.queries-and-subqueries-of-mysql-mode=查询和子查询
