@@ -85,6 +85,7 @@
        800.tenant-scale-in-and-out=租户扩缩容
        1500.resource-pool-management=管理资源池
        1600.resource-specification-management=管理资源规格
+       1700.manage-service=管理服务
   300.replica-management=副本管理
     200.replica-distribution=副本分布
       200.locality-common-operations=Locality 常见操作
