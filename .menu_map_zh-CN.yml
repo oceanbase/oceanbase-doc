@@ -296,6 +296,7 @@
           800.json-formatted-data-type-of-mysql-mode=JSON 数据类型
           900.spatial-data-type-of-mysql-mode=空间数据类型
           1000.roaring-bitmap-data-type-of-mysql-mode=高效压缩位图数据类型
+          1200.array-data-type-of-mysql-mode=数组数据类型
         200.expression-of-mysql-mode=表达式
         300.character-set-and-collation-of-mysql-mode=字符集与字符序
         400.literal-of-mysql-mode=字面量
@@ -327,6 +328,7 @@
         900.performance-schema-of-mysql-mode=Performance Schema 函数
         920.lock-functions-of-mysql-mode=锁函数
         940.roaring-bitmap-functions-of-mysql-mode=位图函数
+        950.array-functions-of-mysql-mode=数组函数
         1000.other-functions-of-mysql-mode=其它函数
       500.queries-and-subqueries-of-mysql-mode=查询和子查询
       600.sql-statement-of-mysql-mode=SQL 语句
