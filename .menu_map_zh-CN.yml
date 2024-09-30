@@ -117,8 +117,8 @@
     300.log-archive=日志归档
     400.data-backup=数据备份
     500.clear-backup-data=清理备份数据
-    600.restore-data=恢复数据
-    700.recover-table=按表恢复
+    600.restore-data=租户级恢复
+    700.recover-table=表级恢复
   700.monitor=监控指标
     200.monitor-items-introduction=监控指标
       100.system-monitor=系统监控
