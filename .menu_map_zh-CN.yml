@@ -212,6 +212,7 @@
     600.data-link=数据链路
       200.database-proxy=数据库代理
       300.database-driver=数据库驱动
+      400.dblink=DBLINK 跨数据源访问
     700.user-interface-and-query-language=用户接口和查询语言
       100.SQL=SQL
         100.sql-introduction=SQL 介绍
