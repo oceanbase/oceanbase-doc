@@ -25,7 +25,6 @@
       300.transaction-savepoints-of-mysql-mode=保存点
     700.application-error-handling-specification-and-common-error-solutions=应用程序报错处理规范与常见报错处理
       100.application-error-handling-specification-of-mysql-mode=应用程序错误处理规范
-      200.common-errors-and-solutions-of-mysql-mode=常见报错与处理
   200.application-development-of-oracle-mode=基于 Oracle 模式进行应用开发
     100.connect-to-oceanbase-database-of-oracle-mode=连接 OceanBase 数据库
       1300.use-the-database-connection-pool-of-oracle-mode=使用数据库连接池
@@ -41,7 +40,6 @@
       300.transaction-savepoints-of-oracle-mode=保存点
     700.application-error-handling-specification-and-common-error-solutions-of-oracle-mode=应用程序报错处理规范与常见报错处理
       100.application-error-handling-specification-of-oracle-mode=应用程序错误处理规范
-      200.common-errors-and-solutions-of-oracle-mode=常见报错与处理
 400.deploy=部署数据库
   300.deploy-oceanbase-enterprise-edition=部署 OceanBase 企业版
     200.preparations-before-deploy=部署前准备
@@ -172,6 +170,16 @@
     200.obkv-hbase-develop=基于 OBKV-HBase 进行应用开发
     300.obkv-hbase-manage=OBKV-HBase 管理
     800.obkv-hbase-integrations=OBKV-HBase 生态集成
+680.ecological-integration=生态集成
+  200.orms-frameworks=ORM 框架
+    100.java=Java
+    300.go=Go
+  300.schema-evolution=数据库版本管理
+  400.data-ingestion=数据集成
+  500.sql-development=SQL 开发
+  600.orchestration=编排调度
+  700.visualization=可视化工具
+  1000.management=数据库管控
 700.reference=参考指南
   100.oceanbase-database-concepts=系统原理
     300.multi-tenant-architecture=多租户架构
@@ -570,7 +578,6 @@
     400.stress-test-tools=压测工具
       100.mysqltest=mysqltest
         200.use-of-case=case 使用
-  1600.ecological-integration=生态集成
 800.FAQ=常见问题
 900.release-notes=版本发布记录
   10100.enterprise-edition-history-release=企业版
