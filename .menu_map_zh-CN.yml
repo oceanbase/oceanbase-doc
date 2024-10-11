@@ -25,7 +25,6 @@
       300.transaction-savepoints-of-mysql-mode=保存点
     700.application-error-handling-specification-and-common-error-solutions=应用程序报错处理规范与常见报错处理
       100.application-error-handling-specification-of-mysql-mode=应用程序错误处理规范
-      200.common-errors-and-solutions-of-mysql-mode=常见报错与处理
   200.application-development-of-oracle-mode=基于 Oracle 模式进行应用开发
     100.connect-to-oceanbase-database-of-oracle-mode=连接 OceanBase 数据库
       1300.use-the-database-connection-pool-of-oracle-mode=使用数据库连接池
@@ -41,7 +40,6 @@
       300.transaction-savepoints-of-oracle-mode=保存点
     700.application-error-handling-specification-and-common-error-solutions-of-oracle-mode=应用程序报错处理规范与常见报错处理
       100.application-error-handling-specification-of-oracle-mode=应用程序错误处理规范
-      200.common-errors-and-solutions-of-oracle-mode=常见报错与处理
 400.deploy=部署数据库
   300.deploy-oceanbase-enterprise-edition=部署 OceanBase 企业版
     200.preparations-before-deploy=部署前准备
