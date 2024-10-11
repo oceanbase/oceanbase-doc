@@ -172,6 +172,16 @@
     200.obkv-hbase-develop=基于 OBKV-HBase 进行应用开发
     300.obkv-hbase-manage=OBKV-HBase 管理
     800.obkv-hbase-integrations=OBKV-HBase 生态集成
+680.ecological-integration=生态集成
+  200.orms-frameworks=ORM 框架
+    100.java=Java
+    300.go=Go
+  300.schema-evolution=数据库版本管理
+  400.data-ingestion=数据集成
+  500.sql-development=SQL 开发
+  600.orchestration=编排调度
+  700.visualization=可视化工具
+  1000.management=数据库管控
 700.reference=参考指南
   100.oceanbase-database-concepts=系统原理
     300.multi-tenant-architecture=多租户架构
@@ -212,6 +222,7 @@
     600.data-link=数据链路
       200.database-proxy=数据库代理
       300.database-driver=数据库驱动
+      400.dblink=DBLINK 跨数据源访问
     700.user-interface-and-query-language=用户接口和查询语言
       100.SQL=SQL
         100.sql-introduction=SQL 介绍
@@ -569,7 +580,6 @@
     400.stress-test-tools=压测工具
       100.mysqltest=mysqltest
         200.use-of-case=case 使用
-  1600.ecological-integration=生态集成
 800.FAQ=常见问题
 900.release-notes=版本发布记录
   10100.enterprise-edition-history-release=企业版
