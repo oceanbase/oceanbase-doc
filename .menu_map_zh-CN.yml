@@ -161,6 +161,11 @@
   600.obap-query=查询加速
   700.performance-tuning=性能诊断和调优
   750.obap-performance-test=性能测试
+640.ob-vector-search=向量检索
+  120.ob-vector-search-quick-start=向量检索快速上手
+  700.ob-vector-search-reference=向量检索参考
+  <quote-f virtual_file_name="600.migrate-data-from-milvus-to-obmysql.md"  target="1000000001456774" version="V4.2.6"/>
+  <quote-f virtual_file_name="700.create-a-project-to-migrate-data-from-qdrant-to-obmysql.md"  target="1000000001456777" version="V4.2.6"/>
 650.obkv=OBKV
   100.obkv-table=OBKV-Table
     100.introduction-to-tableapi=OBKV-Table 简介
