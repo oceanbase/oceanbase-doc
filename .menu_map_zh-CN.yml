@@ -459,7 +459,7 @@
       260.tableapi-go=TableAPI GO 客户端的使用
     600.hbaseapi=HBaseAPI
   700.system-views=系统视图
-    300.system-view-of-sys-tenant=SYS 租户系统视图
+    300.system-view-of-sys-tenant=sys 租户系统视图
       200.dictionary-view-of-sys-tenant=字典视图
       300.performance-view-of-sys-tenant=性能视图
     400.system-view-of-mysql-mode=MySQL 租户系统视图
