@@ -452,12 +452,6 @@
         27000.utl-raw-oracle=UTL_RAW
         27800.anydata-type-oracle=ANYDATA TYPE
         29600.xmltype-oracle=XMLType
-  600.api=多模 API
-    500.tableapi=TableAPI
-      100.introduction-to-tableapi=TableAPI 实现介绍
-      200.use-of-the-tableapi-client=TableAPI 客户端的使用
-      260.tableapi-go=TableAPI GO 客户端的使用
-    600.hbaseapi=HBaseAPI
   700.system-views=系统视图
     300.system-view-of-sys-tenant=sys 租户系统视图
       200.dictionary-view-of-sys-tenant=字典视图
