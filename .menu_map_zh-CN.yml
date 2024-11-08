@@ -187,6 +187,7 @@
   700.visualization=可视化工具
     <quote-f virtual_file_name="200.grafana.md"  target="1000000001478761" version=""/>
   1000.management=数据库管控
+690.practical-tutorial=实践教程
 700.reference=参考指南
   100.oceanbase-database-concepts=系统原理
     300.multi-tenant-architecture=多租户架构
