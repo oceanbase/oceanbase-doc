@@ -161,6 +161,11 @@
   600.obap-query=查询加速
   700.performance-tuning=性能诊断和调优
   750.obap-performance-test=性能测试
+640.ob-vector-search=向量检索
+  120.ob-vector-search-quick-start=向量检索快速上手
+  700.ob-vector-search-reference=向量检索参考
+  <quote-f virtual_file_name="600.migrate-data-from-milvus-to-obmysql.md"  target="1000000001456774" version="V4.2.6"/>
+  <quote-f virtual_file_name="700.create-a-project-to-migrate-data-from-qdrant-to-obmysql.md"  target="1000000001456777" version="V4.2.6"/>
 650.obkv=OBKV
   100.obkv-table=OBKV-Table
     100.introduction-to-tableapi=OBKV-Table 简介
@@ -182,6 +187,7 @@
   700.visualization=可视化工具
     <quote-f virtual_file_name="200.grafana.md"  target="1000000001478761" version=""/>
   1000.management=数据库管控
+690.practical-tutorial=实践教程
 700.reference=参考指南
   100.oceanbase-database-concepts=系统原理
     300.multi-tenant-architecture=多租户架构
@@ -267,6 +273,7 @@
       200.manage-tables-of-mysql-mode=创建和管理表
         1000.manage-external-tables-of-mysql-mode=创建和管理外表
       300.manage-partitions-of-mysql-mode=创建和管理分区
+        250.partition-splitting-of-mysql-mode=分区分裂
         900.create-partition-table-index-of-mysql-mode=在分区表上建立索引
       400.manage-table-groups-of-mysql-mode=创建和管理表组
       500.manage-indexes-of-mysql-mode=创建和管理索引
@@ -281,6 +288,7 @@
       100.manage-tables-of-oracle-mode=创建和管理表
         1000.manage-external-tables-of-oracle-mode=创建和管理外表
       200.manage-partitions-of-oracle-mode=创建和管理分区
+        250.partition-splitting-of-oracle-mode=分区分裂
         900.create-partition-table-index-of-oracle-mode=在分区表上建立索引
       300.manage-table-groups-of-oracle-mode=创建和管理表组
       400.manage-indexes-of-oracle-mode=创建和管理索引
@@ -340,6 +348,7 @@
         920.lock-functions-of-mysql-mode=锁函数
         940.roaring-bitmap-functions-of-mysql-mode=位图函数
         950.array-functions-of-mysql-mode=数组函数
+        960.text-processing-functions-of-mysql-mode=文本处理函数
         1000.other-functions-of-mysql-mode=其它函数
       500.queries-and-subqueries-of-mysql-mode=查询和子查询
       600.sql-statement-of-mysql-mode=SQL 语句
