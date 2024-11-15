@@ -172,7 +172,7 @@
     200.obkv-hbase-develop=Use OBKV-HBase
     300.obkv-hbase-manage=OBKV-HBase management
     800.obkv-hbase-integrations=OBKV-HBase integration
-690.practical-tutorial=Practical Tutorials
+690.practical-tutorial=Tutorials
 700.reference=Reference
   100.oceanbase-database-concepts=OceanBase concepts
     300.multi-tenant-architecture=Multi-tenant architecture
