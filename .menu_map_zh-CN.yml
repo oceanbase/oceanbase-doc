@@ -394,6 +394,7 @@
         20700.dbms-xplan-mysql=DBMS_XPLAN
         20800.dbms-balance-mysql=DBMS_BALANCE
         20900.dbms-limit-calculator-mysql=DBMS_LIMIT_CALCULATOR
+        21000.dbms-data-dict-mysql=DBMS_DATA_DICT
     300.pl-oracle=PL 参考（Oracle 模式）
       100.pl-language-basics-oracle=PL 语言基础
       200.data-type-oracle=PL 数据类型
