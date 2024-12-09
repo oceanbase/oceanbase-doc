@@ -416,7 +416,7 @@
   200.sql-specifications-and-practices=SQL 实践和建议
     200.sql-writing-Specification=SQL 编写规范
     300.sql-statement-example=SQL 语句示例
-  300.pl-reference=PL 参考
+  600.pl-reference=PL 参考
     100.what-is-pl=什么是 PL
     200.pl-mysql=PL 参考（MySQL 模式）
       200.storage-object-mysql=PL 存储程序
