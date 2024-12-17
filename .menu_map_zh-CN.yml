@@ -164,8 +164,6 @@
 640.ob-vector-search=向量检索
   120.ob-vector-search-quick-start=向量检索快速上手
   700.ob-vector-search-reference=向量检索参考
-  <quote-f virtual_file_name="600.migrate-data-from-milvus-to-obmysql.md"  target="1000000001456774" version="V4.2.6"/>
-  <quote-f virtual_file_name="700.create-a-project-to-migrate-data-from-qdrant-to-obmysql.md"  target="1000000001456777" version="V4.2.6"/>
 650.obkv=OBKV
   100.obkv-table=OBKV-Table
     100.introduction-to-tableapi=OBKV-Table 简介
@@ -416,7 +414,7 @@
   200.sql-specifications-and-practices=SQL 实践和建议
     200.sql-writing-Specification=SQL 编写规范
     300.sql-statement-example=SQL 语句示例
-  300.pl-reference=PL 参考
+  600.pl-reference=PL 参考
     100.what-is-pl=什么是 PL
     200.pl-mysql=PL 参考（MySQL 模式）
       200.storage-object-mysql=PL 存储程序
