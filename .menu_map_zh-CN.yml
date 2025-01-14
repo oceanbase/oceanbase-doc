@@ -200,7 +200,6 @@
         400.partition-of-oracle-mode=分区
         500.view-of-oracle-mode=视图
           150.standard-view-of-oracle-mode=普通视图
-          200.materialized-view-of-oracle-mode=物化视图
         600.other-objects-of-oracle-mode=其他对象
         700.system-view-of-oracle-mode=系统视图
         800.data-integrity-of-oracle-mode=数据完整性
@@ -213,7 +212,6 @@
         400.partition-of-mysql-mode=分区
         500.view-of-mysql-mode=视图
           150.standard-view-of-mysql-mode=普通视图
-          200.materialized-view-of-mysql-mode=物化视图
         600.system-view-of-mysql-mode=系统视图
         700.data-integrity-of-mysql-mode=数据完整性
           200.integrity-constraint-type-of-mysql-mode=完整性约束类型
@@ -618,14 +616,5 @@
         200.use-of-case=case 使用
 800.FAQ=常见问题
 900.release-notes=版本发布记录
-  10100.enterprise-edition-history-release=企业版
-    9790.V4.2=V4.2
-    9800.V4.1=V4.1
-    10100.V3.2=V3.2
-    10200.V3.1=V3.1
-    10300.V2.2=V2.2
-  10200.community-edition-history-release=社区版
-    9890.V4.2=V4.2
-    9900.V4.1=V4.1
-    10000.V4.0=V4.0
-    10100.V3.1=V3.1
+   <quote-f virtual_file_name="200.enterprise-edition-history-release.md"  target="1000000001780338"/> 
+   <quote-f virtual_file_name="300.community-edition-history-release.md"  target="1000000001780339"/>
