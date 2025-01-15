@@ -112,6 +112,8 @@
       200.data-storage-encryption-of-mysql-mode=MySQL 模式下的数据透明加密
       300.data-storage-encryption-of-oracle-mode=Oracle 模式下的数据透明加密
     600.security-audit=安全审计
+      200.security-audit-of-mysql-mode=MySQL 模式下的安全审计
+      300.security-audit-of-oracle-mode=Oracle 模式下的安全审计
   600.backup-and-recovery=备份恢复
     300.log-archive=日志归档
     400.data-backup=数据备份
@@ -343,6 +345,7 @@
         920.lock-functions-of-mysql-mode=锁函数
         940.roaring-bitmap-functions-of-mysql-mode=位图函数
         950.array-functions-of-mysql-mode=数组函数
+        960.audit-functions-of-mysql-mode=审计函数
         1000.other-functions-of-mysql-mode=其它函数
       500.queries-and-subqueries-of-mysql-mode=查询和子查询
       600.sql-statement-of-mysql-mode=SQL 语句
