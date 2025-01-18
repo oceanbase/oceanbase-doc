@@ -161,6 +161,9 @@
   300.obap-import-data=Import data
   600.obap-query=Query acceleration
   700.performance-tuning=Performance diagnosis and tuning
+640.ob-vector-search=Vector Search
+  120.ob-vector-search-quick-start=Quick starts
+  700.ob-vector-search-reference=References
 650.obkv=OBKV
   100.obkv-table=OBKV-Table
     100.introduction-to-tableapi=Introduction
