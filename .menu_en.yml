@@ -270,13 +270,12 @@
       200.manage-tables-of-mysql-mode=Create and manage tables
         1000.manage-external-tables-of-mysql-mode=Create and manage external tables
       300.manage-partitions-of-mysql-mode=Create and manage partitions
+        250.partition-splitting-of-mysql-mode=Partition splitting
         900.create-partition-table-index-of-mysql-mode=Create indexes on partitioned tables
       400.manage-table-groups-of-mysql-mode=Create and manage table groups
       500.manage-indexes-of-mysql-mode=Create and manage indexes
       600.manage-views-of-mysql-mode=Manage views
         200.manage-materialized-views-of-mysql-mode=Manage materialized views
-          100.materialized-views-of-mysql-mode=Materialized views
-          200.materialized-views-log-of-mysql-mode=Materialized view logs
       700.manage-sequence-of-mysql-mode=Create and manage sequences
       800.manage-triggers-of-mysql-mode=Create and manage triggers
       900.manage-dblink-of-mysql-mode=Create and manage DBLinks
@@ -289,8 +288,6 @@
       400.manage-indexes-of-oracle-mode=Create and manage indexes
       500.manage-views-of-oracle-mode=Manage views
         200.manage-materialized-views-of-oracle-mode=Manage materialized views
-          100.materialized-views-of-oracle-mode=Materialized views
-          200.materialized-views-log-of-oracle-mode=Materialized view logs
       800.manage-triggers-of-oracle-mode=Create and manage triggers
       1000.manage-dblink-of-oracle-mode=Create and manage DBLinks
   400.database-design-specifications-and-practices=Database design specifications and practices
