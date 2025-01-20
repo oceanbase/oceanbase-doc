@@ -112,6 +112,8 @@
       200.data-storage-encryption-of-mysql-mode=MySQL 模式下的数据透明加密
       300.data-storage-encryption-of-oracle-mode=Oracle 模式下的数据透明加密
     600.security-audit=安全审计
+      200.security-audit-of-mysql-mode=MySQL 模式下的安全审计
+      300.security-audit-of-oracle-mode=Oracle 模式下的安全审计
   600.backup-and-recovery=备份恢复
     300.log-archive=日志归档
     400.data-backup=数据备份
@@ -163,16 +165,15 @@
   750.obap-performance-test=性能测试
 640.ob-vector-search=向量检索
   120.ob-vector-search-quick-start=向量检索快速上手
+  500.ob-vector-search-practical-tutorial=向量检索实践教程
+    <quote-f virtual_title="基于 OceanBase 构建智能问答机器人" virtual_file_name="200.ob-vector-search-practical-tutorial-chatbot.md"  target="1000000002012729" version=""/>
+    <quote-f virtual_title="基于 OceanBase 构建图搜图应用" virtual_file_name="300.ob-vector-search-practical-tutorial-image-search.md"  target="1000000002012730" version=""/>
+  600.ob-vector-search-integration=AI 集成
+    <quote-f virtual_title="与 OpenAI 集成" virtual_file_name="200.ob-vector-search-integration-openai.md"  target="1000000002012928" version=""/>
+    <quote-f virtual_title="与通义千问集成" virtual_file_name="300.ob-vector-search-integration-qwen.md"  target="1000000002012930" version=""/>
+    <quote-f virtual_title="与 Langchain 集成" virtual_file_name="400.ob-vector-search-integration-langchain.md"  target="1000000002012931" version=""/>
+    <quote-f virtual_title="与 LlamaIndex 集成" virtual_file_name="500.ob-vector-search-integration-llamaindex.md"  target="1000000002012929" version=""/>
   700.ob-vector-search-reference=向量检索参考
-650.obkv=OBKV
-  100.obkv-table=OBKV-Table
-    100.introduction-to-tableapi=OBKV-Table 简介
-    200.use-of-the-tableapi-client=使用 OBKV-Table Java 客户端进行应用开发
-    260.tableapi-go=使用 OBKV-Table GO 客户端进行应用开发
-  200.obkv-hbase=OBKV-HBase
-    200.obkv-hbase-develop=基于 OBKV-HBase 进行应用开发
-    300.obkv-hbase-manage=OBKV-HBase 管理
-    800.obkv-hbase-integrations=OBKV-HBase 生态集成
 680.ecological-integration=生态集成
   200.orms-frameworks=ORM 框架
     100.java=Java
@@ -201,7 +202,6 @@
         400.partition-of-oracle-mode=分区
         500.view-of-oracle-mode=视图
           150.standard-view-of-oracle-mode=普通视图
-          200.materialized-view-of-oracle-mode=物化视图
         600.other-objects-of-oracle-mode=其他对象
         700.system-view-of-oracle-mode=系统视图
         800.data-integrity-of-oracle-mode=数据完整性
@@ -214,7 +214,6 @@
         400.partition-of-mysql-mode=分区
         500.view-of-mysql-mode=视图
           150.standard-view-of-mysql-mode=普通视图
-          200.materialized-view-of-mysql-mode=物化视图
         600.system-view-of-mysql-mode=系统视图
         700.data-integrity-of-mysql-mode=数据完整性
           200.integrity-constraint-type-of-mysql-mode=完整性约束类型
@@ -619,14 +618,5 @@
         200.use-of-case=case 使用
 800.FAQ=常见问题
 900.release-notes=版本发布记录
-  10100.enterprise-edition-history-release=企业版
-    9790.V4.2=V4.2
-    9800.V4.1=V4.1
-    10100.V3.2=V3.2
-    10200.V3.1=V3.1
-    10300.V2.2=V2.2
-  10200.community-edition-history-release=社区版
-    9890.V4.2=V4.2
-    9900.V4.1=V4.1
-    10000.V4.0=V4.0
-    10100.V3.1=V3.1
+   <quote-f virtual_file_name="200.enterprise-edition-history-release.md"  target="1000000001780338"/> 
+   <quote-f virtual_file_name="300.community-edition-history-release.md"  target="1000000001780339"/>
