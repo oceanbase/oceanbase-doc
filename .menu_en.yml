@@ -403,7 +403,7 @@
   200.sql-specifications-and-practices=SQL specifications and practices
     200.sql-writing-Specification=SQL writing specifications
     300.sql-statement-example=SQL statement examples
-  300.pl-reference=PL reference
+  600.pl-reference=PL reference
     100.what-is-pl=What is PL
     200.pl-mysql=PL reference (MySQL mode)
       200.storage-object-mysql=PL stored procedures
