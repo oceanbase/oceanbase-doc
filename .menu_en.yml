@@ -283,6 +283,7 @@
       100.manage-tables-of-oracle-mode=Create and manage tables
         1000.manage-external-tables-of-oracle-mode=Create and manage external tables    
       200.manage-partitions-of-oracle-mode=Create and manage partitions
+        250.partition-splitting-of-oracle-mode=Partition splitting
         900.create-partition-table-index-of-oracle-mode=Create indexes on partitioned tables
       300.manage-table-groups-of-oracle-mode=Create and manage table groups
       400.manage-indexes-of-oracle-mode=Create and manage indexes
