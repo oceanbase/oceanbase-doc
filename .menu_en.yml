@@ -337,6 +337,9 @@
         800.spatial-functions-of-mysql-mode=Spatial functions
         900.performance-schema-of-mysql-mode=Performance schema functions
         920.lock-functions-of-mysql-mode=Lock functions
+        940.roaring-bitmap-functions-of-mysql-mode=Bitmap functions
+        950.array-functions-of-mysql-mode=Array functions
+        960.text-processing-functions-of-mysql-mode=Text processing functions
         1000.other-functions-of-mysql-mode=Other functions
       500.queries-and-subqueries-of-mysql-mode=Queries and subqueries
       600.sql-statement-of-mysql-mode=SQL statements
