@@ -486,6 +486,7 @@
         19700.dbms-xmlgen-oracle=DBMS_XMLGEN
         19800.dbms-profiler-oracle=DBMS_PROFILER
         21000.dbms-external-table-oracle=DBMS_EXTERNAL_TABLE
+        21100.dbms-ddl-oracle=DBMS_DDL
         20700.dbms-xplan-oracle=DBMS_XPLAN
         22800.odciconst-oracle=ODCIConst
         26000.utl-encode-oracle=UTL_ENCODE
