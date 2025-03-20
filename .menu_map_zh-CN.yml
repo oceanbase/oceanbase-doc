@@ -486,6 +486,7 @@
         19700.dbms-xmlgen-oracle=DBMS_XMLGEN
         19800.dbms-profiler-oracle=DBMS_PROFILER
         21000.dbms-external-table-oracle=DBMS_EXTERNAL_TABLE
+        21100.dbms-ddl-oracle=DBMS_DDL
         20700.dbms-xplan-oracle=DBMS_XPLAN
         22800.odciconst-oracle=ODCIConst
         26000.utl-encode-oracle=UTL_ENCODE
@@ -620,6 +621,7 @@
     400.stress-test-tools=压测工具
       100.mysqltest=mysqltest
         200.use-of-case=case 使用
+  1600.oceanbase-database-plugin=OceanBase 数据库插件
 800.FAQ=常见问题
 900.release-notes=版本发布记录
    <quote-f virtual_file_name="200.enterprise-edition-history-release.md"  target="1000000001780338"/> 
