@@ -620,6 +620,7 @@
     400.stress-test-tools=压测工具
       100.mysqltest=mysqltest
         200.use-of-case=case 使用
+  1600.oceanbase-database-plugin=OceanBase 数据库插件
 800.FAQ=常见问题
 900.release-notes=版本发布记录
    <quote-f virtual_file_name="200.enterprise-edition-history-release.md"  target="1000000001780338"/> 
