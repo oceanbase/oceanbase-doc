@@ -494,6 +494,8 @@
         26300.utl-i18n-oracle=UTL_I18N
         26400.utl-recomp-package-oracle=UTL_RECOMP
         27000.utl-raw-oracle=UTL_RAW
+        27100.utl-tcp-oracle=UTL_TCP
+        27200.utl-smtp-oracle=UTL_SMTP
         27800.anydata-type-oracle=ANYDATA TYPE
         29600.xmltype-oracle=XMLType
   600.api=OBKV
