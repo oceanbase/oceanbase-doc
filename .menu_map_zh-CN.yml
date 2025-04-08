@@ -176,6 +176,7 @@
     <quote-f virtual_title="与 Langchain 集成" virtual_file_name="400.ob-vector-search-integration-langchain.md"  target="1000000002012931" version=""/>
     <quote-f virtual_title="与 LlamaIndex 集成" virtual_file_name="500.ob-vector-search-integration-llamaindex.md"  target="1000000002012929" version=""/>
   700.ob-vector-search-reference=向量检索参考
+    900.ob-vector-search-supported-clients-and-languages=向量检索支持的客户端和语言
 680.ecological-integration=生态集成
   200.orms-frameworks=ORM 框架
     100.java=Java
