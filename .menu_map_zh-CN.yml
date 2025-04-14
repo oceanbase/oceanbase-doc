@@ -537,6 +537,7 @@
         400.obshell-api-reference=API 参考
           100.obshell-management=obshell 管理
           200.cluster-management=集群管理
+          230.odp-management=OBProxy 管理
           300.unit-management=资源规格管理
           400.resource-pool-management=资源池管理
           500.tenant-management=租户管理
@@ -549,6 +550,7 @@
           100.python=Python
             110.obshell-management=obshell 管理
             200.cluster-management=集群管理
+            230.odp-management=OBProxy 管理
             300.unit-management=资源规格管理
             400.resource-pool-management=资源池管理
             500.tenant-management=租户管理
