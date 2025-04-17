@@ -273,6 +273,7 @@
         1000.manage-external-tables-of-mysql-mode=创建和管理外表
       300.manage-partitions-of-mysql-mode=创建和管理分区
         250.partition-splitting-of-mysql-mode=分区分裂
+        260.dynamic-partition-of-mysql-mode=动态分区
         900.create-partition-table-index-of-mysql-mode=在分区表上建立索引
       400.manage-table-groups-of-mysql-mode=创建和管理表组
       500.manage-indexes-of-mysql-mode=创建和管理索引
@@ -286,6 +287,7 @@
         1000.manage-external-tables-of-oracle-mode=创建和管理外表
       200.manage-partitions-of-oracle-mode=创建和管理分区
         250.partition-splitting-of-oracle-mode=分区分裂
+        260.dynamic-partition-of-oracle-mode=动态分区
         900.create-partition-table-index-of-oracle-mode=在分区表上建立索引
       300.manage-table-groups-of-oracle-mode=创建和管理表组
       400.manage-indexes-of-oracle-mode=创建和管理索引
