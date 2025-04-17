@@ -1,3 +1,4 @@
+<quote-f virtual_file_name="1000.glossary.md"  target="1000000001733429"/>
 100.learn-more-about-oceanbase=OceanBase 简介
   400.compatibility-with-oracle=与 Oracle 兼容性对比
 200.quickstart=快速上手
@@ -485,6 +486,7 @@
         19700.dbms-xmlgen-oracle=DBMS_XMLGEN
         19800.dbms-profiler-oracle=DBMS_PROFILER
         21000.dbms-external-table-oracle=DBMS_EXTERNAL_TABLE
+        21100.dbms-ddl-oracle=DBMS_DDL
         20700.dbms-xplan-oracle=DBMS_XPLAN
         22800.odciconst-oracle=ODCIConst
         26000.utl-encode-oracle=UTL_ENCODE
@@ -492,6 +494,8 @@
         26300.utl-i18n-oracle=UTL_I18N
         26400.utl-recomp-package-oracle=UTL_RECOMP
         27000.utl-raw-oracle=UTL_RAW
+        27100.utl-tcp-oracle=UTL_TCP
+        27200.utl-smtp-oracle=UTL_SMTP
         27800.anydata-type-oracle=ANYDATA TYPE
         29600.xmltype-oracle=XMLType
   600.api=OBKV
@@ -550,6 +554,8 @@
           200.join-algorithm=联接算法
         700.manage-execution-plans=管理执行计划
   1100.performance-test=性能测试
+    200.sysbench-benchmark-testing-on-oceanbase-database=OceanBase Sysbench 测试
+    500.tpc-h-benchmark-testing-on-oceanbase-database=OceanBase TPC-H 测试
   1200.database-proxy=数据库代理
     200.obproxy-management=OBProxy
       200.manage-obproxy-clusters=管理 OBProxy 集群
@@ -617,6 +623,7 @@
     400.stress-test-tools=压测工具
       100.mysqltest=mysqltest
         200.use-of-case=case 使用
+  1600.oceanbase-database-plugin=OceanBase 数据库插件
 800.FAQ=常见问题
 900.release-notes=版本发布记录
    <quote-f virtual_file_name="200.enterprise-edition-history-release.md"  target="1000000001780338"/> 
