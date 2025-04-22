@@ -165,6 +165,7 @@
   700.performance-tuning=性能诊断和调优
   750.obap-performance-test=性能测试
 640.ob-vector-search=向量检索
+  100.ob-vector-search-overview=向量检索概述
   120.ob-vector-search-quick-start=向量检索快速上手
   500.ob-vector-search-practical-tutorial=向量检索实践教程
     <quote-f virtual_title="基于 OceanBase 构建智能问答机器人" virtual_file_name="200.ob-vector-search-practical-tutorial-chatbot.md"  target="1000000002012729" version=""/>
@@ -175,6 +176,7 @@
     <quote-f virtual_title="与 Langchain 集成" virtual_file_name="400.ob-vector-search-integration-langchain.md"  target="1000000002012931" version=""/>
     <quote-f virtual_title="与 LlamaIndex 集成" virtual_file_name="500.ob-vector-search-integration-llamaindex.md"  target="1000000002012929" version=""/>
   700.ob-vector-search-reference=向量检索参考
+    900.ob-vector-search-supported-clients-and-languages=支持的客户端和语言
 680.ecological-integration=生态集成
   200.orms-frameworks=ORM 框架
     100.java=Java
