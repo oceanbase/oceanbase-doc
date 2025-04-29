@@ -165,6 +165,7 @@
   700.performance-tuning=性能诊断和调优
   750.obap-performance-test=性能测试
 640.ob-vector-search=向量检索
+  100.ob-vector-search-overview=向量检索概述
   120.ob-vector-search-quick-start=向量检索快速上手
   500.ob-vector-search-practical-tutorial=向量检索实践教程
     <quote-f virtual_title="基于 OceanBase 构建智能问答机器人" virtual_file_name="200.ob-vector-search-practical-tutorial-chatbot.md"  target="1000000002012729" version=""/>
@@ -175,6 +176,7 @@
     <quote-f virtual_title="与 Langchain 集成" virtual_file_name="400.ob-vector-search-integration-langchain.md"  target="1000000002012931" version=""/>
     <quote-f virtual_title="与 LlamaIndex 集成" virtual_file_name="500.ob-vector-search-integration-llamaindex.md"  target="1000000002012929" version=""/>
   700.ob-vector-search-reference=向量检索参考
+    900.ob-vector-search-supported-clients-and-languages=支持的客户端和语言
 680.ecological-integration=生态集成
   200.orms-frameworks=ORM 框架
     100.java=Java
@@ -486,6 +488,7 @@
         19700.dbms-xmlgen-oracle=DBMS_XMLGEN
         19800.dbms-profiler-oracle=DBMS_PROFILER
         21000.dbms-external-table-oracle=DBMS_EXTERNAL_TABLE
+        21100.dbms-ddl-oracle=DBMS_DDL
         20700.dbms-xplan-oracle=DBMS_XPLAN
         22800.odciconst-oracle=ODCIConst
         26000.utl-encode-oracle=UTL_ENCODE
@@ -493,6 +496,8 @@
         26300.utl-i18n-oracle=UTL_I18N
         26400.utl-recomp-package-oracle=UTL_RECOMP
         27000.utl-raw-oracle=UTL_RAW
+        27100.utl-tcp-oracle=UTL_TCP
+        27200.utl-smtp-oracle=UTL_SMTP
         27800.anydata-type-oracle=ANYDATA TYPE
         29600.xmltype-oracle=XMLType
   600.api=OBKV
@@ -551,6 +556,8 @@
           200.join-algorithm=联接算法
         700.manage-execution-plans=管理执行计划
   1100.performance-test=性能测试
+    200.sysbench-benchmark-testing-on-oceanbase-database=OceanBase Sysbench 测试
+    500.tpc-h-benchmark-testing-on-oceanbase-database=OceanBase TPC-H 测试
   1200.database-proxy=数据库代理
     200.obproxy-management=OBProxy
       200.manage-obproxy-clusters=管理 OBProxy 集群
@@ -618,6 +625,7 @@
     400.stress-test-tools=压测工具
       100.mysqltest=mysqltest
         200.use-of-case=case 使用
+  1600.oceanbase-database-plugin=OceanBase 数据库插件
 800.FAQ=常见问题
 900.release-notes=版本发布记录
    <quote-f virtual_file_name="200.enterprise-edition-history-release.md"  target="1000000001780338"/> 
