@@ -372,7 +372,10 @@
         500.null-of-oracle-mode=空值
         600.annotation-of-oracle-mode=注释
           400.hint-of-oracle-mode=Hint
-            200.hint-list-of-oracle-mode=Hint 清单
+            200.hint-list-of-oracle-mode=Hint 列表
+              100.global-hint-of-oracle-mode=全局 Hint
+              200.optimizer-hint-of-oracle-mode=Optimized Hint
+              300.transform-hint-of-oracle-mode=Transform Hint
         700.database-objects-of-oracle-mode=数据库对象
         800.database-naming-convention-of-oracle-mode=数据库命名规范
         900.database-object-reference-method-of-oracle-mode=数据库对象引用方式
