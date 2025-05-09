@@ -160,7 +160,9 @@
 620.obap=OceanBase AP
   110.obap-deploy=部署简介
   200.obap-data-design=数据表设计
+    100.data-design-best-practice=数据表设计最佳实践
   300.obap-import-data=导入数据
+    20.bypass-import=旁路导入
   600.obap-query=查询加速
   700.performance-tuning=性能诊断和调优
   750.obap-performance-test=性能测试
