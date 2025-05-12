@@ -165,8 +165,6 @@
 640.ob-vector-search=Vector Search
   120.ob-vector-search-quick-start=Quick starts
   500.ob-vector-search-practical-tutorial=Tutorials
-    <quote-f virtual_title="Build an intelligent Q&A robot with OceanBase Database" virtual_file_name="200.ob-vector-search-practical-tutorial-chatbot.md"  target="10000000001970973" version=""/>
-    <quote-f virtual_title="Build an image search application with OceanBase Database" virtual_file_name="300.ob-vector-search-practical-tutorial-image-search.md"  target="10000000001970972" version=""/>
   700.ob-vector-search-reference=References
 650.obkv=OBKV
   100.obkv-table=OBKV-Table
