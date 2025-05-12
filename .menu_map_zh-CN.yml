@@ -160,7 +160,9 @@
 620.obap=OceanBase AP
   110.obap-deploy=部署简介
   200.obap-data-design=数据表设计
+    100.data-design-best-practice=数据表设计最佳实践
   300.obap-import-data=导入数据
+    20.bypass-import=旁路导入
   600.obap-query=查询加速
   700.performance-tuning=性能诊断和调优
   750.obap-performance-test=性能测试
@@ -372,7 +374,10 @@
         500.null-of-oracle-mode=空值
         600.annotation-of-oracle-mode=注释
           400.hint-of-oracle-mode=Hint
-            200.hint-list-of-oracle-mode=Hint 清单
+            200.hint-list-of-oracle-mode=Hint 列表
+              100.global-hint-of-oracle-mode=全局 Hint
+              200.optimizer-hint-of-oracle-mode=Optimized Hint
+              300.transform-hint-of-oracle-mode=Transform Hint
         700.database-objects-of-oracle-mode=数据库对象
         800.database-naming-convention-of-oracle-mode=数据库命名规范
         900.database-object-reference-method-of-oracle-mode=数据库对象引用方式
@@ -632,5 +637,5 @@
   1600.oceanbase-database-plugin=OceanBase 数据库插件
 800.FAQ=常见问题
 900.release-notes=版本发布记录
-   <quote-f virtual_file_name="200.enterprise-edition-history-release.md"  target="1000000001780338"/> 
+   <quote-f virtual_file_name="200.enterprise-edition-history-release.md"  target="1000000001780338"/>
    <quote-f virtual_file_name="300.community-edition-history-release.md"  target="1000000001780339"/>
