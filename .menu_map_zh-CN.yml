@@ -185,7 +185,6 @@
   500.sql-development=SQL 开发
   600.orchestration=编排调度
   700.visualization=可视化工具
-    <quote-f virtual_title="Grafana" virtual_file_name="200.grafana.md"  target="1000000001478761" version=""/>
   1000.management=数据库管控
 690.practical-tutorial=实践教程
 700.reference=参考指南
