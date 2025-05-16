@@ -189,7 +189,6 @@
   500.sql-development=SQL 开发
   600.orchestration=编排调度
   700.visualization=可视化工具
-    <quote-f virtual_title="Grafana" virtual_file_name="200.grafana.md"  target="1000000001478761" version=""/>
   1000.management=数据库管控
   1100.AI=AI
 690.practical-tutorial=实践教程
@@ -317,6 +316,7 @@
           900.spatial-data-type-of-mysql-mode=空间数据类型
           1000.roaring-bitmap-data-type-of-mysql-mode=高效压缩位图数据类型
           1200.array-data-type-of-mysql-mode=数组数据类型
+          1300.map-data-type-of-mysql-mode=映射数据类型
         200.expression-of-mysql-mode=表达式
         300.character-set-and-collation-of-mysql-mode=字符集与字符序
         400.literal-of-mysql-mode=字面量
@@ -351,6 +351,7 @@
         950.array-functions-of-mysql-mode=数组函数
         960.text-processing-functions-of-mysql-mode=文本处理函数
         970.audit-functions-of-mysql-mode=审计函数
+        980.map-functions-of-mysql-mode=映射函数
         1000.other-functions-of-mysql-mode=其它函数
       500.queries-and-subqueries-of-mysql-mode=查询和子查询
       600.sql-statement-of-mysql-mode=SQL 语句
@@ -585,6 +586,8 @@
           200.cluster-management=集群管理
           300.tenant-management=租户管理
         300.obshell-clients=obshell 命令
+        350.ob-dashboard=OB-Dashboard
+          400.ob-dashboard-tenant=租户管理
         400.obshell-api-reference=API 参考
           100.obshell-management=obshell 管理
           200.cluster-management=集群管理
