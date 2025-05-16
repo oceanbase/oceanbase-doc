@@ -321,6 +321,7 @@
         300.character-set-and-collation-of-mysql-mode=字符集与字符序
         400.literal-of-mysql-mode=字面量
       200.operator-of-mysql-mode=运算符
+      800.overview-of-pseudo-columns-of-mysql-mode=伪列
       400.functions-of-mysql-mode=函数
         200.single-row-functions-of-mysql-mode=单行函数
           100.date-and-time-functions-of-mysql-mode=日期时间函数
