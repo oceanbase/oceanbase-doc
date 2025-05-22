@@ -609,6 +609,7 @@
     400.stress-test-tools=Stress testing tools
       100.mysqltest=mysqltest
         200.use-of-case=Use of cases
+  1600.oceanbase-database-plugin=OceanBase plugin
 800.FAQ=FAQ
 900.release-notes=Release Notes
   10100.enterprise-edition-history-release=OceanBase Database Enterprise Edition
