@@ -166,8 +166,17 @@
   300.obap-import-data=导入数据
     20.bypass-import=旁路导入
   600.obap-query=查询加速
+  650.data-visualization=数据可视化
+    <quote-f virtual_file_name="100.superset-mysql-connection-oceanbase-sample-program.md"  target="1000000002012921"/>
+    <quote-f virtual_file_name="300.power-bi.md"  target="1000000002012920"/>
+    <quote-f virtual_file_name="400.quick-bi.md"  target="1000000002012919"/>
+    <quote-f virtual_file_name="500.tableau.md"  target="1000000002012918"/>
+    <quote-f virtual_file_name="600.guanyuan.md"  target="1000000002760310"/>
+    <quote-f virtual_file_name="700.yonghong.md"  target="1000000002760311"/>
   700.performance-tuning=性能诊断和调优
   750.obap-performance-test=性能测试
+  1500.obap-faq=常见问题
+    <quote-f virtual_file_name="800.column-storage-faq.md"  target="1000000002012738"/>
 640.ob-vector-search=向量检索
   100.ob-vector-search-overview=向量检索概述
   120.ob-vector-search-quick-start=向量检索快速上手
