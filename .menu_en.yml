@@ -542,6 +542,9 @@
           100.access-path=Access path
           200.join-algorithm=Join algorithm
         700.manage-execution-plans=Manage execution plans
+  1100.performance-test=Perform testing
+    200.sysbench-benchmark-testing-on-oceanbase-database=OceanBase Sysbench testing
+    500.tpc-h-benchmark-testing-on-oceanbase-database=OceanBase TPC-H testing
   1200.database-proxy=Database proxy
     200.obproxy-management=ODP
       200.manage-obproxy-clusters=Manage ODP clusters
