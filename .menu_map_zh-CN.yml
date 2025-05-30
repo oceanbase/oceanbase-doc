@@ -17,6 +17,8 @@
       300.c-of-mysql-mode=C
       400.go-of-mysql-mode=Go
       500.php-of-mysql-mode=PHP
+      600.rust-of-mysql-mode=Rust
+      700.ruby-of-mysql-mode=Ruby
     300.database-object-planning-of-mysql-mode=规划数据库对象
     400.write-data-of-mysql-mode=数据写入
     500.read-data-of-mysql-mode=数据读取
@@ -160,11 +162,14 @@
 620.obap=OceanBase AP
   110.obap-deploy=部署简介
   200.obap-data-design=数据表设计
+    100.data-design-best-practice=数据表设计最佳实践
   300.obap-import-data=导入数据
+    20.bypass-import=旁路导入
   600.obap-query=查询加速
   700.performance-tuning=性能诊断和调优
   750.obap-performance-test=性能测试
 640.ob-vector-search=向量检索
+  100.ob-vector-search-overview=向量检索概述
   120.ob-vector-search-quick-start=向量检索快速上手
   500.ob-vector-search-practical-tutorial=向量检索实践教程
     <quote-f virtual_title="基于 OceanBase 构建智能问答机器人" virtual_file_name="200.ob-vector-search-practical-tutorial-chatbot.md"  target="1000000002012729" version=""/>
@@ -175,17 +180,20 @@
     <quote-f virtual_title="与 Langchain 集成" virtual_file_name="400.ob-vector-search-integration-langchain.md"  target="1000000002012931" version=""/>
     <quote-f virtual_title="与 LlamaIndex 集成" virtual_file_name="500.ob-vector-search-integration-llamaindex.md"  target="1000000002012929" version=""/>
   700.ob-vector-search-reference=向量检索参考
+    900.ob-vector-search-supported-clients-and-languages=支持的客户端和语言
 680.ecological-integration=生态集成
   200.orms-frameworks=ORM 框架
     100.java=Java
+    200.python=Python
     300.go=Go
+    400.rust=Rust
+    500.ruby=Ruby
   300.schema-evolution=数据库版本管理
   400.data-ingestion=数据集成
     <quote-f virtual_title="AWS Glue" virtual_file_name="100.glue.md"  target="1000000001478166" version=""/>
   500.sql-development=SQL 开发
   600.orchestration=编排调度
   700.visualization=可视化工具
-    <quote-f virtual_title="Grafana" virtual_file_name="200.grafana.md"  target="1000000001478761" version=""/>
   1000.management=数据库管控
   1100.AI=AI
 690.practical-tutorial=实践教程
@@ -273,6 +281,7 @@
         1000.manage-external-tables-of-mysql-mode=创建和管理外表
       300.manage-partitions-of-mysql-mode=创建和管理分区
         250.partition-splitting-of-mysql-mode=分区分裂
+        260.dynamic-partition-of-mysql-mode=动态分区
         900.create-partition-table-index-of-mysql-mode=在分区表上建立索引
       400.manage-table-groups-of-mysql-mode=创建和管理表组
       500.manage-indexes-of-mysql-mode=创建和管理索引
@@ -286,6 +295,7 @@
         1000.manage-external-tables-of-oracle-mode=创建和管理外表
       200.manage-partitions-of-oracle-mode=创建和管理分区
         250.partition-splitting-of-oracle-mode=分区分裂
+        260.dynamic-partition-of-oracle-mode=动态分区
         900.create-partition-table-index-of-oracle-mode=在分区表上建立索引
       300.manage-table-groups-of-oracle-mode=创建和管理表组
       400.manage-indexes-of-oracle-mode=创建和管理索引
@@ -311,10 +321,12 @@
           900.spatial-data-type-of-mysql-mode=空间数据类型
           1000.roaring-bitmap-data-type-of-mysql-mode=高效压缩位图数据类型
           1200.array-data-type-of-mysql-mode=数组数据类型
+          1300.map-data-type-of-mysql-mode=映射数据类型
         200.expression-of-mysql-mode=表达式
         300.character-set-and-collation-of-mysql-mode=字符集与字符序
         400.literal-of-mysql-mode=字面量
       200.operator-of-mysql-mode=运算符
+      800.overview-of-pseudo-columns-of-mysql-mode=伪列
       400.functions-of-mysql-mode=函数
         200.single-row-functions-of-mysql-mode=单行函数
           100.date-and-time-functions-of-mysql-mode=日期时间函数
@@ -345,6 +357,7 @@
         950.array-functions-of-mysql-mode=数组函数
         960.text-processing-functions-of-mysql-mode=文本处理函数
         970.audit-functions-of-mysql-mode=审计函数
+        980.map-functions-of-mysql-mode=映射函数
         1000.other-functions-of-mysql-mode=其它函数
       500.queries-and-subqueries-of-mysql-mode=查询和子查询
       600.sql-statement-of-mysql-mode=SQL 语句
@@ -368,7 +381,10 @@
         500.null-of-oracle-mode=空值
         600.annotation-of-oracle-mode=注释
           400.hint-of-oracle-mode=Hint
-            200.hint-list-of-oracle-mode=Hint 清单
+            200.hint-list-of-oracle-mode=Hint 列表
+              100.global-hint-of-oracle-mode=全局 Hint
+              200.optimizer-hint-of-oracle-mode=Optimized Hint
+              300.transform-hint-of-oracle-mode=Transform Hint
         700.database-objects-of-oracle-mode=数据库对象
         800.database-naming-convention-of-oracle-mode=数据库命名规范
         900.database-object-reference-method-of-oracle-mode=数据库对象引用方式
@@ -426,6 +442,7 @@
       1000.pl-system-package-mysql=PL 系统包
         9950.dbms-mview-mysql=DBMS_MVIEW
         10050.dbms-mview-stat-mysql=DBMS_MVIEW_STATS
+        13200.dbms_partition-mysql=DBMS_PARTITION
         13300.dbms-resource-manager-mysql=DBMS_RESOURCE_MANAGER
         15900.dbms-stats-mysql=DBMS_STATS
         16000.dbms-trusted-certificate-manager-mysql=DBMS_TRUSTED_CERTIFICATE_MANAGER
@@ -473,6 +490,7 @@
         10050.dbms-mview-stat-oracle=DBMS_MVIEW_STATS
         11100.dbms-output-oracle=DBMS_OUTPUT
         12500.dbms-plan-cache-oracle=DBMS_PLAN_CACHE
+        12600.dbms_partition-oracle=DBMS_PARTITION
         12700.dbms-random-oracle=DBMS_RANDOM
         13300.dbms-resource-manager-oracle=DBMS_RESOURCE_MANAGER
         14200.dbms-scheduler-oracle=DBMS_SCHEDULER
@@ -486,6 +504,7 @@
         19700.dbms-xmlgen-oracle=DBMS_XMLGEN
         19800.dbms-profiler-oracle=DBMS_PROFILER
         21000.dbms-external-table-oracle=DBMS_EXTERNAL_TABLE
+        21100.dbms-ddl-oracle=DBMS_DDL
         20700.dbms-xplan-oracle=DBMS_XPLAN
         22800.odciconst-oracle=ODCIConst
         26000.utl-encode-oracle=UTL_ENCODE
@@ -493,6 +512,8 @@
         26300.utl-i18n-oracle=UTL_I18N
         26400.utl-recomp-package-oracle=UTL_RECOMP
         27000.utl-raw-oracle=UTL_RAW
+        27100.utl-tcp-oracle=UTL_TCP
+        27200.utl-smtp-oracle=UTL_SMTP
         27800.anydata-type-oracle=ANYDATA TYPE
         29600.xmltype-oracle=XMLType
   600.api=OBKV
@@ -551,6 +572,8 @@
           200.join-algorithm=联接算法
         700.manage-execution-plans=管理执行计划
   1100.performance-test=性能测试
+    200.sysbench-benchmark-testing-on-oceanbase-database=OceanBase Sysbench 测试
+    500.tpc-h-benchmark-testing-on-oceanbase-database=OceanBase TPC-H 测试
   1200.database-proxy=数据库代理
     200.obproxy-management=OBProxy
       200.manage-obproxy-clusters=管理 OBProxy 集群
@@ -569,6 +592,8 @@
           200.cluster-management=集群管理
           300.tenant-management=租户管理
         300.obshell-clients=obshell 命令
+        350.ob-dashboard=OB-Dashboard
+          400.ob-dashboard-tenant=租户管理
         400.obshell-api-reference=API 参考
           100.obshell-management=obshell 管理
           200.cluster-management=集群管理
@@ -618,7 +643,8 @@
     400.stress-test-tools=压测工具
       100.mysqltest=mysqltest
         200.use-of-case=case 使用
+  1600.oceanbase-database-plugin=OceanBase 数据库插件
 800.FAQ=常见问题
 900.release-notes=版本发布记录
-   <quote-f virtual_file_name="200.enterprise-edition-history-release.md"  target="1000000001780338"/> 
+   <quote-f virtual_file_name="200.enterprise-edition-history-release.md"  target="1000000001780338"/>
    <quote-f virtual_file_name="300.community-edition-history-release.md"  target="1000000001780339"/>
