@@ -311,6 +311,7 @@
           900.spatial-data-type-of-mysql-mode=Spatial data types
           1000.roaring-bitmap-data-type-of-mysql-mode=Roaring bitmap types
           1200.array-data-type-of-mysql-mode=Array data types
+          1300.map-data-type-of-mysql-mode=Map data types
         200.expression-of-mysql-mode=Expressions
         300.character-set-and-collation-of-mysql-mode=Character set and collation
         400.literal-of-mysql-mode=Literals
@@ -344,6 +345,7 @@
         940.roaring-bitmap-functions-of-mysql-mode=Bitmap functions
         950.array-functions-of-mysql-mode=Array functions
         960.text-processing-functions-of-mysql-mode=Text processing functions
+        980.map-functions-of-mysql-mode=Map functions
         1000.other-functions-of-mysql-mode=Other functions
       500.queries-and-subqueries-of-mysql-mode=Queries and subqueries
       600.sql-statement-of-mysql-mode=SQL statements
@@ -491,6 +493,8 @@
         26300.utl-i18n-oracle=UTL_I18N
         26400.utl-recomp-package-oracle=UTL_RECOMP
         27000.utl-raw-oracle=UTL_RAW
+        27100.utl-tcp-oracle=UTL_TCP
+        27200.utl-smtp-oracle=UTL_SMTP
         27800.anydata-type-oracle=ANYDATA TYPE
         29600.xmltype-oracle=XMLType
   700.system-views=System views
@@ -612,6 +616,7 @@
     400.stress-test-tools=Stress testing tools
       100.mysqltest=mysqltest
         200.use-of-case=Use of cases
+  1600.oceanbase-database-plugin=OceanBase plugin
 800.FAQ=FAQ
 900.release-notes=Release Notes
   10100.enterprise-edition-history-release=OceanBase Database Enterprise Edition
