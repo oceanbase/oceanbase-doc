@@ -311,6 +311,7 @@
           900.spatial-data-type-of-mysql-mode=Spatial data types
           1000.roaring-bitmap-data-type-of-mysql-mode=Roaring bitmap types
           1200.array-data-type-of-mysql-mode=Array data types
+          1300.map-data-type-of-mysql-mode=Map data types
         200.expression-of-mysql-mode=Expressions
         300.character-set-and-collation-of-mysql-mode=Character set and collation
         400.literal-of-mysql-mode=Literals
@@ -344,6 +345,7 @@
         940.roaring-bitmap-functions-of-mysql-mode=Bitmap functions
         950.array-functions-of-mysql-mode=Array functions
         960.text-processing-functions-of-mysql-mode=Text processing functions
+        980.map-functions-of-mysql-mode=Map functions
         1000.other-functions-of-mysql-mode=Other functions
       500.queries-and-subqueries-of-mysql-mode=Queries and subqueries
       600.sql-statement-of-mysql-mode=SQL statements
@@ -544,8 +546,9 @@
           100.access-path=Access path
           200.join-algorithm=Join algorithm
         700.manage-execution-plans=Manage execution plans
-  1100.performance-test=Performance tests
-    500.tpc-h-benchmark-testing-on-oceanbase-database=TPC-H tests with OceanBase Database
+  1100.performance-test=Perform testing
+    200.sysbench-benchmark-testing-on-oceanbase-database=OceanBase Sysbench testing
+    500.tpc-h-benchmark-testing-on-oceanbase-database=OceanBase TPC-H testing
   1200.database-proxy=Database proxy
     200.obproxy-management=ODP
       200.manage-obproxy-clusters=Manage ODP clusters
