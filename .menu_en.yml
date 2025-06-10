@@ -178,7 +178,10 @@
 680.ecological-integration=Integrations
   200.orms-frameworks=ORM frameworks
     100.java=Java
+    200.python=Python
     300.go=Go
+    400.rust=Rust
+    500.ruby=Ruby
   300.schema-evolution=Database version management
   400.data-ingestion=Data integration
   500.sql-development=SQL development
