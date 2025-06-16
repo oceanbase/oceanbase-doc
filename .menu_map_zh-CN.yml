@@ -164,7 +164,11 @@
   600.obap-query=查询加速
   700.performance-tuning=性能诊断和调优
 640.ob-vector-search=向量检索
+  100.ob-vector-search-overview=向量检索概述
   120.ob-vector-search-quick-start=向量检索快速上手
+  500.ob-vector-search-practical-tutorial=向量检索实践教程
+    <quote-f virtual_title="基于 OceanBase 构建智能问答机器人" virtual_file_name="200.ob-vector-search-practical-tutorial-chatbot.md"  target="1000000001587625" version=""/>
+    <quote-f virtual_title="基于 OceanBase 构建图搜图应用" virtual_file_name="300.ob-vector-search-practical-tutorial-image-search.md"  target="1000000001587624" version=""/>
   700.ob-vector-search-reference=向量检索参考
 650.obkv=OBKV
   100.obkv-table=OBKV-Table
