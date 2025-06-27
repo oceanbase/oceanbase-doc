@@ -447,6 +447,7 @@
         10050.dbms-mview-stat-mysql=DBMS_MVIEW_STATS
         13200.dbms_partition-mysql=DBMS_PARTITION
         13300.dbms-resource-manager-mysql=DBMS_RESOURCE_MANAGER
+        15000.dbms-spm-mysql=DBMS_SPM
         15900.dbms-stats-mysql=DBMS_STATS
         16000.dbms-trusted-certificate-manager-mysql=DBMS_TRUSTED_CERTIFICATE_MANAGER
         17800.dbms-udr-mysql=DBMS_UDR
@@ -498,6 +499,7 @@
         13300.dbms-resource-manager-oracle=DBMS_RESOURCE_MANAGER
         14200.dbms-scheduler-oracle=DBMS_SCHEDULER
         14500.dbms-session-oracle=DBMS_SESSION
+        15000.dbms-spm-oracle=DBMS_SPM
         15200.dbms-sql-oracle=DBMS_SQL
         15900.dbms-stats-oracle=DBMS_STATS
         17800.dbms-udr-oracle=DBMS_UDR
