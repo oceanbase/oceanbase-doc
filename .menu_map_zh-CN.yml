@@ -141,8 +141,8 @@
           300.cost-based-optimization=优化器估行机制
         200.plan-management=计划管理
         300.index-selection=索引选择
-        400.join-order-and-join-algorithm=连接
-          200.join-algorithm=连接算法
+        400.join-order-and-join-algorithm=联接
+          200.join-algorithm=联接算法
         500.order-by-and-limit=排序和 limit 优化
       400.business-logic-optimization=业务逻辑优化
   1000.troubleshooting=问题排查
@@ -552,7 +552,7 @@
         400.oblogmsg=oblogmsg
     400.stress-test-tools=压测工具
       100.mysqltest=mysqltest
-        200.use-of-case=case 使用 
+        200.use-of-case=case 使用
 800.FAQ=常见问题
 900.release-notes=版本发布记录
    <quote-f virtual_file_name="200.enterprise-edition-history-release.md"  target="1000000001780338"/>
