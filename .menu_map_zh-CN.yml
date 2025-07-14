@@ -142,8 +142,8 @@
           300.cost-based-optimization=优化器估行机制
         200.plan-management=计划管理
         300.index-selection=索引选择
-        400.join-order-and-join-algorithm=连接
-          200.join-algorithm=连接算法
+        400.join-order-and-join-algorithm=联接
+          200.join-algorithm=联接算法
         500.order-by-and-limit=排序和 limit 优化
       400.business-logic-optimization=业务逻辑优化
   1000.troubleshooting=问题排查
@@ -454,6 +454,7 @@
         20700.dbms-xplan-mysql=DBMS_XPLAN
         20900.dbms-limit-calculator-mysql=DBMS_LIMIT_CALCULATOR
         21000.dbms-external-table-mysql=DBMS_EXTERNAL_TABLE
+        22000.dbms-java-mysql=DBMS_JAVA
     300.pl-oracle=PL 参考（Oracle 模式）
       100.pl-language-basics-oracle=PL 语言基础
       200.data-type-oracle=PL 数据类型
@@ -574,9 +575,6 @@
           100.access-path=访问路径
           200.join-algorithm=联接算法
         700.manage-execution-plans=管理执行计划
-  1100.performance-test=性能测试
-    200.sysbench-benchmark-testing-on-oceanbase-database=OceanBase Sysbench 测试
-    500.tpc-h-benchmark-testing-on-oceanbase-database=OceanBase TPC-H 测试
   1200.database-proxy=数据库代理
     200.obproxy-management=OBProxy
       200.manage-obproxy-clusters=管理 OBProxy 集群
