@@ -169,16 +169,9 @@
   500.ob-vector-search-practical-tutorial=向量检索实践教程
     <quote-f virtual_title="基于 OceanBase 构建智能问答机器人" virtual_file_name="200.ob-vector-search-practical-tutorial-chatbot.md"  target="1000000001587625" version=""/>
     <quote-f virtual_title="基于 OceanBase 构建图搜图应用" virtual_file_name="300.ob-vector-search-practical-tutorial-image-search.md"  target="1000000001587624" version=""/>
+    <quote-f virtual_title="基于 OceanBase 多模融合构建文旅小助手" virtual_file_name="400.building-a-multi-model-application-based-on-oceanbase.md"  target="1000000003368408" version=""/>
   700.ob-vector-search-reference=向量检索参考
-650.obkv=OBKV
-  100.obkv-table=OBKV-Table
-    100.introduction-to-tableapi=OBKV-Table 简介
-    200.use-of-the-tableapi-client=使用 OBKV-Table Java 客户端进行应用开发
-    260.tableapi-go=使用 OBKV-Table GO 客户端进行应用开发
-  200.obkv-hbase=OBKV-HBase
-    200.obkv-hbase-develop=基于 OBKV-HBase 进行应用开发
-    300.obkv-hbase-manage=OBKV-HBase 管理
-    800.obkv-hbase-integrations=OBKV-HBase 生态集成
+    900.ob-vector-search-supported-clients-and-languages=支持的客户端和语言
 680.ecological-integration=生态集成
   200.orms-frameworks=ORM 框架
     100.java=Java
