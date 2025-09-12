@@ -87,6 +87,7 @@
       1500.resource-pool-management=Manage resource pools
       1600.resource-specification-management=Manage unit configs
       1700.manage-service=Manage services
+  230.logstream-management=Manage log streams
   300.replica-management=Manage replicas
     200.replica-distribution=Replica distribution
       200.locality-common-operations=Common locality operations
