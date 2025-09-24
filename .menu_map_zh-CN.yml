@@ -88,9 +88,9 @@
     200.replica-distribution=副本分布
       200.locality-common-operations=Locality 常见操作
   350.load-balancing-manage=数据负载均衡
+    430.tablegroup-weight-management=表组权重管理
+    450.balance-weight-management=分区权重管理
     600.partition-balance-management=分区均衡
-      30.tablegroup-weight-balance=表组权重均衡
-      50.balance-weight-management=非表组分区权均衡
   400.high-availability=高可用
     200.multi-replica-disaster-recovery=多副本容灾
     300.physical-standby-database-disaster-recovery=物理备库容灾
