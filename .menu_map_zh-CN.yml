@@ -318,7 +318,6 @@
         200.manage-materialized-views-of-oracle-mode=管理物化视图
       800.manage-triggers-of-oracle-mode=创建和管理触发器
       1000.manage-dblink-of-oracle-mode=创建和管理 DBLink
-      1100.manage-catalog-of-oracle-mode=创建和管理 Catalog
   400.database-design-specifications-and-practices=数据库设计规范和约束
     100.object-naming-conventions=对象命名规范
     200.object-structure-design-specification=对象结构设计规范
