@@ -174,6 +174,7 @@
 640.ob-vector-search=向量检索
   100.ob-vector-search-overview=向量检索概述
   120.ob-vector-search-quick-start=向量检索快速上手
+  350.ob-vector-hybrid-search=向量混合检索
   500.ob-vector-search-practical-tutorial=向量检索实践教程
     <quote-f virtual_title="基于 OceanBase 构建智能问答机器人" virtual_file_name="200.ob-vector-search-practical-tutorial-chatbot.md"  target="1000000002012729" version=""/>
     <quote-f virtual_title="基于 OceanBase 构建图搜图应用" virtual_file_name="300.ob-vector-search-practical-tutorial-image-search.md"  target="1000000002012730" version=""/>
@@ -191,6 +192,7 @@
     <quote-f virtual_title="与 Cursor 集成" virtual_file_name="1100.ob-vector-search-integration-cursor.md"  target="1000000003659648" version=""/>
     <quote-f virtual_title="与 Continue 集成" virtual_file_name="1200.ob-vector-search-integration-continue.md"  target="1000000003659649" version=""/>
   700.ob-vector-search-reference=向量检索参考
+    300.ob-vector-search-ai-function=AI 函数服务
     900.ob-vector-search-supported-clients-and-languages=支持的客户端和语言
 680.ecological-integration=生态集成
   200.orms-frameworks=ORM 框架
@@ -304,6 +306,7 @@
       700.manage-sequence-of-mysql-mode=创建和管理序列
       800.manage-triggers-of-mysql-mode=创建和管理触发器
       900.manage-dblink-of-mysql-mode=创建和管理 DBLink
+      1000.manage-catalog-of-mysql-mode=创建和管理 Catalog
     200.manage-object-of-oracle-mode=Oracle 模式
       100.manage-tables-of-oracle-mode=创建和管理表
         1000.manage-external-tables-of-oracle-mode=创建和管理外表
@@ -454,6 +457,8 @@
       800.information-schema-dictionary-view-mysql=PL 相关字典视图
       900.pl-exception-handling-statement-mysql=PL 异常处理
       1000.pl-system-package-mysql=PL 系统包
+        1000.dbms-ai-service-mysql=DBMS_AI_SERVICE
+        9000.dbms-hybrid-search-mysql=DBMS_HYBRID_SEARCH
         9950.dbms-mview-mysql=DBMS_MVIEW
         10050.dbms-mview-stat-mysql=DBMS_MVIEW_STATS
         13200.dbms_partition-mysql=DBMS_PARTITION
@@ -464,6 +469,7 @@
         17850.dbms-vector-mysql=DBMS_VECTOR
         17900.dbms-workload-repository-mysql=DBMS_WORKLOAD_REPOSITORY
         20700.dbms-xplan-mysql=DBMS_XPLAN
+        20750.dbms-xprofile-mysql=DBMS_XPROFILE
         20800.dbms-balance-mysql=DBMS_BALANCE
         20900.dbms-limit-calculator-mysql=DBMS_LIMIT_CALCULATOR
         21000.dbms-external-table-mysql=DBMS_EXTERNAL_TABLE
@@ -525,6 +531,7 @@
         21000.dbms-external-table-oracle=DBMS_EXTERNAL_TABLE
         21100.dbms-ddl-oracle=DBMS_DDL
         20700.dbms-xplan-oracle=DBMS_XPLAN
+        20750.dbms-xprofile-oracle=DBMS_XPROFILE
         22800.odciconst-oracle=ODCIConst
         26000.utl-encode-oracle=UTL_ENCODE
         26100.utl-file-oracle=UTL_FILE
