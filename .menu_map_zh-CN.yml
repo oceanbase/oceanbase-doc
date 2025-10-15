@@ -517,6 +517,7 @@
         10050.dbms-mview-stat-oracle=DBMS_MVIEW_STATS
         11100.dbms-output-oracle=DBMS_OUTPUT
         12500.dbms-plan-cache-oracle=DBMS_PLAN_CACHE
+        12550.dbms-plsql-code-coverage-oracle=DBMS_PLSQL_CODE_COVERAGE
         12600.dbms_partition-oracle=DBMS_PARTITION
         12700.dbms-random-oracle=DBMS_RANDOM
         13300.dbms-resource-manager-oracle=DBMS_RESOURCE_MANAGER
