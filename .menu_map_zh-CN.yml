@@ -543,6 +543,7 @@
         27000.utl-raw-oracle=UTL_RAW
         27100.utl-tcp-oracle=UTL_TCP
         27200.utl-smtp-oracle=UTL_SMTP
+        27300.utl-http-oracle=UTL_HTTP
         27800.anydata-type-oracle=ANYDATA TYPE
         29600.xmltype-oracle=XMLType
   700.system-views=系统视图
