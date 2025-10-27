@@ -33,6 +33,7 @@
       1300.use-the-database-connection-pool-of-oracle-mode=使用数据库连接池
     200.sample-program-of-oracle-mode=示例程序
       100.java-of-oracle-mode=Java
+      200.python-of-oracle-mode=Python
       300.c-of-oracle-mode=C/C++
     300.database-object-planning-of-oracle-mode=规划数据库对象
     400.write-data-of-oracle-mode=数据写入
@@ -87,7 +88,10 @@
   300.replica-management=副本管理
     200.replica-distribution=副本分布
       200.locality-common-operations=Locality 常见操作
-    500.load-balancing-manage=数据负载均衡
+  350.load-balancing-manage=数据负载均衡
+    430.tablegroup-weight-management=表组权重管理
+    450.balance-weight-management=分区权重管理
+    600.partition-balance-management=分区均衡
   400.high-availability=高可用
     200.multi-replica-disaster-recovery=多副本容灾
     300.physical-standby-database-disaster-recovery=物理备库容灾
@@ -118,6 +122,8 @@
     300.log-archive=日志归档
     400.data-backup=数据备份
     500.clear-backup-data=清理备份数据
+      50.automatic-backup-cleanup=自动清理备份数据
+      100.manual-backup-cleanup=手动清理备份数据
     600.restore-data=租户级恢复
     700.recover-table=表级恢复
   700.monitor=监控指标
@@ -149,6 +155,7 @@
     600.transaction=事务
     800.physical-standby-database=物理备库
     900.backup-and-recovery=备份恢复
+    2000.common-sql=常见排查 SQL
   900.daily-inspection=日常巡检
     900.full-link-detection=全链路追踪
   1100.emergency-response=应急处理
@@ -168,6 +175,7 @@
 640.ob-vector-search=向量检索
   100.ob-vector-search-overview=向量检索概述
   120.ob-vector-search-quick-start=向量检索快速上手
+  350.ob-vector-hybrid-search=向量混合检索
   500.ob-vector-search-practical-tutorial=向量检索实践教程
     <quote-f virtual_title="基于 OceanBase 构建智能问答机器人" virtual_file_name="200.ob-vector-search-practical-tutorial-chatbot.md"  target="1000000002012729" version=""/>
     <quote-f virtual_title="基于 OceanBase 构建图搜图应用" virtual_file_name="300.ob-vector-search-practical-tutorial-image-search.md"  target="1000000002012730" version=""/>
@@ -185,6 +193,7 @@
     <quote-f virtual_title="与 Cursor 集成" virtual_file_name="1100.ob-vector-search-integration-cursor.md"  target="1000000003659648" version=""/>
     <quote-f virtual_title="与 Continue 集成" virtual_file_name="1200.ob-vector-search-integration-continue.md"  target="1000000003659649" version=""/>
   700.ob-vector-search-reference=向量检索参考
+    300.ob-vector-search-ai-function=AI 函数服务
     900.ob-vector-search-supported-clients-and-languages=支持的客户端和语言
 680.ecological-integration=生态集成
   200.orms-frameworks=ORM 框架
@@ -298,6 +307,7 @@
       700.manage-sequence-of-mysql-mode=创建和管理序列
       800.manage-triggers-of-mysql-mode=创建和管理触发器
       900.manage-dblink-of-mysql-mode=创建和管理 DBLink
+      1000.manage-catalog-of-mysql-mode=创建和管理 Catalog
     200.manage-object-of-oracle-mode=Oracle 模式
       100.manage-tables-of-oracle-mode=创建和管理表
         1000.manage-external-tables-of-oracle-mode=创建和管理外表
@@ -448,6 +458,8 @@
       800.information-schema-dictionary-view-mysql=PL 相关字典视图
       900.pl-exception-handling-statement-mysql=PL 异常处理
       1000.pl-system-package-mysql=PL 系统包
+        1000.dbms-ai-service-mysql=DBMS_AI_SERVICE
+        9000.dbms-hybrid-search-mysql=DBMS_HYBRID_SEARCH
         9950.dbms-mview-mysql=DBMS_MVIEW
         10050.dbms-mview-stat-mysql=DBMS_MVIEW_STATS
         13200.dbms_partition-mysql=DBMS_PARTITION
@@ -455,12 +467,16 @@
         15900.dbms-stats-mysql=DBMS_STATS
         16000.dbms-trusted-certificate-manager-mysql=DBMS_TRUSTED_CERTIFICATE_MANAGER
         17800.dbms-udr-mysql=DBMS_UDR
+        17850.dbms-vector-mysql=DBMS_VECTOR
         17900.dbms-workload-repository-mysql=DBMS_WORKLOAD_REPOSITORY
         20700.dbms-xplan-mysql=DBMS_XPLAN
+        20750.dbms-xprofile-mysql=DBMS_XPROFILE
         20800.dbms-balance-mysql=DBMS_BALANCE
         20900.dbms-limit-calculator-mysql=DBMS_LIMIT_CALCULATOR
         21000.dbms-external-table-mysql=DBMS_EXTERNAL_TABLE
         22000.dbms-java-mysql=DBMS_JAVA
+        22100.dbms-python-mysql=DBMS_PYTHON
+        23000.dbms-data-dict-mysql=DBMS_DATA_DICT
     300.pl-oracle=PL 参考（Oracle 模式）
       100.pl-language-basics-oracle=PL 语言基础
       200.data-type-oracle=PL 数据类型
@@ -501,6 +517,7 @@
         10050.dbms-mview-stat-oracle=DBMS_MVIEW_STATS
         11100.dbms-output-oracle=DBMS_OUTPUT
         12500.dbms-plan-cache-oracle=DBMS_PLAN_CACHE
+        12550.dbms-plsql-code-coverage-oracle=DBMS_PLSQL_CODE_COVERAGE
         12600.dbms_partition-oracle=DBMS_PARTITION
         12700.dbms-random-oracle=DBMS_RANDOM
         13300.dbms-resource-manager-oracle=DBMS_RESOURCE_MANAGER
@@ -517,6 +534,7 @@
         21000.dbms-external-table-oracle=DBMS_EXTERNAL_TABLE
         21100.dbms-ddl-oracle=DBMS_DDL
         20700.dbms-xplan-oracle=DBMS_XPLAN
+        20750.dbms-xprofile-oracle=DBMS_XPROFILE
         22800.odciconst-oracle=ODCIConst
         26000.utl-encode-oracle=UTL_ENCODE
         26100.utl-file-oracle=UTL_FILE
@@ -525,14 +543,9 @@
         27000.utl-raw-oracle=UTL_RAW
         27100.utl-tcp-oracle=UTL_TCP
         27200.utl-smtp-oracle=UTL_SMTP
+        27300.utl-http-oracle=UTL_HTTP
         27800.anydata-type-oracle=ANYDATA TYPE
         29600.xmltype-oracle=XMLType
-  600.api=OBKV
-    500.tableapi=OBKV-Table
-      100.introduction-to-tableapi=OBKV-Table 实现介绍
-      200.use-of-the-tableapi-client=OBKV-Table 客户端的使用
-      260.tableapi-go=OBKV-Table GO 客户端的使用
-    600.hbaseapi=OBKV-HBase
   700.system-views=系统视图
     300.system-view-of-sys-tenant=SYS 租户系统视图
       200.dictionary-view-of-sys-tenant=字典视图
@@ -600,7 +613,7 @@
           200.cluster-management=集群管理
           300.tenant-management=租户管理
         300.obshell-clients=obshell 命令
-        350.ob-dashboard=OB-Dashboard
+        350.ob-dashboard=obshell Dashboard
           400.ob-dashboard-tenant=租户管理
         400.obshell-api-reference=API 参考
           100.obshell-management=obshell 管理
