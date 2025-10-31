@@ -1,0 +1,197 @@
+|description|  |
+|---|---|
+|keywords| |
+|dir-name|Jina AI|
+|dir-name-en|Jina AI|
+|tenant-type|MySQL Mode|
+
+# OceanBase Vector 与 Jina AI 集成
+
+OceanBase 数据库提供了向量类型存储、向量索引、embedding 向量检索的能力。可以将向量化后的数据存储在 OceanBase 数据库，供下一步的检索使用。
+
+Jina AI 是一个专注于多模态搜索和向量检索的AI平台框架。 它提供了构建企业级搜索增强生成AI应用程序所需的核心组件和工具，可以帮助企业和开发者构建基于多模态搜索的 RAG（检索增强生成）应用。
+
+## 前提条件
+
+* 您已完成部署 OceanBase 数据库 V4.4.0 及以上版本并且创建了 MySQL 模式租户。[创建租户](../../600.manage/200.tenant-management/600.common-tenant-operations/200.manage-create-tenant.md) 后，再参考下述步骤操作。
+* 您的环境中已存在可以使用的 MySQL 租户和 MySQL 数据库和账号，并已对对数据库账号授读写权限。
+* 安装 Python 3.11 及以上版本。
+* 安装依赖。
+
+  ```shell
+  python3 -m pip install pyobvector requests sqlalchemy
+  ```
+
+* 确保您已经在租户中设置了 `ob_vector_memory_limit_percentage` 配置项，以启用向量检索功能。V4.4.1 之前的版本推荐设置值为 `30`，从 V4.4.1 版本开始推荐保持默认值 `0`。如需更精确设置此配置项，请参考 [ob_vector_memory_limit_percentage](../../700.reference/800.configuration-items-and-system-variables/100.system-configuration-items/400.tenant-level-configuration-items/6150.ob_vector_memory_limit_percentage.md) 计算此值。
+
+## 步骤一：获取数据库连接信息
+
+联系 OceanBase 数据库部署人员或者管理员获取相应的数据库连接串，例如：
+
+```sql
+obclient -h$host -P$port -u$user_name -p$password -D$database_name
+```
+
+**参数说明：**
+
+* `$host`：提供 OceanBase 数据库连接 IP。OceanBase 数据库代理（OceanBase Database Proxy，ODP）连接方式使用的是一个 ODP 地址；直连方式使用的是 OBServer 节点的 IP 地址。
+* `$port`：提供 OceanBase 数据库连接端口。ODP 连接的方式默认是 `2883`，在部署 ODP 时可自定义；直连方式默认是 `2881`，在部署 OceanBase 数据库时可自定义。
+* `$database_name`：需要访问的数据库名称。
+
+    <main id="notice" type='notice'>
+        <h4>注意</h4>
+        <p>连接租户的用户需要拥有该数据库的 <code>CREATE</code>、<code>INSERT</code>、<code>DROP</code> 和 <code>SELECT</code> 权限。更多有关用户权限的信息，请参见 <a href="../../600.manage/500.security-and-permissions/300.access-control/200.user-and-permission/200.permission-of-mysql-mode/100.permission-classification-of-mysql.md">MySQL 模式下的权限分类</a>。</p>
+    </main>
+
+* `$user_name`：提供租户的连接账户。ODP 连接的常用格式：`用户名@租户名#集群名` 或者 `集群名:租户名:用户名`；直连方式格式：`用户名@租户名`。
+* `$password`：提供账户密码。
+
+更多连接串的信息，请参见 [通过 OBClient 连接 OceanBase 租户](../../300.develop/100.application-development-of-mysql-mode/100.connect-to-oceanbase-database-of-mysql-mode/300.connect-to-an-oceanbase-tenant-by-using-obclient-of-mysql-mode.md)。
+
+## 步骤二：构建您的 AI 助手
+
+### 设置 Jina AI API key 环境变量
+
+获取 [Jina AI API 密钥](https://jina.ai/api-dashboard/reader)，并同 OceanBase 连接信息配置环境变量中。
+
+```shell
+export OCEANBASE_DATABASE_URL=YOUR_OCEANBASE_DATABASE_URL
+export OCEANBASE_DATABASE_USER=YOUR_OCEANBASE_DATABASE_USER
+export OCEANBASE_DATABASE_DB_NAME=YOUR_OCEANBASE_DATABASE_DB_NAME
+export OCEANBASE_DATABASE_PASSWORD=YOUR_OCEANBASE_DATABASE_PASSWORD
+export JINAAI_API_KEY=YOUR_JINAAI_API_KEY
+```
+
+### 示例代码片段
+
+#### 获取 Jina AI 的嵌入向量
+
+Jina AI 提供了多种嵌入模型，用户可以根据自己的需求选择对应的模型使用。
+
+| **Model** | **Parameter Size** | **Embedding Dimension** | **Text** |
+| --- | --- | --- | --- |
+| [jina-embeddings-v3](https://zilliz.com/ai-models/jina-embeddings-v3) | 570M | flexible embedding size (Default: 1024) | multilingual text embeddings; supports 94 language in total |
+| [jina-embeddings-v2-small-en](https://zilliz.com/ai-models/jina-embeddings-v2-small-en) | 33M | 512 | English monolingual embeddings |
+| [jina-embeddings-v2-base-en](https://zilliz.com/ai-models/jina-embeddings-v2-base-en) | 137M | 768 | English monolingual embeddings |
+| [jina-embeddings-v2-base-zh](https://zilliz.com/ai-models/jina-embeddings-v2-base-zh) | 161M | 768 | Chinese-English Bilingual embeddings |
+| [jina-embeddings-v2-base-de](https://zilliz.com/ai-models/jina-embeddings-v2-base-de) | 161M | 768 | German-English Bilingual embeddings |
+| [jina-embeddings-v2-base-code](https://zilliz.com/ai-models/jina-embeddings-v2-base-code) | 161M | 768 | English and programming languages |
+
+这里以 jina-embeddings-v3 为例，定义一个 `generate_embeddings` 辅助函数，用于调用 Jina AI 嵌入 API：
+
+```python
+import os
+import requests
+import dotenv
+from sqlalchemy import Column, Integer, String
+from pyobvector import ObVecClient, VECTOR, IndexParam, cosine_distance
+
+JINAAI_API_KEY = os.getenv('JINAAI_API_KEY')
+
+def generate_embeddings(text: str):
+    JINAAI_API_URL = 'https://api.jina.ai/v1/embeddings'
+    JINAAI_HEADERS = {
+        'Content-Type': 'application/json',
+        'Authorization': f'Bearer {JINAAI_API_KEY}'
+    }
+    JINAAI_REQUEST_DATA = {
+        'input': [text],
+        'model': 'jina-embeddings-v3'
+    }
+    
+    response = requests.post(JINAAI_API_URL, headers=JINAAI_HEADERS, json=JINAAI_REQUEST_DATA)
+    response_json = response.json()
+    return response_json['data'][0]['embedding']
+    
+
+TEXTS = [
+    'Jina AI offers best-in-class embeddings, reranker and prompt optimizer, enabling advanced multimodal AI.',
+    'OceanBase Database is an enterprise-level, native distributed database independently developed by the OceanBase team. It is cloud-native, highly consistent, and highly compatible with Oracle and MySQL.',
+    'OceanBase is a native distributed relational database that supports HTAP hybrid transaction analysis and processing. It features enterprise-level characteristics such as high availability, transparent scalability, and multi-tenancy, and is compatible with MySQL/Oracle protocols.'
+]
+data = []
+for text in TEXTS:
+    # Generate the embedding for the text via Jina AI API.
+    embedding = generate_embeddings(text)
+    data.append({
+        'content': text,
+        'content_vec': embedding
+    })
+
+print(f"Successfully processed {len(data)} texts")
+```
+
+#### 定义向量表结构并将向量并存入 OceanBase
+
+创建一个名为 `jinaai_oceanbase_demo_documents` 的表，包含存储文本的 `content` 列、存储嵌入向量的 `content_vec` 列和向量索引信息。并将向量数据存入 OceanBase：
+
+```python
+# Step 2. Connect OceanBase Serverless
+OCEANBASE_DATABASE_URL = os.getenv('OCEANBASE_DATABASE_URL')
+OCEANBASE_DATABASE_USER = os.getenv('OCEANBASE_DATABASE_USER')
+OCEANBASE_DATABASE_DB_NAME = os.getenv('OCEANBASE_DATABASE_DB_NAME')
+OCEANBASE_DATABASE_PASSWORD = os.getenv('OCEANBASE_DATABASE_PASSWORD')
+
+client = ObVecClient(uri=OCEANBASE_DATABASE_URL, user=OCEANBASE_DATABASE_USER,password=OCEANBASE_DATABASE_PASSWORD,db_name=OCEANBASE_DATABASE_DB_NAME)
+# Step 3. Create the vector table.
+table_name = "jinaai_oceanbase_demo_documents"
+client.drop_table_if_exist(table_name)
+
+cols = [
+    Column("id", Integer, primary_key=True, autoincrement=True),
+    Column("content", String(500), nullable=False),
+    Column("content_vec", VECTOR(1024))
+]
+
+# Create vector index
+vector_index_params = IndexParam(
+    index_name="idx_content_vec",
+    field_name="content_vec",  
+    index_type="HNSW",
+    distance_metric="cosine"
+)
+
+client.create_table_with_index_params(
+    table_name=table_name,
+    columns=cols, 
+    vidxs=[vector_index_params]
+)
+
+print('- Inserting Data to OceanBase...')
+client.insert(table_name, data=data)
+```
+
+#### 语义搜索
+
+通过 Jina AI 嵌入 API 生成查询文本的嵌入向量，然后根据查询文本的嵌入向量与向量表中的每个嵌入向量的余弦距离，搜索最相关的文档：
+
+```python
+# Step 5. Query the most relevant document based on the query.
+query = 'What is OceanBase?'
+# Generate the embedding for the query via Jina AI API.
+query_embedding = generate_embeddings(query)
+
+res = client.ann_search(
+    table_name,
+    vec_data=query_embedding,
+    vec_column_name="content_vec",
+    distance_func=cosine_distance,  # 使用余弦距离函数
+    with_dist=True,
+    topk=1,
+    output_column_names=["id", "content"],
+)
+
+print('- The Most Relevant Document and Its Distance to the Query:')
+for row in res.fetchall():
+    print(f'  - ID: {row[0]}\n'
+          f'    content: {row[1]}\n'
+          f'    distance: {row[2]}')
+```
+
+#### 预期结果
+
+```plain
+  - ID: 2
+    content: OceanBase Database is an enterprise-level, native distributed database independently developed by the OceanBase team. It is cloud-native, highly consistent, and highly compatible with Oracle and MySQL.
+    distance: 0.14733879001870276
+```
