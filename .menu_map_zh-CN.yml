@@ -312,6 +312,7 @@
       800.manage-triggers-of-mysql-mode=创建和管理触发器
       900.manage-dblink-of-mysql-mode=创建和管理 DBLink
       1000.manage-catalog-of-mysql-mode=创建和管理 Catalog
+      1100.customize-hotspot-cache-of-mysql-mode=自定义热点缓存策略
     200.manage-object-of-oracle-mode=Oracle 模式
       100.manage-tables-of-oracle-mode=创建和管理表
         1000.manage-external-tables-of-oracle-mode=创建和管理外表
