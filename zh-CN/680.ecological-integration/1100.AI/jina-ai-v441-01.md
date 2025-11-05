@@ -9,12 +9,12 @@
 
 OceanBase 数据库提供了向量类型存储、向量索引、embedding 向量检索的能力。可以将向量化后的数据存储在 OceanBase 数据库，供下一步的检索使用。
 
-Jina AI 是一个专注于多模态搜索和向量检索的AI平台框架。 它提供了构建企业级搜索增强生成AI应用程序所需的核心组件和工具，可以帮助企业和开发者构建基于多模态搜索的 RAG（检索增强生成）应用。
+Jina AI 是一个专注于多模态搜索和向量检索的 AI 平台框架。 它提供了构建企业级搜索增强生成 AI 应用程序所需的核心组件和工具，可以帮助企业和开发者构建基于多模态搜索的 RAG（检索增强生成）应用。
 
 ## 前提条件
 
 * 您已完成部署 OceanBase 数据库 V4.4.0 及以上版本并且创建了 MySQL 模式租户。[创建租户](../../600.manage/200.tenant-management/600.common-tenant-operations/200.manage-create-tenant.md) 后，再参考下述步骤操作。
-* 您的环境中已存在可以使用的 MySQL 租户和 MySQL 数据库和账号，并已对对数据库账号授读写权限。
+* 您的环境中已存在可以使用的 MySQL 租户和 MySQL 数据库和账号，并已对数据库账号授读写权限。
 * 安装 Python 3.11 及以上版本。
 * 安装依赖。
 
@@ -82,12 +82,12 @@ Jina AI 提供了多种嵌入模型，用户可以根据自己的需求选择对
 ```python
 import os
 import requests
-import dotenv
 from sqlalchemy import Column, Integer, String
 from pyobvector import ObVecClient, VECTOR, IndexParam, cosine_distance
 
 JINAAI_API_KEY = os.getenv('JINAAI_API_KEY')
 
+# Step 1. Text Data Vectorization
 def generate_embeddings(text: str):
     JINAAI_API_URL = 'https://api.jina.ai/v1/embeddings'
     JINAAI_HEADERS = {
@@ -166,7 +166,7 @@ client.insert(table_name, data=data)
 通过 Jina AI 嵌入 API 生成查询文本的嵌入向量，然后根据查询文本的嵌入向量与向量表中的每个嵌入向量的余弦距离，搜索最相关的文档：
 
 ```python
-# Step 5. Query the most relevant document based on the query.
+# Step 4. Query the most relevant document based on the query.
 query = 'What is OceanBase?'
 # Generate the embedding for the query via Jina AI API.
 query_embedding = generate_embeddings(query)
