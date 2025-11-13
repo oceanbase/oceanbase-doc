@@ -117,6 +117,8 @@
       300.data-storage-encryption-of-oracle-mode=Oracle mode
     550.column-encryption=Column encryption
     600.security-audit=Security audit
+      200.security-audit-of-mysql-mode=Security audit in MySQL-compatible mode
+      300.security-audit-of-oracle-mode=Security audit in Oracle-compatible mode
   600.backup-and-recovery=Backup and restore
     300.log-archive=Log archive
     400.data-backup=Data backup
@@ -590,6 +592,7 @@
         400.obshell-api-reference=API references
           100.obshell-management=obshell management
           200.cluster-management=Cluster management
+          230.odp-management=ODP management
           300.unit-management=Unit config management
           400.resource-pool-management=Resource pool management
           500.tenant-management=Tenant management
