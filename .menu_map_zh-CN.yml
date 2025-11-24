@@ -613,6 +613,7 @@
   1500.Components-and-Tools=组件 & 工具
     100.manage=运维管理
       100.obshell=obshell
+        <quote-f virtual_file_name="100.obshell-intro.md"  target="1000000004400513"/>
         210.use-case=使用场景
           100.obshell-management=obshell 管理
           200.cluster-management=集群管理
@@ -620,7 +621,7 @@
         300.obshell-clients=obshell 命令
         350.ob-dashboard=obshell Dashboard
           400.ob-dashboard-tenant=租户管理
-              500.backup-and-recovery=备份恢复
+            500.backup-and-recovery=备份恢复
           450.alarm-center=告警中心
         400.obshell-api-reference=API 参考
           100.obshell-management=obshell 管理
