@@ -532,6 +532,7 @@
   1500.components-and-tools=组件 & 工具
     100.manage=运维管理
       100.obshell=obshell
+        <quote-f virtual_file_name="100.obshell-intro.md"  target="1000000004400513"/>
         210.use-case=使用场景
           100.obshell-management=obshell 管理
           200.cluster-management=集群管理
