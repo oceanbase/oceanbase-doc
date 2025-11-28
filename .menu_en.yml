@@ -163,6 +163,11 @@
   600.obap-query=Query acceleration
   700.performance-tuning=Performance diagnosis and tuning
   750.obap-performance-test=Performance test
+640.ob-vector-search=Vector Search
+  100.ob-vector-search-overview=Overview
+  120.ob-vector-search-quick-start=Quick start
+  500.ob-vector-search-practical-tutorial=Tutorial
+  700.ob-vector-search-reference=Reference
 650.obkv=OBKV
   100.obkv-table=OBKV-Table
     100.introduction-to-tableapi=Introduction
