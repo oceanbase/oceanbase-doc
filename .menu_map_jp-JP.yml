@@ -2,8 +2,8 @@
   400.compatibility-with-oracle=Oracleとの互換性比較
 200.quickstart=クイックスタート
   200.get-started-with-oceanbase-sql=OceanBase SQLを始める
-  300.create-sample-application-of-mysql-mode=MySQL モードでのサンプルアプリケーション作成
-  300.create-sample-application-of-oracle-mode=Oracle モードでのサンプルアプリケーション作成
+  300.create-sample-application-of-mysql-mode=MySQLモードでのサンプルアプリケーション作成
+  300.create-sample-application-of-oracle-mode=Oracleモードでのサンプルアプリケーション作成
   500.experience-advanced-features-of-oceanbase=OceanBaseの高度な機能の体験
     100.experience-scalable-oltp=Scalable OLTPの体験
 300.develop=アプリケーション開発
