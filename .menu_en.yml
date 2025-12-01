@@ -166,7 +166,7 @@
     100.data-design-best-practice=Best practices for data table design
   300.obap-import-data=Import data
     20.bypass-import=Direct load
-  600.obap-query=Query acceleration
+  500.obap-query=Query acceleration
   700.performance-tuning=Performance diagnosis and tuning
 640.ob-vector-search=Vector Search
   100.ob-vector-search-overview=Overview
