@@ -589,6 +589,7 @@
           100.access-path=访问路径
           200.join-algorithm=联接算法
         700.manage-execution-plans=管理执行计划
+      1100.sql-performance-analysis-best-practices=SQL 性能分析实践
   1100.performance-test=性能测试
     200.sysbench-benchmark-testing-on-oceanbase-database=OceanBase Sysbench 测试
     300.tpc-c-benchmark-testing-on-oceanbase-database=OceanBase TPC-C 测试
