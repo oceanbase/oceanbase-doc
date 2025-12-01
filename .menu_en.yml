@@ -378,6 +378,9 @@
         600.annotation-of-oracle-mode=Annotations
           400.hint-of-oracle-mode=Hints
             200.hint-list-of-oracle-mode=Hint list
+              100.global-hint-of-oracle-mode=Global hints
+              200.optimizer-hint-of-oracle-mode=Optimized hints
+              300.transform-hint-of-oracle-mode=Transform hints
         700.database-objects-of-oracle-mode=Database objects
         800.database-naming-convention-of-oracle-mode=Database naming conventions
         900.database-object-reference-method-of-oracle-mode=Database object reference methods
