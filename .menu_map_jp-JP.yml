@@ -48,10 +48,10 @@
     300.deploy-through-a-graphical-interface=グラフィカルユーザーインターフェースを使用したデプロイ
       100.configuring-the-deploy-environment-through-oat=OATでのデプロイ環境の設定
       200.deploy-ocp-use-oat=OCPのデプロイ
-      300.deploy-oceanbase-cluster-use-ocp=OCPを使用したOceanBaseクラスターのデプロイ
+      300.deploy-oceanbase-cluster-use-ocp=OCPを使用したOceanBaseクラスタのデプロイ
     400.deploy-through-the-command-line=コマンドラインを使用したデプロイ
       100.configure-a-deployment-environment-command-line=oatcliでのデプロイ環境の設定
-      200.deploy-the-oceanbase-cluster-command-line=コマンドラインを使用したOceanBaseクラスターのデプロイ
+      200.deploy-the-oceanbase-cluster-command-line=コマンドラインを使用したOceanBaseクラスタのデプロイ
   500.deploy-oceanbase-database-community-edition=OceanBase Community Edition のデプロイ
     200.local-deployment=ローカルデプロイ
       200.environment-and-configuration-checks=デプロイ前の設定
@@ -60,8 +60,9 @@
   110.obap-deploy=デプロイ紹介
   200.obap-data-design=データテーブル設計
     100.data-design-best-practice=ベストプラクティス
-  300.obap-import-data=データのインポート
-    20.bypass-import=バイパスインポート
+  300.obap-data-collection=データ収集
+    300.obap-import-data=データのインポート
+      20.bypass-import=バイパスインポート
   600.obap-query=クエリ加速
   700.performance-tuning=パフォーマンスの診断およびチューニング
 640.ob-vector-search=ベクトル検索
