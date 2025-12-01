@@ -320,6 +320,7 @@
         300.character-set-and-collation-of-mysql-mode=Character set and collation
         400.literal-of-mysql-mode=Literals
       200.operator-of-mysql-mode=Operators
+      800.overview-of-pseudo-columns-of-mysql-mode=Pseudocolumns
       400.functions-of-mysql-mode=Functions
         200.single-row-functions-of-mysql-mode=Single-row functions
           100.date-and-time-functions-of-mysql-mode=Datetime functions
@@ -356,7 +357,7 @@
         8100.select-of-mysql-mode=SELECT 
       700.ddl-function-of-mysql-mode=DDL feature
     300.common-tenant-of-oracle-mode=User tenants (Oracle mode)
-      200.pseudo-column-of-oracle-mode=Pseudo columns
+      200.pseudo-column-of-oracle-mode=Pseudocolumns
       300.basic-elements-of-oracle-mode=Basic elements
         100.built-in-data-types-of-oracle-mode=Built-in data types
           200.character-data-type-of-oracle-mode=Character data types
