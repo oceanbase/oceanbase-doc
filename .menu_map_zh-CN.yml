@@ -562,7 +562,7 @@
         500.ash-report-diagnosis=ASH 报告
     500.sql-optimization=SQL 调优指南
       200.sql-execution-plan=SQL 执行计划
-        200.execution-plan-operator=执行计划算子
+        400.execution-plan-operator=执行计划算子
       300.distributed-execution-plan=分布式执行计划
       350.parallel-execution=并行执行计划
         300.deploy-parallel-execution=设置并发执行
