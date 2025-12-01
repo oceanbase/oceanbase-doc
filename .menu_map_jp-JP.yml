@@ -57,13 +57,14 @@
       200.environment-and-configuration-checks=デプロイ前の設定
       400.deploy-by-ui=グラフィカルユーザーインターフェースを使用したデプロイ
 620.obap=OceanBase AP
-  110.obap-deploy=デプロイ紹介
+  150.obap-deploy=デプロイ紹介
   200.obap-data-design=データテーブル設計
     100.data-design-best-practice=ベストプラクティス
   300.obap-data-collection=データ収集
     300.obap-import-data=データのインポート
       20.bypass-import=バイパスインポート
-  600.obap-query=クエリ加速
+  350.data-processing=データ加工
+  500.obap-query=クエリ加速
   700.performance-tuning=パフォーマンスの診断およびチューニング
 640.ob-vector-search=ベクトル検索
   100.ob-vector-search-overview=ベクトル検索の概要
