@@ -174,15 +174,6 @@
   500.ob-vector-search-practical-tutorial=Tutorials
   700.ob-vector-search-reference=References
     900.ob-vector-search-supported-clients-and-languages=Supported clients and languages
-650.obkv=OBKV
-  100.obkv-table=OBKV-Table
-    100.introduction-to-tableapi=Introduction
-    200.use-of-the-tableapi-client=Use the OBKV-Table Java client
-    260.tableapi-go=Use the OBKV-Table GO client
-  200.obkv-hbase=OBKV-HBase
-    200.obkv-hbase-develop=Use OBKV-HBase
-    300.obkv-hbase-manage=OBKV-HBase management
-    800.obkv-hbase-integrations=OBKV-HBase integration
 680.ecological-integration=Integrations
   200.orms-frameworks=ORM frameworks
     100.java=Java
