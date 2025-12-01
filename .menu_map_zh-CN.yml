@@ -160,7 +160,7 @@
       200.problems-caused-by-capacity-changes=容量变化导致的问题
       300.other-problems-within-the-cluster=集群内部其他问题
 620.obap=OceanBase AP
-  150.obap-deploy=部署简介
+  150.obap-deploy=部署 OceanBase AP
   200.obap-data-design=数据表设计
     100.data-design-best-practice=数据表设计最佳实践
   300.obap-import-data=导入数据
