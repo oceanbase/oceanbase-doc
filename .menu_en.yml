@@ -140,7 +140,7 @@
           300.cost-based-optimization=Row estimation
         200.plan-management=Plan management
         300.index-selection=Index selection
-        400.join-order-and-join-algorithm=Join order and join algorithm
+        400.join-order-and-join-algorithm=Join
           200.join-algorithm=Join algorithm
         500.order-by-and-limit=Order and limit optimization
       400.business-logic-optimization=Business logic optimization
