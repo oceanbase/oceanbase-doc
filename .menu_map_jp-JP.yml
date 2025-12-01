@@ -62,7 +62,7 @@
     100.data-design-best-practice=ベストプラクティス
   300.obap-data-collection=データ収集
     300.obap-import-data=データのインポート
-      20.bypass-import=バイパスインポート
+      20.bypass-import=ダイレクトロード
   350.data-processing=データ加工
   500.obap-query=クエリ加速
   700.performance-tuning=パフォーマンスの診断およびチューニング
