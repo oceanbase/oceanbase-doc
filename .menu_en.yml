@@ -160,6 +160,7 @@
 620.obap=OceanBase AP
   110.obap-deploy=Deployment
   200.obap-data-design=Data table design
+    100.data-design-best-practice=Best practices for data table design
   300.obap-import-data=Import data
     20.bypass-import=Direct load
   600.obap-query=Query acceleration
