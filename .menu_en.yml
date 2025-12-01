@@ -115,7 +115,9 @@
       200.data-storage-encryption-of-mysql-mode=MySQL mode
       300.data-storage-encryption-of-oracle-mode=Oracle mode
     550.column-encryption=Column encryption
-    600.security-audit=Security audit
+    600.security-audit=Security auditing
+      200.security-audit-of-mysql-mode=MySQL-compatible mode
+      300.security-audit-of-oracle-mode=Oracle-compatible mode
   600.backup-and-recovery=Backup and restore
     300.log-archive=Log archive
     400.data-backup=Data backup
