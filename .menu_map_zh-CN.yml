@@ -115,6 +115,7 @@
     500.data-storage-encryption=数据透明加密
       200.data-storage-encryption-of-mysql-mode=MySQL 模式下的数据透明加密
       300.data-storage-encryption-of-oracle-mode=Oracle 模式下的数据透明加密
+    550.column-encryption=列加密
     600.security-audit=安全审计
       200.security-audit-of-mysql-mode=MySQL 模式下的安全审计
       300.security-audit-of-oracle-mode=Oracle 模式下的安全审计
