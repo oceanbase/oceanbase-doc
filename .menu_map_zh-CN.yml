@@ -148,14 +148,15 @@
           200.join-algorithm=联接算法
         500.order-by-and-limit=排序和 limit 优化
       400.business-logic-optimization=业务逻辑优化
+  900.daily-inspection=日常巡检
+    900.full-link-detection=全链路追踪
   1000.troubleshooting=问题排查
     400.storage=存储
     500.election=选举
     600.transaction=事务
     800.physical-standby-database=物理备库
     900.backup-and-recovery=备份恢复
-  900.daily-inspection=日常巡检
-    900.full-link-detection=全链路追踪
+    2000.common-sql=常见排查 SQL
   1100.emergency-response=应急处理
     300.common-emergency-response=常见应急问题处理
       100.issues-in-the-hardware-environment=硬件环境导致的问题
