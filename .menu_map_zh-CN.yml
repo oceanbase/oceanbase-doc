@@ -164,6 +164,7 @@
   150.obap-deploy=部署 OceanBase AP
   200.obap-data-design=数据表设计
     100.data-design-best-practice=数据表设计最佳实践
+  250.data-migration=数据迁移
   300.obap-import-data=导入数据
     20.bypass-import=旁路导入
   350.data-processing=数据加工
