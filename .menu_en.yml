@@ -158,7 +158,7 @@
       200.problems-caused-by-capacity-changes=Capacity issues
       300.other-problems-within-the-cluster=Other cluster issues
 620.obap=OceanBase AP
-  110.obap-deploy=Deployment
+  150.obap-deploy=Deployment
   200.obap-data-design=Data table design
     100.data-design-best-practice=Best practices for data table design
   300.obap-import-data=Import data
@@ -547,7 +547,7 @@
         500.ash-report-diagnosis=ASH report
     500.sql-optimization=SQL tuning
       200.sql-execution-plan=SQL execution plans
-        200.execution-plan-operator=Execution plan operators
+        400.execution-plan-operator=Execution plan operators
       300.distributed-execution-plan=Distributed execution plans
       350.parallel-execution=Parallel execution plans
         300.deploy-parallel-execution=Set concurrent execution
