@@ -377,6 +377,7 @@
         960.text-processing-functions-of-mysql-mode=文本处理函数
         970.audit-functions-of-mysql-mode=审计函数
         980.map-functions-of-mysql-mode=映射函数
+        990.sequence-function-of-msql-mode=序列函数
         1000.other-functions-of-mysql-mode=其它函数
       500.queries-and-subqueries-of-mysql-mode=查询和子查询
       600.sql-statement-of-mysql-mode=SQL 语句
@@ -435,6 +436,7 @@
         300.aggregate-functions-of-oracle-mode=聚合函数
         400.analysis-functions-of-oracle-mode=分析函数
         500.information-functions-of-oracle-mode=信息函数
+        600.sequence-function-of-oracle-mode=序列函数
       600.expression-of-oracle-mode=表达式
       700.condition-of-oracle-mode=条件
       800.queries-and-subqueries-of-oracle-mode=查询和子查询
