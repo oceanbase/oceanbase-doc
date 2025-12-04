@@ -443,6 +443,7 @@
       800.information-schema-dictionary-view-mysql=PL related dictionary views
       900.pl-exception-handling-statement-mysql=PL exception handling
       1000.pl-system-package-mysql=PL system packages
+        9000.dbms-hybrid-search-mysql=DBMS_HYBRID_SEARCH
         9950.dbms-mview-mysql=DBMS_MVIEW
         10050.dbms-mview-stat-mysql=DBMS_MVIEW_STATS
         13200.dbms_partition-mysql=DBMS_PARTITION
