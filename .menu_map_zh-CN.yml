@@ -1,4 +1,4 @@
-<quote-f virtual_file_name="1000.glossary.md"  target="1000000001733429"/>
+<quote-f virtual_file_name="1000.glossary.md"  target="1000000001733430"/>
 100.learn-more-about-oceanbase=OceanBase 简介
   400.compatibility-with-oracle=与 Oracle 兼容性对比
 200.quickstart=快速上手
@@ -180,6 +180,7 @@
   100.ob-vector-search-overview=向量搜索概述
   120.ob-vector-search-quick-start=向量搜索快速上手
   200.ob-vector-index=向量索引
+    300.ob-dense-vector-index=稠密索引
     400.ob-sparse-vector-index=稀疏索引
   350.ob-vector-hybrid-search=向量混合搜索
   500.ob-vector-search-practical-tutorial=向量搜索实践教程
