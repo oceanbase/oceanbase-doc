@@ -1,4 +1,4 @@
-<quote-f virtual_file_name="1000.glossary.md"  target="1000000001733429"/>
+<quote-f virtual_file_name="1000.glossary.md"  target="1000000001733430"/>
 100.learn-more-about-oceanbase=OceanBase 简介
   400.compatibility-with-oracle=与 Oracle 兼容性对比
 200.quickstart=快速上手
@@ -30,6 +30,7 @@
       1300.use-the-database-connection-pool-of-oracle-mode=使用数据库连接池
     200.sample-program-of-oracle-mode=示例程序
       100.java-of-oracle-mode=Java
+      200.python-of-oracle-mode=Python
       300.c-of-oracle-mode=C/C++
     300.database-object-planning-of-oracle-mode=规划数据库对象
     400.write-data-of-oracle-mode=数据写入
@@ -153,6 +154,7 @@
     600.transaction=事务
     800.physical-standby-database=物理备库
     900.backup-and-recovery=备份恢复
+    2000.common-sql=常见排查 SQL
   900.daily-inspection=日常巡检
     900.full-link-detection=全链路追踪
   1100.emergency-response=应急处理
@@ -449,6 +451,7 @@
         19700.dbms-xmlgen-oracle=DBMS_XMLGEN
         19800.dbms-profiler-oracle=DBMS_PROFILER
         20700.dbms-xplan-oracle=DBMS_XPLAN
+        21100.dbms-ddl-oracle=DBMS_DDL
         22800.odciconst-oracle=ODCIConst
         26000.utl-encode-oracle=UTL_ENCODE
         26100.utl-file-oracle=UTL_FILE
@@ -526,16 +529,16 @@
       400.odp-routing-policy=ODP 路由策略
   1300.drivers=驱动
   1400.platform-products=平台产品
-    400.1.ocp-express=OceanBase 云平台 Express（OCP Express）
   1500.components-and-tools=组件 & 工具
     100.manage=运维管理
       100.obshell=obshell
+        <quote-f virtual_file_name="100.obshell-intro.md"  target="1000000004400513"/>
         210.use-case=使用场景
           100.obshell-management=obshell 管理
           200.cluster-management=集群管理
           300.tenant-management=租户管理
         300.obshell-clients=obshell 命令
-        350.ob-dashboard=OB-Dashboard
+        350.ob-dashboard=obshell Dashboard
           400.ob-dashboard-tenant=租户管理
         400.obshell-api-reference=API 参考
           100.obshell-management=obshell 管理
