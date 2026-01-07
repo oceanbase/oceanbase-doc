@@ -664,6 +664,9 @@
             800.recycle-bin-management=回收站管理
             1000.task-management=任务管理
             1500.other-api=其他 API
+        2000.release-notes=版本发布记录
+          900.V4.4=V4.4
+          1000.V4.3=V4.3
       200.ob-admin=ob_admin
         300.clog=clog
         400.backup-and-recovery=备份恢复
