@@ -119,6 +119,9 @@
     500.data-storage-encryption=数据透明加密
       200.data-storage-encryption-of-mysql-mode=MySQL 模式下的数据透明加密
       300.data-storage-encryption-of-oracle-mode=Oracle 模式下的数据透明加密
+    550.column-encryption=列加密
+      200.column-encryption-of-mysql-mode=MySQL 模式下的列加密
+      300.column-encryption-of-oracle-mode=Oracle 模式下的列加密
     600.security-audit=安全审计
       200.security-audit-of-mysql-mode=MySQL 模式下的安全审计
       300.security-audit-of-oracle-mode=Oracle 模式下的安全审计
@@ -159,6 +162,7 @@
     600.transaction=事务
     800.physical-standby-database=物理备库
     900.backup-and-recovery=备份恢复
+    1800.troubleshooting-with-ash=使用 ASH 排查
     2000.common-sql=常见排查 SQL
   900.daily-inspection=日常巡检
     900.full-link-detection=全链路追踪
@@ -168,14 +172,22 @@
       200.problems-caused-by-capacity-changes=容量变化导致的问题
       300.other-problems-within-the-cluster=集群内部其他问题
 620.obap=OceanBase AP
-  110.obap-deploy=部署简介
+  150.obap-deploy=部署 OceanBase AP
   200.obap-data-design=数据表设计
     100.data-design-best-practice=数据表设计最佳实践
-  300.obap-import-data=导入数据
-    20.bypass-import=旁路导入
-  600.obap-query=查询加速
+  230.data-distribution=数据分布
+  250.data-migration=数据迁移
+  300.obap-data-collection=数据采集
+    300.obap-import-data=导入数据
+      20.bypass-import=旁路导入
+  350.data-processing=数据加工
+  400.data-lake=数据湖
+    100.data-catalog=数据目录
+    200.external-table=外部表
+  500.obap-query=查询加速
   700.performance-tuning=性能诊断和调优
   750.obap-performance-test=性能测试
+  1000.ap-tutorials=实践教程
 640.ob-vector-search=向量搜索
   100.ob-vector-search-overview=向量搜索概述
   120.ob-vector-search-quick-start=向量搜索快速上手
@@ -214,6 +226,7 @@
   300.schema-evolution=数据库版本管理
   400.data-ingestion=数据集成
     <quote-f virtual_title="AWS Glue" virtual_file_name="100.glue.md"  target="1000000001478166" version=""/>
+    100.flink=Apache Flink
   500.sql-development=SQL 开发
   600.orchestration=编排调度
   700.visualization=可视化工具
