@@ -154,6 +154,7 @@
     600.transaction=事务
     800.physical-standby-database=物理备库
     900.backup-and-recovery=备份恢复
+    1800.troubleshooting-with-ash=使用 ASH 排查
     2000.common-sql=常见排查 SQL
   900.daily-inspection=日常巡检
     900.full-link-detection=全链路追踪
