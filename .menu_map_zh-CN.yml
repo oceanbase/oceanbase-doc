@@ -119,6 +119,9 @@
     500.data-storage-encryption=数据透明加密
       200.data-storage-encryption-of-mysql-mode=MySQL 模式下的数据透明加密
       300.data-storage-encryption-of-oracle-mode=Oracle 模式下的数据透明加密
+    550.column-encryption=列加密
+      200.column-encryption-of-mysql-mode=MySQL 模式下的列加密
+      300.column-encryption-of-oracle-mode=Oracle 模式下的列加密
     600.security-audit=安全审计
       200.security-audit-of-mysql-mode=MySQL 模式下的安全审计
       300.security-audit-of-oracle-mode=Oracle 模式下的安全审计
@@ -159,6 +162,7 @@
     600.transaction=事务
     800.physical-standby-database=物理备库
     900.backup-and-recovery=备份恢复
+    1800.troubleshooting-with-ash=使用 ASH 排查
     2000.common-sql=常见排查 SQL
   900.daily-inspection=日常巡检
     900.full-link-detection=全链路追踪
