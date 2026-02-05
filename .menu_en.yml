@@ -129,6 +129,8 @@
     300.log-archive=Log archive
     400.data-backup=Data backup
     500.clear-backup-data=Clear backup data
+      50.automatic-backup-cleanup=Automatically clear backup data
+      100.manual-backup-cleanup=Manually clear backup data
     600.restore-data=Restore data
     700.recover-table=Restore by table
   700.monitor=Monitor
