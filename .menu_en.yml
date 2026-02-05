@@ -471,6 +471,7 @@
         17850.dbms-vector-mysql=DBMS_VECTOR
         17900.dbms-workload-repository-mysql=DBMS_WORKLOAD_REPOSITORY
         20700.dbms-xplan-mysql=DBMS_XPLAN
+        20750.dbms-xprofile-mysql=DBMS_XPROFILE
         20900.dbms-limit-calculator-mysql=DBMS_LIMIT_CALCULATOR
         21000.dbms-external-table-mysql=DBMS_EXTERNAL_TABLE
     300.pl-oracle=PL reference (Oracle-compatible mode)
@@ -528,6 +529,7 @@
         19800.dbms-profiler-oracle=DBMS_PROFILER
         21000.dbms-external-table-oracle=DBMS_EXTERNAL_TABLE
         20700.dbms-xplan-oracle=DBMS_XPLAN
+        20750.dbms-xprofile-oracle=DBMS_XPROFILE
         22800.odciconst-oracle=ODCIConst
         26000.utl-encode-oracle=UTL_ENCODE
         26100.utl-file-oracle=UTL_FILE
