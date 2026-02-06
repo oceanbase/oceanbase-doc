@@ -462,6 +462,8 @@
       800.information-schema-dictionary-view-mysql=PL related dictionary views
       900.pl-exception-handling-statement-mysql=PL exception handling
       1000.pl-system-package-mysql=PL system packages
+        1000.dbms-ai-service-mysql=DBMS_AI_SERVICE
+        9000.dbms-hybrid-search-mysql=DBMS_HYBRID_SEARCH
         9950.dbms-mview-mysql=DBMS_MVIEW
         10050.dbms-mview-stat-mysql=DBMS_MVIEW_STATS
         13200.dbms_partition-mysql=DBMS_PARTITION
@@ -474,8 +476,12 @@
         17900.dbms-workload-repository-mysql=DBMS_WORKLOAD_REPOSITORY
         20700.dbms-xplan-mysql=DBMS_XPLAN
         20750.dbms-xprofile-mysql=DBMS_XPROFILE
+        20800.dbms-balance-mysql=DBMS_BALANCE
         20900.dbms-limit-calculator-mysql=DBMS_LIMIT_CALCULATOR
         21000.dbms-external-table-mysql=DBMS_EXTERNAL_TABLE
+        22000.dbms-java-mysql=DBMS_JAVA
+        22100.dbms-python-mysql=DBMS_PYTHON
+        23000.dbms-data-dict-mysql=DBMS_DATA_DICT
     300.pl-oracle=PL reference (Oracle-compatible mode)
       100.pl-language-basics-oracle=PL language basics
       200.data-type-oracle=PL data types
