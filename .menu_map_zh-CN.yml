@@ -632,6 +632,7 @@
           300.tenant-management=租户管理
         300.obshell-clients=obshell 命令
         350.ob-dashboard=obshell Dashboard
+          300.ob-dashboard-cluster=集群管理
           400.ob-dashboard-tenant=租户管理
             500.backup-and-recovery=备份恢复
           450.alarm-center=告警中心
