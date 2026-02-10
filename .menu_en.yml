@@ -503,6 +503,7 @@
       1400.pl-system-package-oracle=PL system package (Oracle-compatible mode)
         1900.dbms-application-info-oracle=DBMS_APPLICATION_INFO
         2600.dbms-audit-mgmt-oracle=DBMS_AUDIT_MGMT
+        2700.dbms-balance-oracle=DBMS_BALANCE
         3800.dbms-crypto-oracle=DBMS_CRYPTO
         5300.dbms-debug-oracle=DBMS_DEBUG
         5600.dbms-describe-oracle=DBMS_DESCRIBE
@@ -515,6 +516,7 @@
         10050.dbms-mview-stat-oracle=DBMS_MVIEW_STAT
         11100.dbms-output-oracle=DBMS_OUTPUT
         12500.dbms-plan-cache-oracle=DBMS_PLAN_CACHE
+        12550.dbms-plsql-code-coverage-oracle=DBMS_PLSQL_CODE_COVERAGE
         12600.dbms_partition-oracle=DBMS_PARTITION
         12700.dbms-random-oracle=DBMS_RANDOM
         13300.dbms-resource-manager-oracle=DBMS_RESOURCE_MANAGER
@@ -530,6 +532,7 @@
         19700.dbms-xmlgen-oracle=DBMS_XMLGEN
         19800.dbms-profiler-oracle=DBMS_PROFILER
         21000.dbms-external-table-oracle=DBMS_EXTERNAL_TABLE
+        21100.dbms-ddl-oracle=DBMS_DDL
         20700.dbms-xplan-oracle=DBMS_XPLAN
         20750.dbms-xprofile-oracle=DBMS_XPROFILE
         22800.odciconst-oracle=ODCIConst
@@ -540,6 +543,7 @@
         27000.utl-raw-oracle=UTL_RAW
         27100.utl-tcp-oracle=UTL_TCP
         27200.utl-smtp-oracle=UTL_SMTP
+        27300.utl-http-oracle=UTL_HTTP
         27800.anydata-type-oracle=ANYDATA TYPE
         29600.xmltype-oracle=XMLType
   700.system-views=System views
