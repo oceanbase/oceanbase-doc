@@ -362,6 +362,7 @@
           1400.spatial-functions-of-oracle-mode=Spatial-functions
         300.aggregate-functions-of-oracle-mode=Aggregate functions
         400.analysis-functions-of-oracle-mode=Analysis functions
+        500.table-function-of-oracle-mode=Table functions
       600.expression-of-oracle-mode=Expressions
       700.condition-of-oracle-mode=Conditions
       800.queries-and-subqueries-of-oracle-mode=Queries and subqueries
@@ -393,7 +394,7 @@
         20700.dbms-xplan-mysql=DBMS_XPLAN
         20800.dbms-balance-mysql=DBMS_BALANCE
         20900.dbms-limit-calculator-mysql=DBMS_LIMIT_CALCULATOR
-        # 21000.dbms-data-dict-mysql=DBMS_DATA_DICT
+        21000.dbms-data-dict-mysql=DBMS_DATA_DICT
     300.pl-oracle=PL reference (Oracle mode)
       100.pl-language-basics-oracle=PL language basics
       200.data-type-oracle=PL data types
@@ -445,14 +446,15 @@
         19700.dbms-xmlgen-oracle=DBMS_XMLGEN
         19800.dbms-profiler-oracle=DBMS_PROFILER
         20700.dbms-xplan-oracle=DBMS_XPLAN
+        21100.dbms-ddl-oracle=DBMS_DDL
         22800.odciconst-oracle=ODCIConst
         26000.utl-encode-oracle=UTL_ENCODE
         26100.utl-file-oracle=UTL_FILE
         26300.utl-i18n-oracle=UTL_I18N
         26400.utl-recomp-package-oracle=UTL_RECOMP
         27000.utl-raw-oracle=UTL_RAW
-        # 27100.utl-tcp-oracle=UTL_TCP
-        # 27200.utl-smtp-oracle=UTL_SMTP
+        27100.utl-tcp-oracle=UTL_TCP
+        27200.utl-smtp-oracle=UTL_SMTP
         27800.anydata-type-oracle=ANYDATA TYPE
         29600.xmltype-oracle=XMLType
   700.system-views=System views
@@ -492,8 +494,8 @@
         200.execution-plan-operator=Execution plan operators
       300.distributed-execution-plan=Distributed execution plan
       350.parallel-execution=Parallel execution plan
-        # 100.parallel-execution-concept.md=Parallel execution introduction
-        # 150.classification-of-parallel-execution.md=Parallel execution classification and optimization
+        100.parallel-execution-concept.md=Parallel execution introduction
+        150.classification-of-parallel-execution.md=Parallel execution classification and optimization
         300.deploy-parallel-execution=Set parallel execution
       400.sql-optimization=SQL tuning
         300.monitor-sql-execution-performance=SQL execution performance monitoring
