@@ -26,6 +26,7 @@
       300.transaction-savepoints-of-mysql-mode=Savepoints
     700.application-error-handling-specification-and-common-error-solutions=Application errors
       100.application-error-handling-specification-of-mysql-mode=Troubleshooting guidelines
+      200.common-errors-and-solutions-of-mysql-mode=Common errors and troubleshooting practices
   200.application-development-of-oracle-mode=Develop applications (Oracle-compatible mode)
     100.connect-to-oceanbase-database-of-oracle-mode=Connect to OceanBase Database
       1300.use-the-database-connection-pool-of-oracle-mode=Use database connection pool
