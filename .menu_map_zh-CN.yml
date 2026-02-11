@@ -191,7 +191,7 @@
   200.ob-vector-index=向量索引
     300.ob-dense-vector-index=稠密索引
     400.ob-sparse-vector-index=稀疏索引
-  350.ob-vector-hybrid-search=向量混合搜索
+  350.ob-vector-hybrid-search=混合搜索
   500.ob-vector-search-practical-tutorial=向量搜索实践教程
     <quote-f virtual_title="基于 OceanBase 构建智能问答机器人" virtual_file_name="200.ob-vector-search-practical-tutorial-chatbot.md"  target="1000000002012729" version=""/>
     <quote-f virtual_title="基于 OceanBase 构建图搜图应用" virtual_file_name="300.ob-vector-search-practical-tutorial-image-search.md"  target="1000000002012730" version=""/>
