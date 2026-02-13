@@ -192,6 +192,7 @@
     300.ob-dense-vector-index=稠密索引
     400.ob-sparse-vector-index=稀疏索引
   350.ob-vector-hybrid-search=混合搜索
+  370.ob-vector-search-ai-function=AI 函数服务
   500.ob-vector-search-practical-tutorial=向量搜索实践教程
     <quote-f virtual_title="基于 OceanBase 构建智能问答机器人" virtual_file_name="200.ob-vector-search-practical-tutorial-chatbot.md"  target="1000000002012729" version=""/>
     <quote-f virtual_title="基于 OceanBase 构建图搜图应用" virtual_file_name="300.ob-vector-search-practical-tutorial-image-search.md"  target="1000000002012730" version=""/>
@@ -209,7 +210,6 @@
     <quote-f virtual_title="与 Cursor 集成" virtual_file_name="1100.ob-vector-search-integration-cursor.md"  target="1000000003659648" version=""/>
     <quote-f virtual_title="与 Continue 集成" virtual_file_name="1200.ob-vector-search-integration-continue.md"  target="1000000003659649" version=""/>
   700.ob-vector-search-reference=向量搜索参考
-    300.ob-vector-search-ai-function=AI 函数服务
     900.ob-vector-search-supported-clients-and-languages=支持的客户端和语言
 680.ecological-integration=生态集成
   200.orms-frameworks=ORM 框架
