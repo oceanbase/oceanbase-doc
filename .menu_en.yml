@@ -33,6 +33,7 @@
       1300.use-the-database-connection-pool-of-oracle-mode=Use database connection pool
     200.sample-program-of-oracle-mode=Sample applications
       100.java-of-oracle-mode=Java
+      200.python-of-oracle-mode=Python
       300.c-of-oracle-mode=C/C++
     300.database-object-planning-of-oracle-mode=Plan database objects
     400.write-data-of-oracle-mode=Write data
