@@ -115,13 +115,15 @@
            340.role-management-of-mysql-mode=角色管理
         300.permission-of-oracle-mode=Oracle 模式下的权限管理
            400.manage-roles-of-oracle-mode=角色管理
-    400.data-transfer-encryption=数据传输加密
-    500.data-storage-encryption=数据透明加密
-      200.data-storage-encryption-of-mysql-mode=MySQL 模式下的数据透明加密
-      300.data-storage-encryption-of-oracle-mode=Oracle 模式下的数据透明加密
-    550.column-encryption=列加密
-      200.column-encryption-of-mysql-mode=MySQL 模式下的列加密
-      300.column-encryption-of-oracle-mode=Oracle 模式下的列加密
+    500.data-encryption=数据加密
+      200.data-transfer-encryption=数据传输加密
+      300.tenant-master-key=租户主密钥管理
+      400.data-storage-encryption=数据透明加密
+        200.data-storage-encryption-of-mysql-mode=MySQL 模式下的数据透明加密
+        300.data-storage-encryption-of-oracle-mode=Oracle 模式下的数据透明加密
+      500.column-encryption=列加密
+        200.column-encryption-of-mysql-mode=MySQL 模式下的列加密
+        300.column-encryption-of-oracle-mode=Oracle 模式下的列加密
     600.security-audit=安全审计
       200.security-audit-of-mysql-mode=MySQL 模式下的安全审计
       300.security-audit-of-oracle-mode=Oracle 模式下的安全审计
@@ -194,6 +196,7 @@
   200.ob-vector-index=向量索引
     300.ob-dense-vector-index=稠密索引
   350.ob-vector-hybrid-search=混合搜索
+  370.ob-vector-search-ai-function=AI 函数服务
   500.ob-vector-search-practical-tutorial=向量搜索实践教程
     <quote-f virtual_title="基于 OceanBase 构建智能问答机器人" virtual_file_name="200.ob-vector-search-practical-tutorial-chatbot.md"  target="1000000002012729" version=""/>
     <quote-f virtual_title="基于 OceanBase 构建图搜图应用" virtual_file_name="300.ob-vector-search-practical-tutorial-image-search.md"  target="1000000002012730" version=""/>
@@ -211,7 +214,6 @@
     <quote-f virtual_title="与 Cursor 集成" virtual_file_name="1100.ob-vector-search-integration-cursor.md"  target="1000000003659648" version=""/>
     <quote-f virtual_title="与 Continue 集成" virtual_file_name="1200.ob-vector-search-integration-continue.md"  target="1000000003659649" version=""/>
   700.ob-vector-search-reference=向量搜索参考
-    300.ob-vector-search-ai-function=AI 函数服务
     900.ob-vector-search-supported-clients-and-languages=支持的客户端和语言
 680.ecological-integration=生态集成
   200.orms-frameworks=ORM 框架

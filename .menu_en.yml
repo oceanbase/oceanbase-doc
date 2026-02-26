@@ -17,6 +17,7 @@
       400.go-of-mysql-mode=Go
       500.php-of-mysql-mode=PHP
       600.rust-of-mysql-mode=Rust
+      700.ruby-of-mysql-mode=Ruby
     300.database-object-planning-of-mysql-mode=Plan database objects   
     400.write-data-of-mysql-mode=Write data
     500.read-data-of-mysql-mode=Read data
@@ -32,6 +33,7 @@
       1300.use-the-database-connection-pool-of-oracle-mode=Use database connection pool
     200.sample-program-of-oracle-mode=Sample applications
       100.java-of-oracle-mode=Java
+      200.python-of-oracle-mode=Python
       300.c-of-oracle-mode=C/C++
     300.database-object-planning-of-oracle-mode=Plan database objects
     400.write-data-of-oracle-mode=Write data
