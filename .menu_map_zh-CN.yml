@@ -216,6 +216,20 @@
     <quote-f virtual_title="与 Continue 集成" virtual_file_name="1200.ob-vector-search-integration-continue.md"  target="1000000003659649" version=""/>
   700.ob-vector-search-reference=向量搜索参考
     900.ob-vector-search-supported-clients-and-languages=支持的客户端和语言
+  660.ob-shared-storage=共享存储
+    100.ss-overview=共享存储概述
+    150.ss-system-architecture=系统架构
+    200.ss-multi-level-cache=多级缓存
+    300.ss-disaster-recovery-deployment-plan=共享存储容灾部署方案
+    400.customize-hotspot-cache-of-mysql-mode=自定义热点缓存策略（MySQL 模式）
+      100.customize-hotspot-cache-overview-of-mysql-mode=自定义热点缓存策略概述
+      200.create-table-level-storage-cache-policy-of-mysql-mode=创建表级热点缓存策略
+      300.create-partition-level-storage-cache-policy-of-mysql-mode=创建分区级热点缓存策略
+      400.modify-table-level-storage-cache-policy-of-mysql-mode=修改表级热点缓存策略
+      500.modify-partition-level-storage-cache-policy-of-mysql-mode=修改分区级热点缓存策略
+      600.customize-hotspot-cache-operations-of-mysql-mode=热点缓存策略的操作
+  500.ss-views-overview=共享存储相关视图总览
+  700.ss-configuration-items-and-system-variables=共享存储配置项和系统变量总览
 680.ecological-integration=生态集成
   200.orms-frameworks=ORM 框架
     100.java=Java
@@ -330,7 +344,6 @@
       800.manage-triggers-of-mysql-mode=创建和管理触发器
       900.manage-dblink-of-mysql-mode=创建和管理 DBLink
       1000.manage-catalog-of-mysql-mode=创建和管理 Catalog
-      1100.customize-hotspot-cache-of-mysql-mode=自定义热点缓存策略
     200.manage-object-of-oracle-mode=Oracle 模式
       100.manage-tables-of-oracle-mode=创建和管理表
         1000.manage-external-tables-of-oracle-mode=创建和管理外表
