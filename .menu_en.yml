@@ -17,6 +17,7 @@
       400.go-of-mysql-mode=Go
       500.php-of-mysql-mode=PHP
       600.rust-of-mysql-mode=Rust
+      700.ruby-of-mysql-mode=Ruby
     300.database-object-planning-of-mysql-mode=Plan database objects   
     400.write-data-of-mysql-mode=Write data
     500.read-data-of-mysql-mode=Read data
@@ -32,6 +33,7 @@
       1300.use-the-database-connection-pool-of-oracle-mode=Use database connection pool
     200.sample-program-of-oracle-mode=Sample applications
       100.java-of-oracle-mode=Java
+      200.python-of-oracle-mode=Python
       300.c-of-oracle-mode=C/C++
     300.database-object-planning-of-oracle-mode=Plan database objects
     400.write-data-of-oracle-mode=Write data
@@ -42,7 +44,6 @@
       300.transaction-savepoints-of-oracle-mode=Savepoints
     700.application-error-handling-specification-and-common-error-solutions-of-oracle-mode=Application errors
       100.application-error-handling-specification-of-oracle-mode=Troubleshooting guidelines
-      200.common-errors-and-solutions-of-oracle-mode=Common errors and troubleshooting practices
 400.deploy=Deploy
   300.deploy-oceanbase-enterprise-edition=Deploy OceanBase Database Enterprise Edition
     200.preparations-before-deploy=Before deployment
@@ -91,7 +92,6 @@
   300.replica-management=Manage replicas
     200.replica-distribution=Replica distribution
       200.locality-common-operations=Common locality operations
-    500.load-balancing-manage=Data load balancing
   350.load-balancing-manage=Data load balancing
     430.tablegroup-weight-management=Table group weight management
     450.balance-weight-management=Partition weight management
@@ -115,13 +115,15 @@
           340.role-management-of-mysql-mode=Role management
         300.permission-of-oracle-mode=Oracle-compatible mode
           400.manage-roles-of-oracle-mode=Manage roles
-    400.data-transfer-encryption=Data transmission encryption
-    500.data-storage-encryption=Transparent data encryption
-      200.data-storage-encryption-of-mysql-mode=MySQL-compatible mode
-      300.data-storage-encryption-of-oracle-mode=Oracle-compatible mode
-    550.column-encryption=Column encryption
-      200.column-encryption-of-mysql-mode=MySQL-compatible mode
-      300.column-encryption-of-oracle-mode=Oracle-compatible mode
+    500.data-encryption=Data encryption
+      200.data-transfer-encryption=Data transfer encryption
+      300.tenant-master-key=Tenant master key management 
+      400.data-storage-encryption=Transparent data encryption
+        200.data-storage-encryption-of-mysql-mode=Transparent data encryption (MySQL-compatible mode)
+        300.data-storage-encryption-of-oracle-mode=Transparent data encryption (Oracle-compatible mode)
+      500.column-encryption=Column encryption
+        200.column-encryption-of-mysql-mode=Column encryption (MySQL-compatible mode)
+        300.column-encryption-of-oracle-mode=Column encryption (Oracle-compatible mode)
     600.security-audit=Security audit
       200.security-audit-of-mysql-mode=MySQL-compatible mode
       300.security-audit-of-oracle-mode=Oracle-compatible mode
@@ -165,6 +167,7 @@
     800.physical-standby-database=Physical standby database
     900.backup-and-recovery=Backup and restore
     1800.troubleshooting-with-ash=Troubleshooting with ASH
+    2000.common-sql=Frequently used SQL for troubleshooting
   1100.emergency-response=Emergency response
     300.common-emergency-response=Common emergency problem handling
       100.issues-in-the-hardware-environment=Hardware issues
@@ -195,15 +198,6 @@
   500.ob-vector-search-practical-tutorial=Tutorials
   700.ob-vector-search-reference=References
     900.ob-vector-search-supported-clients-and-languages=Supported clients and languages
-650.obkv=OBKV
-  100.obkv-table=OBKV-Table
-    100.introduction-to-tableapi=Introduction
-    200.use-of-the-tableapi-client=Use the OBKV-Table Java client
-    260.tableapi-go=Use the OBKV-Table GO client
-  200.obkv-hbase=OBKV-HBase
-    200.obkv-hbase-develop=Use OBKV-HBase
-    300.obkv-hbase-manage=OBKV-HBase management
-    800.obkv-hbase-integrations=OBKV-HBase integration
 680.ecological-integration=Integrations
   200.orms-frameworks=ORM frameworks
     100.java=Java
@@ -234,7 +228,6 @@
         400.partition-of-oracle-mode=Partitions
         500.view-of-oracle-mode=Views
           150.standard-view-of-oracle-mode=Standard views
-          200.materialized-view-of-oracle-mode=Materialized views
         600.other-objects-of-oracle-mode=Other objects
         700.system-view-of-oracle-mode=System views
         800.data-integrity-of-oracle-mode=Data integrity
@@ -247,7 +240,6 @@
         400.partition-of-mysql-mode=Partitions
         500.view-of-mysql-mode=Views
           150.standard-view-of-mysql-mode=Standard views
-          200.materialized-view-of-mysql-mode=Materialized views
         600.system-view-of-mysql-mode=System views
         700.data-integrity-of-mysql-mode=Data integrity
           200.integrity-constraint-type-of-mysql-mode=Integrity constraint type
@@ -470,7 +462,6 @@
         10050.dbms-mview-stat-mysql=DBMS_MVIEW_STATS
         13200.dbms_partition-mysql=DBMS_PARTITION
         13300.dbms-resource-manager-mysql=DBMS_RESOURCE_MANAGER
-        15000.dbms-spm-mysql=DBMS_SPM
         15900.dbms-stats-mysql=DBMS_STATS
         16000.dbms-trusted-certificate-manager-mysql=DBMS_TRUSTED_CERTIFICATE_MANAGER
         17800.dbms-udr-mysql=DBMS_UDR
@@ -530,7 +521,6 @@
         13300.dbms-resource-manager-oracle=DBMS_RESOURCE_MANAGER
         14200.dbms-scheduler-oracle=DBMS_SCHEDULER
         14500.dbms-session-oracle=DBMS_SESSION
-        15000.dbms-spm-oracle=DBMS_SPM
         15200.dbms-sql-oracle=DBMS_SQL
         15900.dbms-stats-oracle=DBMS_STATS
         17800.dbms-udr-oracle=DBMS_UDR
@@ -603,9 +593,6 @@
           100.access-path=Access path
           200.join-algorithm=Join algorithm
         700.manage-execution-plans=Manage execution plans
-  1100.performance-test=Perform testing
-    200.sysbench-benchmark-testing-on-oceanbase-database=OceanBase Sysbench testing
-    500.tpc-h-benchmark-testing-on-oceanbase-database=OceanBase TPC-H testing
   1200.database-proxy=Database proxy
     200.obproxy-management=ODP
       200.manage-obproxy-clusters=Manage ODP clusters
@@ -615,7 +602,6 @@
       400.odp-routing-policy=ODP routing policy
   1300.drivers=Drivers
   1400.platform-products=Platforms
-    400.1.ocp-express=OCP Express
   1500.Components-and-Tools=Components & tools
     100.manage=O&M management
       100.obshell=obshell
@@ -679,6 +665,7 @@
 800.FAQ=FAQ
 900.release-notes=Release Notes
   10100.enterprise-edition-history-release=OceanBase Database Enterprise Edition
+    9550.V4.4=V4.4
     9600.V4.3=V4.3
     9790.V4.2=V4.2
     9800.V4.1=V4.1
