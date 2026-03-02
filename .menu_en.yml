@@ -165,6 +165,7 @@
     800.physical-standby-database=Physical standby database
     900.backup-and-recovery=Backup and restore
     1800.troubleshooting-with-ash=Troubleshooting with ASH
+    2000.common-sql=Frequently used SQL for troubleshooting
   1100.emergency-response=Emergency response
     300.common-emergency-response=Common emergency problem handling
       100.issues-in-the-hardware-environment=Hardware issues
