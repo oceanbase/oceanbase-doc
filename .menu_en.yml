@@ -156,7 +156,7 @@
           200.join-algorithm=Join algorithm
         500.order-by-and-limit=Order and limit optimization
       400.business-logic-optimization=Business logic optimization
-  900.daily-inspection=Daily inspection
+  900.daily-inspection=Routine inspection
     900.full-link-detection=End-to-end tracing
   1000.troubleshooting=Troubleshooting
     400.storage=Storage
