@@ -205,6 +205,9 @@
     300.go=Go
     400.rust=Rust
     500.ruby=Ruby
+    600.nodejs=Node.js
+    700.c-sharp=C#
+    800.php=PHP
   300.schema-evolution=Database version management
   400.data-ingestion=Data integration
     100.flink=Apache Flink
