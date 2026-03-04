@@ -198,6 +198,7 @@
   200.ob-vector-index=Vector index
     300.ob-dense-vector-index=Dense vector index
   350.ob-vector-hybrid-search=Hybrid search
+    200.ob-vector-index-hybrid-search=Hybrid index search
   370.ob-vector-search-ai-function=AI function service
   500.ob-vector-search-practical-tutorial=Tutorials
     <quote-f virtual_title="Build an intelligent Q&A chatbot with OceanBase" virtual_file_name="200.ob-vector-search-practical-tutorial-chatbot.md"  target="10000000001970973" version=""/>
