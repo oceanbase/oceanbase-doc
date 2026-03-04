@@ -195,6 +195,8 @@
 640.ob-vector-search=Vector Search
   100.ob-vector-search-overview=Overview
   120.ob-vector-search-quick-start=Quick starts
+  350.ob-vector-hybrid-search=Hybrid Search
+    200.ob-vector-index-hybrid-search
   500.ob-vector-search-practical-tutorial=Tutorials
   700.ob-vector-search-reference=References
     900.ob-vector-search-supported-clients-and-languages=Supported clients and languages
