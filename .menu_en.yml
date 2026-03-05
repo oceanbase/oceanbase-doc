@@ -325,6 +325,8 @@
       700.manage-sequence-of-mysql-mode=Create and manage sequences
       800.manage-triggers-of-mysql-mode=Create and manage triggers
       900.manage-dblink-of-mysql-mode=Create and manage DBLinks
+      1000.manage-catalog-of-mysql-mode=Create and manage catalogs
+      1100.customize-hotspot-cache-of-mysql-mode=Custom hotspot cache policy
     200.manage-object-of-oracle-mode=Oracle-compatible mode
       100.manage-tables-of-oracle-mode=Create and manage tables
         1000.manage-external-tables-of-oracle-mode=Create and manage external tables    
