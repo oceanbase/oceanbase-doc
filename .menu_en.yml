@@ -630,6 +630,10 @@
           200.cluster-management=Cluster management
           300.tenant-management=Tenant management
         300.obshell-clients=obshell commands
+        350.ob-dashboard=obshell Dashboard
+          400.ob-dashboard-tenant=Tenant management
+            500.backup-and-recovery=Backup and restore
+          450.alarm-center=Alarm center
         400.obshell-api-reference=API references
           100.obshell-management=obshell management
           200.cluster-management=Cluster management
@@ -693,6 +697,7 @@
     10200.V3.1=V3.1
     10300.V2.2=V2.2
   10200.community-edition-history-release=OceanBase Database Community Edition
+    9600.V4.4=V4.4
     9700.V4.3=V4.3
     9890.V4.2=V4.2
     9900.V4.1=V4.1
