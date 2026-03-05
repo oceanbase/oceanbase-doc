@@ -195,10 +195,22 @@
   700.performance-tuning=Performance diagnosis and tuning
 640.ob-vector-search=Vector Search
   100.ob-vector-search-overview=Overview
-  120.ob-vector-search-quick-start=Quick starts
-  350.ob-vector-hybrid-search=Hybrid Search
-    200.ob-vector-index-hybrid-search=Hybrid index search
+  120.ob-vector-search-quick-start=Quick start
+  200.ob-vector-index=Vector index
+    300.ob-dense-vector-index=Dense vector index
+  350.ob-vector-hybrid-search=Hybrid search
+  370.ob-vector-search-ai-function=AI function service
   500.ob-vector-search-practical-tutorial=Tutorials
+    <quote-f virtual_title="Build an intelligent Q&A chatbot with OceanBase" virtual_file_name="200.ob-vector-search-practical-tutorial-chatbot.md"  target="10000000001970973" version=""/>
+    <quote-f virtual_title="Build an image search application with OceanBase Database" virtual_file_name="300.ob-vector-search-practical-tutorial-image-search.md"  target="10000000001970972" version=""/>
+    <quote-f virtual_title="Build a cultural tourism assistant with OceanBase multi-model integration" virtual_file_name="400.building-a-multi-model-application-based-on-oceanbase.md"  target="10000000002611166" version=""/>
+  600.ob-vector-search-integration=AI integrations
+    <quote-f virtual_title="OpenAI" virtual_file_name="200.ob-vector-search-integration-openai.md"  target="10000000001976365" version=""/>
+    <quote-f virtual_title="Qwen" virtual_file_name="300.ob-vector-search-integration-qwen.md"  target="10000000001976366" version=""/>
+    <quote-f virtual_title="LangChain" virtual_file_name="400.ob-vector-search-integration-langchain.md"  target="10000000001976367" version=""/>
+    <quote-f virtual_title="LlamaIndex" virtual_file_name="500.ob-vector-search-integration-llamaindex.md"  target="10000000001976368" version=""/>
+    <quote-f virtual_title="Dify" virtual_file_name="600.ob-vector-search-integration-dify.md"  target="10000000002590916" version=""/>
+    <quote-f virtual_title="Spring AI" virtual_file_name="900.ob-vector-search-integration-spring-ai.md"  target="10000000003045206" version=""/>
   700.ob-vector-search-reference=References
     900.ob-vector-search-supported-clients-and-languages=Supported clients and languages
 680.ecological-integration=Integrations
