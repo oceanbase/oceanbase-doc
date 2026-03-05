@@ -115,13 +115,15 @@
           340.role-management-of-mysql-mode=Role management
         300.permission-of-oracle-mode=Oracle-compatible mode
           400.manage-roles-of-oracle-mode=Manage roles
-    400.data-transfer-encryption=Data transmission encryption
-    500.data-storage-encryption=Transparent data encryption
-      200.data-storage-encryption-of-mysql-mode=MySQL-compatible mode
-      300.data-storage-encryption-of-oracle-mode=Oracle-compatible mode
-    550.column-encryption=Column encryption
-      200.column-encryption-of-mysql-mode=MySQL-compatible mode
-      300.column-encryption-of-oracle-mode=Oracle-compatible mode
+    500.data-encryption=Data encryption
+      200.data-transfer-encryption=Data transfer encryption
+      300.tenant-master-key=Tenant master key management 
+      400.data-storage-encryption=Transparent data encryption
+        200.data-storage-encryption-of-mysql-mode=Transparent data encryption (MySQL-compatible mode)
+        300.data-storage-encryption-of-oracle-mode=Transparent data encryption (Oracle-compatible mode)
+      500.column-encryption=Column encryption
+        200.column-encryption-of-mysql-mode=Column encryption (MySQL-compatible mode)
+        300.column-encryption-of-oracle-mode=Column encryption (Oracle-compatible mode)
     600.security-audit=Security audit
       200.security-audit-of-mysql-mode=MySQL-compatible mode
       300.security-audit-of-oracle-mode=Oracle-compatible mode
@@ -156,7 +158,7 @@
           200.join-algorithm=Join algorithm
         500.order-by-and-limit=Order and limit optimization
       400.business-logic-optimization=Business logic optimization
-  900.daily-inspection=Daily inspection
+  900.daily-inspection=Routine inspection
     900.full-link-detection=End-to-end tracing
   1000.troubleshooting=Troubleshooting
     400.storage=Storage
@@ -165,6 +167,7 @@
     800.physical-standby-database=Physical standby database
     900.backup-and-recovery=Backup and restore
     1800.troubleshooting-with-ash=Troubleshooting with ASH
+    2000.common-sql=Frequently used SQL for troubleshooting
   1100.emergency-response=Emergency response
     300.common-emergency-response=Common emergency problem handling
       100.issues-in-the-hardware-environment=Hardware issues
@@ -182,6 +185,7 @@
   350.data-processing=Data processing
   400.data-lake=Data lake
     100.data-catalog=Data catalog
+      100.catalog-overview=Overview
     200.external-table=External table
   500.obap-query=Query acceleration
   700.performance-tuning=Performance diagnosis and tuning
@@ -192,6 +196,8 @@
 640.ob-vector-search=Vector Search
   100.ob-vector-search-overview=Overview
   120.ob-vector-search-quick-start=Quick starts
+  350.ob-vector-hybrid-search=Hybrid Search
+    200.ob-vector-index-hybrid-search=Hybrid index search
   500.ob-vector-search-practical-tutorial=Tutorials
   700.ob-vector-search-reference=References
     900.ob-vector-search-supported-clients-and-languages=Supported clients and languages
@@ -202,6 +208,9 @@
     300.go=Go
     400.rust=Rust
     500.ruby=Ruby
+    600.nodejs=Node.js
+    700.c-sharp=C#
+    800.php=PHP
   300.schema-evolution=Database version management
   400.data-ingestion=Data integration
     100.flink=Apache Flink
