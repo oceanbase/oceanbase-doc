@@ -190,7 +190,7 @@
   700.performance-tuning=性能诊断和调优
   750.obap-performance-test=性能测试
   1000.ap-tutorials=实践教程
-640.ob-vector-search=向量搜索
+640.ob-vector-search=OceanBase AI
   100.ob-vector-search-overview=向量搜索概述
   120.ob-vector-search-quick-start=向量搜索快速上手
   200.ob-vector-index=向量索引
@@ -617,6 +617,9 @@
           100.access-path=访问路径
           200.join-algorithm=联接算法
         700.manage-execution-plans=管理执行计划
+  1100.performance-test=性能测试
+    200.sysbench-benchmark-testing-on-oceanbase-database=OceanBase Sysbench 测试
+    500.tpc-h-benchmark-testing-on-oceanbase-database=OceanBase TPC-H 测试
   1200.database-proxy=数据库代理
     200.obproxy-management=OBProxy
       200.manage-obproxy-clusters=管理 OBProxy 集群
