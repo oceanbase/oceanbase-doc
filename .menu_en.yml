@@ -176,8 +176,12 @@
 620.obap=OceanBase AP
   150.obap-deploy=Deployment
   200.obap-data-design=Data table design
-    100.data-design-best-practice=Best practices for data table design
-  230.data-distribution=Data distribution
+    500.data-distribution=Data distribution
+      200.dynamic-data-partitioning=Dynamic partitioning
+    800.data-design-best-practice=Data design best practices
+      100.strategies-optimizing-storage-structure-query-performance=Optimizing storage and query performance
+      200.best-practices-choosing-special-indexes=Creating special indexes
+      300.best-practice-table-partition=Partitioning tables
   250.data-migration=Data migration
   300.obap-data-collection=Data collection
     300.obap-import-data=Import data
