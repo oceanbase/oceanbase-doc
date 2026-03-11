@@ -214,7 +214,12 @@
     <quote-f virtual_title="LangChain" virtual_file_name="400.ob-vector-search-integration-langchain.md"  target="10000000001976367" version=""/>
     <quote-f virtual_title="LlamaIndex" virtual_file_name="500.ob-vector-search-integration-llamaindex.md"  target="10000000001976368" version=""/>
     <quote-f virtual_title="Dify" virtual_file_name="600.ob-vector-search-integration-dify.md"  target="10000000002590916" version=""/>
+    <quote-f virtual_title="n8n" virtual_file_name="700.ob-vector-search-integration-n8n.md"  target="10000000003465001" version=""/>
+    <quote-f virtual_title="Trae" virtual_file_name="800.ob-vector-search-integration-trae.md"  target="10000000003465003" version=""/>
     <quote-f virtual_title="Spring AI" virtual_file_name="900.ob-vector-search-integration-spring-ai.md"  target="10000000003045206" version=""/>
+    <quote-f virtual_title="Cline" virtual_file_name="1000.ob-vector-search-integration-cline.md"  target="10000000003465004" version=""/>
+    <quote-f virtual_title="Cursor" virtual_file_name="1100.ob-vector-search-integration-cursor.md"  target="10000000003464997" version=""/>
+    <quote-f virtual_title="Continue" virtual_file_name="1200.ob-vector-search-integration-continue.md"  target="10000000003464998" version=""/>
   700.ob-vector-search-reference=References
     900.ob-vector-search-supported-clients-and-languages=Supported clients and languages
 680.ecological-integration=Integrations
