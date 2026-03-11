@@ -164,9 +164,12 @@
 620.obap=OceanBase AP
   150.obap-deploy=Deployment
   200.obap-data-design=Data table design
-    100.data-design-best-practice=Best practices for data table design
+    500.data-distribution=Data distribution
+    800.data-design-best-practice=Best practices for data table design
   300.obap-import-data=Import data
     20.bypass-import=Direct load
+  350.data-processing=Data processing
+    800.obap-materialized-view=Materialized views
   600.obap-query=Query acceleration
   700.performance-tuning=Performance diagnosis and tuning
 640.ob-vector-search=Vector Search
