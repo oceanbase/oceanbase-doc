@@ -379,6 +379,12 @@
         200.expression-of-mysql-mode=表达式
         300.character-set-and-collation-of-mysql-mode=字符集与字符序
         400.literal-of-mysql-mode=字面量
+        600.annotation-of-mysql-mode=注释
+          400.hint-of-mysql-mode=Hint
+            200.hint-list-of-mysql-mode=Hint 列表
+              100.global-hint-of-mysql-mode=全局 Hint
+              200.optimizer-hint-of-mysql-mode=Optimized Hint
+              300.transform-hint-of-mysql-mode=Transform Hint
       200.operator-of-mysql-mode=运算符
       800.overview-of-pseudo-columns-of-mysql-mode=伪列
       400.functions-of-mysql-mode=函数
