@@ -502,6 +502,7 @@
       900.pl-exception-handling-statement-mysql=PL 异常处理
       1000.pl-system-package-mysql=PL 系统包
         1000.dbms-ai-service-mysql=DBMS_AI_SERVICE
+        3000.dbms-daily-maintenance-mysql=DBMS_DAILY_MAINTENANCE
         9000.dbms-hybrid-search-mysql=DBMS_HYBRID_SEARCH
         9950.dbms-mview-mysql=DBMS_MVIEW
         10050.dbms-mview-stat-mysql=DBMS_MVIEW_STATS
@@ -549,6 +550,7 @@
         2600.dbms-audit-mgmt-oracle=DBMS_AUDIT_MGMT
         2700.dbms-balance-oracle=DBMS_BALANCE
         3800.dbms-crypto-oracle=DBMS_CRYPTO
+        3900.dbms-daily-maintenance-oracle=DBMS_DAILY_MAINTENANCE
         5300.dbms-debug-oracle=DBMS_DEBUG
         5600.dbms-describe-oracle=DBMS_DESCRIBE
         8800.dbms-job-oracle=DBMS_JOB
