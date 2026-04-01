@@ -1,1 +1,4 @@
 .DS_Store
+
+# Local helper lists (do not commit)
+tmp/
