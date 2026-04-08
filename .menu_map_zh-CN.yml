@@ -133,6 +133,7 @@
     500.clear-backup-data=清理备份数据
       50.automatic-backup-cleanup=自动清理备份数据
       100.manual-backup-cleanup=手动清理备份数据
+    550.backup-validation=备份校验
     600.restore-data=租户级恢复
     700.recover-table=表级恢复
   700.monitor=监控指标
@@ -190,7 +191,7 @@
   700.performance-tuning=性能诊断和调优
   750.obap-performance-test=性能测试
   1000.ap-tutorials=实践教程
-640.ob-vector-search=向量搜索
+640.ob-vector-search=OceanBase AI
   100.ob-vector-search-overview=向量搜索概述
   120.ob-vector-search-quick-start=向量搜索快速上手
   200.ob-vector-index=向量索引
@@ -216,6 +217,20 @@
     <quote-f virtual_title="与 Continue 集成" virtual_file_name="1200.ob-vector-search-integration-continue.md"  target="1000000003659649" version=""/>
   700.ob-vector-search-reference=向量搜索参考
     900.ob-vector-search-supported-clients-and-languages=支持的客户端和语言
+  660.ob-shared-storage=共享存储
+    100.ss-overview=共享存储概述
+    150.ss-system-architecture=系统架构
+    200.ss-multi-level-cache=多级缓存
+    300.ss-disaster-recovery-deployment-plan=共享存储容灾部署方案
+    400.customize-hotspot-cache-of-mysql-mode=自定义热点缓存策略（MySQL 模式）
+      100.customize-hotspot-cache-overview-of-mysql-mode=自定义热点缓存策略概述
+      200.create-table-level-storage-cache-policy-of-mysql-mode=创建表级热点缓存策略
+      300.create-partition-level-storage-cache-policy-of-mysql-mode=创建分区级热点缓存策略
+      400.modify-table-level-storage-cache-policy-of-mysql-mode=修改表级热点缓存策略
+      500.modify-partition-level-storage-cache-policy-of-mysql-mode=修改分区级热点缓存策略
+      600.customize-hotspot-cache-operations-of-mysql-mode=热点缓存策略的操作
+  500.ss-views-overview=共享存储相关视图总览
+  700.ss-configuration-items-and-system-variables=共享存储配置项和系统变量总览
 680.ecological-integration=生态集成
   200.orms-frameworks=ORM 框架
     100.java=Java
@@ -330,7 +345,6 @@
       800.manage-triggers-of-mysql-mode=创建和管理触发器
       900.manage-dblink-of-mysql-mode=创建和管理 DBLink
       1000.manage-catalog-of-mysql-mode=创建和管理 Catalog
-      1100.customize-hotspot-cache-of-mysql-mode=自定义热点缓存策略
     200.manage-object-of-oracle-mode=Oracle 模式
       100.manage-tables-of-oracle-mode=创建和管理表
         1000.manage-external-tables-of-oracle-mode=创建和管理外表
@@ -366,6 +380,12 @@
         200.expression-of-mysql-mode=表达式
         300.character-set-and-collation-of-mysql-mode=字符集与字符序
         400.literal-of-mysql-mode=字面量
+        600.annotation-of-mysql-mode=注释
+          400.hint-of-mysql-mode=Hint
+            200.hint-list-of-mysql-mode=Hint 列表
+              100.global-hint-of-mysql-mode=全局 Hint
+              200.optimizer-hint-of-mysql-mode=Optimized Hint
+              300.transform-hint-of-mysql-mode=Transform Hint
       200.operator-of-mysql-mode=运算符
       800.overview-of-pseudo-columns-of-mysql-mode=伪列
       400.functions-of-mysql-mode=函数
@@ -482,6 +502,7 @@
       900.pl-exception-handling-statement-mysql=PL 异常处理
       1000.pl-system-package-mysql=PL 系统包
         1000.dbms-ai-service-mysql=DBMS_AI_SERVICE
+        3000.dbms-daily-maintenance-mysql=DBMS_DAILY_MAINTENANCE
         9000.dbms-hybrid-search-mysql=DBMS_HYBRID_SEARCH
         9950.dbms-mview-mysql=DBMS_MVIEW
         10050.dbms-mview-stat-mysql=DBMS_MVIEW_STATS
@@ -529,6 +550,7 @@
         2600.dbms-audit-mgmt-oracle=DBMS_AUDIT_MGMT
         2700.dbms-balance-oracle=DBMS_BALANCE
         3800.dbms-crypto-oracle=DBMS_CRYPTO
+        3900.dbms-daily-maintenance-oracle=DBMS_DAILY_MAINTENANCE
         5300.dbms-debug-oracle=DBMS_DEBUG
         5600.dbms-describe-oracle=DBMS_DESCRIBE
         8800.dbms-job-oracle=DBMS_JOB
