@@ -54,10 +54,6 @@
     400.deploy-through-the-command-line=使用命令行部署
       100.configure-a-deployment-environment-command-line=通过 oatcli 配置部署环境
       200.deploy-the-oceanbase-cluster-command-line=使用命令行部署 OceanBase 集群
-  500.deploy-oceanbase-database-community-edition=部署 OceanBase 社区版
-    200.local-deployment=本地部署
-      200.environment-and-configuration-checks=部署前配置
-      400.deploy-by-ui=通过图形化界面部署
 500.data-migration=数据迁移
   200.migrate-data-from-mysql-database-to-oceanbase-database=从 MySQL 数据库迁移数据到 OceanBase 数据库
   300.migrate-data-from-oceanbase-database-to-mysql-database=从 OceanBase 数据库迁移数据到 MySQL 数据库
