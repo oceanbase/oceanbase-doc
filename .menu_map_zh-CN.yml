@@ -16,6 +16,7 @@
       200.python-of-mysql-mode=Python
       300.c-of-mysql-mode=C
       400.go-of-mysql-mode=Go
+      450.net-of-mysql-mode=NET
       500.php-of-mysql-mode=PHP
       600.rust-of-mysql-mode=Rust
       700.ruby-of-mysql-mode=Ruby
@@ -35,6 +36,7 @@
       100.java-of-oracle-mode=Java
       200.python-of-oracle-mode=Python
       300.c-of-oracle-mode=C/C++
+      400.net-of-oracle-mode=NET
     300.database-object-planning-of-oracle-mode=规划数据库对象
     400.write-data-of-oracle-mode=数据写入
     500.read-data-of-oracle-mode=数据读取
