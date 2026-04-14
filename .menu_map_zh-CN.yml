@@ -119,7 +119,7 @@
         300.data-storage-encryption-of-oracle-mode=Oracle 模式下的数据透明加密
       500.column-encryption=列加密
         200.column-encryption-of-mysql-mode=MySQL 模式下的列加密
-        300.column-encryption-of-oracle-mode=Oracle 模式下的列加密    
+        300.column-encryption-of-oracle-mode=Oracle 模式下的列加密
     600.security-audit=安全审计
       200.security-audit-of-mysql-mode=MySQL 模式下的安全审计
       300.security-audit-of-oracle-mode=Oracle 模式下的安全审计
@@ -269,7 +269,7 @@
         100.introduction-to-database-objects-of-mysql-mode=数据库对象介绍
         200.table-of-mysql-mode=表
           200.data-type-of-mysql-mode=数据类型
-        300.index-of-oracle-mode=索引
+        300.index-of-mysql-mode=索引
         400.partition-of-mysql-mode=分区
         500.view-of-mysql-mode=视图
           150.standard-view-of-mysql-mode=普通视图
