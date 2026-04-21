@@ -183,6 +183,7 @@
     300.obap-import-data=导入数据
       20.bypass-import=旁路导入
   350.data-processing=数据加工
+    800.ap-materialized-views=物化视图查询加速
   400.data-lake=数据湖
     100.data-catalog=数据目录
     200.external-table=外部表
