@@ -175,8 +175,8 @@
 620.obap=OceanBase AP
   150.obap-deploy=部署 OceanBase AP
   200.obap-data-design=数据表设计
-    100.data-design-best-practice=数据表设计最佳实践
-  230.data-distribution=数据分布
+    500.data-distribution=数据分布
+    800.data-design-best-practice=数据表设计最佳实践
   250.data-migration=数据迁移
   300.obap-data-collection=数据采集
     300.obap-import-data=导入数据
