@@ -16,6 +16,7 @@
       200.python-of-mysql-mode=Python
       300.c-of-mysql-mode=C
       400.go-of-mysql-mode=Go
+      450.net-of-mysql-mode=NET
       500.php-of-mysql-mode=PHP
       600.rust-of-mysql-mode=Rust
       700.ruby-of-mysql-mode=Ruby
@@ -35,6 +36,7 @@
       100.java-of-oracle-mode=Java
       200.python-of-oracle-mode=Python
       300.c-of-oracle-mode=C/C++
+      400.net-of-oracle-mode=NET
     300.database-object-planning-of-oracle-mode=规划数据库对象
     400.write-data-of-oracle-mode=数据写入
     500.read-data-of-oracle-mode=数据读取
@@ -54,10 +56,6 @@
     400.deploy-through-the-command-line=使用命令行部署
       100.configure-a-deployment-environment-command-line=通过 oatcli 配置部署环境
       200.deploy-the-oceanbase-cluster-command-line=使用命令行部署 OceanBase 集群
-  500.deploy-oceanbase-database-community-edition=部署 OceanBase 社区版
-    200.local-deployment=本地部署
-      200.environment-and-configuration-checks=部署前配置
-      400.deploy-by-ui=通过图形化界面部署
 500.data-migration=数据迁移
   200.migrate-data-from-mysql-database-to-oceanbase-database=从 MySQL 数据库迁移数据到 OceanBase 数据库
   300.migrate-data-from-oceanbase-database-to-mysql-database=从 OceanBase 数据库迁移数据到 MySQL 数据库
@@ -123,7 +121,7 @@
         300.data-storage-encryption-of-oracle-mode=Oracle 模式下的数据透明加密
       500.column-encryption=列加密
         200.column-encryption-of-mysql-mode=MySQL 模式下的列加密
-        300.column-encryption-of-oracle-mode=Oracle 模式下的列加密    
+        300.column-encryption-of-oracle-mode=Oracle 模式下的列加密
     600.security-audit=安全审计
       200.security-audit-of-mysql-mode=MySQL 模式下的安全审计
       300.security-audit-of-oracle-mode=Oracle 模式下的安全审计
@@ -177,8 +175,8 @@
 620.obap=OceanBase AP
   150.obap-deploy=部署 OceanBase AP
   200.obap-data-design=数据表设计
-    100.data-design-best-practice=数据表设计最佳实践
-  230.data-distribution=数据分布
+    500.data-distribution=数据分布
+    800.data-design-best-practice=数据表设计最佳实践
   250.data-migration=数据迁移
   300.obap-data-collection=数据采集
     300.obap-import-data=导入数据
@@ -273,7 +271,7 @@
         100.introduction-to-database-objects-of-mysql-mode=数据库对象介绍
         200.table-of-mysql-mode=表
           200.data-type-of-mysql-mode=数据类型
-        300.index-of-oracle-mode=索引
+        300.index-of-mysql-mode=索引
         400.partition-of-mysql-mode=分区
         500.view-of-mysql-mode=视图
           150.standard-view-of-mysql-mode=普通视图
