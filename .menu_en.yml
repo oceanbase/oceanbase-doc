@@ -167,6 +167,9 @@
     100.data-design-best-practice=Best practices for data table design
   300.obap-import-data=Import data
     20.bypass-import=Direct load
+  400.data-lake=Data lake
+    100.data-catalog=Data catalog
+    200.external-table=External table
   600.obap-query=Query acceleration
   700.performance-tuning=Performance diagnosis and tuning
 640.ob-vector-search=Vector Search
@@ -296,6 +299,7 @@
       700.manage-sequence-of-mysql-mode=Create and manage sequences
       800.manage-triggers-of-mysql-mode=Create and manage triggers
       900.manage-dblink-of-mysql-mode=Create and manage DBLinks
+      1000.manage-catalog-of-mysql-mode=Create and manage catalogs
     200.manage-object-of-oracle-mode=Oracle mode
       100.manage-tables-of-oracle-mode=Create and manage tables
         1000.manage-external-tables-of-oracle-mode=Create and manage external tables    
@@ -331,6 +335,12 @@
         200.expression-of-mysql-mode=Expressions
         300.character-set-and-collation-of-mysql-mode=Character set and collation
         400.literal-of-mysql-mode=Literals
+        600.annotation-of-mysql-mode=Annotations
+          400.hint-of-mysql-mode=Hints
+            200.hint-list-of-mysql-mode=Hint list
+              100.global-hint-of-mysql-mode=Global hints
+              200.optimizer-hint-of-mysql-mode=Optimizer hints
+              300.transform-hint-of-mysql-mode=Transform hints
       200.operator-of-mysql-mode=Operators
       400.functions-of-mysql-mode=Functions
         200.single-row-functions-of-mysql-mode=Single-row functions
