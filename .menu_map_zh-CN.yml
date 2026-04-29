@@ -102,6 +102,7 @@
       200.create-a-standby-tenant=创建备租户
       300.log-transport-service=日志传输服务
         200.configure-the-log-transport-service=配置日志传输服务
+      500.protection-mode=保护模式
       600.role-switch=角色切换
     400.arbitration-high-availability=仲裁高可用
     500.recyclebin-management=回收站管理
