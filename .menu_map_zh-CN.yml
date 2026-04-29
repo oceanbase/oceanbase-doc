@@ -501,6 +501,7 @@
         22000.dbms-java-mysql=DBMS_JAVA
         22100.dbms-python-mysql=DBMS_PYTHON
         23000.dbms-data-dict-mysql=DBMS_DATA_DICT
+        24000.dbms-schema-mysql=DBMS_SCHEMA
     300.pl-oracle=PL 参考（Oracle 模式）
       100.pl-language-basics-oracle=PL 语言基础
       200.data-type-oracle=PL 数据类型
@@ -546,6 +547,7 @@
         12700.dbms-random-oracle=DBMS_RANDOM
         13300.dbms-resource-manager-oracle=DBMS_RESOURCE_MANAGER
         14200.dbms-scheduler-oracle=DBMS_SCHEDULER
+        14300.dbms-schema-oracle=DBMS_SCHEMA
         14500.dbms-session-oracle=DBMS_SESSION
         15200.dbms-sql-oracle=DBMS_SQL
         15900.dbms-stats-oracle=DBMS_STATS
