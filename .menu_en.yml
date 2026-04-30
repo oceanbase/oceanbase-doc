@@ -34,6 +34,7 @@
     200.sample-program-of-oracle-mode=Sample applications
       100.java-of-oracle-mode=Java
       300.c-of-oracle-mode=C/C++
+      400.net-of-oracle-mode=NET
     300.database-object-planning-of-oracle-mode=Plan database objects
     400.write-data-of-oracle-mode=Write data
     500.read-data-of-oracle-mode=Read data
@@ -58,6 +59,9 @@
     200.local-deployment=Deploy locally
       200.environment-and-configuration-checks=Before deployment
       400.deploy-by-ui=Deploy through GUI
+450.oceanbase-version-upgrade=OceanBase version upgrade
+  200.upgrade-oceanbase-enterprise-edition=Upgrade OceanBase Database Enterprise Edition
+  300.upgrade-oceanbase-community-edition=Upgrade OceanBase Database Community Edition
 500.data-migration=Migrate
   200.migrate-data-from-mysql-database-to-oceanbase-database=Migrate from MySQL databases to OceanBase Database
   300.migrate-data-from-oceanbase-database-to-mysql-database=Migrate from OceanBase Database to MySQL databases
@@ -186,6 +190,10 @@
   400.data-lake=Data lake
     100.data-catalog=Data catalog
     200.external-table=External table
+  500.obap-query=Query acceleration
+  700.performance-tuning=Performance diagnosis and tuning
+  750.obap-performance-test=Performance test
+  1000.ap-tutorials=Tutorials
 640.ob-vector-search=OceanBase AI
   100.ob-vector-search-overview=Overview
   120.ob-vector-search-quick-start=Quick start
@@ -195,14 +203,14 @@
   350.ob-vector-hybrid-search=Hybrid search
   370.ob-vector-search-ai-function=AI function service
   500.ob-vector-search-practical-tutorial=Practical tutorial
-700.ob-vector-search-integration=Vector search references
+700.ob-vector-search-reference=Vector search references
   900.ob-vector-search-supported-clients-and-languages=Supported clients and languages
 660.ob-shared-storage=Shared storage
   100.ss-overview=Overview
   150.ss-system-architecture=System architecture
   200.ss-multi-level-cache=Multi-level cache
   300.ss-disaster-recovery-deployment-plan=Disaster recovery deployment plan
-  400.ss-hotspot-cache-of-mysql-mode=Hotspot cache (MySQL-compatible mode)
+  400.customize-hotspot-cache-of-mysql-mode=Hotspot cache (MySQL-compatible mode)
     100.customize-hotspot-cache-overview-of-mysql-mode=Overview
     200.create-table-level-storage-cache-policy-of-mysql-mode=Create table level storage cache policy
     300.create-partition-level-storage-cache-policy-of-mysql-mode=Create partition level storage cache policy
@@ -252,7 +260,7 @@
         100.introduction-to-database-objects-of-mysql-mode=Introduction
         200.table-of-mysql-mode=Tables
           200.data-type-of-mysql-mode=Data type
-        300.index-of-oracle-mode=Indexes
+        300.index-of-mysql-mode=Indexes
         400.partition-of-mysql-mode=Partitions
         500.view-of-mysql-mode=Views
           150.standard-view-of-mysql-mode=Standard views
@@ -479,6 +487,7 @@
       900.pl-exception-handling-statement-mysql=PL exception handling
       1000.pl-system-package-mysql=PL system packages
         1000.dbms-ai-service-mysql=DBMS_AI_SERVICE
+        3000.dbms-daily-maintenance-mysql=DBMS_DAILY_MAINTENANCE
         9000.dbms-hybrid-search-mysql=DBMS_HYBRID_SEARCH
         9950.dbms-mview-mysql=DBMS_MVIEW
         10050.dbms-mview-stat-mysql=DBMS_MVIEW_STATS
@@ -521,6 +530,7 @@
         1900.dbms-application-info-oracle=DBMS_APPLICATION_INFO
         2600.dbms-audit-mgmt-oracle=DBMS_AUDIT_MGMT
         3800.dbms-crypto-oracle=DBMS_CRYPTO
+        3900.dbms-daily-maintenance-oracle=DBMS_DAILY_MAINTENANCE
         5300.dbms-debug-oracle=DBMS_DEBUG
         5600.dbms-describe-oracle=DBMS_DESCRIBE
         8800.dbms-job-oracle=DBMS_JOB
