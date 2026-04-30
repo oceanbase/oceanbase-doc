@@ -46,7 +46,7 @@
       300.transaction-savepoints-of-oracle-mode=保存点
     700.application-error-handling-specification-and-common-error-solutions-of-oracle-mode=应用程序报错处理规范与常见报错处理
       100.application-error-handling-specification-of-oracle-mode=应用程序错误处理规范
-400.deploy=部署数据库
+400.deploy=OceanBase 部署
   300.deploy-oceanbase-enterprise-edition=部署 OceanBase 企业版
     200.preparations-before-deploy=部署前准备
     300.deploy-through-a-graphical-interface=使用图形化界面部署
@@ -56,6 +56,9 @@
     400.deploy-through-the-command-line=使用命令行部署
       100.configure-a-deployment-environment-command-line=通过 oatcli 配置部署环境
       200.deploy-the-oceanbase-cluster-command-line=使用命令行部署 OceanBase 集群
+450.oceanbase-version-upgrade=OceanBase 升级
+  200.upgrade-oceanbase-enterprise-edition=OceanBase 企业版升级
+  300.upgrade-oceanbase-community-edition=OceanBase 社区版升级
 500.data-migration=数据迁移
   200.migrate-data-from-mysql-database-to-oceanbase-database=从 MySQL 数据库迁移数据到 OceanBase 数据库
   300.migrate-data-from-oceanbase-database-to-mysql-database=从 OceanBase 数据库迁移数据到 MySQL 数据库
@@ -73,9 +76,6 @@
   100.cluster-management=集群管理
     100.cluster-management-overview=集群介绍
     300.common-cluster-operations=集群常见操作
-      1500.oceanbase-version-upgrade=集群升级
-        200.upgrade-oceanbase-enterprise-edition=OceanBase 企业版升级
-        300.upgrade-oceanbase-community-edition=OceanBase 社区版升级
     400.common-cluster-failure=集群常见故障处理
   200.tenant-management=租户管理
     600.common-tenant-operations=租户常见操作
@@ -175,13 +175,14 @@
 620.obap=OceanBase AP
   150.obap-deploy=部署 OceanBase AP
   200.obap-data-design=数据表设计
-    100.data-design-best-practice=数据表设计最佳实践
-  230.data-distribution=数据分布
+    500.data-distribution=数据分布
+    800.data-design-best-practice=数据表设计最佳实践
   250.data-migration=数据迁移
   300.obap-data-collection=数据采集
     300.obap-import-data=导入数据
       20.bypass-import=旁路导入
   350.data-processing=数据加工
+    800.ap-materialized-views=物化视图查询加速
   400.data-lake=数据湖
     100.data-catalog=数据目录
     200.external-table=外部表
