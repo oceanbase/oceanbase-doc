@@ -555,7 +555,6 @@
         13300.dbms-resource-manager-oracle=DBMS_RESOURCE_MANAGER
         14200.dbms-scheduler-oracle=DBMS_SCHEDULER
         14500.dbms-session-oracle=DBMS_SESSION
-        15000.dbms-spm-oracle=DBMS_SPM
         15200.dbms-sql-oracle=DBMS_SQL
         15900.dbms-stats-oracle=DBMS_STATS
         17800.dbms-udr-oracle=DBMS_UDR
