@@ -405,6 +405,7 @@
         940.roaring-bitmap-functions-of-mysql-mode=Bitmap functions
         950.array-functions-of-mysql-mode=Array functions
         960.text-processing-functions-of-mysql-mode=Text processing functions
+        970.audit-functions-of-mysql-mode=Audit functions
         980.map-functions-of-mysql-mode=Map functions
         1000.other-functions-of-mysql-mode=Other functions
       500.queries-and-subqueries-of-mysql-mode=Queries and subqueries
@@ -507,6 +508,7 @@
         22000.dbms-java-mysql=DBMS_JAVA
         22100.dbms-python-mysql=DBMS_PYTHON
         23000.dbms-data-dict-mysql=DBMS_DATA_DICT
+    300.pl-oracle=PL reference (Oracle-compatible mode)
       100.pl-language-basics-oracle=PL language basics
       200.data-type-oracle=PL data types
       300.process-control-oracle=PL process control
@@ -533,6 +535,7 @@
       1400.pl-system-package-oracle=PL system package (Oracle-compatible mode)
         1900.dbms-application-info-oracle=DBMS_APPLICATION_INFO
         2600.dbms-audit-mgmt-oracle=DBMS_AUDIT_MGMT
+        2700.dbms-balance-oracle=DBMS_BALANCE
         3800.dbms-crypto-oracle=DBMS_CRYPTO
         3900.dbms-daily-maintenance-oracle=DBMS_DAILY_MAINTENANCE
         5300.dbms-debug-oracle=DBMS_DEBUG
@@ -562,7 +565,9 @@
         19700.dbms-xmlgen-oracle=DBMS_XMLGEN
         19800.dbms-profiler-oracle=DBMS_PROFILER
         21000.dbms-external-table-oracle=DBMS_EXTERNAL_TABLE
+        21100.dbms-ddl-oracle=DBMS_DDL
         20700.dbms-xplan-oracle=DBMS_XPLAN
+        20750.dbms-xprofile-oracle=DBMS_XPROFILE
         22800.odciconst-oracle=ODCIConst
         26000.utl-encode-oracle=UTL_ENCODE
         26100.utl-file-oracle=UTL_FILE
@@ -658,6 +663,7 @@
           550.session-management=Session management
           600.backup-management=Backup management
           700.recovery-management=Restore management
+          750.inspection-service-management=Inspection service management
           800.recycle-bin-management=Recycle bin management
           900.credential-management=Credential management
           1000.task-management=Task management
