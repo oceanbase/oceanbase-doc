@@ -602,7 +602,7 @@
         500.ash-report-diagnosis=ASH report
     500.sql-optimization=SQL tuning
       200.sql-execution-plan=SQL execution plans
-        400.execution-plan-operator=Execution plan operators
+        200.execution-plan-operator=Execution plan operators
       300.distributed-execution-plan=Distributed execution plans
       350.parallel-execution=Parallel execution plans
         300.deploy-parallel-execution=Set concurrent execution
