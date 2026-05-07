@@ -58,6 +58,9 @@
     200.local-deployment=Deploy locally
       200.environment-and-configuration-checks=Before deployment
       400.deploy-by-ui=Deploy through GUI
+450.oceanbase-version-upgrade=Upgrade
+    200.upgrade-oceanbase-enterprise-edition=OceanBase Database Enterprise Edition
+    300.upgrade-oceanbase-community-edition=OceanBase Database Community Edition
 500.data-migration=Migrate
   200.migrate-data-from-mysql-database-to-oceanbase-database=Migrate from MySQL databases to OceanBase Database
   300.migrate-data-from-oceanbase-database-to-mysql-database=Migrate from OceanBase Database to MySQL databases
@@ -75,9 +78,6 @@
   100.cluster-management=Manage clusters
     100.cluster-management-overview=Overview
     300.common-cluster-operations=Common cluster operations
-      1500.oceanbase-version-upgrade=Upgrade a cluster
-        200.upgrade-oceanbase-enterprise-edition=OceanBase Database Enterprise Edition
-        300.upgrade-oceanbase-community-edition=OceanBase Database Community Edition
     400.common-cluster-failure=Troubleshoot common problems
   200.tenant-management=Manage tenants
     600.common-tenant-operations=Common tenant operations
