@@ -102,6 +102,7 @@
       200.create-a-standby-tenant=Create a standby tenant
       300.log-transport-service=Log transmission service
         200.configure-the-log-transport-service=Configure log transmission service
+      500.protection-mode=Protection mode
       600.role-switch=Switch roles
     400.arbitration-high-availability=Arbitration high availability
     500.recyclebin-management=Manage recycle bin
