@@ -392,6 +392,7 @@
         750.xml-functions-of-mysql-mode=XML 函数
           300.querying-xmltype-data-functions-of-mysql-mode=查询 XML 数据的函数
           400.modify-xmltype-data-functions-of-mysql-mode=修改 XML 数据的函数
+        760.table-functions-of-mysql-mode=TABLE FUNCTION
         800.spatial-functions-of-mysql-mode=空间函数
         900.performance-schema-of-mysql-mode=Performance Schema 函数
         920.lock-functions-of-mysql-mode=锁函数
@@ -458,6 +459,7 @@
         300.aggregate-functions-of-oracle-mode=聚合函数
         400.analysis-functions-of-oracle-mode=分析函数
         500.information-functions-of-oracle-mode=信息函数
+        550.table-functions-of-oracle-mode=TABLE FUNCTION
       600.expression-of-oracle-mode=表达式
       700.condition-of-oracle-mode=条件
       800.queries-and-subqueries-of-oracle-mode=查询和子查询
