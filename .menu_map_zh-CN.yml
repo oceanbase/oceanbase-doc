@@ -56,6 +56,10 @@
     400.deploy-through-the-command-line=使用命令行部署
       100.configure-a-deployment-environment-command-line=通过 oatcli 配置部署环境
       200.deploy-the-oceanbase-cluster-command-line=使用命令行部署 OceanBase 集群
+  500.deploy-oceanbase-database-community-edition=部署 OceanBase 社区版
+    200.local-deployment=本地部署
+      200.environment-and-configuration-checks=部署前配置
+      400.deploy-by-ui=通过图形化界面部署
 450.oceanbase-version-upgrade=OceanBase 升级
   200.upgrade-oceanbase-enterprise-edition=OceanBase 企业版升级
   300.upgrade-oceanbase-community-edition=OceanBase 社区版升级
@@ -599,6 +603,7 @@
         19800.dbms-profiler-oracle=DBMS_PROFILER
         21000.dbms-external-table-oracle=DBMS_EXTERNAL_TABLE
         21100.dbms-ddl-oracle=DBMS_DDL
+        21500.dbms-data-dict-oracle=DBMS_DATA_DICT
         20700.dbms-xplan-oracle=DBMS_XPLAN
         20750.dbms-xprofile-oracle=DBMS_XPROFILE
         22800.odciconst-oracle=ODCIConst
