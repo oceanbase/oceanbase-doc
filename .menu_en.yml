@@ -54,6 +54,9 @@
     200.local-deployment=Deploy locally
       200.environment-and-configuration-checks=Before deployment
       400.deploy-by-ui=Deploy through GUI
+450.oceanbase-version-upgrade=Upgrade
+  200.upgrade-oceanbase-enterprise-edition=Upgrade OceanBase Database Enterprise Edition
+  300.upgrade-oceanbase-community-edition=Upgrade OceanBase Database Community Edition
 500.data-migration=Migrate
   200.migrate-data-from-mysql-database-to-oceanbase-database=Migrate from MySQL databases to OceanBase Database
   300.migrate-data-from-oceanbase-database-to-mysql-database=Migrate from OceanBase Database to MySQL databases
