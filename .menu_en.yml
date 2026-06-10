@@ -188,6 +188,7 @@
     300.obap-import-data=Import data
       20.bypass-import=Direct load
   350.data-processing=Data processing
+    800.ap-materialized-views=Materialized view query acceleration
   400.data-lake=Data lake
     100.data-catalog=Data catalog
       100.catalog-overview=Overview
@@ -397,6 +398,7 @@
         750.xml-functions-of-mysql-mode=XML functions
           300.querying-xmltype-data-functions-of-mysql-mode=Functions for querying XML data
           400.modify-xmltype-data-functions-of-mysql-mode=Functions for modifying XML data
+        760.table-functions-of-mysql-mode=Table functions
         800.spatial-functions-of-mysql-mode=Spatial functions
         900.performance-schema-of-mysql-mode=Performance schema functions
         920.lock-functions-of-mysql-mode=Lock functions
@@ -462,6 +464,7 @@
         300.aggregate-functions-of-oracle-mode=Aggregate functions
         400.analysis-functions-of-oracle-mode=Analysis functions
         500.information-functions-of-oracle-mode=Information functions
+        550.table-functions-of-oracle-mode=Table functions
       600.expression-of-oracle-mode=Expressions
       700.condition-of-oracle-mode=Conditions
       800.queries-and-subqueries-of-oracle-mode=Queries and subqueries
