@@ -199,7 +199,20 @@
   350.ob-vector-hybrid-search=ハイブリッド検索
   370.ob-vector-search-ai-function=AI 関数サービス
   500.ob-vector-search-practical-tutorial=ベクトル検索実践チュートリアル
-  600.ob-vector-search-integration=AI インテグレーション
+    <quote-f virtual_title="OceanBaseに基づくインテリジェントQ&Aボットの構築" virtual_file_name="200.ob-vector-search-practical-tutorial-chatbot.md"  target="1000000000183023" version=""/>
+    <quote-f virtual_title="OceanBaseに基づく画像検索アプリケーションの構築" virtual_file_name="300.ob-vector-search-practical-tutorial-image-search.md"  target="1000000000183026" version=""/>
+  600.ob-vector-search-integration=AIインテグレーション
+    <quote-f virtual_title="OpenAI" virtual_file_name="200.ob-vector-search-integration-openai.md"  target="1000000000183352" version=""/>
+    <quote-f virtual_title="Qwen" virtual_file_name="300.ob-vector-search-integration-qwen.md"  target="1000000000183359" version=""/>
+    <quote-f virtual_title="Langchain" virtual_file_name="400.ob-vector-search-integration-langchain.md"  target="1000000000183353" version=""/>
+    <quote-f virtual_title="LlamaIndex" virtual_file_name="500.ob-vector-search-integration-llamaindex.md"  target="1000000000183366" version=""/>
+    <quote-f virtual_title="Dify" virtual_file_name="600.ob-vector-search-integration-dify.md"  target="1000000000183361" version=""/>
+    <quote-f virtual_title="n8n" virtual_file_name="700.ob-vector-search-integration-n8n.md"  target="1000000000183370" version=""/>
+    <quote-f virtual_title="Trae" virtual_file_name="800.ob-vector-search-integration-trae.md"  target="1000000000183354" version=""/>
+    <quote-f virtual_title="Spring AI" virtual_file_name="900.ob-vector-search-integration-spring-ai.md"  target="1000000000183367" version=""/>
+    <quote-f virtual_title="Cline" virtual_file_name="1000.ob-vector-search-integration-cline.md"  target="1000000000183356" version=""/>
+    <quote-f virtual_title="Cursor" virtual_file_name="1100.ob-vector-search-integration-cursor.md"  target="1000000000183376" version=""/>
+    <quote-f virtual_title="Continue" virtual_file_name="1200.ob-vector-search-integration-continue.md"  target="1000000000183363" version=""/>
   700.ob-vector-search-reference=ベクトル検索リファレンス
     900.ob-vector-search-supported-clients-and-languages=対応クライアントと対応言語
 680.ecological-integration=エコシステム統合
@@ -214,6 +227,7 @@
     800.php=PHP
   300.schema-evolution=スキーマバージョン管理
   400.data-ingestion=データインジェスト
+      <quote-f virtual_title="AWS Glue" virtual_file_name="100.glue.md"  target="1000000000164168" version=""/>
     100.flink=Apache Flink
   500.sql-development=SQL開発
   600.orchestration=オーケストレーション
