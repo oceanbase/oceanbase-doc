@@ -538,6 +538,7 @@
         17800.dbms-udr-mysql=DBMS_UDR
         17850.dbms-vector-mysql=DBMS_VECTOR
         17900.dbms-workload-repository-mysql=DBMS_WORKLOAD_REPOSITORY
+        20000.dbms-session-mysql=DBMS_SESSION
         20500.dbms-application-info-mysql=DBMS_APPLICATION_INFO
         20700.dbms-xplan-mysql=DBMS_XPLAN
         20750.dbms-xprofile-mysql=DBMS_XPROFILE
