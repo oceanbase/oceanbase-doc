@@ -593,6 +593,7 @@
         12600.dbms_partition-oracle=DBMS_PARTITION
         12700.dbms-random-oracle=DBMS_RANDOM
         12800.dbms-errlog-oracle=DBMS_ERRLOG
+        12900.dbms-sys-error-oracle=DBMS_SYS_ERROR
         13300.dbms-resource-manager-oracle=DBMS_RESOURCE_MANAGER
         14200.dbms-scheduler-oracle=DBMS_SCHEDULER
         14500.dbms-session-oracle=DBMS_SESSION
