@@ -188,8 +188,9 @@
   350.data-processing=数据加工
     800.ap-materialized-views=物化视图查询加速
   400.data-lake=数据湖
-    100.data-catalog=数据目录
-    200.external-table=外部表
+    200.data-lake-integration=数据湖集成
+      100.hive=Hive
+      300.odps=ODPS
   500.obap-query=查询加速
   700.performance-tuning=性能诊断和调优
   750.obap-performance-test=性能测试
@@ -617,6 +618,7 @@
         12800.dbms-errlog-oracle=DBMS_ERRLOG
         12900.dbms-sys-error-oracle=DBMS_SYS_ERROR
         13300.dbms-resource-manager-oracle=DBMS_RESOURCE_MANAGER
+        13500.dbms-rls-oracle=DBMS_RLS
         14200.dbms-scheduler-oracle=DBMS_SCHEDULER
         14500.dbms-session-oracle=DBMS_SESSION
         15200.dbms-sql-oracle=DBMS_SQL
