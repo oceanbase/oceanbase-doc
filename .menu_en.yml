@@ -563,7 +563,9 @@
         17900.dbms-utility-oracle=DBMS_UTILITY
         18400.dbms-workload-repository-oracle=DBMS_WORKLOAD_REPOSITORY
         18500.dbms-xa-oracle=DBMS_XA
+        19500.dbms-xmldom-oracle=DBMS_XMLDOM
         19700.dbms-xmlgen-oracle=DBMS_XMLGEN
+        19750.dbms-xmlparser-oracle=DBMS_XMLPARSER
         19800.dbms-profiler-oracle=DBMS_PROFILER
         21000.dbms-external-table-oracle=DBMS_EXTERNAL_TABLE
         21100.dbms-ddl-oracle=DBMS_DDL
