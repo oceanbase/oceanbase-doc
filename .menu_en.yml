@@ -193,7 +193,7 @@
   400.data-lake=Data lake
     100.data-catalog=Data catalog
       100.catalog-overview=Overview
-    200.external-table=External table
+    200.data-lake-integration=Data lake integration
   500.obap-query=Query acceleration
   700.performance-tuning=Performance diagnosis and tuning
   750.obap-performance-test=Performance testing
