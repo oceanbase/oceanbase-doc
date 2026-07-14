@@ -524,6 +524,7 @@
         400.analysis-functions-of-oracle-mode=分析函数
         500.information-functions-of-oracle-mode=信息函数
         550.table-functions-of-oracle-mode=TABLE FUNCTION
+        700.audit-functions-of-oracle-mode=审计函数
       600.expression-of-oracle-mode=表达式
       700.condition-of-oracle-mode=条件
       800.queries-and-subqueries-of-oracle-mode=查询和子查询
