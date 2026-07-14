@@ -5,7 +5,7 @@
 |dir-name-en||
 |tenant-type||
 |machine-translation|en,ja-marker|
-|slug|o-cdb-ob-spm-evo-result-of-sys-tenant|
+|slug|oceanbase-cdb_ob_spm_evo_result-sys-tenant|
 
 # oceanbase.CDB_OB_SPM_EVO_RESULT
 
