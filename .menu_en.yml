@@ -466,6 +466,7 @@
         400.analysis-functions-of-oracle-mode=Analysis functions
         500.information-functions-of-oracle-mode=Information functions
         550.table-functions-of-oracle-mode=Table functions
+        700.audit-functions-of-oracle-mode=Audit functions
       600.expression-of-oracle-mode=Expressions
       700.condition-of-oracle-mode=Conditions
       800.queries-and-subqueries-of-oracle-mode=Queries and subqueries
