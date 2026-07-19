@@ -522,7 +522,7 @@
   1300.drivers=Drivers
   1400.platform-products=Platform products
     400.1.ocp-express=OCP Express
-  1500.Components-and-Tools=Components & tools
+  1500.Components-and-Tools=components & tools
     100.manage=O&M management
       100.obshell=OBShell
         210.use-case=Use OBShell
