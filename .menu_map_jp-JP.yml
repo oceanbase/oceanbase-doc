@@ -227,7 +227,6 @@
     800.php=PHP
   300.schema-evolution=スキーマバージョン管理
   400.data-ingestion=データインジェスト
-      <quote-f virtual_title="AWS Glue" virtual_file_name="100.glue.md"  target="1000000000164168" version=""/>
     100.flink=Apache Flink
   500.sql-development=SQL開発
   600.orchestration=オーケストレーション
