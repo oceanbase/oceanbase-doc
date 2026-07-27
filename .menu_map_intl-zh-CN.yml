@@ -201,6 +201,8 @@
     300.ob-dense-vector-index=稠密索引
   350.ob-vector-hybrid-search=混合搜索
   370.ob-vector-search-ai-function=AI 函数服务
+  500.ob-vector-search-practical-tutorial=向量搜索实践教程
+  600.ob-vector-search-integration=AI 集成
   700.ob-vector-search-reference=向量搜索参考
     900.ob-vector-search-supported-clients-and-languages=支持的客户端和语言
 680.ecological-integration=生态集成
@@ -688,3 +690,4 @@
         200.use-of-case=case 使用
   1600.oceanbase-database-plugin=OceanBase 数据库插件
 800.FAQ=常见问题
+900.release-notes=版本发布记录
