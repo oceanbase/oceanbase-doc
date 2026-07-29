@@ -182,6 +182,11 @@
     500.data-distribution=数据分布
     800.data-design-best-practice=数据表设计最佳实践
   250.data-migration=数据迁移
+  300.obap-data-transfer=数据传输
+    200.data-migration=数据迁移
+    300.data-import=数据导入
+      300.insert-into=INSERT INTO SELECT
+    400.data-synchronization=数据订阅和同步
   300.obap-data-collection=数据采集
     300.obap-import-data=导入数据
       20.bypass-import=旁路导入
