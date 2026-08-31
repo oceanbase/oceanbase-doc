@@ -615,6 +615,7 @@
           700.manage-execution-plans=実行計画管理
   1100.performance-test=性能テスト
     200.sysbench-benchmark-testing-on-oceanbase-database=OceanBase Sysbenchテスト
+    400.tpc-ds-benchmark-testing-on-oceanbase-database=OceanBase TPC-DSテスト
     500.tpc-h-benchmark-testing-on-oceanbase-database=OceanBase TPC-Hテスト
   1200.database-proxy=データベースプロキシ
     200.obproxy-management=OBProxy
