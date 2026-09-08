@@ -27,8 +27,8 @@
       300.transaction-savepoints-of-mysql-mode=セーブポイント
     700.application-error-handling-specification-and-common-error-solutions=エラー処理規約と対応
       100.application-error-handling-specification-of-mysql-mode=アプリケーションエラー処理規約
-  200.application-development-of-oracle-mode=モードによるアプリ開発
-    100.connect-to-oceanbase-database-of-oracle-mode=OceanBase データベースに接続
+  200.application-development-of-oracle-mode=Oracleモードによるアプリ開発
+    100.connect-to-oceanbase-database-of-oracle-mode=OceanBaseデータベースに接続
       1300.use-the-database-connection-pool-of-oracle-mode=データベース接続プールを使用
     200.sample-program-of-oracle-mode=サンプルプログラム
       100.java-of-oracle-mode=Java
