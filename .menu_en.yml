@@ -493,6 +493,7 @@
       200.database-parameter-tuning=Database parameter tuning
       300.obproxy-parameter-optimization=ODP parameter tuning
     400.business-model-tuning=Business model tuning
+      100.hot-row-optimization=Hot row optimization
       400.performance-diagnosis=Performance diagnosis
         450.wr-management=WR management
         500.ash-report-diagnosis=ASH report
