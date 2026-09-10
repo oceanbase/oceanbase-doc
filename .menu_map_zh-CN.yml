@@ -620,7 +620,6 @@
         300.deploy-parallel-execution=设置并发执行
       400.sql-optimization=SQL 优化
         300.monitor-sql-execution-performance=SQL 执行性能监控
-          400.sql-performance-analysis-example=SQL 性能分析示例
         400.optimizer-statistics=优化器统计信息
           200.statistics-collection-methods=统计信息收集方式
           300.statistics-management=统计信息管理
@@ -629,6 +628,7 @@
           100.access-path=访问路径
           200.join-algorithm=联接算法
         700.manage-execution-plans=管理执行计划
+      1100.sql-performance-analysis-best-practices=SQL 性能分析最佳实践
   1100.performance-test=性能测试
     200.sysbench-benchmark-testing-on-oceanbase-database=OceanBase Sysbench 测试
     400.tpc-ds-benchmark-testing-on-oceanbase-database=OceanBase TPC-DS 测试
