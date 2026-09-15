@@ -604,7 +604,6 @@
         300.deploy-parallel-execution=並列実行設定
       400.sql-optimization=SQL最適化
         300.monitor-sql-execution-performance=SQL実行監視
-          400.sql-performance-analysis-example=SQL分析例
         400.optimizer-statistics=オプティマイザ統計
           200.statistics-collection-methods=統計収集方法
           300.statistics-management=統計管理
