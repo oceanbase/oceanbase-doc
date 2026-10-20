@@ -410,6 +410,7 @@
           800.null-value-related-function-of-oracle-mode=Null value related functions
           900.environment-and-identifier-functions-of-oracle-mode=Environment and identifier functions
           1000.hierarchical-functions-of-oracle-mode=Hierarchical functions
+          1100.lob-functions-of-oracle-mode=Large object functions
           1200.json-functions-oracle-mode=JSON functions
             200.create-json-text-function-oracle=Create JSON text functions
             300.query-json-text-function-oracle=Query JSON text functions

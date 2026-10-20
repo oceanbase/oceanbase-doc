@@ -441,6 +441,7 @@
           800.null-value-related-function-of-oracle-mode=空值相关函数
           900.environment-and-identifier-functions-of-oracle-mode=环境和标识符函数
           1000.hierarchical-functions-of-oracle-mode=层次函数
+          1100.lob-functions-of-oracle-mode=大对象函数
           1200.json-functions-oracle-mode=JSON 函数
             200.create-json-text-function-oracle=创建 JSON 文本函数
             300.query-json-text-function-oracle=查询 JSON 文本的函数
