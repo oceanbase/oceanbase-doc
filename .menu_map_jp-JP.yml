@@ -434,6 +434,7 @@
           900.environment-and-identifier-functions-of-oracle-mode=環境・識別子関数
           970.audit-functions-of-oracle-mode=監査関数
           1000.hierarchical-functions-of-oracle-mode=階層関数
+          1100.lob-functions-of-oracle-mode=ラージオブジェクト関数
           1200.json-functions-oracle-mode=JSON 関数
             200.create-json-text-function-oracle=JSON 作成関数
             300.query-json-text-function-oracle=JSON 検索関数
