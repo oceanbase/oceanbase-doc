@@ -16,11 +16,11 @@
 
 ## 機能の概要
 
-すべてのテナントのSPM計画進化情報を表示します。
+すべてのテナントのSPMの実行計画の進化に関する情報を表示します。
 
 ## フィールドの説明
 
-| **フィールド** | **タイプ** | **NULL許容** | **説明** |
+| **フィールド** | **型** | **NULL許容** | **説明** |
 | --- | --- | --- | --- |
 | TENANT_ID           | bigint(20)          | NO   |  テナントID。    |
 | OWNER               | varchar(128) | NO   |    進化タスクを実行したユーザー。  |
@@ -28,10 +28,10 @@
 | SVR_IP              | varchar(46)  | NO   |    進化タスクを実行したサーバーのIPアドレス。  |
 | SVR_PORT            | bigint(20)   | NO   |    進化タスクを実行したサーバーのポート番号。 |
 | SQL_ID              | varchar(32)  | NO   |    進化タスクを実行したSQL ID。  |
-| TYPE                | varchar(32)  | NO   |    記録のタイプ：<ul><li>`OnlineEvolve`：オンライン進化モードで、進化タスクの結果が記録されます。以下のすべてのフィールドは、タイプがこの値の場合にのみ有効です。</li><li>`FirstBaseline`：最初のベースラインを生成したSQLが記録されていることを示します。</li><li>`UnReproducible`：現在のSQLを再現できないすべてのベースラインが記録されていることを示します。</li><li>`BaselineFirst`：ベースライン優先モードで新しい計画が生成されたものの、ベースライン計画が復元され使用されたことを示します。</li><li>`BestBaseline`：最適なベースライン計画が生成され使用されたことを示します。</li><li>`FixedBaseline`：固定ベースライン計画が使用されたことを示します。</li></ul> |
+| TYPE                | varchar(32)  | NO   |    記録のタイプ：<ul><li>`OnlineEvolve`：オンライン進化モードで、進化タスクの結果が記録されます。以下のすべてのフィールドは、タイプがこの値の場合にのみ有効です。</li><li>`FirstBaseline`：最初のベースラインを生成したSQLが記録されていることを示します。</li><li>`UnReproducible`：現在のSQLのどのベースラインも再現できないことを記録します。</li><li>`BaselineFirst`：ベースライン優先モードで新しい計画が生成されたものの、ベースライン計画が復元され使用されたことを示します。</li><li>`BestBaseline`：最適なベースライン計画が生成され使用されたことを示します。</li><li>`FixedBaseline`：固定ベースライン計画が使用されたことを示します。</li></ul> |
 | START_TIME          | timestamp(6) | YES  |  進化タスク開始時刻。    |
 | END_TIME            | timestamp(6) | YES  |   進化タスク終了時刻。   |
-| STATUS              | varchar(7)   | YES  |   進化タスクの状態：<ul><li>`success`：進化タスクが正常に終了したことを示します。</li><li>`timeout`：進化タスクがタイムアウトしたことを示します（この場合、進化中の実行情報に基づいてどちらの計画が優れているか判断されます）。   |
+| STATUS              | varchar(7)   | YES  |   進化タスクの状態：<ul><li>`success`：進化タスクが正常に終了したことを示します。</li><li>`timeout`：進化タスクがタイムアウトしたことを示します（この場合、進化中の実行情報に基づいてどちらの計画が優れているか判断されます）。</li></ul>   |
 | NEW_PLAN_BETTER     | tinyint(4)   | YES  |   進化計画がより優れているかどうかを示します。   |
 | EVO_PLAN_EXEC_COUNT | bigint(20)   | YES  |   進化中の進化計画の実行回数。   |
 | EVO_PLAN_CPU_TIME   | bigint(20)   | YES  |   進化中の進化計画の平均CPUコスト。   |
@@ -40,7 +40,7 @@
 
 ## クエリ例
 
-システムテナントで、すべてのテナントのSPM計画進化情報を照会します。
+システムテナントで、すべてのテナントのSPMの実行計画の進化に関する情報を照会します。
 
 ```shell
 obclient [oceanbase]> SELECT * FROM oceanbase.CDB_OB_SPM_EVO_RESULT;
