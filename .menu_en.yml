@@ -188,9 +188,9 @@
   350.data-processing=Data processing
     800.ap-materialized-views=Materialized view query acceleration
   400.data-lake=Data lake
-    100.data-catalog=Data catalog
-      100.catalog-overview=Overview
     200.data-lake-integration=Data lake integration
+      100.hive=Hive
+      300.odps=ODPS
   500.obap-query=Query acceleration
   700.performance-tuning=Performance diagnosis and tuning
   750.obap-performance-test=Performance testing
