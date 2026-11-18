@@ -179,12 +179,12 @@
   150.obap-deploy=Deployment
   200.obap-data-design=Data table design
     500.data-distribution=Data distribution
-      200.dynamic-data-partitioning=Dynamic partitioning
     800.data-design-best-practice=Data design best practices
-  250.data-migration=Data migration
-  300.obap-data-collection=Data collection
-    300.obap-import-data=Import data
-      20.bypass-import=Direct load
+  300.obap-data-transfer=Data transfer
+    200.data-migration=Data migration
+    300.data-import=Import data
+      300.insert-into=INSERT INTO SELECT
+    400.data-synchronization=Data subscription and synchronization
   350.data-processing=Data processing
     800.ap-materialized-views=Materialized view query acceleration
   400.data-lake=Data lake
@@ -195,8 +195,6 @@
   700.performance-tuning=Performance diagnosis and tuning
   750.obap-performance-test=Performance testing
   1000.ap-tutorials=Tutorials
-  600.obap-query=Query acceleration
-  700.performance-tuning=Performance diagnosis and tuning
 640.ob-vector-search=OceanBase AI
   100.ob-vector-search-overview=Overview
   120.ob-vector-search-quick-start=Quick start
