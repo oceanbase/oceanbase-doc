@@ -332,6 +332,7 @@
         200.manage-materialized-views-of-oracle-mode=マテリアライズドビュー管理
       800.manage-triggers-of-oracle-mode=トリガー作成・管理
       1000.manage-dblink-of-oracle-mode=DBLink作成・管理
+      1100.manage-catalog-of-oracle-mode=カタログ作成・管理
   400.database-design-specifications-and-practices=データベース設計規約とベストプラクティス
     100.object-naming-conventions=オブジェクト命名規則
     200.object-structure-design-specification=オブジェクト構造設計規約
